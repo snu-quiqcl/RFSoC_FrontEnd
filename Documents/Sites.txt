@@ -1,0 +1,5 @@
+Quad 250MHz
+https://www.mouser.kr/ProductDetail/Texas-Instruments/SN65LVDS388ADBTR?qs=QViXGNcIEAtha%252Bc2RDEu1A%3D%3D
+
+Single 400MHz
+https://www.mouser.kr/ProductDetail/Texas-Instruments/SN65LVDS2DBVT?qs=QViXGNcIEAs%2FmumbOFqW0Q%3D%3D

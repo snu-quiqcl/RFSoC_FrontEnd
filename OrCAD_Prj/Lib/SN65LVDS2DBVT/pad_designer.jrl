@@ -1,0 +1,39 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Thu Oct 12 16:08:34 2023
+\t (00:00:00)         Host=DESKTOP-KCLED0O User=ece Pid=1856 CPUs=6
+\t (00:00:00) 
+\i (00:00:00) setwindow form.padedit
+\i (00:00:00) replay padstack1.scr 
+\i (00:00:00) setwindow Form.padedit 
+\i (00:00:00) pse_new 
+\i (00:00:00) fillin r120_60.pad 
+\i (00:00:00) FORM padedit units Millimeter 
+\i (00:00:00) FORM padedit units Millimeter 
+\i (00:00:03) fillin yes 
+\w (00:00:03) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:03) FORM padedit layers 
+\i (00:00:03) FORM padedit layers  
+\i (00:00:03) FORM padedit grid row 1 
+\i (00:00:03) FORM padedit grid row begin_layer 
+\i (00:00:03) FORM padedit geometry Rectangle 
+\i (00:00:03) FORM padedit geometry Rectangle 
+\i (00:00:03) FORM padedit width 0.6 
+\i (00:00:03) FORM padedit width 0.6 
+\i (00:00:03) FORM padedit height 1.2 
+\i (00:00:03) FORM padedit height 1.2 
+\i (00:00:03) FORM padedit x_offset 0 
+\i (00:00:03) FORM padedit x_offset 0 
+\i (00:00:03) FORM padedit y_offset 0 
+\i (00:00:03) FORM padedit y_offset 0 
+\i (00:00:03) FORM padedit geometry_th Null 
+\i (00:00:03) FORM padedit geometry_ant Null 
+\i (00:00:03) FORM padedit single YES 
+\i (00:00:03) FORM padedit single YES 
+\i (00:00:03) FORM padedit plating Non-Plated 
+\i (00:00:03) FORM padedit plating Non-Plated 
+\i (00:00:03) pse_save_as 
+\i (00:00:03) fillin r120_60.Pad 
+\i (00:00:11) FORM padedit parameters  
+\i (00:00:12) FORM padedit layers  
+\i (00:00:39) pse_exit
+\t (00:00:39)     Journal end - Thu Oct 12 16:09:13 2023

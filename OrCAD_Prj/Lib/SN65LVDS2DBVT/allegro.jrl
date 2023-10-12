@@ -1,0 +1,102 @@
+\t (00:00:31) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:31)     Journal start - Thu Oct 12 16:22:28 2023
+\t (00:00:31)         Host=DESKTOP-KCLED0O User=ece Pid=11468 CPUs=6
+\t (00:00:31) 
+\d (00:00:31) Database opened: C:/GIT/RFSoC_FrontEnd/OrCAD_Prj/Lib/SN65LVDS2DBVT/SOT95P280X145-5N.dra
+\i (00:00:31) generaledit 
+\i (00:00:34) zoom fit 
+\i (00:00:34) trapsize 3
+\i (00:01:27) 3d_viewer 
+\i (00:01:27) trapsize 3
+\i (00:01:27) generaledit 
+\i (00:01:37) setwindow pcb3D
+\i (00:01:37) view3d solid 
+\i (00:01:38) view3d solid 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) reset dockwindows 
+\i (00:02:02) fillin yes 
+\i (00:02:02) generaledit 
+\i (00:02:22) open 
+\e (00:02:22) Do you want to save the changes you made to SOT95P280X145-5N.dra?
+\i (00:02:25) fillin menu_cancel 
+\i (00:02:25) generaledit 
+\e (00:04:46) Command not found: define materials
+\i (00:05:01) define subclass 
+\i (00:05:04) setwindow form.subclass
+\i (00:05:04) FORM subclass done  
+\i (00:05:04) setwindow pcb
+\i (00:05:04) generaledit 
+\i (00:05:11) prmed 
+\i (00:05:13) setwindow form.prmedit
+\i (00:05:13) FORM prmedit design  
+\i (00:05:15) FORM prmedit text  
+\i (00:05:15) FORM prmedit shapes  
+\i (00:05:19) FORM prmedit route  
+\i (00:05:21) FORM prmedit ee_treelist  Slide 
+\i (00:05:22) FORM prmedit display  
+\i (00:05:28) FORM prmedit cancel  
+\i (00:05:28) setwindow pcb
+\i (00:05:28) generaledit 
+\i (00:05:45) create detail 
+   (00:05:45) Loading cmds.cxt 
+   (00:05:45) Loading axlcore.cxt 
+\i (00:05:53) open 
+\e (00:05:53) Do you want to save the changes you made to SOT95P280X145-5N.dra?
+\i (00:05:55) fillin menu_cancel 
+\i (00:05:55) generaledit 
+\i (00:05:58) 3d_viewer 
+\i (00:05:58) setwindow pcb3D
+\i (00:05:58) trapsize 3
+\i (00:05:58) setwindow pcb
+\i (00:05:58) generaledit 
+\i (00:06:21) cns onlinedrc 
+\i (00:06:21) generaledit 
+\i (00:06:23) cns onlinedrc 
+\i (00:06:23) generaledit 
+\i (00:06:31) custom datatips 
+\i (00:06:35) setwindow cdt.dialog
+\i (00:06:35) select "Symbol Instance"
+\i (00:06:38) select "CLine"
+\i (00:06:39) select "Void"
+\i (00:06:40) select "Figure"
+\i (00:06:47) file cancel
+\i (00:06:47) setwindow pcb
+\i (00:06:47) generaledit 
+\i (00:08:00) enved 
+\i (00:08:01) generaledit 
+\i (00:08:03) setwindow form.prfedit
+\i (00:08:03) FORM prfedit treelist  Paths 
+\i (00:08:06) FORM prfedit treelist  Library Paths 
+\i (00:08:07) FORM prfedit treelist  Signoise Paths 
+\i (00:08:09) FORM prfedit treelist  Config Paths 
+\i (00:08:20) FORM prfedit treelist  Editor Paths 
+\i (00:08:21) FORM prfedit treelist  Library Paths 
+\i (00:08:29) FORM prfedit treelist  Shapes 
+\i (00:08:31) FORM prfedit treelist  Signoise Paths 
+\i (00:08:35) FORM prfedit treelist  Config Paths 
+\i (00:08:43) FORM prfedit treelist  Editor Paths 
+\i (00:08:44) FORM prfedit treelist  Library Paths 
+\i (00:08:51) FORM prfedit treelist  Signoise Paths 
+\i (00:08:57) FORM prfedit listf  
+\i (00:08:57) setwindow pcb
+\i (00:08:57) set 
+\i (00:09:01) setwindow text
+\i (00:09:01) close 
+\i (00:09:02) setwindow form.prfedit
+\i (00:09:02) FORM prfedit cancel  
+\e (00:09:41) Command not found: STEP
+\i (00:10:36) setwindow pcb
+\i (00:10:36) enved 
+\i (00:10:36) generaledit 
+\i (00:10:38) setwindow form.prfedit
+\i (00:10:38) FORM prfedit treelist  Library Paths 
+\i (00:10:40) FORM prfedit devpath  
+\i (00:10:57) FORM prfedit treelist  Signoise Paths 
+\i (00:11:00) FORM prfedit treelist  Editor Paths 
+\i (00:11:02) FORM prfedit treelist  Config Paths 
+\i (00:11:16) FORM prfedit cancel  
+\i (00:11:20) setwindow pcb
+\i (00:11:20) exit 
+\e (00:11:20) Do you want to save the changes you made to SOT95P280X145-5N.dra?
+\i (00:11:22) fillin no 
+\t (00:11:22)     Journal end - Thu Oct 12 16:33:19 2023
