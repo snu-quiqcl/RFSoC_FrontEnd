@@ -1,0 +1,16 @@
+\t (00:00:15) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:15)     Journal start - Wed Nov 15 22:00:17 2023
+\t (00:00:15)         Host=DESKTOP-KCLED0O User=ece Pid=4304 CPUs=6
+\t (00:00:15) 
+\d (00:00:15) Database opened: C:/GIT/PMOD2BNC/16_6/PMOD2BNC_SIMPLE_v1_0/Library/SMA_SIDE_SMA-R-RA/SMA-R-RA.dra
+\i (00:00:15) generaledit 
+\i (00:00:16) save 
+\i (00:00:17) fillin yes 
+\t (00:00:17) Symbol 'sma-r-ra.psm' created.
+\i (00:00:17) generaledit 
+\i (00:00:30) open 
+\i (00:00:34) fillin "C:\GIT\PMOD2BNC\16_6\PMOD2BNC_SIMPLE_v1_0\Library\SMA_PERP_SMAFST_PCBN\SMAFST_PCBN.dra"
+\i (00:00:34) cd "C:\GIT\PMOD2BNC\16_6\PMOD2BNC_SIMPLE_v1_0\Library\SMA_PERP_SMAFST_PCBN"
+\t (00:00:34) Opening existing design...
+\i (00:00:34) trapsize 6
+\t (00:00:34)     Journal end - Wed Nov 15 22:00:36 2023

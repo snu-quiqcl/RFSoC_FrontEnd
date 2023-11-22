@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Altium\RF Gen4\RF_Gen4\RF_Gen4.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=rf_gen4.txt|DrillLayers=gtl,gp1,g1,gp2,g2,gp3,g3,g4,gp4,g5,gp5,g6,gp6,gbl
+LayersSetName=Top_GND1_Blind_Vias|DrillFile=rf_gen4.tx1|DrillLayers=gtl,gp1

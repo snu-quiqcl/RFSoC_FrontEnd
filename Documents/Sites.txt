@@ -1,8 +1,18 @@
-Quad 250MHz
+-Quad 250MHz
 https://www.mouser.kr/ProductDetail/Texas-Instruments/SN65LVDS388ADBTR?qs=QViXGNcIEAtha%252Bc2RDEu1A%3D%3D
 
-Single 400MHz
+-Single 400MHz
 https://www.mouser.kr/ProductDetail/Texas-Instruments/SN65LVDS2DBVT?qs=QViXGNcIEAs%2FmumbOFqW0Q%3D%3D
 
-SMA
+-SMA
 https://www.mouser.kr/ProductDetail/LPRS/SMA-CONNECTOR?qs=j%252B1pi9TdxUYkOiITvzJM8A%3D%3D
+
+-LVDS2LVTTL
+https://resources.altium.com/p/lvds-lvpecl-cml-and-single-ended-conversions
+
+https://www.mouser.kr/ProductDetail/onsemi/MC100EPT21DTR2G?qs=zorda86t5M9lTizHIwofPg%3D%3D
+
+https://www.mouser.kr/ProductDetail/Texas-Instruments/SN65LVELT23DGK?qs=IDSsxkoac0wnJSPyhsk9qw%3D%3D
+
+270MHz dual
+https://www.mouser.kr/ProductDetail/onsemi/MC100EPT26DG?qs=zorda86t5M9qT9fVwrdP2Q%3D%3D
