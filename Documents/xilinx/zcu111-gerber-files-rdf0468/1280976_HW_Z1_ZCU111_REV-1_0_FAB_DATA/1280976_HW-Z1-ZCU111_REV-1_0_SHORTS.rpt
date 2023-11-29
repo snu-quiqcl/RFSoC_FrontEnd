@@ -1,0 +1,130 @@
+ 
+  This is the shorts report for board 1280976_HW-Z1-ZCU111_REV-1_0  
+ 
+               Pin Number      Shorted Netnames
+               ----------      ----------------
+                    Z1.1        SYSMON_DXN        
+                    Z1.2        GND        
+
+                    Z2.1        VCC1V8_SNS_P        
+                    Z2.2        VCC1V8        
+
+                    Z3.1        VCCINT_AMS_SNS_P        
+                    Z3.2        VCCINT_AMS        
+
+                    Z4.1        AGND_UTIL_3V5        
+                    Z4.2        GND        
+
+                    Z5.1        AGND_PMIC1        
+                    Z5.2        GND        
+
+                    Z6.1        N17843524        
+                    Z6.2        VCCPSINT_SWITCH        
+
+                    Z7.1        VCCPSINT_ISEN_N        
+                    Z7.2        N17843521        
+
+                    Z8.1        VCCINT_IO_BRAM_PS_SDFEC        
+                    Z8.2        VCCPSINT_SNS_P        
+
+                    Z9.1        GND        
+                    Z9.2        VCCPSINT_SNS_N        
+
+                    Z10.1        UTIL_2V5_SNS_P        
+                    Z10.2        UTIL_2V5        
+
+                    Z11.1        MGT1V2_SNS_P        
+                    Z11.2        MGT1V2        
+
+                    Z12.1        N18166445        
+                    Z12.2        MGTRAVCC        
+
+                    Z13.1        AGND_PMIC2        
+                    Z13.2        GND        
+
+                    Z14.1        N17841250        
+                    Z14.2        UTIL_3V3_SWITCH        
+
+                    Z15.1        UTIL_3V3_ISEN_N        
+                    Z15.2        UTIL_3V3        
+
+                    Z16.1        GND        
+                    Z16.2        UTIL_3V3_SNS_N        
+
+                    Z17.1        VADJ_FMC_SNS_P        
+                    Z17.2        VADJ_FMC        
+
+                    Z18.1        MGT1V8_SNS_P        
+                    Z18.2        MGT1V8        
+
+                    Z19.1        AGND_PMIC3        
+                    Z19.2        GND        
+
+                    Z20.1        N18060950        
+                    Z20.2        VCC1V2_SWITCH        
+
+                    Z21.1        VCC1V2_ISEN_N        
+                    Z21.2        N18060749        
+
+                    Z22.1        VCC1V2        
+                    Z22.2        VCC1V2_SNS_P        
+
+                    Z23.1        GND        
+                    Z23.2        VCC1V2_SNS_N        
+
+                    Z24.1        VCCINT        
+                    Z24.2        VCCINT_SNS_P        
+
+                    Z25.1        GND        
+                    Z25.2        VCCINT_SNS_N        
+
+                    Z26.1        AGND_VCCINT        
+                    Z26.2        GND        
+
+                    Z28.1        MGTAVCC        
+                    Z28.2        MGTAVCC_SNS_P        
+
+                    Z29.1        GND        
+                    Z29.2        MGTAVCC_SNS_N        
+
+                    Z30.1        AGND_MGTAVCC        
+                    Z30.2        GND        
+
+                    Z32.1        DAC_AVCCAUX        
+                    Z32.2        N17937426        
+
+                    Z33.1        ADC_AVCCAUX        
+                    Z33.2        ADC_AVCCAUX_SNS_P        
+
+                    Z34.1        GND        
+                    Z34.2        ADC_AVCCAUX_SNS_N        
+
+                    Z35.1        AGND_ADC_AVCCAUX        
+                    Z35.2        GND        
+
+                    Z37.1        UTIL_1V13        
+                    Z37.2        UTIL_1V13_SNS_P        
+
+                    Z38.1        GND        
+                    Z38.2        UTIL_1V13_SNS_N        
+
+                    Z39.1        AGND_UTIL_1V13        
+                    Z39.2        GND        
+
+                    Z41.1        AGND_UTIL_5V0        
+                    Z41.2        GND        
+
+                    Z42.1        ADC_AVCC        
+                    Z42.2        N18163767        
+
+                    Z43.1        DAC_AVCC        
+                    Z43.2        N18162236        
+
+                    Z44.1        GND        
+                    Z44.2        AGND_PL_DDR4_VTT        
+
+                    Z45.1        GND        
+                    Z45.2        AGND_PS_DDR4_VTT        
+
+ 
+

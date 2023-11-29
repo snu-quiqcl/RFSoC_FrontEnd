@@ -1,0 +1,10 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : 1280976_HW-Z1-ZCU111_REV-1_0-bd-18-6.drl for backdrilling ... from layer 18 to layer 6
+;DESIGN: 1280976_HW-Z1-ZCU111_REV-1_0.brd
+;   Holesize 1. = 9.839000 Tolerance = +0.000000/-9.839000 PLATED MILS Quantity = 1
+%
+G90
+X00002020Y00336837
+M30

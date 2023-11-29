@@ -1,0 +1,5 @@
+ERA3+ power
+https://www.changpuak.ch/electronics/mar_era_bias.php
+
+CPLD clk source
+https://support.xilinx.com/s/article/5572?language=en_US

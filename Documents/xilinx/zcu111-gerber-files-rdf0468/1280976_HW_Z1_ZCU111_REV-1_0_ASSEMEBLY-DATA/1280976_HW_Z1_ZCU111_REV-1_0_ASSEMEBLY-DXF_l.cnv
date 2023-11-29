@@ -1,0 +1,19 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                           DXF_LAYER!
+
+BOARD GEOMETRY!
+                   ASSY_TOP!                           BG_ASSY_TOP!
+                   ASSEMBLY_DETAIL!                    BG_ASSEMBLY_DETAIL!
+
+DRAWING FORMAT!
+                   ASSEMBLY_NOTES!                     DF_ASSEMBLY_NOTES!
+                   FABRICATION_NOTES!                  DF_FABRICATION_NOTES!
+                   OUTLINE_ASSEMBLY!                   DF_OUTLINE_ASSEMBLY!
+                   REVISION_DATA!                      DF_REVISION_DATA!
+                   REVISION_BLOCK!                     DF_REVISION_BLOCK!
+                   TITLE_BLOCK!                        DF_TITLE_BLOCK!
+                   OUTLINE!                            DF_OUTLINE!
+
+#END

@@ -1,0 +1,39 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                           DXF_LAYER!
+
+BOARD GEOMETRY!
+                   FABRICATION_NOTES!                  BG_FABRICATION_NOTES!
+                   FAB_NOTES!                          BG_FAB_NOTES!
+                   FAB_DETAIL!                         BG_FAB_DETAIL!
+                   DIMENSION!                          BG_DIMENSION!
+                   OUTLINE!                            BG_OUTLINE!
+
+DRAWING FORMAT!
+                   FABRICATION_NOTES!                  DF_FABRICATION_NOTES!
+                   DRILL!                              DF_DRILL!
+                   FAB_NOTES!                          DF_FAB_NOTES!
+                   REVISION_DATA!                      DF_REVISION_DATA!
+                   REVISION_BLOCK!                     DF_REVISION_BLOCK!
+                   TITLE_DATA!                         DF_TITLE_DATA!
+                   TITLE_BLOCK!                        DF_TITLE_BLOCK!
+                   OUTLINE!                            DF_OUTLINE!
+
+MANUFACTURING!
+                   NCLEGEND-1-2!                       MA_NCLEGEND-1-2!
+                   NCBACKDRILL-1-13!                   MA_NCBACKDRILL-1-13!
+                   NCLEGEND-1-18!                      MA_NCLEGEND-1-18!
+                   NCBACKDRILL-18-17!                  MA_NCBACKDRILL-18-17!
+                   NCBACKDRILL-18-15!                  MA_NCBACKDRILL-18-15!
+                   NCBACKDRILL-18-5!                   MA_NCBACKDRILL-18-5!
+                   NCBACKDRILL-18-13!                  MA_NCBACKDRILL-18-13!
+                   NCBACKDRILL-18-8!                   MA_NCBACKDRILL-18-8!
+                   NCBACKDRILL-1-6!                    MA_NCBACKDRILL-1-6!
+                   NCBACKDRILL-18-10!                  MA_NCBACKDRILL-18-10!
+                   NCBACKDRILL-18-6!                   MA_NCBACKDRILL-18-6!
+                   XSECTION_CHART!                     MA_XSECTION_CHART!
+                   NCDRILL_FIGURE!                     MA_NCDRILL_FIGURE!
+                   NCDRILL_LEGEND!                     MA_NCDRILL_LEGEND!
+
+#END

@@ -1,0 +1,42 @@
+\t (00:00:08) allegro 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Wed Nov 29 13:45:58 2023
+\t (00:00:08)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=6412 CPUs=20
+\t (00:00:08) CmdLine= C:\Cadence\OrCADX_23.1\tools\bin\allegro.exe
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged xm500
+\d (00:00:09) Design opened: C:/Jeonghyun/GIT/RFSoC_FrontEnd/Documents/xilinx/xm500.brd
+\i (00:00:10) trapsize 1489
+\i (00:00:10) trapsize 1525
+\i (00:00:10) trapsize 1489
+\i (00:00:10) trapsize 1252
+\i (00:00:10) trapsize 1252
+\i (00:00:10) generaledit 
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 8.4037 6.6508
+\i (00:01:04) trapsize 2504
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 8.4037 6.5006
+\i (00:01:04) trapsize 5008
+\i (00:01:05) zoom out 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom out 19.0205 8.7041
+\i (00:01:05) trapsize 10016
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 34.8457 15.3146
+\i (00:01:06) trapsize 5008
+\i (00:01:12) open 
+\i (00:01:19) fillin "menu_cancel"
+\i (00:01:19) generaledit 
+\i (00:01:20) pick grid -70.3216 119.0796
+\t (00:01:20) last pick:  -70.0000 119.0000
+\i (00:01:20) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:01:26) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged xm500
+\i (00:01:26) opencd 'C:/Users/alexi/Downloads/Eagle Environment/projects/AD9910/AD9910_Finished_3rd_allegro.brd' 
+\t (00:01:26) Opening existing design...
+\i (00:01:27) trapsize 5968
+\t (00:01:27)     Journal end - Wed Nov 29 13:47:17 2023

@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Cadence Artwork Import                                           )
+(                                                                     )
+(    Drawing          : xm500.brd                                     )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Tue Nov 28 22:24:43 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Nov 28 22:24:43 2023				Page     1
+
+
+Processing photoplot file C:/Jeonghyun/GIT/RFSoC_FrontEnd/Documents/xilinx/xm5~
+00-gerber-files-rdf0482/1281021_HW-FMC-XM500_Rev-1_0_FOR-FAB/1281021_HW-FMC-XM~
+500-REV-1_0_L08_SILKSCREEN_BOTTOM.art ...
+Adding the film data on ETCH/TOP.
+WARNING(SPMHAW-126): Coordinates have been rounded off.
+DRC errors detected.
+Load Photoplot complete.
