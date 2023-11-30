@@ -1,0 +1,1818 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jun-14-2018 at 10:43:42 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HW-FMC-XM500_V1';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21476906@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21476906@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21476906@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21476990@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21476990@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21476990@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418542@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418542@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418542@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418794@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418794@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418794@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418755@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418755@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418755@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418619@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418619@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418619@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418192@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418192@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418192@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418811@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418811@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418811@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418422@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418422@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418422@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418725@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418725@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418725@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21476920@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21476920@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21476920@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477668@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477668@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477668@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477682@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477682@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477682@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21476976@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21476976@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21476976@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477030@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477030@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477030@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 '0_1UF_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477004@GOLDEN_SYMBOLS.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477004@golden_symbols.\cap_np.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477004@golden_symbols.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'HDR_2X10':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21749102@GOLDEN_SYMBOLS.HDR_2X10.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21749102@golden_symbols.\hdr_2x10.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21749102@golden_symbols.\hdr_2x10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J20 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21747928@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21747928@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21747928@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J21 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748003@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748003@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748003@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J22 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748010@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748010@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748010@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J23 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748017@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748017@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748017@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J24 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748024@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748024@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748024@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J25 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748031@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748031@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748031@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J26 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748038@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748038@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748038@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J27 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748045@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748045@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748045@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J28 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748059@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748059@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748059@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J29 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21748052@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21748052@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21748052@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J30 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21600441@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21600441@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21600441@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J31 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21600448@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21600448@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21600448@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J32 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21620206@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21620206@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21620206@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J33 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21620213@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21620213@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21620213@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J333 'LPAM-40-010-S-08-2-K-TR':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412958@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRA.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412958@golden_symbols.\lpam-40-010-s-08-2-k-tra.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412958@golden_symbols.\lpam-40-010-s-08-2-k-tra.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412820@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRB.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412820@golden_symbols.\lpam-40-010-s-08-2-k-trb.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412820@golden_symbols.\lpam-40-010-s-08-2-k-trb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412734@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRC.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412734@golden_symbols.\lpam-40-010-s-08-2-k-trc.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412734@golden_symbols.\lpam-40-010-s-08-2-k-trc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412648@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRD.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412648@golden_symbols.\lpam-40-010-s-08-2-k-trd.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412648@golden_symbols.\lpam-40-010-s-08-2-k-trd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412518@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412518@golden_symbols.\lpam-40-010-s-08-2-k-tre.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412518@golden_symbols.\lpam-40-010-s-08-2-k-tre.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412432@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412432@golden_symbols.\lpam-40-010-s-08-2-k-trf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412432@golden_symbols.\lpam-40-010-s-08-2-k-trf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+SECTION_NUMBER 7
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412346@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRG.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412346@golden_symbols.\lpam-40-010-s-08-2-k-trg.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412346@golden_symbols.\lpam-40-010-s-08-2-k-trg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='G';
+
+SECTION_NUMBER 8
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21412260@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRH.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21412260@golden_symbols.\lpam-40-010-s-08-2-k-trh.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21412260@golden_symbols.\lpam-40-010-s-08-2-k-trh.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='H';
+
+PART_NAME
+ J34 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616127@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616127@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616127@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J35 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616134@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616134@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616134@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J36 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616148@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616148@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616148@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J37 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616141@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616141@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616141@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J39 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616155@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616155@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616155@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J40 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21616162@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21616162@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21616162@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J888 'LPAM-40-010-S-08-2-K-TR':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21414936@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRA.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21414936@golden_symbols.\lpam-40-010-s-08-2-k-tra.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21414936@golden_symbols.\lpam-40-010-s-08-2-k-tra.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21414850@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRB.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21414850@golden_symbols.\lpam-40-010-s-08-2-k-trb.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21414850@golden_symbols.\lpam-40-010-s-08-2-k-trb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21414711@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRC.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21414711@golden_symbols.\lpam-40-010-s-08-2-k-trc.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21414711@golden_symbols.\lpam-40-010-s-08-2-k-trc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415410@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRD.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415410@golden_symbols.\lpam-40-010-s-08-2-k-trd.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415410@golden_symbols.\lpam-40-010-s-08-2-k-trd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415280@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415280@golden_symbols.\lpam-40-010-s-08-2-k-tre.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415280@golden_symbols.\lpam-40-010-s-08-2-k-tre.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415194@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415194@golden_symbols.\lpam-40-010-s-08-2-k-trf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415194@golden_symbols.\lpam-40-010-s-08-2-k-trf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+SECTION_NUMBER 7
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415108@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRG.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415108@golden_symbols.\lpam-40-010-s-08-2-k-trg.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415108@golden_symbols.\lpam-40-010-s-08-2-k-trg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='G';
+
+SECTION_NUMBER 8
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415022@GOLDEN_SYMBOLS.LPAM-40-010-S-08-2-K-TRH.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415022@golden_symbols.\lpam-40-010-s-08-2-k-trh.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415022@golden_symbols.\lpam-40-010-s-08-2-k-trh.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='H';
+
+PART_NAME
+ J889 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21757194@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21757194@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21757194@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J890 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21757201@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21757201@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21757201@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J891 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21758065@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21758065@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21758065@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J892 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21758072@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21758072@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21758072@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J893 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21758954@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21758954@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21758954@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J894 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21758961@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21758961@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page3_ins21758961@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J895 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21769795@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21769795@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21769795@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J896 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21769802@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21769802@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21769802@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J897 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21770668@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21770668@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21770668@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J898 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21770675@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21770675@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21770675@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J899 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21771560@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21771560@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21771560@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'HDR_2X10':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21415366@GOLDEN_SYMBOLS.HDR_2X10.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21415366@golden_symbols.\hdr_2x10.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21415366@golden_symbols.\hdr_2x10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J900 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21771567@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21771567@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page4_ins21771567@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH11 'HOLE_MH_150_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21646733@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21646733@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21646733@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH12 'HOLE_MH_150_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21646727@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21646727@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21646727@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH13 'HOLE_MH_150_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21646739@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21646739@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21646739@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH14 'HOLE_MH_150_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21646745@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21646745@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21646745@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH15 'HOLE_MH_250_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21799624@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21799624@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21799624@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH16 'HOLE_MH_250_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21799630@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21799630@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21799630@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MH17 'HOLE_MH_250_250':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21799636@GOLDEN_SYMBOLS.HOLE.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21799636@golden_symbols.\hole.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21799636@golden_symbols.\hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477507@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477507@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477507@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R100 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21578304@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21578304@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21578304@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R101 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21578580@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21578580@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21578580@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R102 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21578856@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21578856@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21578856@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R103 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21579133@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21579133@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21579133@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R104 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21579410@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21579410@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21579410@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R105 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21579686@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21579686@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21579686@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R106 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21579962@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21579962@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21579962@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R107 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21580238@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21580238@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21580238@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R108 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21580514@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21580514@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21580514@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R109 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21580790@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21580790@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21580790@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R110 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581067@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581067@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581067@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R111 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581402@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581402@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581402@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R112 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581459@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581459@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581459@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R113 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581489@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581489@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581489@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R114 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581518@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581518@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581518@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R115 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581547@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581547@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581547@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R116 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581576@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581576@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581576@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R117 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581605@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581605@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581605@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R118 '0_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21581634@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21581634@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21581634@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477632@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477632@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477632@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477604@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477604@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477604@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477620@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477620@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477620@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477652@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477652@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477652@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477763@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477763@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477763@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477730@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477730@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477730@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477787@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477787@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477787@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477775@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477775@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477775@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477811@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477811@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477811@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477495@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477495@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477495@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477799@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477799@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477799@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477823@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477823@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477823@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477835@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477835@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477835@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418465@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418465@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418465@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418710@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418710@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418710@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418886@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418886@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418886@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477531@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477531@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477531@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418636@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418636@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418636@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418400@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418400@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418400@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418589@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418589@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418589@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 '1_74K_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418210@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418210@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418210@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418658@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418658@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418658@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418779@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418779@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418779@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418290@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418290@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418290@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418574@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418574@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418574@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418385@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418385@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418385@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418673@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418673@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418673@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418245@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418245@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418245@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 '590_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418480@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418480@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418480@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 '17_4_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418305@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418305@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418305@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21540979@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21540979@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21540979@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R64 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21541489@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21541489@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21541489@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R65 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21541722@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21541722@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21541722@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R66 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21541754@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21541754@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21541754@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R67 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21541993@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21541993@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21541993@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R68 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542025@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542025@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542025@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R69 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542371@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542371@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542371@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 '5_6_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477549@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477549@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477549@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R70 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542403@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542403@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542403@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R71 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542434@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542434@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542434@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542467@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542467@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542467@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R73 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542490@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542490@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542490@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R74 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21542521@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21542521@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21542521@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543036@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543036@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543036@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543068@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543068@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543068@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R77 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543099@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543099@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543099@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R78 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543132@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543132@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543132@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R79 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543155@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543155@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543155@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R80 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543186@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543186@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543186@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R81 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543198@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543198@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543198@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R82 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543230@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543230@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543230@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R83 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543263@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543263@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543263@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R84 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543294@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543294@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543294@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R85 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543326@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543326@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543326@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R86 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543348@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543348@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543348@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R87 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543923@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543923@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543923@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R88 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543955@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543955@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543955@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R89 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21543986@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21543986@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21543986@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R90 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21544019@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21544019@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21544019@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R91 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21544042@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21544042@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21544042@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R92 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21544073@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21544073@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21544073@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R93 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21544085@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21544085@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21544085@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R94 '0_0805':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21544117@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21544117@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21544117@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R95 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21576922@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21576922@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21576922@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R96 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21577199@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21577199@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21577199@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R97 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21577475@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21577475@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21577475@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R98 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21577751@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21577751@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21577751@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R99 'DNP_R_0402':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21578028@GOLDEN_SYMBOLS.RES.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21578028@golden_symbols.\res.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21578028@golden_symbols.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE1 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21815293@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21815293@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21815293@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE2 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21815647@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21815647@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21815647@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE3 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21816002@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21816002@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21816002@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE4 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21816353@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21816353@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21816353@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE5 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21816703@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21816703@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21816703@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE6 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21817053@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21817053@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21817053@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE7 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21817403@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21817403@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21817403@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RFCAGE8 'EMI_CAGE_RF_MINI':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21817754@GOLDEN_SYMBOLS.MECH_RF_CAGE_25X75.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21817754@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21817754@golden_symbols.\mech_rf_cage_25x75.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'BD1631J50100AHF':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477269@GOLDEN_SYMBOLS.BD1631J50100AHF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477269@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477269@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'BD1631J50100AHF':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477281@GOLDEN_SYMBOLS.BD1631J50100AHF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477281@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477281@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'TCM2-33WX+':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477293@GOLDEN_SYMBOLS.TCM2-33WX+.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477293@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477293@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'TCM2-33WX+':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21477308@GOLDEN_SYMBOLS.TCM2-33WX+.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21477308@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21477308@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'BD1631J50100AHF':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418226@GOLDEN_SYMBOLS.BD1631J50100AHF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418226@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418226@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'BD1631J50100AHF':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418173@GOLDEN_SYMBOLS.BD1631J50100AHF.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418173@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418173@golden_symbols.\bd1631j50100ahf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'TCM2-33WX+':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418495@GOLDEN_SYMBOLS.TCM2-33WX+.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418495@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418495@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'TCM2-33WX+':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21418446@GOLDEN_SYMBOLS.TCM2-33WX+.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21418446@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21418446@golden_symbols.\tcm2-33wx+.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549727@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549727@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549727@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549738@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549738@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549738@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549661@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549661@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549661@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549672@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549672@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549672@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549694@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549694@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549694@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549683@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549683@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549683@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549705@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549705@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549705@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON_SMA_SCREW_ON':;
+
+SECTION_NUMBER 1
+ '@HW-FMC-XM500_V1.0.HW-FMC-XM500_V1_0(SCH_1):INS21549716@GOLDEN_SYMBOLS.SMA-SCREW-ON.NORMAL(CHIPS)':
+ C_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):ins21549716@golden_symbols.\sma-screw-on.normal\(chips)',
+ P_PATH='@\hw-fmc-xm500_v1.0\.\hw-fmc-xm500_v1_0\(sch_1):page2_ins21549716@golden_symbols.\sma-screw-on.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

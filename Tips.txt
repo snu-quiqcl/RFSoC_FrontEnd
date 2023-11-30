@@ -3,3 +3,6 @@ https://www.changpuak.ch/electronics/mar_era_bias.php
 
 CPLD clk source
 https://support.xilinx.com/s/article/5572?language=en_US
+
+second chebysev
+https://www.rfcurrent.com/chebyshev-lowpass-filter-calculation-lumped-lc-element-values
