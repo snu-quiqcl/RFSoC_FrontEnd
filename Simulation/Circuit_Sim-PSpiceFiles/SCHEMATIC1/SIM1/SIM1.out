@@ -1,0 +1,120 @@
+
+**** 12/02/23 14:22:55 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SIM1"  [ C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Circuit_Sim-PSpiceFiles\SCHEMATIC1\SIM1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "SIM1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 1ns 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source CIRCUIT_SIM
+R_R1         N00111 N00090  106.07 TC=0,0 
+R_R2         N00097 N00090  157.68 TC=0,0 
+R_R3         N00104 N00111  157.68 TC=0,0 
+R_R4         N00097 N00104  106.07 TC=0,0 
+L_L1         0 N00090  1mH  
+L_L2         0 N00097  1mH  
+L_L3         0 N00577  1mH  
+R_R5         0 N00577  50 TC=0,0 
+Kn_K1         L_L1 L_L2 
++ L_L3    0.99 Kbreak
+V_V1         N00111 N00104 DC 0 AC 0
++SIN 0 1 200000000 0 0 0
+
+**** RESUMING SIM1.cir ****
+.END
+
+**** 12/02/23 14:22:55 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SIM1"  [ C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Circuit_Sim-PSpiceFiles\SCHEMATIC1\SIM1.sim ] 
+
+
+ ****     Ferromagnetic Core MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Kbreak          
+       LEVEL    2            
+        AREA     .65         
+        PATH    8            
+          MS    1.289600E+06 
+           A    2.712800E+03 
+           C     .25001      
+
+
+ERROR(ORPSIM-16591): The PSpice A/D Basics only supports ideal Inductor Coupling. To simulate this device model, upgrade to a higher license
+
+
+ABORTING SIMULATION
+**** 12/02/23 14:22:55 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-SIM1"  [ C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Circuit_Sim-PSpiceFiles\SCHEMATIC1\SIM1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =           6
+  Total (NUMNOD)                    =           6
+
+Total device count (NUMEL)          =          14
+  Couplings (K)                     =           2
+  Inductors (L)                     =           3
+  Resistors (R)                     =           5
+  Voltage Sources (V)               =           1
+
+Number of subcircuits (X)           =           0
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Readin                            =        0.00
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .08
+  Total job time                    =         .02
+

@@ -6,3 +6,9 @@ https://support.xilinx.com/s/article/5572?language=en_US
 
 second chebysev
 https://www.rfcurrent.com/chebyshev-lowpass-filter-calculation-lumped-lc-element-values
+
+OrCAD S parameter in PCB Editor
+https://www.youtube.com/watch?v=SETR0nPAWKo
+
+About Balun
+https://www.webx.dk/oz2cpu/balun-voltage.htm
