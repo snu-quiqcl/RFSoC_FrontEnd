@@ -1,0 +1,453 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[07/13/18]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\hw-z1-zcu111_rev1_0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Folder "Outputs"
+      (File ".\hw-z1-zcu111_rev1_0.drc"
+        (Type "Report")))
+    (Folder "Referenced Projects")
+    (PartMRUSelector)
+    (GlobalState
+      (FileView
+        (Path "Design Resources")
+        (Path "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn")
+        (Path "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn"
+           "HW-Z1-ZCU111_REV1_0")
+        (Path "Outputs")
+        (Select "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn"))
+      (HierarchyView)
+      (Doc
+        (Type "COrCapturePMDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -1 -1 0 397 0 1276"))
+        (Tab 0))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 60 2656 60 901")
+          (Scroll "-344 0")
+          (Zoom "103")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "001 Title Page"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 90 2750 90 774")
+          (Scroll "260 826")
+          (Zoom "200")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "026 I2C0"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 120 2780 120 804")
+          (Scroll "0 0")
+          (Zoom "200")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "045 PL Programmable Clocks"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 150 2810 150 834")
+          (Scroll "-403 11")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "042 PMOD Connectors"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 180 2840 180 864")
+          (Scroll "-376 0")
+          (Zoom "103")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "021 Zynq GND"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 210 2870 210 894")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "039 zSFP Clock Recovery"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 240 2900 240 924")
+          (Scroll "0 1249")
+          (Zoom "200")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "062 Power Good LEDs"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 270 2930 270 954")
+          (Scroll "-502 0")
+          (Zoom "89")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "070 ADC RFPLL3"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 300 2960 300 984")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "058 UTIL_1V13 4A Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 330 2990 330 1014")
+          (Scroll "-376 0")
+          (Zoom "103")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "059 UTIL_5V0 2.7A Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 0 2660 0 684")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "057 ADC_AVCCAUX 2A Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 30 2690 30 714")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "056 DAC_AVCCAUX 500mA Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 60 2720 60 744")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "055 MGTAVCC 3A Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 90 2750 90 774")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "054 VCCINT 30A Regulator"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 120 2780 120 804")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "053 PMIC Current Sense"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 150 2810 150 834")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "052 PMIC 3 Power Stage"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 180 2840 180 864")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "051 PMIC 3"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 210 2870 210 894")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "050 PMIC 2 Power Stage"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 240 2900 240 924")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "049 PMIC 2"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 270 2930 270 954")
+          (Scroll "-403 81")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "048 PMIC 1 Power Stage"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 300 2960 300 984")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "047 PMIC 1"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 330 2990 330 1014")
+          (Scroll "-403 98")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "017 Zynq Power 1"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 0 2660 0 684")
+          (Scroll "-403 0")
+          (Zoom "100")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "019 Zynq Decoupling"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 30 2690 30 714")
+          (Scroll "372 1352")
+          (Zoom "400")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "071 AMS CLK Power"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -9 -36 120 2780 120 804")
+          (Scroll "0 34")
+          (Zoom "200")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "013 Zynq Bank 504 - Memory"))
+      (Doc
+        (Type "COrSchematicDoc")
+        (Frame
+          (Placement "44 2 3 -1 -1 -9 -36 210 2870 210 894")
+          (Scroll "637 1204")
+          (Zoom "200")
+          (Occurrence "/"))
+        (Path
+           "Z:\AFX\BOARD_PROJECTS\2_ULTRASCALE_ZYNQ\EVAL\HW-Z1-ZCU111\REV1_0\SCHEMATIC\CURRENT\HW-Z1-ZCU111_REV1_0.DSN")
+        (Schematic "HW-Z1-ZCU111_REV1_0")
+        (Page "027 I2C1")))
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\HW-Z1-ZCU111_REV1_0.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "NEITHER")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (MPSSessionName "alexi")
+  (PartMRUSelector
+    (Xilinx_San_Jose_Production
+      (LibraryName
+         "Z:\AFX\BOARD_PROJECTS\LIBRARY\ORCAD_MASTER_LIB\GOLDEN_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName
+         "Z:\AFX\BOARD_PROJECTS\LIBRARY\ORCAD_MASTER_LIB\GOLDEN_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName
+         "Z:\AFX\BOARD_PROJECTS\LIBRARY\ORCAD_MASTER_LIB\GOLDEN_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (HDR_2X3
+      (FullPartName "HDR_2X3.Normal")
+      (LibraryName
+         "Z:\AFX\BOARD_PROJECTS\LIBRARY\ORCAD_MASTER_LIB\GOLDEN_SYMBOLS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn")
+      (Path "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn"
+         "HW-Z1-ZCU111_REV1_0")
+      (Path "Outputs")
+      (Select "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn"
+         "HW-Z1-ZCU111_REV1_0" "012 Zynq Bank 503 - Config"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 0 322 0 742"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1339 24 760")
+        (Scroll "661 689")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "029 USB UART JTAG"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1339 24 760")
+        (Scroll "-102 -1")
+        (Zoom "61")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "012 Zynq Bank 503 - Config")))
+  (ISPCBBASICLICENSE "false")
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\hw-z1-zcu111_rev1_0.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))

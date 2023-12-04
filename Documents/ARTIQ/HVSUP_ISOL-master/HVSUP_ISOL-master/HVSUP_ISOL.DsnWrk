@@ -1,0 +1,22 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=..\..\..\GEM\GEM_HV_SUPPLY\GEN2\PCB\HVSUP_module_1.5k_rev2.3\HVSUP_module_1.5k_rev2.3.PrjPcb
+[Project2]
+ProjectPath=..\..\..\GEM\GEM_HV_SUPPLY\GEN2\PCB\HVSUP_module_8k\HVSUP_module v2.PrjPcb
+[Project3]
+ProjectPath=HV_Module_2W\HV_Module_2W.PrjPCB
+[Project4]
+ProjectPath=HV_Module_6W\HV_Module_6W.PrjPCB
+[Project5]
+ProjectPath=HVSUP_ISOL_Mainboard\HVSUP_ISOL.PrjMbd
+[Project6]
+ProjectPath=HVSUP_ISOL_Mainboard\HVPSU_ISOL.PrjPCB
+[Project7]
+ProjectPath=Common_HVPSU_ISOL\Common_HVSUP_ISOL.PrjPCB
+[Project8]
+ProjectPath=..\..\..\GEM\GEM_HV_SUPPLY\eFuse\GEM_AVD_eFuse\GEM_AVD_eFuse.PrjPcb
+[Project9]
+ProjectPath=..\..\..\GEM\GEM_HV_SUPPLY\eFuse\HV_channel\GEM_HV_channel.PrjPcb
+[Project10]
+ProjectPath=Common_HVPSU_ISOL_6k\Common_HVSUP_ISOL_6W.PrjPCB
