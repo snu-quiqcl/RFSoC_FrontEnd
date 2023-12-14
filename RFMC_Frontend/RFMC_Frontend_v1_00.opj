@@ -33,8 +33,16 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LPAM-40-01.0-S-08-2-K-TR
+      (FullPartName "LPAM-40-01.0-S-08-2-K-TR.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702551640\LPAM-40-01.0-S-08-2-K-TR\CAPTURE\LPAM-40-01.0-S-08-2-K-TR.OLB")
       (DeviceIndex "0"))
     (HMC349ALP4CE
       (FullPartName "HMC349ALP4CE.Normal")
@@ -42,9 +50,6 @@
          "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702542966\HMC349ALP4CE\CAPTURE\HMC349ALP4CE.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
       (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTLEFT-R
@@ -105,18 +110,29 @@
       (Path "Outputs")
       (Select "Design Resources"
          "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
-         "TOP" "DAC_ADC_TOP"))
+         "TOP" "DAC_LPAF"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 288 0 742"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 208 0 736"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1373 24 760")
-        (Scroll "-183 0")
+        (Placement "44 0 1 -1 -1 5 24 5 593 24 754")
+        (Scroll "201 -6")
+        (Zoom "34")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "DAC_LPAF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 593 24 754")
+        (Scroll "140 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -126,11 +142,22 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1373 24 760")
-        (Scroll "-98 0")
-        (Zoom "75"))
+        (Placement "44 0 1 -1 -1 5 24 5 593 24 754")
+        (Scroll "-4 -174")
+        (Zoom "36"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "DAC_ADC_CHANNEL")
-      (Page "DAC_ADC")))
+      (Page "DAC_ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 593 24 754")
+        (Scroll "0 -170")
+        (Zoom "37")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "CLK")))
   (MPSSessionName "alexi"))
