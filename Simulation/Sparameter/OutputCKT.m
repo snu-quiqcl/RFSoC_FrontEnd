@@ -18,7 +18,7 @@ S12_(s) = 2*(A*D-B*C)/(A+B/Z0+C*Z0+D)
 S21_(s) = 2/(A+B/Z0+C*Z0+D)
 S22_(s) = (-A+B/Z0-C*Z0+D)/(A+B/Z0+C*Z0+D)
 
-freq = (50E6:1E6:2E10)';
+freq = (50E6:1E6:4E9)';
 S11 = zeros(size(freq,1),1);
 S12 = zeros(size(freq,1),1);
 S21 = zeros(size(freq,1),1);
