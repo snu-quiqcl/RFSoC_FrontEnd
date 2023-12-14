@@ -400,17 +400,17 @@
          "HW-Z1-ZCU111_REV1_0")
       (Path "Outputs")
       (Select "Design Resources" ".\hw-z1-zcu111_rev1_0.dsn"
-         "HW-Z1-ZCU111_REV1_0" "012 Zynq Bank 503 - Config"))
+         "HW-Z1-ZCU111_REV1_0" "046 Power Input Fan Controller"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 0 322 0 742"))
+        (Placement "44 0 1 -1 -1 -9 -36 0 408 0 742"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1339 24 760")
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
         (Scroll "661 689")
         (Zoom "122")
         (Occurrence "/"))
@@ -421,14 +421,278 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1339 24 760")
-        (Scroll "-102 -1")
-        (Zoom "61")
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "675 128")
+        (Zoom "90")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
       (Schematic "HW-Z1-ZCU111_REV1_0")
-      (Page "012 Zynq Bank 503 - Config")))
+      (Page "012 Zynq Bank 503 - Config"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 270")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "016 Zynq DAC Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "268 3")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "046 Power Input Fan Controller"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "045 PL Programmable Clocks"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "366 168")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "002 Block Diagram"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "-8 -59")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "017 Zynq Power 1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "018 Zynq Power 2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 446")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "019 Zynq Decoupling"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "020 Zynq Decoupling 2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "021 Zynq GND"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "288 69")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "031 M.2 Connector"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "467 249")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "042 PMOD Connectors"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "730 75")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "060 ADC_AVCC DAC_AVCC Reglators"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "054 VCCINT 30A Regulator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "009 Zynq Banks 224 225 226 227"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "527 436")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "010 Zynq Banks 228 229"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "243 321")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "033 FMC HSPC1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "313 321")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "037 FMC HSPC5"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "675 0")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "070 DAC RFPLL3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "12 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "063 LPAF Connector 1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "852 162")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "064 LPAF Connector 2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "015 Zynq ADC Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "69 140")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "047 PMIC 1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "242 205")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "049 PMIC 2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 972 24 760")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\HW-Z1-ZCU111_REV1_0-2018-07-12T17-17_SCHEM_ARCHIVE\HW-Z1-ZCU111_REV1_0.DSN")
+      (Schematic "HW-Z1-ZCU111_REV1_0")
+      (Page "048 PMIC 1 Power Stage")))
   (ISPCBBASICLICENSE "false")
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"

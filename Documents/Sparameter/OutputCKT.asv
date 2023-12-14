@@ -1,0 +1,33 @@
+syms s;
+L1 = 5E-7
+R1 = 221
+C1 = 100E-9
+
+Z0 = 50
+Z1= 0
+Z2 = (1/(C1*s))
+Z3 = L1*s + R1
+
+A = 1 + Z1/Z3
+B = Z1 + Z2 + Z1*Z2/Z3
+C = 1/Z3
+D = 1 + Z2/Z3
+
+S11_(s) = (A+B/Z0-C*Z0-D)/(A+B/Z0+C*Z0+D)
+S12_(s) = 2*(A*D-B*C)/(A+B/Z0+C*Z0+D)
+S21_(s) = 2/(A+B/Z0+C*Z0+D)
+S22_(s) = (-A+B/Z0-C*Z0+D)/(A+B/Z0+C*Z0+D)
+
+freq = (50E6:1E6:2E10)'
+S11 = zeros(size(freq,1),1);
+S12
+S21
+S22
+
+for i = freq
+    S11 = S11_(i*j)
+    S12 = S12_(i*j)
+    S21 = S21_(i*j)
+    S22 = S22_(i*j)
+end
+    

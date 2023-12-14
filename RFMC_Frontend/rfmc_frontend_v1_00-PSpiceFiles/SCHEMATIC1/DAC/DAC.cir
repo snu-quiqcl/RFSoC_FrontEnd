@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-DAC"  [ c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00-PSpiceFiles\SCHEMATIC1\DAC.sim ] 
+
+** Creating circuit file "DAC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 200 0 2000
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

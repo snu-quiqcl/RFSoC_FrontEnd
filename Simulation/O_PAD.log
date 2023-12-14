@@ -2,8 +2,8 @@ Circuit: * C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\O_PAD.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Dec  2 16:05:53 2023
-Total elapsed time: 0.092 seconds.
+Date: Thu Dec 14 12:56:46 2023
+Total elapsed time: 0.085 seconds.
 
 tnom = 27
 temp = 27

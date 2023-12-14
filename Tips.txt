@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=SETR0nPAWKo
 
 About Balun
 https://www.webx.dk/oz2cpu/balun-voltage.htm
+
+How to do 3 port S parameter simulation
+https://kr.mathworks.com/help/rf/ref/cascadesparams.html

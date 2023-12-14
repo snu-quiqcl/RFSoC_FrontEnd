@@ -1,10 +1,10 @@
 (ExpressProject "RFMC_Frontend_v1_00"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/02/23]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/14/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -20,10 +20,10 @@
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\rfmc_frontend_v1_00-pspicefiles\schematic1\s.sim")
+      (ActiveProfile ".\rfmc_frontend_v1_00-pspicefiles\top\s.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
-         ".\rfmc_frontend_v1_00-pspicefiles\schematic1\s.sim"
-        (DisplayName "SCHEMATIC1-S")
+         ".\rfmc_frontend_v1_00-pspicefiles\top\s.sim"
+        (DisplayName "TOP-S")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -33,6 +33,44 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HMC349ALP4CE
+      (FullPartName "HMC349ALP4CE.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702542966\HMC349ALP4CE\CAPTURE\HMC349ALP4CE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (73100-0114
+      (FullPartName "73100-0114.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702539154\73100-0114\CAPTURE\73100-0114.OLB")
+      (DeviceIndex "0"))
+    (SMS-409F
+      (FullPartName "SMS-409F.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702534687\SMS-409F\CAPTURE\SMS-409F.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TCM2-33X+
+      (FullPartName "TCM2-33X+.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702523639\TCM2-33X+\CAPTURE\TCM2-33X+.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
@@ -56,12 +94,43 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "DAC_ADC_CHANNEL")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP" "DAC_ADC_TOP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 719"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 288 0 742"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1373 24 760")
+        (Scroll "-183 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "DAC_ADC_TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1373 24 760")
+        (Scroll "-98 0")
+        (Zoom "75"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "DAC_ADC_CHANNEL")
+      (Page "DAC_ADC")))
   (MPSSessionName "alexi"))
