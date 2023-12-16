@@ -104,57 +104,35 @@
       (Path "Design Resources" ".\hw-fmc-xm500_v1.0.dsn" "HW-FMC-XM500_V1_0")
       (Path "Outputs")
       (Select "Design Resources" ".\hw-fmc-xm500_v1.0.dsn" "HW-FMC-XM500_V1_0"
-         "02Balun-RFMC-ADC"))
+         "01Balun-adc-dac-baluns"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 387 0 742"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 459 0 742"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1274 24 760")
-        (Scroll "220 0")
-        (Zoom "116")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1202 24 760")
+        (Scroll "-2 -4")
+        (Zoom "58")
         (Occurrence "/"))
       (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
       (Schematic "HW-FMC-XM500_V1_0")
       (Page "03Balun-RFMC-DAC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1274 24 760")
-        (Scroll "0 0")
-        (Zoom "63")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1202 24 760")
+        (Scroll "-19 0")
+        (Zoom "35")
         (Occurrence "/"))
       (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XILINX\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
       (Schematic "HW-FMC-XM500_V1_0")
-      (Page "01Balun-adc-dac-baluns"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1274 24 760")
-        (Scroll "0 0")
-        (Zoom "114")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
-      (Schematic "HW-FMC-XM500_V1_0")
-      (Page "00_TITLE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1274 24 760")
-        (Scroll "0 0")
-        (Zoom "103")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\DOCUMENTS\XM500-SCHEMATIC-SOURCE-RDF0478\0381858_HW-FMC-XM500_REV1_0_06142018\HW-FMC-XM500_V1.0.DSN")
-      (Schematic "HW-FMC-XM500_V1_0")
-      (Page "02Balun-RFMC-ADC")))
+      (Page "01Balun-adc-dac-baluns")))
   (MPSSessionName "alexi")
   (PartMRUSelector
     (Xilinx_San_Jose_Production
