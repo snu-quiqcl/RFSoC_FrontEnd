@@ -1,6 +1,6 @@
 (ExpressProject "RFMC_Frontend_v1_00"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/14/23]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/19/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -33,10 +33,55 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
-    (OFFPAGELEFT-R
-      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (ERJ-2RKF1001X
+      (FullPartName "ERJ-2RKF1001X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702916064\ERJ-2RKF1001X\CAPTURE\ERJ-2RKF1001X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF1070X
+      (FullPartName "ERJ2RKF1070X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702915890\ERJ2RKF1070X\CAPTURE\ERJ2RKF1070X.OLB")
+      (DeviceIndex "0"))
+    (ERJ-2RKF1000X
+      (FullPartName "ERJ-2RKF1000X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702915746\ERJ-2RKF1000X\CAPTURE\ERJ-2RKF1000X.OLB")
+      (DeviceIndex "0"))
+    (TMK105AC6105KV-F
+      (FullPartName "TMK105AC6105KV-F.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702915384\TMK105AC6105KV-F\CAPTURE\TMK105AC6105KV-F.OLB")
+      (DeviceIndex "0"))
+    (TCCH-80+
+      (FullPartName "TCCH-80+.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702914446\TCCH-80+\CAPTURE\TCCH-80+.OLB")
+      (DeviceIndex "0"))
+    (TMK105BJ104KV-F
+      (FullPartName "TMK105BJ104KV-F.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702913053\TMK105BJ104KV-F\CAPTURE\TMK105BJ104KV-F.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF5900X
+      (FullPartName "ERJ2RKF5900X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702912873\ERJ2RKF5900X\CAPTURE\ERJ2RKF5900X.OLB")
+      (DeviceIndex "0"))
+    (ERJ-2RKF17R4X
+      (FullPartName "ERJ-2RKF17R4X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702912483\ERJ-2RKF17R4X\CAPTURE\ERJ-2RKF17R4X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF17R4X
+      (FullPartName "ERJ2RKF17R4X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1702912420\ERJ2RKF17R4X\CAPTURE\ERJ2RKF17R4X.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
       (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (LPAM-40-01.0-S-08-2-K-TR
@@ -107,33 +152,33 @@
       (Path "Design Resources"
          "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
          "DAC_ADC_CHANNEL")
-      (Path "Outputs")
-      (Select "Design Resources"
+      (Path "Design Resources"
          "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
-         "DAC_ADC_CHANNEL" "DAC_ADC"))
+         "Design Cache")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 329"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 300 0 755"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 848 24 347")
-        (Scroll "0 0")
-        (Zoom "35")
+        (Placement "44 0 1 -1 -1 5 24 5 1574 24 773")
+        (Scroll "2338 1308")
+        (Zoom "280")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "TOP")
-      (Page "DAC_LPAF"))
+      (Page "LPAF"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 848 24 347")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1574 24 773")
+        (Scroll "-274 0")
+        (Zoom "102")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -142,9 +187,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 848 24 347")
-        (Scroll "0 0")
-        (Zoom "72"))
+        (Placement "44 0 1 -1 -1 5 24 5 1574 24 773")
+        (Scroll "-191 0")
+        (Zoom "76"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "DAC_ADC_CHANNEL")
@@ -152,9 +197,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 848 24 347")
-        (Scroll "0 0")
-        (Zoom "72")
+        (Placement "44 0 1 -1 -1 5 24 5 1574 24 773")
+        (Scroll "356 89")
+        (Zoom "144")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
