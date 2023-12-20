@@ -1,0 +1,3 @@
+*Control file for Schematic Set set1
+*	Transfer Nets and states in the set:
+included_tnet sheet1 default

@@ -1,0 +1,17 @@
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 200ps
+USE_SINGLE_UI Yes
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE SerDes
+MODE Differential
+JITTER N/A
+TIMED_EDGE Both
+ENCODING None
+RULES_FILE ""
+* Nodes:
+* Transfers:

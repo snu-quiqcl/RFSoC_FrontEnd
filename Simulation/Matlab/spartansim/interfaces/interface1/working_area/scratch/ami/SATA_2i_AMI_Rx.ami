@@ -1,0 +1,61 @@
+(SiSoft_AMI_Rx
+   (Description "Generic receiver model")
+| Copyright 2021, The MathWorks, Inc.
+
+
+   (Reserved_Parameters
+      (AMI_Version (Usage Info) (Type String) (Value "6.0"))
+      (Ignore_Bits (Usage Info) (Type Integer) (Default 100)
+         (Description "Ignore the first 100 bits of output."))
+      (Max_Init_Aggressors (Usage Info) (Type Integer) (Default 25)
+         (Description "Number of aggressors is actually unlimited."))
+      (Init_Returns_Impulse (Usage Info) (Type Boolean) (Default True)
+         (Description "Both impulse and parameters_out returned."))
+      (GetWave_Exists (Usage Info) (Type Boolean) (Default True)
+         (Description "GetWave is well and truly provided in the module."))
+   ) | End Reserved_Parameters
+
+   (Model_Specific
+      (eye_quality
+         (qual (Usage Out)(Format Value 0.0)(Type Float)
+            (Description "Monotonic decreasing measure of eye quality"))
+         (err (Usage Out)(Format Value 0.0)(Type Float)
+            (Description "Error energy after optimization in AMI_Init()"))
+         (bw (Usage In)(Format Value 3e5)(Type Float)
+            (Description "Detector bandwidth")))
+      (peaking_filter
+         (config (Usage InOut)(Format Value 0)(Type Integer)
+            (Description "Filter setting"))
+         (mode (Usage In)(Value "off")(Type String)
+            (Description "Control mode"))
+         (d_rate (Usage In)(Value 1e5)(Type Float)
+            (Description "Control loop rate")))
+      (clock_recovery
+         (phase (Usage Out)(Format Range 0.0 0.0 1.0)(Type UI)
+             (Description "Recovered clock phase"))
+         (mode (Usage In)(Value "off")(Type String)
+             (Description "Control mode"))
+         (step (Usage In)(Value 8e-3)(Type Float)
+             (Description "Recovered clock phase step"))
+         (count (Usage In)(Value 8)(Type Integer)
+             (Description "Early or late count to trigger a phase step"))
+         (ref (Usage In)(Value 0.0)(Type Float)
+             (Description "Reference clock offset as a fraction of the ref clock frequency. (e.g., 100ppm = 1e-4)")))
+
+      (dfe
+         (tap1 (Usage InOut)(Value 0)(Type Float)
+             (Description "First DFE tap coefficient"))
+         (tap2 (Usage InOut)(Value 0)(Type Float)
+             (Description "Second DFE tap coefficient"))
+         (tap3 (Usage InOut)(Value 0)(Type Float)
+             (Description "Third DFE tap coefficient"))
+         (tap4 (Usage InOut)(Value 0)(Type Float)
+             (Description "Fourth DFE tap coefficient"))
+         (mode (Usage In)(Value "off")(Type String)
+             (Description "Control mode"))
+         (gain (Usage In)(Value 3e-6)(Type Float)
+             (Description "Control loop gain"))
+         (sensitivity (Usage In)(Value 25e-3)(Type Float)
+             (Description "Receiver minimum latch overdrive")))
+   ) | End Model_Specific
+) 

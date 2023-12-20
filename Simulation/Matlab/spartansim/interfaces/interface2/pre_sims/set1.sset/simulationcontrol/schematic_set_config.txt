@@ -1,0 +1,2 @@
+*Configuration for Schematic Set set1
+last_active_sheet sheet1 default

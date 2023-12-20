@@ -1,0 +1,8 @@
+tpd_default 7.087ps/mm
+default_z0 50ohm
+shortest_tline 20ps
+Via_Impedance_Factor 1.0
+tpd_factor 1.1 1.0 0.9
+Z0_factor .90 1.0 1.1
+temperature 100 25 0
+voltage_factor .95 1.0 1.05

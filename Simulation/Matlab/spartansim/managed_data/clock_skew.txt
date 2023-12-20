@@ -1,0 +1,132 @@
+******************************************************************************
+******************************************************************************
+**********************  C L O C K   S K E W  F I L E  ************************
+******************************************************************************
+******************************************************************************
+* 
+* 
+* This is an example skew data file for defining clock skew on
+* synchronous/common-clock transfers between a Source device and a Target
+* device.
+* 
+* It's assumed that the Source device has a timing model with DELAY statements
+* between output pins relative to a clock input pin (SourceClkPin) and the
+* Target device has SETHLD constraints on input pins relative to a clock input
+* pin (TargetClkPin). This file defines the clock skew between these pins to
+* be used for setup/hold margin calculation during static timing analysis. 
+*
+* Clock skew is always defined as the worst-case difference between the time
+* the clock arrives at the TargetClkPin and the SourceClkPin,
+* (E.g., TargetClkPin-SourceClkPin) and should account for all variations in
+* the clock distribution system that can add uncertainty or offsets to the
+* respective clock pins. There are two types of clock skew, SetupSkew
+* and HoldSkew.
+* 
+* The syntax is: <SourceClkPin>  <TargetClkPin>  <SetupSkew>  <HoldSkew>
+*
+* Where:
+* 
+* 1) <SourceClkPin> is the pin on the Source device from which DELAY
+* statements on that device's timing model are defined.
+*    Note: A device may have more than one SourceClkPin, and separate skew
+*          statements will need to be defined for each pin.
+* 
+* 2) <TargetClkPin> is the pin on the Target device from which SETHLD
+* (Setup/Hold) constraints on that devices's timing model are defined with
+* respect to.
+*    Note: A device may have more than one TargetClkPin, and separate skew
+*          statements will need to be defined for each pin.
+* 
+* -) SourceClkPin and TargetClkPin can be defined in one of five formats with
+* precedence shown:  
+*        <part_name>/<pinname> 
+*        <designator>/<pinname> 
+*        <designator>/<part_name>/<pinname> 
+*        <reference_designator>.<pinumber>
+*        <board_id>/<reference_designator>.<pinumber>
+* Note: The format used for SourceClkPin must be the same as
+* that used for TargetClkPin
+* 
+*    a) <part_name> corresponds to the SiAuditor part name defined in the part
+*    library
+*    
+*    b) <pinname> corresponds to the logical pin name for the SourceClkPin or
+*    TargetClkPin as it appears in both the IBIS and Timing models.
+*    Note: The logical pin names in the IBIS model must match those in
+*          the Timing model.
+*    
+*    c) <designator> corresponds to the name of the graphical I/O buffer in
+*    the schematic sheet for the respective Source or Target device.
+*    Note: An interface can have multiple sheets, each of which may refer to a
+*          designator using a different name. 
+*    
+*    d) <reference_designator> corresponds to the unique part identifier in
+*    the CAD/layout database. (E.g. U21, U55, etc.)
+*    
+*    e) <board_id> corresponds to the unique board name associated with the
+*    CAD/layout database during the Board Extraction and Assignment process.
+* 
+* 3) <SetupSkew> is defined as the worst-case difference between the earliest
+* Target clock and the latest Source clock.
+* (E.g., SetupSkew = Min_Target_Clk - Max_Source_Clk)  
+* Note: Positive numbers for SetupSkew mean that the clock arrives at the
+*       TargetClkPin after it arrives at the SourceClkPin under worst-case
+*       conditions. Positive SetupSkew helps setup margin.
+* 
+* 4) <HoldSkew> is defined as the worst-case difference between the latest
+* Target clock and the earliest Source clock.
+* (E.g., HoldSkew = Max_Target_Clk - Min_Source_Clk)
+* Note: Positive numbers for HoldSkew mean that the clock arrives at the
+*       TargetClkPin after it arrives at the SourceClkPin under worst-case
+*       conditions. Positive HoldSkew hurts hold margin)
+* 
+*
+******************************************************************************
+****************************  E X A M P L E S  *******************************
+******************************************************************************
+* 
+******************************************************************************
+* This example shows skew defined using partname/pinname syntax. 
+*
+* partname/pinname     partname/pinname    SetupSkew (ns)  HoldSkew (ns)   
+* sdram/clk            northbridge/clock     -0.4           0.3
+* northbridge/clock    sdram/clk             -0.4           0.3
+*
+******************************************************************************
+* This example shows skew defined using designator/partname/pinname syntax. 
+*
+* designator/partname/pinname  designator/partname/pinname  SetupSkew HoldSkew
+* sdram1/sdram/clk              northbridge/northbridge/clock  -0.42     0.32
+* northbridge/northbridge/clock sdram1/sdram/clk               -0.42     0.32
+* sdram2/sdram/clk              northbridge/northbridge/clock  -0.37     0.27
+* northbridge/northbridge/clock sdram2/sdram/clk               -0.37     0.27
+*
+******************************************************************************
+* This example shows skew for post-layout analysis defined using
+*  ref_des.pinumber syntax:
+*
+* ref_des.pinnumber  ref_des.pinnumber  SetupSkew (ns)  HoldSkew (ns)
+* U2.B30             U3.23               -0.42           0.32
+* U3.23              U2.B30              -0.42           0.32
+* U2.B30             U4.23               -0.37           0.27
+* U4.23              U2.B30              -0.37           0.27
+*
+******************************************************************************
+*
+* This example show clock skew for post-layout defined using
+*  board_id/ref_des.pinumber syntax:
+*
+* board_id/ref_des.pinumber   board_id/ref_des.pinumber SetupSkew HoldSkew
+* motherboard/U2.B30          motherboard/U3.23          -0.42     0.32
+* motherboard/U3.23           motherboard/U2.B30         -0.42     0.32
+*								   
+* motherboard/U2.B30          daughtercard/U4.23         -0.37     0.27
+* daughtercard/U4.23          motherboard/U2.B30         -0.37     0.27
+*
+******************************************************************************
+* The following are the skews associated with the quickstart project -
+*  synchronous interface example in the clock_skew.txt file.
+*
+* source_designator/clock_pin target_designator/clock_pin  SetupSkew HoldSkew
+source/CLOCK_IN               target/CLOCK_IN               -0.50     0.50
+

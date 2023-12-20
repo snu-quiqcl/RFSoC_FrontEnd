@@ -1,0 +1,14 @@
+*Simulation Control data for Transfer net sheet1 State default
+*Generated from Schematic Set set1
+case_name "Case Name" case_mode_variation Case_1
+augmentation off
+augmenting_from 0
+ac_noise +/-0.00V
+ac_noise_source tnet
+aggressors 0
+aggressor_separation 4mil
+sub_circuit sheet1.tsc
+Etch Corner case_mode_variation TE
+Process Corner case_mode_variation TT
+coupled_model "W-Line Model" case_mode_variation ""
+sso_capacitance "SSO Capacitance" case_mode_variation 10000pF

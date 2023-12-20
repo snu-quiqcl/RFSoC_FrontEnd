@@ -1,0 +1,55 @@
+(SiSoft_AMI_Rx
+   (Description "Generic SiSoft receiver model")
+| Copyright 2021, The MathWorks, Inc.
+
+
+   (Reserved_Parameters
+      (AMI_Version (Usage Info) (Type String) (Value "6.0"))
+      (Ignore_Bits (Usage Info) (Type Integer) (Default 500000)
+         (Description "DFE may take a half million bits to converge."))
+      (Max_Init_Aggressors (Usage Info) (Type Integer) (Default 25)
+         (Description "Number of aggressors is actually unlimited."))
+      (Init_Returns_Impulse (Usage Info) (Type Boolean) (Default True)
+         (Description "Both impulse and parameters_out returned."))
+      (GetWave_Exists (Usage Info) (Type Boolean) (Default True)
+         (Description "GetWave is well and truly provided in the module."))
+      (Rx_Receiver_Sensitivity (Usage Info)(Format Range 0.25 0.0 0.5)
+         (Type Float)(Default 0.025)
+         (Description "The receiver sensitivity for the SiSoft_AMI_Rx receiver."))
+   ) | End Reserved_Parameters
+
+   (Model_Specific
+      (peaking_filter
+         (config (Usage InOut)(Format Range 0 0 15)(Type Integer)(Default 0)
+            (Description "Filter setting"))
+         (mode (Usage In)(Format List "fixed" "off" "auto")(Type String) 
+            (Default "off")(Description "Control mode"))
+      )
+      (clock_recovery
+         (phase (Usage Out)(Format Range 0.0 0.0 1.0)(Type UI)
+             (Description "Recovered clock phase"))
+         (ref (Usage In)(Format Range 0.0 -3e-4 3e-4)(Type Float)(Default 0.0)
+             (Description "Reference clock offset as a fraction of the ref clock frequency. (e.g., 100ppm = 1e-4)"))
+      )
+      (dfe
+         (number_rx_tap (Usage In)(Format Value 5)(Type Integer)
+             (Description "Number of taps in the DFE."))
+         (taps | Limited number of taps exposed explicitly to improve
+               | controlability and observability.
+               | Additional taps added on output, if necessary.
+             (1 (Usage InOut)(Format Range 0 -1.0 1.0)(Type Tap)
+                 (Default 0)(Description "First DFE tap."))
+             (2 (Usage InOut)(Format Range 0 -1.0 1.0)(Type Tap)
+                 (Default 0)(Description "Second DFE tap."))
+             (3 (Usage InOut)(Format Range 0 -1.0 1.0)(Type Tap)
+                 (Default 0)(Description "Third DFE tap."))
+             (4 (Usage InOut)(Format Range 0 -1.0 1.0)(Type Tap)
+                 (Default 0)(Description "Fourth DFE tap."))
+             (5 (Usage InOut)(Format Range 0 -1.0 1.0)(Type Tap)
+                 (Default 0)(Description "Fifth DFE tap.")))
+         (mode (Usage In)(Type String)(List "off" "fixed" "auto" "adapt"
+             "auto_fixed")(Description "DFE control mode."))
+         (sensitivity (Usage In)(Type Float)(Format Value 0)(Description "DFE feedback min latch overdrive."))
+      )
+   ) | End Model_Specific
+) | End SiSoft_AMI_Rx

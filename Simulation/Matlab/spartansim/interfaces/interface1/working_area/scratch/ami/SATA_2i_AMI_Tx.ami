@@ -1,0 +1,37 @@
+(SiSoft_AMI_Tx
+   (Description "Generic transmitter model")
+| Copyright 2021, The MathWorks, Inc.
+
+
+   (Reserved_Parameters
+      (AMI_Version (Usage Info) (Type String) (Value "6.0"))
+      (Ignore_Bits (Usage Info) (Type Integer) (Default 4)
+         (Description "Ignore four bits to fill up tapped delay line."))
+      (Max_Init_Aggressors (Usage Info) (Type Integer) (Default 25)
+         (Description "Number of aggressors is actually unlimited."))
+      (Init_Returns_Impulse (Usage Info) (Type Boolean) (Default True)
+         (Description "Both impulse and parameters_out returned."))
+      (GetWave_Exists (Usage Info) (Type Boolean) (Default True)
+         (Description "GetWave is well and truly provided in the module."))
+   ) | End Reserved_Parameters
+
+   (Model_Specific
+      (tap_filter (Description "Array of transmit de-emphasis tap weights")
+         (-1 (Usage InOut)(Value 0)(Type Tap)
+             (Description "Pre-cursor tap weight"))
+         (0  (Usage InOut)(Value 1)(Type Tap)
+             (Description "Main tap weight"))
+         (1  (Usage InOut)(Value 0)(Type Tap)
+             (Description "First post-cursor tap weight"))
+         (2  (Usage InOut)(Value 0)(Type Tap)
+             (Description "Second post-cursor tap weight"))
+      ) | End tap_filter
+      (tx_swing (Usage In)(Value 1)(Type Float)
+                (Description "Peak differential output voltage")
+      )
+      (Tx_Delay (Usage In)(Format Range 0 -200.e-12 200.e-12)(Type Float)(Default 0)
+            (Description "Tx Delay  is used to create skew in stimulus between WideBus drivers") 
+      )
+   ) | End Model_Specific
+
+)

@@ -1,0 +1,92 @@
+* Version 1.0
+SiSoft_AMI_Rx Description "Generic receiver model"
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Type String
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Value "6.0"
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Default 100
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Description "Ignore the first 100 bits of output."
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Default 25
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Description "Number of aggressors is actually unlimited."
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Default True
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Description "Both impulse and parameters_out returned."
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Default True
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Description "GetWave is well and truly provided in the module."
+SiSoft_AMI_Rx.Model_Specific.eye_quality.qual Usage Out
+SiSoft_AMI_Rx.Model_Specific.eye_quality.qual Value 0.0
+SiSoft_AMI_Rx.Model_Specific.eye_quality.qual Type Float
+SiSoft_AMI_Rx.Model_Specific.eye_quality.qual Description "Monotonic decreasing measure of eye quality"
+SiSoft_AMI_Rx.Model_Specific.eye_quality.err Usage Out
+SiSoft_AMI_Rx.Model_Specific.eye_quality.err Value 0.0
+SiSoft_AMI_Rx.Model_Specific.eye_quality.err Type Float
+SiSoft_AMI_Rx.Model_Specific.eye_quality.err Description "Error energy after optimization in AMI_Init()"
+SiSoft_AMI_Rx.Model_Specific.eye_quality.bw Usage In
+SiSoft_AMI_Rx.Model_Specific.eye_quality.bw Value 3e5
+SiSoft_AMI_Rx.Model_Specific.eye_quality.bw Type Float
+SiSoft_AMI_Rx.Model_Specific.eye_quality.bw Description "Detector bandwidth"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Usage InOut
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Value 0
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Type Integer
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Description "Filter setting"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Value "off"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Description "Control mode"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.d_rate Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.d_rate Value 1e5
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.d_rate Type Float
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.d_rate Description "Control loop rate"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Usage Out
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Range 0.0 0.0 1.0
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Type UI
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Description "Recovered clock phase"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Value "off"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Type String
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Description "Control mode"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Value 8e-3
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Type Float
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Description "Recovered clock phase step"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Value 8
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Type Integer
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Description "Early or late count to trigger a phase step"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Value 0.0
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Type Float
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Description "Reference clock offset as a fraction of the ref clock frequency. (e.g., 100ppm = 1e-4)"
+SiSoft_AMI_Rx.Model_Specific.dfe.tap1 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.tap1 Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.tap1 Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.tap1 Description "First DFE tap coefficient"
+SiSoft_AMI_Rx.Model_Specific.dfe.tap2 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.tap2 Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.tap2 Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.tap2 Description "Second DFE tap coefficient"
+SiSoft_AMI_Rx.Model_Specific.dfe.tap3 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.tap3 Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.tap3 Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.tap3 Description "Third DFE tap coefficient"
+SiSoft_AMI_Rx.Model_Specific.dfe.tap4 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.tap4 Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.tap4 Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.tap4 Description "Fourth DFE tap coefficient"
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Value "off"
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Type String
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Description "Control mode"
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Value 3e-6
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Value 25e-3
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Description "Receiver minimum latch overdrive"

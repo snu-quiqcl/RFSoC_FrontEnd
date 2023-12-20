@@ -1,0 +1,110 @@
+* This is an example clock domain file. Edit this file to include 
+* the clock domains used in the transfer nets. 
+*
+* A clock domain defines the minimum pulse width (bit time) of a
+* signal and is used for Data Rate in QSI and UI in QCD
+*
+* See the Project Creation and Setup chapter in the User Guide for
+* more information
+*
+*===================================================================
+*
+* Example parallel bus clock domains (typically used in QSI):
+*
+* Bit times for a clock signal (QSI) Uncomment to use
+*
+*clk_133M  = 3.75nS
+*clk_167M  = 3.0nS
+*clk_250M  = 2.5nS
+*clk_333M  = 1.67nS
+*clk_500M  = 1.0nS
+*clk_667M  = 0.75nS
+*clk_800M  = 0.60nS
+*clk_1000M = 0.50nS
+clk_1333M = 0.375nS
+clk_1667M = 0.3nS
+*
+* Example: clk_133M is a 133MHz clock. The minimum pulse width
+* is one half of the clock period, or 3.75ns
+*
+*
+* Bit times for a data signal in a single data rate system
+*
+*data_sdr_133M  = 7.5nS
+*data_sdr_167M  = 6.0nS
+*data_sdr_250M  = 5.0nS
+*data_sdr_333M  = 3.33nS
+*data_sdr_500M  = 2.0nS
+*data_sdr_667M  = 1.5nS
+*data_sdr_800M  = 1.2nS
+*data_sdr_1000M = 1.0nS
+data_sdr_1333M = 0.75nS
+data_sdr_1667M = 0.6nS
+*
+* Example: data_sdr_133M is a single data rate data signal clocked
+* by a 133MHz clock. The minimum pulse width of this data signel is equal
+* to the clock period, or 7.5ns
+*
+*
+* Bit times for a data signal in a dual data rate system
+*
+*data_ddr_133M  = 3.75nS
+*data_ddr_167M  = 3.0nS
+*data_ddr_250M  = 2.5nS
+*data_ddr_333M  = 1.67nS
+*data_ddr_500M  = 1.0nS
+*data_ddr_667M  = 0.75nS
+*data_ddr_800M  = 0.60nS
+*data_ddr_1000M = 0.50nS
+data_ddr_1333M = 0.375nS
+data_ddr_1667M = 0.3nS
+*
+* Example: data_ddr_133M is a dual data rate data signal clocked
+* by a 133MHz clock. The minimum pulse width of this data signal is equal
+* to one half clock period, or 3.75ns
+*
+*
+* A clock domain can be a function of another clock domain (for
+* example defining clock domains as functions of sys_clk
+*
+* sys_clk = 7.5nS
+* sysbus_clk = sys_clk/2
+* pci_clk = sys_clk*4
+* pci66_clk = pci_clk/2
+*
+*===================================================================
+*
+* Example NRZ serial link clock domains (typically used in QCD):
+*
+SerDes_56G      =  17.86ps
+SerDes_28G      =  35.71ps
+SerDes_25G      =  40ps
+SerDes_20G      =  50ps
+SerDes_15G      =  66.67ps
+SerDes_14G      =  71.43ps
+SerDes_12p5G    =  80ps
+SerDes_11p5G    =  88ps
+SerDes_10G      = 100ps
+SerDes_8G       = 125ps
+SerDes_6p25G    = 160ps
+* SerDes_5G     = 200ps
+* SerDes_3p125G = 320ps
+* SerDes_2G     = 500ps
+* SerDes_1.25G  = 800ps
+*
+* Example PAM4 serial link clock domains (typically used in QCD):
+*
+PAM4_56Gbps   =  SerDes_28G
+PAM4_50Gbps   =  SerDes_25G
+PAM4_40Gbps   =  SerDes_20G
+PAM4_30Gbps   =  SerDes_15G
+PAM4_28Gbps   =  SerDes_14G
+*
+* Example NRZ serial link clock domains (same as corresponding SerDes clock domains, use whichever you prefer):
+*
+NRZ_56Gbps   =  SerDes_56G
+NRZ_28Gbps   =  SerDes_28G
+NRZ_25Gbps   =  SerDes_25G
+NRZ_20Gbps   =  SerDes_20G
+NRZ_15Gbps   =  SerDes_15G
+NRZ_14Gbps   =  SerDes_14G

@@ -1,0 +1,74 @@
+* This is an example extraction control file. 
+*
+* The following CAD database formats are supported using the indicated keyword:
+* 
+*     CAD Database Format        Keyword         Database Type
+*     -------------------        -------         -------------
+*     Cadence Allegro            allegro_brd     file
+*     Mentor Boardstation        boardstation    directory
+*     Mentor Expedition          expedition_hkp  directory
+*     Mentor PowerPCB            pads_asc        file
+*     Altium P-CAD               pcad_asc        file
+*     IBIS EBD                   ibis_ebd        directory
+*
+* NOTE: the keyword veribest_hkp can be used in place of expedition_hkp
+* 
+* A board is specified in the following way:
+* 
+*     <CAD_database_keyword> <file_or_directory_name> <board_name> [<stackup>]
+* 
+*   where:
+* 
+*     CAD_database_keyword    The keyword identifying the format (see above)
+* 
+*     file_or_directory_name  The CAD data. Either a file or directory in
+*                             the layout/brd_files directory of the project.
+*                             The list above shows which CAD databases are
+*                             in a file and which are in a directory. Refer
+*                             to the User Guide for details on the files
+*                             required for each CAD database format.
+* 
+*     board_name              The name of this instance of the board. This
+*                             name will appear in the Extract & Assign
+*                             dialog and is used in the other files and
+*                             extracted netlist to identify this instance
+*                             of the board.
+*
+*     stackup                 Optional name of stackup file. If this is not
+*                             present, the stackup file will be named
+*                             <board_name>.stkup
+*                             This file can be a stackup created by the
+*                             stackup editor (.stkup) or an override file
+*                             (*.stk)
+*                             For EBD files the stackup one of the keywords
+*                             "tline" or "wline".
+*
+* Example extracting an Allegro database called mb_rev3.brd.
+* Board identifier is motherboard and the stackup is defined
+* in the override file 4-layer.stk
+* 
+* allegro_brd mb_rev3.brd motherboard 4-layer.stk
+*
+* Example extracting a PADS database called db_rev6.asc.
+* Board identifier is daughterboard and the stackup is defined
+* in the file 6-layer.stkup
+* 
+* pads_asc db_rev6.asc daughterboard 6-layer.stkup
+*
+* Example extracting an expedition database contained in the
+* directory cpu_rev2. Board identifier is cpu_module.
+*
+* expedition_hkp cpu_rev2 cpu_module
+*
+* Example extracting a boardstation database contained in the
+* directory board1. Board identifier is motherboard.
+*
+* boardstation board1 motherboard
+*
+* Example extracting an EBD file contained in the
+* directory dimm. Board identifiers are dram_dimm1 and dram_dimm2.
+* Stackup is special keyword tline.
+*
+* ibis_ebd dimm dram_dimm1 tline
+* ibis_ebd dimm dram_dimm2 tline
+*

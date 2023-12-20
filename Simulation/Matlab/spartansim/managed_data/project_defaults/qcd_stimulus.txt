@@ -1,0 +1,44 @@
+***************************************************************************
+*
+* Bit Sequence Definition
+*
+***************************************************************************
+* 
+
+[bit_sequence_set] example
+
+    Stimulus  TX1  qcd_training  qcd_aggressor
+    Stimulus  TX2  qcd_training  qcd_victim
+    Stimulus  TX3  qcd_training  qcd_aggressor
+
+    Pattern   TX1  qcd_training  qcd_aggressor
+    Pattern   TX2  qcd_training  qcd_victim
+    Pattern   TX3  qcd_training  qcd_aggressor
+
+[end_bit_sequence_set]
+
+*********************
+* Bit sequences
+*********************
+*
+* QCD input patterns are declared in groups of the form
+*
+* [bit_sequence_set] <name>
+*      Stimulus <Tx Designator> <Stimulus_name> [<Stimulus_name> ...]
+*      Pattern  <Tx Designator> <Pattern_name> [<Pattern_name> ...]
+* [End_bit_sequence_set]
+* 
+* There are twp types of bit sequence declarations: Stimulus and Pattern
+* Stimulus declarations are used for time-domain SPICE analysis
+* Pattern declarations are used for time-domain QCD analysis
+*
+* Bit sequences are defined in the named bit sequence file accessed
+* from the EDit Named Bit Sequences button on the Bit Sequence Setup
+* dialog (Setup->Bit Sequence) or from the menu item
+* Setup->Named Bit Sequences
+*
+* Note that Stimulus and Pattern can have the same name. Pattern
+* declarations take precedence for QCD time domain analysis. If no
+* Pattern data is found for a particlar designator during QCD time-domain
+* analysis, the Stimulus data for that designator is used instead. If
+* no Stimulus is found a random pattern will be used.

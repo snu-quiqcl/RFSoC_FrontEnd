@@ -1,0 +1,11 @@
+*Simulation Control data for Transfer net sheet1 State default
+*Generated from Schematic Set set1
+use_case_mode no
+ac_noise +/-0.00V
+ac_noise_source tnet
+aggressors 0
+aggressor_separation 4mil
+sub_circuit sheet1.tsc
+corner TTTE
+coupled_model "W-Line Model" <none>
+sso_capacitance "SSO Capacitance" <none> 10000pF

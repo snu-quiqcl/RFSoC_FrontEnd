@@ -1,0 +1,48 @@
+\t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Dec 21 00:28:04 2023
+\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=8288 CPUs=20
+\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\200Ohm.top
+\t (00:00:04) 
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 803
+\i (00:00:04) trapsize 784
+\i (00:00:04) trapsize 780
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 1176
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 5878
+   (00:00:05) Loading sigxp.cxt 
+   (00:00:05) Loading signal.cxt 
+   (00:00:05) Loading sxutil.cxt 
+   (00:00:05) Loading axlcore.cxt 
+   (00:00:05) Loading fputil.cxt 
+   (00:00:05) Already Placed Circuit
+\i (00:00:05) trapsize 23
+   (00:00:05) Loading skillExt.cxt 
+\i (00:00:06) sigxp background 
+\i (00:00:07) prepopup 
+\i (00:00:07) prepopup 5508.53 4240.64
+\i (00:00:07) pop dyn_option_select '@:@Via Setup Preferences...' 
+\i (00:00:11) setwindow form.sigsqviamodelextrsetup
+\i (00:00:11) FORM sigsqviamodelextrsetup targetfreq 100MHz 
+\i (00:00:11) FORM sigsqviamodelextrsetup ok  
+\i (00:00:16) setwindow sigxp
+\i (00:00:16) pick grid 5481.56 4234.79
+\t (00:00:16) last pick:  5481.50 4235.00
+\i (00:00:16) pick grid 5481.79 4235.34
+\t (00:00:16) last pick:  5482.00 4235.50
+\i (00:00:16) pick grid dbl 5481.79 4235.34
+\t (00:00:16) last pick:  5482.00 4235.50
+\i (00:00:18) setwindow form.sxstimulus
+\i (00:00:18) FORM sxstimulus ok  
+\i (00:00:19) setwindow sigxp
+\i (00:00:19) signal simulate 
+\i (00:00:23) sigxp background 
+\i (00:00:47) pick grid 5508.25 4242.81
+\t (00:00:47) last pick:  5508.50 4243.00
+\i (00:08:45) exit 
+\e (00:08:45) Would you like to save the changes made in  200Ohm.top
+\i (00:08:46) fillin yes 
+\t (00:08:47)     Journal end - Thu Dec 21 00:36:47 2023

@@ -1,0 +1,24 @@
+* This an example multiboard connectivity file. 
+
+* This example connects j29 on board "motherboard" to j1 on 
+* board "daughterboard". Connector mapping is not needed, ie
+* pin 1 of j29 connects to pin 1 of j1. The connector will 
+* be modelled using a 120pS transmission line with 55 ohms 
+* impedance. The names "motherboard" and "daughterboard" are
+* the board names defined in the extraction control file.
+* 
+* motherboard j29 daughterboard j1 z0=55 td=120ps
+
+* Similar example to the one above, here an actual spice 
+* subcircuit "conn_model" from the file 8-row-conn.mod is used
+* to model the connector
+*
+* motherboard j29 daughterboard j1 8-row-conn.mod conn_model
+
+* Example using custom pin mapping. Pin 31 of connector j29
+* is connected to pin 7 of connector j1. Pin 32 connects to
+* pin 6 and so on.
+*
+* motherboard j29.31 daughterboard j1.7 z0=55 td=120ps
+* motherboard j29.32 daughterboard j1.6 z0=55 td=120ps
+* motherboard j29.33 daughterboard j1.5 z0=55 td=120ps

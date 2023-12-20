@@ -1,0 +1,98 @@
+************************************************************************
+* This is an example discrete parts file used to define discrete parts *
+*   for post layout extraction. See SiAuditor documentation for more   *
+*   information.                                                       *
+************************************************************************
+
+* Syntax:
+* discrete <cad_part> <type> <value> <pin mapping>
+*
+* Where:
+*   <cad_part> = CAD tool part number
+*   <type> = res, cap, or <spice>.mod
+*   <value> = Resistor/Capacitor value, or spice model name
+*   <pin mapping> = How the pins are connected
+
+* Example 1: 
+* Single resistor example. CAD part number is 357ohm,
+*   resistor value is 357 ohms between pins 1 and 2:
+* 
+* 357ohm res 357 (1,2)
+
+
+* Example 2: 
+* 10k ohm resistor pack with CAD part number 100r537. Resistors
+*   are available between pin 1 and 8, between 2 and 7 and so on:
+* 
+* 100r537 res 10k (1,8) (2,7) (3,6) (4,5)
+
+* Example 3:
+* Clamping diode example using an spice subcircuit called hpclamp
+*   in file hpclamp.mod (found in spice_models search path from project file).
+*   There are a total of four (4) 3-pin clamps in CAD part number SN74S1051. 
+*   The first clamp is using pin numbers 2, 1 and 8:
+* 
+* SN74S1051 hpclamp.mod hpclamp (2,1,8) (3,1,8) (4,1,8) (5,1,8) (6,1,8)
+
+************************************************************************
+* This file can also be used to assign ibis models on a part basis for *
+*   use with post-layout extraction of unassigned nets.                *
+************************************************************************
+
+* Syntax:
+* default_tco <min_tco> <max_tco>
+* default_tco <min_tco=max_tco>
+* default_sethld <setup> <hold>
+* default_sethld <setup=hold>
+* dynamic_refdes <board> <refdes> <part> <ibis_file> <ibis_model> 
+* dynamic_part <board> <cad_part> <part> <ibis_file> <ibis_model>
+* dynamic_refdes <board> <refdes> <part> <ibis_file> <ibis_model> <1> <2> <3> <4>
+* dynamic_part <board> <cad_part> <part> <ibis_file> <ibis_model> <1> <2> <3> <4>
+*
+* Where:
+* <1> <2> <3> <4> == <min_tco> <max_tco> <setup> <hold>
+* <min_tco> = Minimum output time to be applied in timing all transfers
+*               involving this model.
+* <max_tco> = Maximum output time to be applied in timing all transfers
+*               involving this model.
+* <setup> = Setup time to be applied in timing all transfers involving this model.
+* <hold> = Hold time to be applied in timing all transfers involving this model.
+* <board> = Board name from the extraction_control file.
+* <refdes> = CAD tool reference designator.
+* <cad_part> =  CAD tool part number.
+* <part> = Dynamic part name.
+* <ibis_file> = Filename of ibis file.
+* <ibis_model> = Name of ibis model in <ibis_file>
+
+* General Rules:
+* <min_tco> <max_tco> <setup> <hold> can be in sec, ns, ps.
+*   i.e. 1==1ns==1000ps=1.e-9
+*
+* If no <min_tco> <max_tco> <setup> <hold> then they default to default_tco
+*   and default_sethld. If default_tco and default_sethld are not defined,
+*   they default to 0.
+*   
+* <refdes> can be u17, u*, u<1:10>
+* <cad_part> can be 001-123 or 001-<1:500>
+*
+* <ibis_file> should have a [component] default, and at least one pin (first one 
+*   used for package) and <ibis_model> (can have multiple ibis models.)
+*
+* <part> should be a part name unique to the current SiAuditor project.
+
+* Example 4:
+* Every instance of a reference designator on board 'h', that starts with 'U',
+*   will use the ibis model 'def_model' found in the ibis file 'default.ibs'
+*   This ibis file/model will be assigned to the dynamic part named 'default'. 
+*
+* dynamic_refdes h U* default default.ibs def_model
+* dynamic_refdes h h/U* default default.ibs def_model
+
+* Example 5:
+* Every instance of a part number on board 'h', that is in between the numbers
+*   001-1 and 001-30 inclusive, will use the ibis model 'def_model' found in
+*   the ibis file 'default.ibs' This ibis file/model will be assigned to the
+*   dynamic part named 'default'. 
+*
+* dynamic_part h 001-(1:30) default default.ibs def_model
+

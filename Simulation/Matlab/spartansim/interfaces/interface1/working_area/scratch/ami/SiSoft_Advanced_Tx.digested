@@ -1,0 +1,84 @@
+* Version 1.0
+SiSoft_AMI_Tx Description "Generic transmitter model"
+SiSoft_AMI_Tx.Reserved_Parameters.AMI_Version Usage Info
+SiSoft_AMI_Tx.Reserved_Parameters.AMI_Version Type String
+SiSoft_AMI_Tx.Reserved_Parameters.AMI_Version Value "6.0"
+SiSoft_AMI_Tx.Reserved_Parameters.Ignore_Bits Usage Info
+SiSoft_AMI_Tx.Reserved_Parameters.Ignore_Bits Type Integer
+SiSoft_AMI_Tx.Reserved_Parameters.Ignore_Bits Default 4
+SiSoft_AMI_Tx.Reserved_Parameters.Ignore_Bits Description "Ignore four bits to fill up tapped delay line."
+SiSoft_AMI_Tx.Reserved_Parameters.Max_Init_Aggressors Usage Info
+SiSoft_AMI_Tx.Reserved_Parameters.Max_Init_Aggressors Type Integer
+SiSoft_AMI_Tx.Reserved_Parameters.Max_Init_Aggressors Default 25
+SiSoft_AMI_Tx.Reserved_Parameters.Max_Init_Aggressors Description "# of aggressors is actually unlimited."
+SiSoft_AMI_Tx.Reserved_Parameters.Init_Returns_Impulse Usage Info
+SiSoft_AMI_Tx.Reserved_Parameters.Init_Returns_Impulse Type Boolean
+SiSoft_AMI_Tx.Reserved_Parameters.Init_Returns_Impulse Default True
+SiSoft_AMI_Tx.Reserved_Parameters.Init_Returns_Impulse Description "Impulse & parameters_out returned."
+SiSoft_AMI_Tx.Reserved_Parameters.GetWave_Exists Usage Info
+SiSoft_AMI_Tx.Reserved_Parameters.GetWave_Exists Type Boolean
+SiSoft_AMI_Tx.Reserved_Parameters.GetWave_Exists Default True
+SiSoft_AMI_Tx.Reserved_Parameters.GetWave_Exists Description "GetWave is well and truly provided."
+SiSoft_AMI_Tx.Model_Specific.Voh Usage Info
+SiSoft_AMI_Tx.Model_Specific.Voh Type Float
+SiSoft_AMI_Tx.Model_Specific.Voh Value 1.0
+SiSoft_AMI_Tx.Model_Specific.Voh Description "Single-ended Rail Voltage."
+SiSoft_AMI_Tx.Model_Specific.Vol Usage Info
+SiSoft_AMI_Tx.Model_Specific.Vol Type Float
+SiSoft_AMI_Tx.Model_Specific.Vol Value 0.0
+SiSoft_AMI_Tx.Model_Specific.Vol Description "Output Voltage for Logic 0."
+SiSoft_AMI_Tx.Model_Specific.Rs Usage Info
+SiSoft_AMI_Tx.Model_Specific.Rs Type Float
+SiSoft_AMI_Tx.Model_Specific.Rs Range 50 10 200
+SiSoft_AMI_Tx.Model_Specific.Rs Description "Single ended output impedance."
+SiSoft_AMI_Tx.Model_Specific.Cc Usage Info
+SiSoft_AMI_Tx.Model_Specific.Cc Type Float
+SiSoft_AMI_Tx.Model_Specific.Cc Range 0.05e-12 0 10e-12
+SiSoft_AMI_Tx.Model_Specific.Cc Description "Single ended output capacitance."
+SiSoft_AMI_Tx.Model_Specific.Trf Usage Info
+SiSoft_AMI_Tx.Model_Specific.Trf Type Float
+SiSoft_AMI_Tx.Model_Specific.Trf Range 0.0 0.0 100e-12
+SiSoft_AMI_Tx.Model_Specific.Trf Description "20%-80% rise/fall time."
+SiSoft_AMI_Tx.Model_Specific.tx_swing Usage In
+SiSoft_AMI_Tx.Model_Specific.tx_swing Type Float
+SiSoft_AMI_Tx.Model_Specific.tx_swing Range 1.0 0.3 1.0
+SiSoft_AMI_Tx.Model_Specific.tx_swing Description "Peak differential output voltage."
+SiSoft_AMI_Tx.Model_Specific.number_tx_tap Usage In
+SiSoft_AMI_Tx.Model_Specific.number_tx_tap Type Integer
+SiSoft_AMI_Tx.Model_Specific.number_tx_tap Value 4
+SiSoft_AMI_Tx.Model_Specific.number_tx_tap Description "The Total Number of Tx Taps."
+SiSoft_AMI_Tx.Model_Specific.number_precursor_tap Usage In
+SiSoft_AMI_Tx.Model_Specific.number_precursor_tap Type Integer
+SiSoft_AMI_Tx.Model_Specific.number_precursor_tap Value 1
+SiSoft_AMI_Tx.Model_Specific.number_precursor_tap Description "The Number of Pre-cursor Taps."
+SiSoft_AMI_Tx.Model_Specific.normalize_taps Usage In
+SiSoft_AMI_Tx.Model_Specific.normalize_taps Type String
+SiSoft_AMI_Tx.Model_Specific.normalize_taps List "Yes" "No"
+SiSoft_AMI_Tx.Model_Specific.normalize_taps Description "Enable or disable tap normalization."
+SiSoft_AMI_Tx.Model_Specific.tap_filter Description "Array of transmit de-emphasis tap weights."
+SiSoft_AMI_Tx.Model_Specific.tap_filter.-1 Usage InOut
+SiSoft_AMI_Tx.Model_Specific.tap_filter.-1 Type Tap
+SiSoft_AMI_Tx.Model_Specific.tap_filter.-1 Range 0.0 -1.0 1.0
+SiSoft_AMI_Tx.Model_Specific.tap_filter.-1 Description "Pre-cursor tap weight."
+SiSoft_AMI_Tx.Model_Specific.tap_filter.0 Usage InOut
+SiSoft_AMI_Tx.Model_Specific.tap_filter.0 Type Tap
+SiSoft_AMI_Tx.Model_Specific.tap_filter.0 Range 1.0 -1.0 1.0
+SiSoft_AMI_Tx.Model_Specific.tap_filter.0 Description "Main tap weight."
+SiSoft_AMI_Tx.Model_Specific.tap_filter.1 Usage InOut
+SiSoft_AMI_Tx.Model_Specific.tap_filter.1 Type Tap
+SiSoft_AMI_Tx.Model_Specific.tap_filter.1 Range 0.0 -1.0 1.0
+SiSoft_AMI_Tx.Model_Specific.tap_filter.1 Description "1st post-cursor tap."
+SiSoft_AMI_Tx.Model_Specific.tap_filter.2 Usage InOut
+SiSoft_AMI_Tx.Model_Specific.tap_filter.2 Type Tap
+SiSoft_AMI_Tx.Model_Specific.tap_filter.2 Range 0.0 -1.0 1.0
+SiSoft_AMI_Tx.Model_Specific.tap_filter.2 Description "2nd post-cursor tap."
+SiSoft_AMI_Tx.Model_Specific.Tx_Delay Usage Info
+SiSoft_AMI_Tx.Model_Specific.Tx_Delay Type UI
+SiSoft_AMI_Tx.Model_Specific.Tx_Delay List 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+SiSoft_AMI_Tx.Model_Specific.Tx_Delay Default 0.0
+SiSoft_AMI_Tx.Model_Specific.Tx_Delay Description "Create skew in stimulus between WideBus drivers."
+SiSoft_AMI_Tx.Model_Specific.Tx_Aggressor_Factor Usage Info
+SiSoft_AMI_Tx.Model_Specific.Tx_Aggressor_Factor Type Integer
+SiSoft_AMI_Tx.Model_Specific.Tx_Aggressor_Factor List 0 1 2 3 4 5 6 7 8 9 10
+SiSoft_AMI_Tx.Model_Specific.Tx_Aggressor_Factor Default 1
+SiSoft_AMI_Tx.Model_Specific.Tx_Aggressor_Factor Description "Aggressor scale for Tx."

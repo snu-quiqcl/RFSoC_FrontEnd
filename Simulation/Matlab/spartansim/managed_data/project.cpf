@@ -1,0 +1,145 @@
+* Common Project File for spartansim
+* Copyright 2022 The MathWorks, Inc.
+* db_version should be the first key in the file.
+db_version 			5.0
+
+* Project data
+*-------------
+project_defaults                 ../../managed_data/project_defaults
+conditions_file                  ../../managed_data/corner.cnd
+clock_domain_file                ../../managed_data/clock_domain.txt
+skew_data_file                   ../../managed_data/clock_skew.txt
+simulation_control               simulation_control
+scratch_directory		 working_area/scratch
+
+***DO NOT CHANGE THE FOLLOWING LINE use_interfaces_dir***
+use_interfaces_dir		 /yes
+
+* Log Files and Directories
+*--------------------------
+log_directory                    logs
+console_log                      logs/siaengine.log
+gui_console_log                  logs/siauditor.log
+projectfilevalidationlog         logs/projectfilevalidation.log
+logs_extract                     ../../layout/logs
+
+* Pre Layout Directories
+*-----------------------
+sims_pre                         pre_sims
+topo_pre_subcircuits             pre_subckts
+topo_pre_subcircuits     	     post2pre_subckts
+
+* Post Layout Dirs and Files
+*---------------------------
+sims_post                        post_sims
+post_tsc                         post2pre_subckts
+net_transfer_net                 working_area/postlayout/net_transfer_net.txt
+parts_list_file                  working_area/postlayout/complist.txt
+net_list_file                    ../../layout/netlists.txt
+topo_post_subcircuits            ../../layout/extracted_subckts
+voltages_file                    ../../layout/voltages.txt
+crosstalk_setup_file             ../../layout/crosstalk_setup.txt
+post_layout_control              working_area/postlayout
+
+* Postlayout Extraction Files
+*-------------------------
+board_data_directory             ../../layout/brd_files
+extraction_information_directory ../../layout/brd_files
+extraction_working_directory     ../../layout/temporary_files
+variants_file                    ../../layout/variants.txt
+part_model_mapping_file          ../../layout/part_model_mapping.txt
+extraction_control_file          ../../layout/extraction_control.csf
+connectors_file                  ../../layout/connectors.txt
+
+* Postlayout options
+*-------------------
+min_span                        /yes
+model_splits                    /yes
+sort_designators_numeric_flag   /yes
+
+* IO Characterization
+*--------------------
+sims_test_models                 ../../io_char
+
+* Spice2IBIS
+*--------------------
+sims_spice2ibis                  ../../spice2ibis
+
+* Spice Netlist Options
+*--------------------
+flatten                          /no
+separate_std_load_sims           /yes
+skip_std_load_sims               /no
+
+* si_lib symbolic link created in sims directory. Required with flatten /no
+*--------------------
+sims_env                         "../../si_lib PROJECT_SI_LIB"
+sims_env 			 "$SIA_INSTALL_DIR/share/si_lib SISOFT_SI_LIB"
+
+* Library Search Path for transfer net lists, parts
+* IBIS, Timing, and Hspice models
+*--------------------
+transfer_net_list_dir           ../../managed_data/ref_tnls
+
+part_properties_dir              $PROJECT_SI_LIB/parts
+rules_dir                        $PROJECT_SI_LIB/rules
+patterns_dir                     $PROJECT_SI_LIB/patterns
+
+ibis_models                      $PROJECT_SI_LIB/ibis
+snp_models                       $PROJECT_SI_LIB/spice/s_params
+snp_models                       $PROJECT_SI_LIB/spice/connectors
+snp_models                       $PROJECT_SI_LIB/spice/packages
+
+timing_models                    $PROJECT_SI_LIB/timing
+
+wline_working_dir                working_area/wlines
+
+wline_models                    $PROJECT_SI_LIB/spice/wlines
+wline_models                    $PROJECT_SI_LIB/spice/packages
+wline_models                    $PROJECT_SI_LIB/spice/connectors
+
+spice_models                    $PROJECT_SI_LIB/spice/std_load
+spice_models                    $PROJECT_SI_LIB/spice/discretes
+spice_models                    $PROJECT_SI_LIB/spice/sia_wrappers
+
+spice_models                    $PROJECT_SI_LIB/spice/io_models
+spice_models                    $PROJECT_SI_LIB/spice/padstacks
+spice_models                    $PROJECT_SI_LIB/spice/s_params
+spice_models                    $PROJECT_SI_LIB/spice/connectors
+spice_models                    $PROJECT_SI_LIB/spice/misc_models
+
+user_supplied_waveforms  	$PROJECT_SI_LIB/waveforms
+
+connector_models                $PROJECT_SI_LIB/spice/connectors
+
+
+part_properties_dir              $SIA_INSTALL_DIR/share/si_lib/parts
+rules_dir                        $SIA_INSTALL_DIR/share/si_lib/rules
+patterns_dir                     $SIA_INSTALL_DIR/share/si_lib/patterns
+
+ibis_models                      $SIA_INSTALL_DIR/share/si_lib/ibis
+snp_models                       $SIA_INSTALL_DIR/share/si_lib/spice/s_params
+snp_models                       $SIA_INSTALL_DIR/share/si_lib/spice/connectors
+snp_models                       $SIA_INSTALL_DIR/share/si_lib/spice/packages
+						  
+timing_models                    $SIA_INSTALL_DIR/share/si_lib/timing
+						  
+wline_models                    $SIA_INSTALL_DIR/share/si_lib/spice/wlines
+wline_models                    $SIA_INSTALL_DIR/share/si_lib/spice/packages
+wline_models                    $SIA_INSTALL_DIR/share/si_lib/spice/connectors
+
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/std_load
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/discretes
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/sia_wrappers
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/io_models
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/padstacks
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/s_params
+spice_models                    $SIA_INSTALL_DIR/share/si_lib/spice/connectors
+
+connector_models                $SIA_INSTALL_DIR/share/si_lib/spice/connectors
+
+
+* Spectral Tables Directories
+*-----------
+spectral_tables	$PROJECT_SI_LIB/spectral_tables
+spectral_tables	$SIA_INSTALL_DIR/share/si_lib/spectral_tables

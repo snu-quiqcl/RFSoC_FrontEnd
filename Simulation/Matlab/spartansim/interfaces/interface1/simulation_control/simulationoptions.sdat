@@ -1,0 +1,18 @@
+ibis_model_vt prefer_vt_curves
+skip_std_load false
+io_corner_voltage scale_typ_voltage_range
+qcd_io_corner_voltage use_typ_min_max_voltage_range
+spice_simulator Default
+prelayout_statistical_analysis true
+postlayout_statistical_analysis true
+prelayout_time_domain_analysis false
+postlayout_time_domain_analysis false
+delete_spice_results true
+one_directory_per_simulation true
+prelayout_simulation_options t t t t t t t t t t f t t t t t t t
+postlayout_simulation_options t t t t t t t t t t f t t t t t t t
+qcd_prelayout_simulation_options t t t t f t t f f f f f t t f t t f
+qcd_postlayout_simulation_options t t t t f t t f f f f f t t f t t f
+crosstalk_simulation_options t t t t t t t t t t f t t t t t t f
+spice_to_IBIS_simulation_options t t t t t t t t t t f t t t t f t f
+crosstalk_options f f f t t t f f f t

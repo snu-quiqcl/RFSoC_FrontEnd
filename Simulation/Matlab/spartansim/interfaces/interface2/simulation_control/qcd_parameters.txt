@@ -1,0 +1,69 @@
+* Serial Link Designer parameters
+	
+Samples_Per_Bit 16
+Max_Channel_Delay 20nS
+Target_BER 1.e-12,1.e-9,1.e-6,1.e-3
+Minimum_Ignore_Bits 10000UI
+Max_Input_Frequency Auto
+Max_Output_Frequency Auto
+S_Param_Frequency_Step Auto
+
+* Serial Link Designer Time domain simulation parameters
+
+Record_Start 997500UI      
+Record_Bits 2500UI 
+Time_Domain_Stop 1000000UI     
+Block_Size 1024       
+Clock_Mode Clocked
+Output_Clock_Ticks No
+STATify None
+Results_Storage_Control All
+
+* Serial Link Designer Widebus parameters	
+
+Time_Domain_Crosstalk_Mode Semi_Analytic
+
+* Control of Imported S-Parameters
+
+Enforce_Passivity No
+Enforce_Passivity No
+
+* SPICE simulation parameters
+
+SPICE_Rise_Time 10ps 
+SPICE_Sample_Interval  10ps
+SPICE_Buffer_Models IBIS/SPICE
+
+* SPICE Step Response parameters
+
+SPICE_Ignore_Bits  0UI
+SPICE_Step_Stop   50UI
+
+* SPICE Time Domain parameters
+
+SPICE_Time_Domain_Stop 500UI 
+
+* S-Parameter Control
+
+Include_IBIS_Package Yes
+* Miscellaneous
+
+Conductor_Roughness 0.15
+
+* Serial Link Designer Simulation Flows
+
+NC/TD_Simulation_Mode Prefer_Native/Native
+
+* Spectral Tables
+
+Tx_Spectral_Table " "
+Rx_Spectral_Table " "
+Spectral_Analysis_Resolution_BW 100kHz
+
+* Clock Analysis Mode
+
+Clock_Analysis No
+
+* Burst Pattern Bits
+
+Burst_Pattern_Bits 0UI

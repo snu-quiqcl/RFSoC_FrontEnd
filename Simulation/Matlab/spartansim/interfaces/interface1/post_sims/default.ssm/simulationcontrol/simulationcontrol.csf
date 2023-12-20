@@ -1,0 +1,6 @@
+ac_noise_source default
+corner TTTE
+crosstalk_incremental no
+si_timing_incremental no
+simulation_mode si_timing
+Use_Pre_AMI_Parameters No

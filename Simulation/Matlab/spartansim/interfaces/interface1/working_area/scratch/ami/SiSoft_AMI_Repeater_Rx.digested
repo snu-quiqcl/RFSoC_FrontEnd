@@ -1,0 +1,60 @@
+* Version 1.0
+SiSoft_AMI_Rx Description "Generic SiSoft receiver model"
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Type String
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Value "6.0"
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Default 500000
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Description "DFE may take a half million bits to converge."
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Default 25
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Description "Number of aggressors is actually unlimited."
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Default True
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Description "Both impulse and parameters_out returned."
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Default True
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Description "GetWave is well and truly provided in the module."
+SiSoft_AMI_Rx.Reserved_Parameters.Repeater_Type Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Repeater_Type Type String
+SiSoft_AMI_Rx.Reserved_Parameters.Repeater_Type Value "Redriver"
+SiSoft_AMI_Rx.Reserved_Parameters.Repeater_Type Description "This is a Redriver, not a Retimer."
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Range 0.25 0.0 0.5
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Type Float
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Default 0.025
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Description "The receiver sensitivity for the SiSoft_AMI_Rx receiver."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Usage InOut
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Range 0 0 15
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Type Integer
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Default 0
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Description "Filter setting"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode List "fixed" "off" "auto"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Default "off"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Description "Control mode"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Usage Out
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Value 0.0
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Type UI
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Description "Recovered clock phase not used in Repeater Rx"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Value 0.0
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Type Float
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.ref Description "Reference clock offset not used in Repeater Rx"
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Type Integer
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Description "No DFE in Repeater Rx"
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Value "off"
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Type String
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Description "No DFE in Repeater Rx"
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Value 0
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Description "DFE feedback min latch overdrive."

@@ -1,0 +1,58 @@
+** Crosstalk Setup File
+****************************************************************
+* QCD/QSI Crosstalk Parameters for Crosstalk Scan
+**************************************************************** 
+*  Default model parameters 
+*
+default_delta_v                  3.3v
+default_delta_t                  1.0ns
+default_async_thresh            10%
+default_sync_thresh             10%
+default_self_thresh             0.05
+*
+****************************************************************
+* Physical limits for coupling
+*
+max_coupling_clearance          20mil
+*
+* Note: if there is no tandem crosstalk (crosstalk from traces on
+* adjacent layers, for example dual stripline layers) performance
+* can be improved by setting min_coupling_length to 30mil
+*
+min_coupling_length              9mil
+*
+****************************************************************
+* QSI Only: Crosstalk Simulation Parameters
+****************************************************************
+*
+* Note: NO Crosstalk Simulation in QCD (All variables below are ignored in QCD)
+*
+* Default crosstalk simulation parameters
+*
+* Victim/aggressor selection
+*
+victim_filter_sync_margin        0
+victim_filter_async_margin       0
+aggressor_filter                90%
+max_sims_per_aggressor          24
+ac_noise_sync_factor             1.0
+*
+* Default simple crosstalk models (when no IBIS model)
+*
+default_c_comp                   0.5pF
+default_Rdrv_High               50.0
+default_Rdrv_Low                50.0
+default_Rdrv_R                  50.0
+default_Rdrv_F                  50.0
+default_Rterm                    1.0Meg
+default_Vterm                    0.0
+*
+****************************************************************
+* Part model entries
+*
+* Can specify simple crosstalk models by part number
+*
+* Parts cannot span multiple lines
+* No blank space around =
+* Example:
+* part_model part=A82970-002 dv=5v dt=1ns async_thresh=.5 sync_thresh=10% c_comp=.5pf Rdrv_High=25 Rdrv_Low=30 Rdrv_R=35 Rdrv_F=20 Rterm=1Meg Vterm=2.3V

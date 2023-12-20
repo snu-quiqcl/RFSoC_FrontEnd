@@ -1,0 +1,113 @@
+Engine Version 23A.221221 Windows Wed Dec 20 20:48:11 2023
+Engine Arguments
+"C:\Program Files\MATLAB\R2023a\toolbox\si\apps\bin\win64\siaengine.exe"
+crosstalk_models
+project_client=C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/Matlab/spartansim/interfaces/interface2/interface2.qcd
+gui_version=SignalIntegrityToolbox
+user=alexi
+sim_type=Import
+user_preferences_dir=C:/Users/alexi/AppData/Roaming/MathWorks/MATLAB/R2023a/si_toolbox_shared/
+return_status_file=ipcFiles/0alexiretstat.eng0
+taxi=yes
+product=qcd
+units=mm_um
+argumentlist=ipcFiles/0alexiargs.eng0
+interface=C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/Matlab/spartansim/interfaces/interface2/interface2.qcd
+Server=None
+taxi=yes
+ 
+project_file                      C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\interface2.qcd C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\interface2.qcd
+DB_VERSION                        5.0                                          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\5.0
+TRANSFER_NET_DIR                  tnets                                        C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\tnets
+PROJECT_INCLUDE                   ..\..\managed_data\project.cpf               C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\project.cpf
+DB_VERSION                        5.0                                          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\5.0
+PROJECT_DEFAULTS                  ..\..\managed_data\project_defaults          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\project_defaults
+CONDITIONS_FILE                   ..\..\managed_data\corner.cnd                C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\corner.cnd
+CLOCK_DOMAIN_FILE                 ..\..\managed_data\clock_domain.txt          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\clock_domain.txt
+SKEW_DATA_FILE                    ..\..\managed_data\clock_skew.txt            C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\clock_skew.txt
+SIMULATION_CONTROL                simulation_control                           C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\simulation_control
+SCRATCH_DIRECTORY                 working_area\scratch                         C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\scratch
+USE_INTERFACES_DIR                \yes                                         \yes
+LOG_DIRECTORY                     logs                                         C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\logs
+CONSOLE_LOG                       logs\siaengine.log                           C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\logs\siaengine.log
+GUI_CONSOLE_LOG                   logs\siauditor.log                           C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\logs\siauditor.log
+PROJECTFILEVALIDATIONLOG          logs\projectfilevalidation.log               C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\logs\projectfilevalidation.log
+LOGS_EXTRACT                      ..\..\layout\logs                            C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\logs
+SIMS_PRE                          pre_sims                                     C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\pre_sims
+TOPO_PRE_SUBCIRCUITS              pre_subckts                                  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\pre_subckts
+TOPO_PRE_SUBCIRCUITS              post2pre_subckts                             C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\post2pre_subckts
+SIMS_POST                         post_sims                                    C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\post_sims
+POST_TSC                          post2pre_subckts                             C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\post2pre_subckts
+NET_TRANSFER_NET                  working_area\postlayout\net_transfer_net.txt C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\postlayout\net_transfer_net.txt
+PARTS_LIST_FILE                   working_area\postlayout\complist.txt         C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\postlayout\complist.txt
+NET_LIST_FILE                     ..\..\layout\netlists.txt                    C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\netlists.txt
+TOPO_POST_SUBCIRCUITS             ..\..\layout\extracted_subckts               C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\extracted_subckts
+VOLTAGES_FILE                     ..\..\layout\voltages.txt                    C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\voltages.txt
+CROSSTALK_SETUP_FILE              ..\..\layout\crosstalk_setup.txt             C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\crosstalk_setup.txt
+POST_LAYOUT_CONTROL               working_area\postlayout                      C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\postlayout
+BOARD_DATA_DIRECTORY              ..\..\layout\brd_files                       C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\brd_files
+EXTRACTION_INFORMATION_DIRECTORY  ..\..\layout\brd_files                       C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\brd_files
+EXTRACTION_WORKING_DIRECTORY      ..\..\layout\temporary_files                 C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\temporary_files
+VARIANTS_FILE                     ..\..\layout\variants.txt                    C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\variants.txt
+PART_MODEL_MAPPING_FILE           ..\..\layout\part_model_mapping.txt          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\part_model_mapping.txt
+EXTRACTION_CONTROL_FILE           ..\..\layout\extraction_control.csf          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\extraction_control.csf
+CONNECTORS_FILE                   ..\..\layout\connectors.txt                  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout\connectors.txt
+MIN_SPAN                          \yes                                         \yes
+MODEL_SPLITS                      \yes                                         \yes
+SORT_DESIGNATORS_NUMERIC_FLAG     \yes                                         \yes
+SIMS_TEST_MODELS                  ..\..\io_char                                C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\io_char
+SIMS_SPICE2IBIS                   ..\..\spice2ibis                             C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\spice2ibis
+FLATTEN                           \no                                          \no
+SEPARATE_STD_LOAD_SIMS            \yes                                         \yes
+SKIP_STD_LOAD_SIMS                \no                                          \no
+SIMS_ENV                          ..\..\si_lib PROJECT_SI_LIB                  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\si_lib PROJECT_SI_LIB
+SIMS_ENV                          $SIA_INSTALL_DIR\share\si_lib SISOFT_SI_LIB  $SIA_INSTALL_DIR\share\si_lib SISOFT_SI_LIB
+TRANSFER_NET_LIST_DIR             ..\..\managed_data\ref_tnls                  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\managed_data\ref_tnls
+PART_PROPERTIES_DIR               $PROJECT_SI_LIB\parts                        $PROJECT_SI_LIB\parts
+RULES_DIR                         $PROJECT_SI_LIB\rules                        $PROJECT_SI_LIB\rules
+PATTERNS_DIR                      $PROJECT_SI_LIB\patterns                     $PROJECT_SI_LIB\patterns
+IBIS_MODELS                       $PROJECT_SI_LIB\ibis                         $PROJECT_SI_LIB\ibis
+SNP_MODELS                        $PROJECT_SI_LIB\spice\s_params               $PROJECT_SI_LIB\spice\s_params
+SNP_MODELS                        $PROJECT_SI_LIB\spice\connectors             $PROJECT_SI_LIB\spice\connectors
+SNP_MODELS                        $PROJECT_SI_LIB\spice\packages               $PROJECT_SI_LIB\spice\packages
+TIMING_MODELS                     $PROJECT_SI_LIB\timing                       $PROJECT_SI_LIB\timing
+WLINE_WORKING_DIR                 working_area\wlines                          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\wlines
+WLINE_MODELS                      $PROJECT_SI_LIB\spice\wlines                 $PROJECT_SI_LIB\spice\wlines
+WLINE_MODELS                      $PROJECT_SI_LIB\spice\packages               $PROJECT_SI_LIB\spice\packages
+WLINE_MODELS                      $PROJECT_SI_LIB\spice\connectors             $PROJECT_SI_LIB\spice\connectors
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\std_load               $PROJECT_SI_LIB\spice\std_load
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\discretes              $PROJECT_SI_LIB\spice\discretes
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\sia_wrappers           $PROJECT_SI_LIB\spice\sia_wrappers
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\io_models              $PROJECT_SI_LIB\spice\io_models
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\padstacks              $PROJECT_SI_LIB\spice\padstacks
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\s_params               $PROJECT_SI_LIB\spice\s_params
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\connectors             $PROJECT_SI_LIB\spice\connectors
+SPICE_MODELS                      $PROJECT_SI_LIB\spice\misc_models            $PROJECT_SI_LIB\spice\misc_models
+USER_SUPPLIED_WAVEFORMS           $PROJECT_SI_LIB\waveforms                    $PROJECT_SI_LIB\waveforms
+CONNECTOR_MODELS                  $PROJECT_SI_LIB\spice\connectors             $PROJECT_SI_LIB\spice\connectors
+PART_PROPERTIES_DIR               $SIA_INSTALL_DIR\share\si_lib\parts          $SIA_INSTALL_DIR\share\si_lib\parts
+RULES_DIR                         $SIA_INSTALL_DIR\share\si_lib\rules          $SIA_INSTALL_DIR\share\si_lib\rules
+PATTERNS_DIR                      $SIA_INSTALL_DIR\share\si_lib\patterns       $SIA_INSTALL_DIR\share\si_lib\patterns
+IBIS_MODELS                       $SIA_INSTALL_DIR\share\si_lib\ibis           $SIA_INSTALL_DIR\share\si_lib\ibis
+SNP_MODELS                        $SIA_INSTALL_DIR\share\si_lib\spice\s_params $SIA_INSTALL_DIR\share\si_lib\spice\s_params
+SNP_MODELS                        $SIA_INSTALL_DIR\share\si_lib\spice\connectors $SIA_INSTALL_DIR\share\si_lib\spice\connectors
+SNP_MODELS                        $SIA_INSTALL_DIR\share\si_lib\spice\packages $SIA_INSTALL_DIR\share\si_lib\spice\packages
+TIMING_MODELS                     $SIA_INSTALL_DIR\share\si_lib\timing         $SIA_INSTALL_DIR\share\si_lib\timing
+WLINE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\wlines   $SIA_INSTALL_DIR\share\si_lib\spice\wlines
+WLINE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\packages $SIA_INSTALL_DIR\share\si_lib\spice\packages
+WLINE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\connectors $SIA_INSTALL_DIR\share\si_lib\spice\connectors
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\std_load $SIA_INSTALL_DIR\share\si_lib\spice\std_load
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\discretes $SIA_INSTALL_DIR\share\si_lib\spice\discretes
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\sia_wrappers $SIA_INSTALL_DIR\share\si_lib\spice\sia_wrappers
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\io_models $SIA_INSTALL_DIR\share\si_lib\spice\io_models
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\padstacks $SIA_INSTALL_DIR\share\si_lib\spice\padstacks
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\s_params $SIA_INSTALL_DIR\share\si_lib\spice\s_params
+SPICE_MODELS                      $SIA_INSTALL_DIR\share\si_lib\spice\connectors $SIA_INSTALL_DIR\share\si_lib\spice\connectors
+CONNECTOR_MODELS                  $SIA_INSTALL_DIR\share\si_lib\spice\connectors $SIA_INSTALL_DIR\share\si_lib\spice\connectors
+SPECTRAL_TABLES                   $PROJECT_SI_LIB\spectral_tables              $PROJECT_SI_LIB\spectral_tables
+SPECTRAL_TABLES                   $SIA_INSTALL_DIR\share\si_lib\spectral_tables $SIA_INSTALL_DIR\share\si_lib\spectral_tables
+layout_directory                  ..\..\layout                                 C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\layout
+SPICE_MODELS                      C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\snp C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\snp
+SPICE_MODELS                      working_area\scratch\s_params_cache          C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\working_area\scratch\s_params_cache
+SPICE_MODELS                      post2pre_subckts\s_params                    C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\post2pre_subckts\s_params
+SPICE_MODELS                      post2pre_subckts\vias                        C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface2\post2pre_subckts\vias

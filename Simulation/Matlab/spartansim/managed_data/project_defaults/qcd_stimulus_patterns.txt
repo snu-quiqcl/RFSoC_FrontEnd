@@ -1,0 +1,8 @@
+Pattern_Reserved default_pattern lfsr nbits=-1 sr_length=47 seed=37
+Pattern clock user b01 r=19 rb=1
+Pattern PRBS7_Victim lfsr nbits=127 sr_length=7 seed=1
+Pattern PRBS7_Aggressor lfsr nbits=127 sr_length=7 seed=63
+Pattern PRBS31_Victim lfsr nbits=2147483647 sr_length=31 seed=1
+Pattern PRBS31_Aggressor lfsr nbits=2147483647 sr_length=31 seed=1234567
+Pattern PRBS47_Victim lfsr nbits=140737488355327 sr_length=47 seed=1
+Pattern PRBS47_Aggressor lfsr nbits=140737488355327 sr_length=47 seed=2

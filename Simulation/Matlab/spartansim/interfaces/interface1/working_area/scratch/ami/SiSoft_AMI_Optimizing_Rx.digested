@@ -1,0 +1,257 @@
+* Version 1.0
+SiSoft_AMI_Rx Description "Generic SiSoft receiver model"
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Type String
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Value "6.0"
+SiSoft_AMI_Rx.Reserved_Parameters.AMI_Version Description "IBIS-AMI version."
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Default 500000
+SiSoft_AMI_Rx.Reserved_Parameters.Ignore_Bits Description "DFE may take 500,000 bits to converge."
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Type Integer
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Default 25
+SiSoft_AMI_Rx.Reserved_Parameters.Max_Init_Aggressors Description "# of aggressors is actually unlimited."
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Default True
+SiSoft_AMI_Rx.Reserved_Parameters.Init_Returns_Impulse Description "Impulse & parameters_out returned."
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Type Boolean
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Default True
+SiSoft_AMI_Rx.Reserved_Parameters.GetWave_Exists Description "GetWave is well and truly provided."
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Usage Info
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Type Float
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Range 0.0 0.0 0.1
+SiSoft_AMI_Rx.Reserved_Parameters.Rx_Receiver_Sensitivity Description "Rx latch sensitivity."
+SiSoft_AMI_Rx.Model_Specific.Rt Usage Info
+SiSoft_AMI_Rx.Model_Specific.Rt Type Float
+SiSoft_AMI_Rx.Model_Specific.Rt Range 50 10 200
+SiSoft_AMI_Rx.Model_Specific.Rt Description "Single ended termination impedance."
+SiSoft_AMI_Rx.Model_Specific.Cc Usage Info
+SiSoft_AMI_Rx.Model_Specific.Cc Type Float
+SiSoft_AMI_Rx.Model_Specific.Cc Range 0.05e-12 0 10e-12
+SiSoft_AMI_Rx.Model_Specific.Cc Description "Single ended load capacitance."
+SiSoft_AMI_Rx.Model_Specific.AGC.Mode Usage In
+SiSoft_AMI_Rx.Model_Specific.AGC.Mode Type String
+SiSoft_AMI_Rx.Model_Specific.AGC.Mode List "Off" "On"
+SiSoft_AMI_Rx.Model_Specific.AGC.Mode Description "Flag to turn AGC off and on."
+SiSoft_AMI_Rx.Model_Specific.AGC.Level Usage In
+SiSoft_AMI_Rx.Model_Specific.AGC.Level Type Float
+SiSoft_AMI_Rx.Model_Specific.AGC.Level Range 0.3 1e-5 2.0
+SiSoft_AMI_Rx.Model_Specific.AGC.Level Description "AGC saturation level."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode List "fixed" "off" "auto"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.mode Description "Control mode."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Usage InOut
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Type Integer
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Range 0 0 15
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.config Description "Filter setting."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.number_of_configs Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.number_of_configs Type Integer
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.number_of_configs Value 16
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.number_of_configs Description "Number of peaking filter configurations."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.0 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.0 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.0 Value "-6e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.1 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.1 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.1 Value "-5.9e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.2 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.2 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.2 Value "-5.8e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.3 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.3 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.3 Value "-5.7e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.4 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.4 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.4 Value "-5.6e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.5 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.5 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.5 Value "-5.5e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.6 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.6 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.6 Value "-5.4e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.7 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.7 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.7 Value "-5.3e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.8 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.8 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.8 Value "-5.2e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.9 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.9 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.9 Value "-5.1e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.10 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.10 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.10 Value "-5.0e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.11 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.11 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.11 Value "-4.9e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.12 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.12 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.12 Value "-4.8e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.13 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.13 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.13 Value "-4.7e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.14 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.14 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.14 Value "-4.6e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.15 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.15 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles.15 Value "-4.5e9 0 -7.25e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.poles Description "Poles for each config, in Hz, format as a string."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.0 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.0 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.0 Value "-3.125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.1 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.1 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.1 Value "-2.75e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.2 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.2 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.2 Value "-2.4375e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.3 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.3 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.3 Value "-2.125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.4 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.4 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.4 Value "-1.875e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.5 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.5 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.5 Value "-1.6875e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.6 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.6 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.6 Value "-1.5e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.7 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.7 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.7 Value "-1.3125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.8 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.8 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.8 Value "-1.125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.9 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.9 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.9 Value "-1.0e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.10 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.10 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.10 Value "-0.875e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.11 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.11 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.11 Value "-0.7875e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.12 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.12 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.12 Value "-0.6875e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.13 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.13 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.13 Value "-0.6125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.14 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.14 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.14 Value "-0.54375e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.15 Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.15 Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros.15 Value "-0.48125e9 0"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.zeros Description "Zeros for each config, in Hz, format as a string."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.gains Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.gains Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.gains Value "1.0 0.88 0.77 0.68 0.60 0.53 0.46 0.40 0.36 0.32 0.28 0.25 0.22 0.19 0.17 0.14"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.gains Description "Gain for each pole/zero configuration."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.pole_zero_data_rate Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.pole_zero_data_rate Type Float
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.pole_zero_data_rate Value 6.25e9
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.pole_zero_data_rate Description "Assumed data rate for pole zero data set. Enabled when scale_by_design_data_rate set to Yes."
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.scale_by_design_data_rate Usage In
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.scale_by_design_data_rate Type String
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.scale_by_design_data_rate List "Yes" "No"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.scale_by_design_data_rate Default "Yes"
+SiSoft_AMI_Rx.Model_Specific.peaking_filter.scale_by_design_data_rate Description "Whether or not to scale pole-zero data set by ratio of design_data_rate to pole_zero_data_rate."
+SiSoft_AMI_Rx.Model_Specific.Sat.Mode Usage In
+SiSoft_AMI_Rx.Model_Specific.Sat.Mode Type String
+SiSoft_AMI_Rx.Model_Specific.Sat.Mode List "Off" "On"
+SiSoft_AMI_Rx.Model_Specific.Sat.Mode Description "Flag to turn Saturation off and on."
+SiSoft_AMI_Rx.Model_Specific.Sat.X_Array Usage In
+SiSoft_AMI_Rx.Model_Specific.Sat.X_Array Type String
+SiSoft_AMI_Rx.Model_Specific.Sat.X_Array Value "-1.0 -.8 -.6 -.4 -.2 0 .2 .4 .6 .8 1.0"
+SiSoft_AMI_Rx.Model_Specific.Sat.X_Array Description "X values of Saturation Curve."
+SiSoft_AMI_Rx.Model_Specific.Sat.Y_Array Usage In
+SiSoft_AMI_Rx.Model_Specific.Sat.Y_Array Type String
+SiSoft_AMI_Rx.Model_Specific.Sat.Y_Array Value "-0.8 -.75 -.65 -.5 -.3 0 .3 .5 .65 .75 0.8"
+SiSoft_AMI_Rx.Model_Specific.Sat.Y_Array Description "Y values of Saturation Curve."
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Type String
+SiSoft_AMI_Rx.Model_Specific.dfe.mode List "off" "fixed" "auto" "adapt" "auto_fixed"
+SiSoft_AMI_Rx.Model_Specific.dfe.mode Description "DFE control mode."
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Type Integer
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Range 8 0 256
+SiSoft_AMI_Rx.Model_Specific.dfe.number_rx_tap Description "Number of taps in the DFE."
+SiSoft_AMI_Rx.Model_Specific.dfe.min_tap Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.min_tap Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.min_tap Range -1.0 -1.0 0
+SiSoft_AMI_Rx.Model_Specific.dfe.min_tap Description "Minimum value for all taps."
+SiSoft_AMI_Rx.Model_Specific.dfe.max_tap Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.max_tap Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.max_tap Range 1.0 0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.max_tap Description "Maximum value for all taps."
+SiSoft_AMI_Rx.Model_Specific.dfe.tap_step Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.tap_step Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.tap_step Range 1e-6 0 0.01
+SiSoft_AMI_Rx.Model_Specific.dfe.tap_step Description "Step size for all taps."
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.1 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.1 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.1 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.1 Description "DFE tap #1"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.2 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.2 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.2 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.2 Description "DFE tap #2"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.3 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.3 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.3 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.3 Description "DFE tap #3"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.4 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.4 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.4 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.4 Description "DFE tap #4"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.5 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.5 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.5 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.5 Description "DFE tap #5"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.6 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.6 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.6 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.6 Description "DFE tap #6"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.7 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.7 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.7 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.7 Description "DFE tap #7"
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.8 Usage InOut
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.8 Type Tap
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.8 Range 0 -1.0 1.0
+SiSoft_AMI_Rx.Model_Specific.dfe.taps.8 Description "DFE tap #8"
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Range 3e-6 1e-7 1e-5
+SiSoft_AMI_Rx.Model_Specific.dfe.gain Description "Control loop gain."
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Range 0 0 200e-3
+SiSoft_AMI_Rx.Model_Specific.dfe.sensitivity Description "DFE feedback min latch overdrive."
+SiSoft_AMI_Rx.Model_Specific.dfe.err_time Usage In
+SiSoft_AMI_Rx.Model_Specific.dfe.err_time Type Float
+SiSoft_AMI_Rx.Model_Specific.dfe.err_time Range -1 -1 1
+SiSoft_AMI_Rx.Model_Specific.dfe.err_time Description "Time at which a decision error is to occur."
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Usage Out
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Type UI
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Range 0.0 0.0 1.0
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.phase Description "Recovered clock phase."
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Type String
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode List "auto" "off" "fixed" "adapt"
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.mode Description "Control mode."
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Type Float
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Range 8e-3 1e-3 0.1
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.step Description "Recovered clock phase step."
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Usage In
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Type Integer
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Range 64 1 100
+SiSoft_AMI_Rx.Model_Specific.clock_recovery.count Description "Early or late count to trigger a phase step. Larger count makes narrower TD clock PDF."

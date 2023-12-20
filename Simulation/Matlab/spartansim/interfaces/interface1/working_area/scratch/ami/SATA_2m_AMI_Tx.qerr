@@ -1,0 +1,6 @@
+Wednesday 20 December 2023 11:35:29 UTC
+qcdengine license version 2014.05 for Windows64
+qcdengine release 2021.04plus051021
+  C:\Program Files\MATLAB\R2023a\toolbox\si\apps\bin\win64\qcdengine.exe  -c  ami2library  -f  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface1\working_area\scratch\ami\SATA_2m_AMI_Tx.ami  -o  C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\Matlab\spartansim\interfaces\interface1\working_area\scratch\ami\SATA_2m_AMI_Tx.digested
+
+***** job concluded.

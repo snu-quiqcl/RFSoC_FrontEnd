@@ -1,0 +1,13 @@
+* Project file for spartansim interface1
+
+* db_version should be the first key in the file.
+db_version 			5.0
+
+*** Project Overides - must be listed before project_include key
+
+*** Base Configuration
+transfer_net_dir                tnets
+project_include		        ../../managed_data/project.cpf
+
+
+

@@ -1,0 +1,414 @@
+#     
+# Quantum-SI Timing Model Template
+#
+MODEL: spartan7
+DESCRIPTION: Generated Timing Model
+SOURCE: Quantum-SI
+
+PARAMS:
+#######
+#    This optional section can be used to define AC specs as parameters to allow
+#    grouping of common signals. The Quantum-SI pre-processor can also handle
+#    algebraic expressions, the passing of parameters from the parts file, and 
+#    passing of clock domain values.
+#     
+#    All units are in ns
+#
+#    Syntax:
+#    <Variable Names> = <Variable Values>
+#
+#    Examples:
+#    DATA_SETUP      = 1.25
+#    DATA_HOLD       = 0.50
+#  
+#    CTRL_IN         = DATA_HOLD
+#  
+#    FREQUENCY = $clock_domain(sdram_clock)
+#    DATA_RATE = FREQUENCY / 2
+#    
+#    DATA_R_SETUP   = (DATA_RATE * 0.5) - 0.100
+#    DATA_F_SETUP   = (DATA_RATE * 0.5) - 0.150
+#    DATA_R_HOLD    = (DATA_RATE * 0.5) + 0.100
+#    DATA_F_HOLD    = (DATA_RATE * 0.5) + 0.150
+#
+
+END_PARAMS
+
+PINDEF: 341 PINS
+#######
+## This section defines each pin-name on the part by its signal type: input,
+#    output, bi-directional, or uninteresting. The pin names can be grouped
+#    by bus, or common timing function.
+## Syntax:
+#   <Timing Group Name> = <IBIS Model pin names>
+#
+ INPUTS
+  LVDS_25_DT_HR_AC_COUPL_P = LVDS_25_DT_HR_AC_COUPL_P,LVDS_25_DT_HR_AC_COUPL_N
+  LVDS_25_DT_HR_I_P = LVDS_25_DT_HR_I_P,LVDS_25_DT_HR_I_N
+  LVDS_25_HR_I_P = LVDS_25_HR_I_P,LVDS_25_HR_I_N
+  MINI_LVDS_25_DT_HR_AC_COUPL_P = MINI_LVDS_25_DT_HR_AC_COUPL_P,MINI_LVDS_25_DT_HR_AC_COUPL_N
+  MINI_LVDS_25_DT_HR_I_P = MINI_LVDS_25_DT_HR_I_P,MINI_LVDS_25_DT_HR_I_N
+  MINI_LVDS_25_HR_I_P = MINI_LVDS_25_HR_I_P,MINI_LVDS_25_HR_I_N
+  PPDS_25_DT_HR_AC_COUPL_P = PPDS_25_DT_HR_AC_COUPL_P,PPDS_25_DT_HR_AC_COUPL_N
+  PPDS_25_DT_HR_I_P = PPDS_25_DT_HR_I_P,PPDS_25_DT_HR_I_N
+  PPDS_25_HR_I_P = PPDS_25_HR_I_P,PPDS_25_HR_I_N
+  RSDS_25_DT_HR_AC_COUPL_P = RSDS_25_DT_HR_AC_COUPL_P,RSDS_25_DT_HR_AC_COUPL_N
+  RSDS_25_DT_HR_I_P = RSDS_25_DT_HR_I_P,RSDS_25_DT_HR_I_N
+  RSDS_25_HR_I_P = RSDS_25_HR_I_P,RSDS_25_HR_I_N
+  TMDS_33_HR_I_P = TMDS_33_HR_I_P,TMDS_33_HR_I_N
+## All input signals are listed in this section.
+## Example:
+#    CLK                =  CLOCK_IN
+#    DATA_I             =  DATA_IN<31:0>
+#    CTRL_I             =  ADDRESS<7:0>, WRITE_EN, RAS, CAS 
+#
+ OUTPUTS    
+  LVDS_25_HR_O_P = LVDS_25_HR_O_P,LVDS_25_HR_O_N
+  MINI_LVDS_25_HR_O_P = MINI_LVDS_25_HR_O_P,MINI_LVDS_25_HR_O_N
+  PPDS_25_HR_O_P = PPDS_25_HR_O_P,PPDS_25_HR_O_N
+  RSDS_25_HR_O_P = RSDS_25_HR_O_P,RSDS_25_HR_O_N
+  TMDS_33_HR_O_P = TMDS_33_HR_O_P,TMDS_33_HR_O_N
+## All output signals are listed in this section.
+## Example:
+#    DATA_O             = DATA_OUT<31:0>
+#    REFCLK_1		= CLOCK_OUT1, CLOCK_OUT3
+#    REFCLK_2		= CLOCK_OUT2, CLOCK_OUT4
+#
+ BIDIR
+  BLVDS_25_HR_P = BLVDS_25_HR_P,BLVDS_25_HR_N
+  DIFF_HSTL_I_18_F_HR_IN40_P = DIFF_HSTL_I_18_F_HR_IN40_P,DIFF_HSTL_I_18_F_HR_IN40_N
+  DIFF_HSTL_I_18_F_HR_IN50_P = DIFF_HSTL_I_18_F_HR_IN50_P,DIFF_HSTL_I_18_F_HR_IN50_N
+  DIFF_HSTL_I_18_F_HR_IN60_P = DIFF_HSTL_I_18_F_HR_IN60_P,DIFF_HSTL_I_18_F_HR_IN60_N
+  DIFF_HSTL_I_18_F_HR_P = DIFF_HSTL_I_18_F_HR_P,DIFF_HSTL_I_18_F_HR_N
+  DIFF_HSTL_I_18_S_HR_IN40_P = DIFF_HSTL_I_18_S_HR_IN40_P,DIFF_HSTL_I_18_S_HR_IN40_N
+  DIFF_HSTL_I_18_S_HR_IN50_P = DIFF_HSTL_I_18_S_HR_IN50_P,DIFF_HSTL_I_18_S_HR_IN50_N
+  DIFF_HSTL_I_18_S_HR_IN60_P = DIFF_HSTL_I_18_S_HR_IN60_P,DIFF_HSTL_I_18_S_HR_IN60_N
+  DIFF_HSTL_I_18_S_HR_P = DIFF_HSTL_I_18_S_HR_P,DIFF_HSTL_I_18_S_HR_N
+  DIFF_HSTL_I_F_HR_IN40_P = DIFF_HSTL_I_F_HR_IN40_P,DIFF_HSTL_I_F_HR_IN40_N
+  DIFF_HSTL_I_F_HR_IN50_P = DIFF_HSTL_I_F_HR_IN50_P,DIFF_HSTL_I_F_HR_IN50_N
+  DIFF_HSTL_I_F_HR_IN60_P = DIFF_HSTL_I_F_HR_IN60_P,DIFF_HSTL_I_F_HR_IN60_N
+  DIFF_HSTL_I_F_HR_P = DIFF_HSTL_I_F_HR_P,DIFF_HSTL_I_F_HR_N
+  DIFF_HSTL_I_S_HR_IN40_P = DIFF_HSTL_I_S_HR_IN40_P,DIFF_HSTL_I_S_HR_IN40_N
+  DIFF_HSTL_I_S_HR_IN50_P = DIFF_HSTL_I_S_HR_IN50_P,DIFF_HSTL_I_S_HR_IN50_N
+  DIFF_HSTL_I_S_HR_IN60_P = DIFF_HSTL_I_S_HR_IN60_P,DIFF_HSTL_I_S_HR_IN60_N
+  DIFF_HSTL_I_S_HR_P = DIFF_HSTL_I_S_HR_P,DIFF_HSTL_I_S_HR_N
+  DIFF_HSTL_II_18_F_HR_IN40_P = DIFF_HSTL_II_18_F_HR_IN40_P,DIFF_HSTL_II_18_F_HR_IN40_N
+  DIFF_HSTL_II_18_F_HR_IN50_P = DIFF_HSTL_II_18_F_HR_IN50_P,DIFF_HSTL_II_18_F_HR_IN50_N
+  DIFF_HSTL_II_18_F_HR_IN60_P = DIFF_HSTL_II_18_F_HR_IN60_P,DIFF_HSTL_II_18_F_HR_IN60_N
+  DIFF_HSTL_II_18_F_HR_P = DIFF_HSTL_II_18_F_HR_P,DIFF_HSTL_II_18_F_HR_N
+  DIFF_HSTL_II_18_S_HR_IN40_P = DIFF_HSTL_II_18_S_HR_IN40_P,DIFF_HSTL_II_18_S_HR_IN40_N
+  DIFF_HSTL_II_18_S_HR_IN50_P = DIFF_HSTL_II_18_S_HR_IN50_P,DIFF_HSTL_II_18_S_HR_IN50_N
+  DIFF_HSTL_II_18_S_HR_IN60_P = DIFF_HSTL_II_18_S_HR_IN60_P,DIFF_HSTL_II_18_S_HR_IN60_N
+  DIFF_HSTL_II_18_S_HR_P = DIFF_HSTL_II_18_S_HR_P,DIFF_HSTL_II_18_S_HR_N
+  DIFF_HSTL_II_F_HR_IN40_P = DIFF_HSTL_II_F_HR_IN40_P,DIFF_HSTL_II_F_HR_IN40_N
+  DIFF_HSTL_II_F_HR_IN50_P = DIFF_HSTL_II_F_HR_IN50_P,DIFF_HSTL_II_F_HR_IN50_N
+  DIFF_HSTL_II_F_HR_IN60_P = DIFF_HSTL_II_F_HR_IN60_P,DIFF_HSTL_II_F_HR_IN60_N
+  DIFF_HSTL_II_F_HR_P = DIFF_HSTL_II_F_HR_P,DIFF_HSTL_II_F_HR_N
+  DIFF_HSTL_II_S_HR_IN40_P = DIFF_HSTL_II_S_HR_IN40_P,DIFF_HSTL_II_S_HR_IN40_N
+  DIFF_HSTL_II_S_HR_IN50_P = DIFF_HSTL_II_S_HR_IN50_P,DIFF_HSTL_II_S_HR_IN50_N
+  DIFF_HSTL_II_S_HR_IN60_P = DIFF_HSTL_II_S_HR_IN60_P,DIFF_HSTL_II_S_HR_IN60_N
+  DIFF_HSTL_II_S_HR_P = DIFF_HSTL_II_S_HR_P,DIFF_HSTL_II_S_HR_N
+  DIFF_HSUL_12_F_HR_P = DIFF_HSUL_12_F_HR_P,DIFF_HSUL_12_F_HR_N
+  DIFF_HSUL_12_S_HR_P = DIFF_HSUL_12_S_HR_P,DIFF_HSUL_12_S_HR_N
+  DIFF_MOBILE_DDR_F_HR_P = DIFF_MOBILE_DDR_F_HR_P,DIFF_MOBILE_DDR_F_HR_N
+  DIFF_MOBILE_DDR_S_HR_P = DIFF_MOBILE_DDR_S_HR_P,DIFF_MOBILE_DDR_S_HR_N
+  DIFF_SSTL15_F_HR_IN40_P = DIFF_SSTL15_F_HR_IN40_P,DIFF_SSTL15_F_HR_IN40_N
+  DIFF_SSTL15_F_HR_IN50_P = DIFF_SSTL15_F_HR_IN50_P,DIFF_SSTL15_F_HR_IN50_N
+  DIFF_SSTL15_F_HR_IN60_P = DIFF_SSTL15_F_HR_IN60_P,DIFF_SSTL15_F_HR_IN60_N
+  DIFF_SSTL15_F_HR_P = DIFF_SSTL15_F_HR_P,DIFF_SSTL15_F_HR_N
+  DIFF_SSTL15_R_F_HR_IN40_P = DIFF_SSTL15_R_F_HR_IN40_P,DIFF_SSTL15_R_F_HR_IN40_N
+  DIFF_SSTL15_R_F_HR_IN50_P = DIFF_SSTL15_R_F_HR_IN50_P,DIFF_SSTL15_R_F_HR_IN50_N
+  DIFF_SSTL15_R_F_HR_IN60_P = DIFF_SSTL15_R_F_HR_IN60_P,DIFF_SSTL15_R_F_HR_IN60_N
+  DIFF_SSTL15_R_F_HR_P = DIFF_SSTL15_R_F_HR_P,DIFF_SSTL15_R_F_HR_N
+  DIFF_SSTL15_R_S_HR_IN40_P = DIFF_SSTL15_R_S_HR_IN40_P,DIFF_SSTL15_R_S_HR_IN40_N
+  DIFF_SSTL15_R_S_HR_IN50_P = DIFF_SSTL15_R_S_HR_IN50_P,DIFF_SSTL15_R_S_HR_IN50_N
+  DIFF_SSTL15_R_S_HR_IN60_P = DIFF_SSTL15_R_S_HR_IN60_P,DIFF_SSTL15_R_S_HR_IN60_N
+  DIFF_SSTL15_R_S_HR_P = DIFF_SSTL15_R_S_HR_P,DIFF_SSTL15_R_S_HR_N
+  DIFF_SSTL15_S_HR_IN40_P = DIFF_SSTL15_S_HR_IN40_P,DIFF_SSTL15_S_HR_IN40_N
+  DIFF_SSTL15_S_HR_IN50_P = DIFF_SSTL15_S_HR_IN50_P,DIFF_SSTL15_S_HR_IN50_N
+  DIFF_SSTL15_S_HR_IN60_P = DIFF_SSTL15_S_HR_IN60_P,DIFF_SSTL15_S_HR_IN60_N
+  DIFF_SSTL15_S_HR_P = DIFF_SSTL15_S_HR_P,DIFF_SSTL15_S_HR_N
+  DIFF_SSTL18_I_F_HR_IN40_P = DIFF_SSTL18_I_F_HR_IN40_P,DIFF_SSTL18_I_F_HR_IN40_N
+  DIFF_SSTL18_I_F_HR_IN50_P = DIFF_SSTL18_I_F_HR_IN50_P,DIFF_SSTL18_I_F_HR_IN50_N
+  DIFF_SSTL18_I_F_HR_IN60_P = DIFF_SSTL18_I_F_HR_IN60_P,DIFF_SSTL18_I_F_HR_IN60_N
+  DIFF_SSTL18_I_F_HR_P = DIFF_SSTL18_I_F_HR_P,DIFF_SSTL18_I_F_HR_N
+  DIFF_SSTL18_I_S_HR_IN40_P = DIFF_SSTL18_I_S_HR_IN40_P,DIFF_SSTL18_I_S_HR_IN40_N
+  DIFF_SSTL18_I_S_HR_IN50_P = DIFF_SSTL18_I_S_HR_IN50_P,DIFF_SSTL18_I_S_HR_IN50_N
+  DIFF_SSTL18_I_S_HR_IN60_P = DIFF_SSTL18_I_S_HR_IN60_P,DIFF_SSTL18_I_S_HR_IN60_N
+  DIFF_SSTL18_I_S_HR_P = DIFF_SSTL18_I_S_HR_P,DIFF_SSTL18_I_S_HR_N
+  DIFF_SSTL18_II_F_HR_IN40_P = DIFF_SSTL18_II_F_HR_IN40_P,DIFF_SSTL18_II_F_HR_IN40_N
+  DIFF_SSTL18_II_F_HR_IN50_P = DIFF_SSTL18_II_F_HR_IN50_P,DIFF_SSTL18_II_F_HR_IN50_N
+  DIFF_SSTL18_II_F_HR_IN60_P = DIFF_SSTL18_II_F_HR_IN60_P,DIFF_SSTL18_II_F_HR_IN60_N
+  DIFF_SSTL18_II_F_HR_P = DIFF_SSTL18_II_F_HR_P,DIFF_SSTL18_II_F_HR_N
+  DIFF_SSTL18_II_S_HR_IN40_P = DIFF_SSTL18_II_S_HR_IN40_P,DIFF_SSTL18_II_S_HR_IN40_N
+  DIFF_SSTL18_II_S_HR_IN50_P = DIFF_SSTL18_II_S_HR_IN50_P,DIFF_SSTL18_II_S_HR_IN50_N
+  DIFF_SSTL18_II_S_HR_IN60_P = DIFF_SSTL18_II_S_HR_IN60_P,DIFF_SSTL18_II_S_HR_IN60_N
+  DIFF_SSTL18_II_S_HR_P = DIFF_SSTL18_II_S_HR_P,DIFF_SSTL18_II_S_HR_N
+  DIFF_SSTL135_F_HR_IN40_P = DIFF_SSTL135_F_HR_IN40_P,DIFF_SSTL135_F_HR_IN40_N
+  DIFF_SSTL135_F_HR_IN50_P = DIFF_SSTL135_F_HR_IN50_P,DIFF_SSTL135_F_HR_IN50_N
+  DIFF_SSTL135_F_HR_IN60_P = DIFF_SSTL135_F_HR_IN60_P,DIFF_SSTL135_F_HR_IN60_N
+  DIFF_SSTL135_F_HR_P = DIFF_SSTL135_F_HR_P,DIFF_SSTL135_F_HR_N
+  DIFF_SSTL135_R_F_HR_IN40_P = DIFF_SSTL135_R_F_HR_IN40_P,DIFF_SSTL135_R_F_HR_IN40_N
+  DIFF_SSTL135_R_F_HR_IN50_P = DIFF_SSTL135_R_F_HR_IN50_P,DIFF_SSTL135_R_F_HR_IN50_N
+  DIFF_SSTL135_R_F_HR_IN60_P = DIFF_SSTL135_R_F_HR_IN60_P,DIFF_SSTL135_R_F_HR_IN60_N
+  DIFF_SSTL135_R_F_HR_P = DIFF_SSTL135_R_F_HR_P,DIFF_SSTL135_R_F_HR_N
+  DIFF_SSTL135_R_S_HR_IN40_P = DIFF_SSTL135_R_S_HR_IN40_P,DIFF_SSTL135_R_S_HR_IN40_N
+  DIFF_SSTL135_R_S_HR_IN50_P = DIFF_SSTL135_R_S_HR_IN50_P,DIFF_SSTL135_R_S_HR_IN50_N
+  DIFF_SSTL135_R_S_HR_IN60_P = DIFF_SSTL135_R_S_HR_IN60_P,DIFF_SSTL135_R_S_HR_IN60_N
+  DIFF_SSTL135_R_S_HR_P = DIFF_SSTL135_R_S_HR_P,DIFF_SSTL135_R_S_HR_N
+  DIFF_SSTL135_S_HR_IN40_P = DIFF_SSTL135_S_HR_IN40_P,DIFF_SSTL135_S_HR_IN40_N
+  DIFF_SSTL135_S_HR_IN50_P = DIFF_SSTL135_S_HR_IN50_P,DIFF_SSTL135_S_HR_IN50_N
+  DIFF_SSTL135_S_HR_IN60_P = DIFF_SSTL135_S_HR_IN60_P,DIFF_SSTL135_S_HR_IN60_N
+  DIFF_SSTL135_S_HR_P = DIFF_SSTL135_S_HR_P,DIFF_SSTL135_S_HR_N
+  HSTL_I_18_F_HR = HSTL_I_18_F_HR
+  HSTL_I_18_F_HR_IN40 = HSTL_I_18_F_HR_IN40
+  HSTL_I_18_F_HR_IN50 = HSTL_I_18_F_HR_IN50
+  HSTL_I_18_F_HR_IN60 = HSTL_I_18_F_HR_IN60
+  HSTL_I_18_S_HR = HSTL_I_18_S_HR
+  HSTL_I_18_S_HR_IN40 = HSTL_I_18_S_HR_IN40
+  HSTL_I_18_S_HR_IN50 = HSTL_I_18_S_HR_IN50
+  HSTL_I_18_S_HR_IN60 = HSTL_I_18_S_HR_IN60
+  HSTL_I_F_HR = HSTL_I_F_HR
+  HSTL_I_F_HR_IN40 = HSTL_I_F_HR_IN40
+  HSTL_I_F_HR_IN50 = HSTL_I_F_HR_IN50
+  HSTL_I_F_HR_IN60 = HSTL_I_F_HR_IN60
+  HSTL_I_S_HR = HSTL_I_S_HR
+  HSTL_I_S_HR_IN40 = HSTL_I_S_HR_IN40
+  HSTL_I_S_HR_IN50 = HSTL_I_S_HR_IN50
+  HSTL_I_S_HR_IN60 = HSTL_I_S_HR_IN60
+  HSTL_II_18_F_HR = HSTL_II_18_F_HR
+  HSTL_II_18_F_HR_IN40 = HSTL_II_18_F_HR_IN40
+  HSTL_II_18_F_HR_IN50 = HSTL_II_18_F_HR_IN50
+  HSTL_II_18_F_HR_IN60 = HSTL_II_18_F_HR_IN60
+  HSTL_II_18_S_HR = HSTL_II_18_S_HR
+  HSTL_II_18_S_HR_IN40 = HSTL_II_18_S_HR_IN40
+  HSTL_II_18_S_HR_IN50 = HSTL_II_18_S_HR_IN50
+  HSTL_II_18_S_HR_IN60 = HSTL_II_18_S_HR_IN60
+  HSTL_II_F_HR = HSTL_II_F_HR
+  HSTL_II_F_HR_IN40 = HSTL_II_F_HR_IN40
+  HSTL_II_F_HR_IN50 = HSTL_II_F_HR_IN50
+  HSTL_II_F_HR_IN60 = HSTL_II_F_HR_IN60
+  HSTL_II_S_HR = HSTL_II_S_HR
+  HSTL_II_S_HR_IN40 = HSTL_II_S_HR_IN40
+  HSTL_II_S_HR_IN50 = HSTL_II_S_HR_IN50
+  HSTL_II_S_HR_IN60 = HSTL_II_S_HR_IN60
+  HSUL_12_F_HR = HSUL_12_F_HR
+  HSUL_12_S_HR = HSUL_12_S_HR
+  LVCMOS12_F_4_HR = LVCMOS12_F_4_HR
+  LVCMOS12_F_8_HR = LVCMOS12_F_8_HR
+  LVCMOS12_F_12_HR = LVCMOS12_F_12_HR
+  LVCMOS12_S_4_HR = LVCMOS12_S_4_HR
+  LVCMOS12_S_8_HR = LVCMOS12_S_8_HR
+  LVCMOS12_S_12_HR = LVCMOS12_S_12_HR
+  LVCMOS15_F_4_HR = LVCMOS15_F_4_HR
+  LVCMOS15_F_8_HR = LVCMOS15_F_8_HR
+  LVCMOS15_F_12_HR = LVCMOS15_F_12_HR
+  LVCMOS15_F_16_HR = LVCMOS15_F_16_HR
+  LVCMOS15_S_4_HR = LVCMOS15_S_4_HR
+  LVCMOS15_S_8_HR = LVCMOS15_S_8_HR
+  LVCMOS15_S_12_HR = LVCMOS15_S_12_HR
+  LVCMOS15_S_16_HR = LVCMOS15_S_16_HR
+  LVCMOS18_F_4_HR = LVCMOS18_F_4_HR
+  LVCMOS18_F_8_HR = LVCMOS18_F_8_HR
+  LVCMOS18_F_12_HR = LVCMOS18_F_12_HR
+  LVCMOS18_F_16_HR = LVCMOS18_F_16_HR
+  LVCMOS18_F_24_HR = LVCMOS18_F_24_HR
+  LVCMOS18_S_4_HR = LVCMOS18_S_4_HR
+  LVCMOS18_S_8_HR = LVCMOS18_S_8_HR
+  LVCMOS18_S_12_HR = LVCMOS18_S_12_HR
+  LVCMOS18_S_16_HR = LVCMOS18_S_16_HR
+  LVCMOS18_S_24_HR = LVCMOS18_S_24_HR
+  LVCMOS25_F_4_HR = LVCMOS25_F_4_HR
+  LVCMOS25_F_8_HR = LVCMOS25_F_8_HR
+  LVCMOS25_F_12_HR = LVCMOS25_F_12_HR
+  LVCMOS25_F_16_HR = LVCMOS25_F_16_HR
+  LVCMOS25_S_4_HR = LVCMOS25_S_4_HR
+  LVCMOS25_S_8_HR = LVCMOS25_S_8_HR
+  LVCMOS25_S_12_HR = LVCMOS25_S_12_HR
+  LVCMOS25_S_16_HR = LVCMOS25_S_16_HR
+  LVCMOS33_F_4_HR = LVCMOS33_F_4_HR
+  LVCMOS33_F_8_HR = LVCMOS33_F_8_HR
+  LVCMOS33_F_12_HR = LVCMOS33_F_12_HR
+  LVCMOS33_F_16_HR = LVCMOS33_F_16_HR
+  LVCMOS33_S_4_HR = LVCMOS33_S_4_HR
+  LVCMOS33_S_8_HR = LVCMOS33_S_8_HR
+  LVCMOS33_S_12_HR = LVCMOS33_S_12_HR
+  LVCMOS33_S_16_HR = LVCMOS33_S_16_HR
+  LVTTL_F_4_HR = LVTTL_F_4_HR
+  LVTTL_F_8_HR = LVTTL_F_8_HR
+  LVTTL_F_12_HR = LVTTL_F_12_HR
+  LVTTL_F_16_HR = LVTTL_F_16_HR
+  LVTTL_F_24_HR = LVTTL_F_24_HR
+  LVTTL_S_4_HR = LVTTL_S_4_HR
+  LVTTL_S_8_HR = LVTTL_S_8_HR
+  LVTTL_S_12_HR = LVTTL_S_12_HR
+  LVTTL_S_16_HR = LVTTL_S_16_HR
+  LVTTL_S_24_HR = LVTTL_S_24_HR
+  MOBILE_DDR_F_HR = MOBILE_DDR_F_HR
+  MOBILE_DDR_S_HR = MOBILE_DDR_S_HR
+  PCI33_3_HR = PCI33_3_HR
+  SSTL15_F_HR = SSTL15_F_HR
+  SSTL15_F_HR_IN40 = SSTL15_F_HR_IN40
+  SSTL15_F_HR_IN50 = SSTL15_F_HR_IN50
+  SSTL15_F_HR_IN60 = SSTL15_F_HR_IN60
+  SSTL15_R_F_HR = SSTL15_R_F_HR
+  SSTL15_R_F_HR_IN40 = SSTL15_R_F_HR_IN40
+  SSTL15_R_F_HR_IN50 = SSTL15_R_F_HR_IN50
+  SSTL15_R_F_HR_IN60 = SSTL15_R_F_HR_IN60
+  SSTL15_R_S_HR = SSTL15_R_S_HR
+  SSTL15_R_S_HR_IN40 = SSTL15_R_S_HR_IN40
+  SSTL15_R_S_HR_IN50 = SSTL15_R_S_HR_IN50
+  SSTL15_R_S_HR_IN60 = SSTL15_R_S_HR_IN60
+  SSTL15_S_HR = SSTL15_S_HR
+  SSTL15_S_HR_IN40 = SSTL15_S_HR_IN40
+  SSTL15_S_HR_IN50 = SSTL15_S_HR_IN50
+  SSTL15_S_HR_IN60 = SSTL15_S_HR_IN60
+  SSTL18_I_F_HR = SSTL18_I_F_HR
+  SSTL18_I_F_HR_IN40 = SSTL18_I_F_HR_IN40
+  SSTL18_I_F_HR_IN50 = SSTL18_I_F_HR_IN50
+  SSTL18_I_F_HR_IN60 = SSTL18_I_F_HR_IN60
+  SSTL18_I_S_HR = SSTL18_I_S_HR
+  SSTL18_I_S_HR_IN40 = SSTL18_I_S_HR_IN40
+  SSTL18_I_S_HR_IN50 = SSTL18_I_S_HR_IN50
+  SSTL18_I_S_HR_IN60 = SSTL18_I_S_HR_IN60
+  SSTL18_II_F_HR = SSTL18_II_F_HR
+  SSTL18_II_F_HR_IN40 = SSTL18_II_F_HR_IN40
+  SSTL18_II_F_HR_IN50 = SSTL18_II_F_HR_IN50
+  SSTL18_II_F_HR_IN60 = SSTL18_II_F_HR_IN60
+  SSTL18_II_S_HR = SSTL18_II_S_HR
+  SSTL18_II_S_HR_IN40 = SSTL18_II_S_HR_IN40
+  SSTL18_II_S_HR_IN50 = SSTL18_II_S_HR_IN50
+  SSTL18_II_S_HR_IN60 = SSTL18_II_S_HR_IN60
+  SSTL135_F_HR = SSTL135_F_HR
+  SSTL135_F_HR_IN40 = SSTL135_F_HR_IN40
+  SSTL135_F_HR_IN50 = SSTL135_F_HR_IN50
+  SSTL135_F_HR_IN60 = SSTL135_F_HR_IN60
+  SSTL135_R_F_HR = SSTL135_R_F_HR
+  SSTL135_R_F_HR_IN40 = SSTL135_R_F_HR_IN40
+  SSTL135_R_F_HR_IN50 = SSTL135_R_F_HR_IN50
+  SSTL135_R_F_HR_IN60 = SSTL135_R_F_HR_IN60
+  SSTL135_R_S_HR = SSTL135_R_S_HR
+  SSTL135_R_S_HR_IN40 = SSTL135_R_S_HR_IN40
+  SSTL135_R_S_HR_IN50 = SSTL135_R_S_HR_IN50
+  SSTL135_R_S_HR_IN60 = SSTL135_R_S_HR_IN60
+  SSTL135_S_HR = SSTL135_S_HR
+  SSTL135_S_HR_IN40 = SSTL135_S_HR_IN40
+  SSTL135_S_HR_IN50 = SSTL135_S_HR_IN50
+  SSTL135_S_HR_IN60 = SSTL135_S_HR_IN60
+## All bi-directional signals are listed in this section.
+## Example:
+#    DATA_IO            =  D_A_<3:0>, D_B_<7:4>, D_C_<11:8>, D_D_<15:12>
+#
+ UNINTERESTING
+## All other signals are listed in this section. No timing will be done on 
+#    any of these signals, but any miscellaneous signals can be included 
+#    for completeness and to eliminate coverage warnings in Validation.
+## Example:
+#    MISC               = AUD_BITCLK_A_H,AUD_SYNC_A_H,EXT_<11:0>_H,USB_PRTPWR_<2:0>_L,\
+#		          USB_VD_<5:0>_N,USB_VD_<5:0>_P
+#
+END_PINDEF
+
+######
+## All of the timing relationships between the signals on this component are defined
+#    in the following section. 
+#
+##############################################
+### Input timing relationships: (Setup & Hold)
+##############################################
+#
+#    All input pin timing constraints are defined using the 'SETHLD'
+#    keyword. Note that setup and hold constraints can be defined using 1, 2,
+#    or 4 values giving the user flexibility to define timing constraints
+#    at the required granularity. In the examples below, setup and hold
+#    constraints are defined for all pins in the "Data Timing Group" relative
+#    to the defined "Edge" (rising or falling) of all pins in the "Clock Timing Group"
+#    
+#    Syntax:
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup/Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup Time> <Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <R Setup Time> <F Setup Time> <R Hold Time> <F Hold Time>
+#    
+#    Examples:
+#    SETHLD  CTRL_I   *TO  R  CLK  CTRL_IN
+#    SETHLD  DATA_I   *TO  F  CLK  DATA_SETUP    DATA_HOLD
+#    SETHLD  DATA_IO  *TO  R  CLK  DATA_R_SETUP  DATA_F_SETUP  DATA_R_HOLD  DATA_F_HOLD 
+#
+###########################################
+## Output timing: Synchronous Output delays 
+###########################################
+#
+#    The DELAY, DELAY_CORRELATED, and DELAY_ANTICORRELATED keywords are used to
+#    define synchronous output timing relationships between the data and clock
+#    timing groups defined in the PINDEF section above. To define output timing
+#    relationships on both rising and falling edges, multiple delay statements
+#    are required. Note that Clock-to-out (Tco) delay values can be defined
+#    using 2 or 4 values, giving the user flexibility to define output
+#    timing relationships at the required granularity. In the examples below,
+#    output timing relationships are defined for all pins in the "Data Timing
+#    Group" relative to the defined "Edge" (rising or falling) of all pins in
+#    the "Clock Timing Group".
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Min> <Tco Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Rmin> <Tco Rmax> <Tco Fmin> <Tco Fmax>
+#    
+#    When the 'DELAY' keyword is used, synchronous timing is done using both the
+#    'Tco Min' and 'Tco Max' delay values for each process corner (FF and
+#    SS). This is a worst-case analysis.
+#    
+#    When the 'DELAY_C' or 'DELAY_CORRELATED' keyword is used, synchronous timing
+#    is done using the 'Tco Min' value for the FF process corner, and the 
+#    'Tco Max' delay value for the SS process corner timing calculation. This
+#    is a correlative analysis.
+#
+#    When the 'DELAY_A' or 'DELAY_ANTI_CORRELATED' keyword is used, synchronous
+#    timing is done using the 'Tco Max' value for the FF process corner, and
+#    the 'Tco Min' delay value for the SS process corner timing calculation.
+#    This is another form of correlated analysis.
+#    
+#    Examples:
+#    DELAY                  R  CLK  *TO  DATA_IO  1.0  5.2
+#    DELAY_C                R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#    DELAY_CORRELATED       R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#  
+#
+##################################################
+## Output timing: Dynamic clock skew output delays
+##################################################
+#    The 'CLOCK_SKEW' keyword is used to define the out-to-out skew between two
+#    output clock timing groups.  To define output timing relationships on both
+#    rising and falling edges, multiple delay statements are required. This
+#    skew along with associated interconnect delays for the source and target
+#    clocks are used to determine the setup skew and hold skew used in
+#    synchronous dynamic skew clock timing analysis. Note: for loopback
+#    clocks, the two timing groups can be the same.
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Clock Timing Group> <Min>  <Max>
+#     
+#    Example:
+#    CLOCK_SKEW  R  REFCLK_1  *TO  REFCLK_2  SKEW_MIN  SKEW_MAX
+#
+#################################################
+## Output timing: Source Synchronous Output delays
+#################################################
+#     
+#    The 'DELAY_SKEW' or 'DELAY_S' keywords are used to define the
+#    source-synchronous timing relationships between the timing groups defined
+#    in the PINDEF section above.  Typically, these are defined between output
+#    pins of a source synchronous bus.  However, these can be defined using and
+#    input clock timing group in loop-back clocking scenarios. To analyze
+#    timing on both edges, multiple delay statements are required.  Note that
+#    source synchronous delay values can be defined using 2, or 4 values.
+#     
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <DS_Min> <DS_Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Rmin> <Rmax> <Fmin> <Fmax>
+#
+#    Examples:
+#    DELAY_SKEW  R  STROBE  *TO  DATA_O  DS_MIN   DS_MAX
+#    DELAY_S     R  STROBE  *TO  DATA_O  DS_RMIN  DS_RMAX  DS_FMIN  DS_FMAX
+
+END_MODEL
+

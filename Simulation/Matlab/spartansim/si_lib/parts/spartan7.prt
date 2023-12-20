@@ -1,0 +1,6 @@
+part spartan7
+ibis_file spartan7.ibs
+ibis_component SPARTAN7
+timing_file spartan7.tmg
+timing_model spartan7
+cad_part spartan7

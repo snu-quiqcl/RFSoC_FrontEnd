@@ -1,0 +1,7 @@
+*Global data for Interfaceinterface2 in Case Mode
+last_schematic_set set1
+reference_schematic_set set1
+
+*	Schematic Set Global Variables:
+*Default AC Noise:
+ac_noise +/-0.00V

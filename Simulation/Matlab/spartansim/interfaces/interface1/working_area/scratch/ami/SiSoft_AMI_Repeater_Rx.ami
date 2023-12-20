@@ -1,0 +1,45 @@
+(SiSoft_AMI_Rx
+   (Description "Generic SiSoft receiver model")
+| Copyright 2021, The MathWorks, Inc.
+
+
+   (Reserved_Parameters
+      (AMI_Version (Usage Info) (Type String) (Value "6.0"))
+      (Ignore_Bits (Usage Info) (Type Integer) (Default 500000)
+         (Description "DFE may take a half million bits to converge."))
+      (Max_Init_Aggressors (Usage Info) (Type Integer) (Default 25)
+         (Description "Number of aggressors is actually unlimited."))
+      (Init_Returns_Impulse (Usage Info) (Type Boolean) (Default True)
+         (Description "Both impulse and parameters_out returned."))
+      (GetWave_Exists (Usage Info) (Type Boolean) (Default True)
+         (Description "GetWave is well and truly provided in the module."))
+      (Repeater_Type (Usage Info) (Type String) (Value "Redriver")
+         (Description "This is a Redriver, not a Retimer."))
+      (Rx_Receiver_Sensitivity (Usage Info)(Format Range 0.25 0.0 0.5)
+         (Type Float)(Default 0.025)
+         (Description "The receiver sensitivity for the SiSoft_AMI_Rx receiver."))
+   ) | End Reserved_Parameters
+
+   (Model_Specific
+      (peaking_filter
+         (config (Usage InOut)(Range 0 0 15)(Type Integer)(Default 0)
+            (Description "Filter setting"))
+         (mode (Usage In)(List "fixed" "off" "auto")(Type String) 
+            (Default "off")(Description "Control mode"))
+      )
+      (clock_recovery
+         (phase (Usage Out)(Value 0.0)(Type UI)
+             (Description "Recovered clock phase not used in Repeater Rx"))
+         (ref (Usage In)(Value 0.0)(Type Float)
+             (Description "Reference clock offset not used in Repeater Rx"))
+      )
+      (dfe
+         (number_rx_tap (Usage In)(Value 0)(Type Integer)
+             (Description "No DFE in Repeater Rx"))
+         (mode (Usage In)(Value "off")(Type String)
+             (Description "No DFE in Repeater Rx"))
+         (sensitivity (Usage In)(Type Float)(Format Value 0)
+             (Description "DFE feedback min latch overdrive."))
+      )
+   ) | End Model_Specific
+) | End SiSoft_AMI_Rx

@@ -1,0 +1,73 @@
+(CycleMeasurements 
+ ("PMOD2BNCSIMPLE_V1_04.U1.1" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 1.14e-08 ) 
+   (vinit 2.29099 ) ) 
+  (Cycles 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 2 ) 
+      (time 2.26345e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.8 ) 
+      (time 2.38407e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.00590541 ) 
+       (time 3.20069e-08 ) ) 
+      (minimum 
+       (volt -0.109355 ) 
+       (time 2.72488e-08 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.8 ) 
+      (time 3.32592e-08 ) ) 
+     (FirstSwitch 
+      (volt 2 ) 
+      (time 3.59813e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 2.26405 ) 
+       (time 4.23328e-08 ) ) 
+      (minimum 
+       (volt 2.16374 ) 
+       (time 3.79264e-08 ) ) ) ) ) ) ) 
+ ("PMOD2BNCSIMPLE_V1_04.J1.11" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 0 ) 
+   (vinit 2.29099 ) ) 
+  (Cycles 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 2 ) 
+      (time 1.10172e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.8 ) 
+      (time 1.1425e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.000510369 ) 
+       (time 1.27535e-08 ) ) 
+      (minimum 
+       (volt -0.00135135 ) 
+       (time 1.22033e-08 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.8 ) 
+      (time 2.14103e-08 ) ) 
+     (FirstSwitch 
+      (volt 2 ) 
+      (time 2.41443e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 2.29059 ) 
+       (time 3.07037e-08 ) ) 
+      (minimum 
+       (volt 2.29059 ) 
+       (time 3.07037e-08 ) ) ) ) ) ) ) ) 

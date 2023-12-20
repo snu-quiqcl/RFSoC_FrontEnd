@@ -1,0 +1,46 @@
+**** Tlsim Version 16.2 ****
+
+**** Tlsim command line ****
+ tlsim -e 2.090000e+03 -r 0.100000 -o waveforms.sim -dl delay.dl -dst distortion.dst -log tlsim.log -ocycle cycle.msm main.spc
+
+
+Number of Nodes in this circuit = 21
+
+
+Statistics on N-line elements:
+ Number of 'n' type multi-conductor elements = 4
+ Type-of-N-element  #elms Max_Length TotalLength
+
+ 1-line-N-elm     4   0.0581254    0.0601721
+ Total Interconnect Length = 0.0601721
+ Total Coupled Length = 0
+
+ Following is some statistics on Model usage
+   Model-Type      Model-Name     Number-of-Models-in-this-circuit
+
+   bdrvr         SPARTAN7_LVCMOS33_S_12_HR_Typ_27degC               1 
+   bdrvr         CDSDefaultTristate_3p3v_Typ_27degC               1 
+  No of 'Bdrvr' type model instance = 2
+
+ Time Step at Start = 8.3e-11
+
+
+
+ Simulation will start at t=0 and end at t=2.09008e-06. 
+
+
+
+ Simulation Complete 
+
+
+**** Transient Simulation Statistics ****
+
+    Number Of time step solutions = 25182
+
+**** Tlsim Run Times ****
+
+    Start time = Thu Dec 21 00:21:57 2023
+
+    Finish time = Thu Dec 21 00:21:58 2023
+
+    Elapsed time = 0 hours, 0 minutes, and 1 seconds

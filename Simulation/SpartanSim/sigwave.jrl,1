@@ -1,0 +1,20 @@
+\t (00:00:00) sigwave 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Dec 21 00:27:06 2023
+\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=28244 CPUs=20
+\t (00:00:00) CmdLine= sigwave _NODOC_ -pid Waveform27688
+\t (00:00:00) 
+   (00:00:00) Loading sigwave.cxt 
+\i (00:00:01) setwindow main
+\i (00:00:01) deselect all
+\i (00:00:01) zoom fit
+\i (00:00:02) graph mode eye
+\i (00:00:05) select waveform "PMOD2BNCSIMPLE_V1_04 U1 1"
+\i (00:00:09) color index 4
+\i (00:00:10) select waveform "PMOD2BNCSIMPLE_V1_04 J1 11"
+\i (00:00:11) hide
+\i (00:00:11) select "horizontal marker" Vmeas_fall
+\i (00:00:11) hide
+\i (00:00:11) select "horizontal marker" Vmeas_rise
+\i (00:00:11) hide
+\i (00:00:51) deselect all
+\t (00:00:51)     Journal end - Thu Dec 21 00:27:56 2023

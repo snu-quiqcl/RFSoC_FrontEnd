@@ -1,0 +1,9 @@
+* This is an example voltage file. The information in this file
+* is used in postlayout extraction to assign voltages to power
+* and ground nets.
+*
+* Netname      Voltage
+* =======      =======
+* GND            0.0V
+* VDD_33         3.3V
+* -12V         -12.0V

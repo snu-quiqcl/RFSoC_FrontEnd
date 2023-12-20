@@ -1,0 +1,67 @@
+(SiSoft_AMI_Tx
+   (Description "Generic transmitter model")
+| Copyright 2021, The MathWorks, Inc.
+
+   || Revision 1.2 -- 6/18/2015
+   ||   - Edits made for ease of configuration.
+   || Revision 1.1 -- 5/12/2015
+   ||   - Changed Cc default from 744fF to 50fF
+   || Revision 1.0 -- 3/5/2015
+   ||   - SiSoft Internal Advanced PAM4 TX model, for use in Quantum-Channel Designer only.
+
+   (Reserved_Parameters
+      (AMI_Version (Usage Info)(Type String)(Value "6.0"))
+      (Ignore_Bits (Usage Info)(Type Integer)(Default 4)(Description "Ignore four bits to fill up tapped delay line."))
+      (Max_Init_Aggressors (Usage Info)(Type Integer)(Default 25)(Description "# of aggressors is actually unlimited."))
+      (Init_Returns_Impulse (Usage Info)(Type Boolean)(Default True)(Description "Impulse & parameters_out returned."))
+      (GetWave_Exists (Usage Info)(Type Boolean)(Default True)(Description "GetWave is well and truly provided."))
+   ) | End Reserved_Parameters
+
+|| Configurable Model Section:
+
+|| ANALOG MODEL PARAMETERS:
+
+   (Model_Specific
+      (Voh (Usage Info)(Type Float)(Value 1.0)(Description "Single-ended Rail Voltage."))
+      (Vol (Usage Info)(Type Float)(Value 0.0)(Description "Output Voltage for Logic 0."))
+      (Rs (Usage Info)(Type Float)(Range 50 10 200)(Description "Single ended output impedance."))
+      (Cc (Usage Info)(Type Float)(Range 0.05e-12 0 10e-12)(Description "Single ended output capacitance."))
+      (Trf (Usage Info)(Type Float)(Range 0.0 0.0 100e-12)(Description "20%-80% rise/fall time."))
+|     (Vt  (Usage Info)(Type Float)(Value 0.0)(Description "Center Tap Termination Voltage."))
+|     (Rd  (Usage Info)(Type Float)(Value 1e6)(Description "Differential Termination Resistance."))
+|     (Cd  (Usage Info)(Type Float)(Range 0.1e-12 0 20e-12)(Description "Diff Termination Capacitance."))
+|     (Tr  (Usage Info)(Type Float)(Range 20e-12 0.0 100e-12)(Description "Rise Time 20% to 80%."))
+|     (Tf  (Usage Info)(Type Float)(Range 20e-12 0.0 100e-12)(Description "Fall Time 20% to 80%."))
+
+|| ALGORITHMIC MODEL PARAMETERS:
+
+| PAM4 / NRZ operation
+
+      (Modulation (Usage Info)(Type String)(List "PAM4" "NRZ")(Default "PAM4")(Description "Support for PAM4 or NRZ modulation"))
+      (PAM4_Mapping (Usage Info)(Type String)(List "0123" "0132" "0213" "0231" "0312" "0321"
+                                                   "1023" "1032" "1203" "1230" "1302" "1320"
+                                                   "2013" "2031" "2103" "2130" "2301" "2310"
+                                                   "3012" "3021" "3102" "3120" "3201" "3210")
+      (Default "0132")(Description "Any sequence of the four digits 0,1,2,3. Defines the mapping between serial bits and PAM4 symbols. 0, 1, 2, and 3 correspond to the binary bit patterns 00, 01, 10, 11, where the first bit in the pattern is the first bit in the serial data stream."))
+
+
+| Model controls
+
+      (tx_swing (Usage In)(Type Float)(Range 1.0 0.3 1.0)(Description "Peak differential output voltage."))
+      (number_tx_tap (Usage In)(Type Integer)(Value 4)(Description "The Total Number of Tx Taps."))
+      (number_precursor_tap (Usage In)(Type Integer)(Value 1)(Description "The Number of Pre-cursor Taps."))
+      (normalize_taps (Usage In)(Type String)(List "Yes" "No")(Description "Enable or disable tap normalization."))
+
+      (tap_filter (Description "Array of transmit de-emphasis tap weights.")
+         (-1 (Usage InOut)(Type Tap)(Range 0.0 -1.0 1.0)(Description "Pre-cursor tap weight."))
+         (0  (Usage InOut)(Type Tap)(Range 1.0 -1.0 1.0)(Description "Main tap weight."))
+         (1  (Usage InOut)(Type Tap)(Range 0.0 -1.0 1.0)(Description "1st post-cursor tap."))
+         (2  (Usage InOut)(Type Tap)(Range 0.0 -1.0 1.0)(Description "2nd post-cursor tap."))
+      ) | End tap_filter
+
+      (Tx_Delay (Usage Info)(Type UI)(List 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9)(Default 0.0)(Description "Create skew in stimulus between WideBus drivers."))
+      (Tx_Aggressor_Factor (Usage Info)(Type Integer)(List 0 1 2 3 4 5 6 7 8 9 10)(Default 1)(Description "Aggressor scale for Tx."))
+
+   ) | End Model_Specific
+
+) | End SiSoft_AMI_Tx

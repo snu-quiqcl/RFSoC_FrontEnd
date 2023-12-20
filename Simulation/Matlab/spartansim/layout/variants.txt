@@ -1,0 +1,33 @@
+* This is an example variants file for postlayout extraction.
+* The information here is used to remap CAD partnumbers from the 
+* extracted database.
+*
+*
+* This example maps reference designator r123 on board 
+* "motherboard" ("motherboard" is the identifier from the extraction
+* control file) to CAD part number "357ohm". CAD part number "357ohm" 
+* is defined in the discrete parts file as a 357 ohm resistor 
+* (see example discrete parts file). The result is that the part 
+* r123 will be modelled with a 357 ohm resistor in the extracted
+* subcicruits. This is mainly used to change values of resistors
+* for simulation without changing the CAD database.
+*
+* map_ref_des_part  motherboard r123 357ohm
+*
+*
+* This example maps reference designator u1 on the board 
+* "motherboard" to CAD part number "dummy". If the CAD partnumber 
+* "dummy" is not defined in the discrete parts file or in the 
+* layout database the component u1 will effectively be depopulated 
+* from the board and not included in the extracted subcircuits.
+* This is mainly used to exlude components that have special 
+* "Do Not Install" build instructions from the extracted subcircuits.
+*
+* map_ref_des_part  motherboard u1 dummy
+*
+*
+* This example will map all parts on the board "daughterboard"
+* with CAD partnumber 103a756 to have CAD partnumber 103a756-1
+* instead.
+*
+* map_part               daughterboard 103a756 103a756-1

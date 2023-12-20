@@ -1,0 +1,1 @@
+custom POST_LAYOUT_EXTENED_NET_default show_pin_equivalent_nets
