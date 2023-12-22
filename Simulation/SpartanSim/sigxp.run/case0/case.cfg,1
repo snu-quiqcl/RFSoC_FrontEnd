@@ -1,3 +1,3 @@
 (SISGlobals 
- (TargetFreq 800MHz ) 
- (PulseClockFrequency 100MHz ) ) 
+ (TargetFreq 100MHz ) 
+ (PulseClockFrequency 800MHz ) ) 

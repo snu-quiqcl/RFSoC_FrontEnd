@@ -1,0 +1,24 @@
+\t (00:00:01) sigwave 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Dec 22 17:08:39 2023
+\t (00:00:01)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=23156 CPUs=20
+\t (00:00:01) CmdLine= sigwave _NODOC_ -pid Waveform25668
+\t (00:00:01) 
+   (00:00:01) Loading sigwave.cxt 
+\i (00:00:02) setwindow main
+\i (00:00:02) deselect all
+\i (00:00:02) zoom fit
+\i (00:00:10) graph mode eye
+\i (00:00:14) select root
+\i (00:00:23) select waveform "DESIGN IO2 1"
+\i (00:00:24) select waveform "DESIGN IO1 1"
+\i (00:00:24) hide
+\i (00:00:24) select "horizontal marker" Vmeas_fall
+\i (00:00:24) hide
+\i (00:00:24) select "horizontal marker" Vmeas_rise
+\i (00:00:24) hide
+\i (00:00:25) select waveform "DESIGN IO2 1"
+\i (00:00:27) color index 4
+\i (00:00:33) eye diagram params -clockfreq " 0 s" -clockoffset " 0 s"
+\i (00:00:33) deselect all
+\i (00:00:33) zoom fit
+\t (00:03:51)     Journal end - Fri Dec 22 17:12:29 2023

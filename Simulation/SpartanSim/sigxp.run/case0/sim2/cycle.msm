@@ -1,0 +1,17 @@
+(CycleMeasurements 
+ ("PMOD2BNCSIMPLE_V1_04.J1.11" 
+  (BasicData 
+   (vlohi 2 ) 
+   (vhilo 3 ) 
+   (tldelay 0 ) 
+   (vinit 1.16426e-05 ) ) 
+  (Cycles 
+   (1 ) ) ) 
+ ("PMOD2BNCSIMPLE_V1_04.U1.1" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 1.07e-08 ) 
+   (vinit 3.42353e-05 ) ) 
+  (Cycles 
+   (1 ) ) ) ) 

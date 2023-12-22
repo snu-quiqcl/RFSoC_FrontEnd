@@ -1,80 +1,73 @@
 (CycleMeasurements 
  ("PMOD2BNCSIMPLE_V1_04.J1.11" 
   (BasicData 
-   (vlohi 0.8 ) 
-   (vhilo 2 ) 
+   (vlohi 2 ) 
+   (vhilo 3 ) 
    (tldelay 0 ) 
-   (vinit 3.29998 ) ) 
+   (vinit 4.63982 ) ) 
   (Cycles 
    (1 
     (Fall 
      (EarliestSwitch 
-      (volt 2 ) 
-      (time 3.19794e-08 ) ) 
+      (volt 3 ) 
+      (time 1.04737e-08 ) ) 
      (FirstSwitch 
-      (volt 0.8 ) 
-      (time 3.22904e-08 ) ) 
+      (volt 2 ) 
+      (time 1.06186e-08 ) ) 
      (MinMaxEvents 
       (maximum 
-       (volt 0.558257 ) 
-       (time 3.48192e-08 ) ) 
+       (volt 0.604117 ) 
+       (time 1.23727e-08 ) ) 
       (minimum 
-       (volt 0.107508 ) 
-       (time 3.9681e-08 ) ) ) ) 
+       (volt 0.23157 ) 
+       (time 1.57052e-08 ) ) ) ) 
     (Rise 
      (EarliestSwitch 
-      (volt 0.8 ) 
-      (time 4.10763e-08 ) ) 
-     (FirstSwitch 
       (volt 2 ) 
-      (time 4.1284e-08 ) ) 
+      (time 2.07259e-08 ) ) 
+     (FirstSwitch 
+      (volt 3 ) 
+      (time 2.08813e-08 ) ) 
      (MinMaxEvents 
       (maximum 
-       (volt 3.40731 ) 
-       (time 5.14289e-08 ) ) 
+       (volt 4.65067 ) 
+       (time 2.57532e-08 ) ) 
       (minimum 
-       (volt 2.15207 ) 
-       (time 4.42632e-08 ) ) ) ) ) ) ) 
+       (volt 3.94251 ) 
+       (time 2.26828e-08 ) ) ) ) ) ) ) 
  ("PMOD2BNCSIMPLE_V1_04.U1.1" 
   (BasicData 
    (vlohi 0.8 ) 
    (vhilo 2 ) 
-   (tldelay 1.14e-08 ) 
-   (vinit 3.29998 ) ) 
+   (tldelay 1.07e-08 ) 
+   (vinit 4.09236 ) ) 
   (Cycles 
    (1 
     (Fall 
      (EarliestSwitch 
       (volt 2 ) 
-      (time 2.37376e-08 ) ) 
+      (time 2.21484e-08 ) ) 
      (FirstSwitch 
       (volt 0.8 ) 
-      (time 2.45718e-08 ) ) 
+      (time 2.25818e-08 ) ) 
      (MinMaxEvents 
       (maximum 
-       (volt -0.597095 ) 
-       (time 2.82409e-08 ) ) 
+       (volt -0.489953 ) 
+       (time 2.77397e-08 ) ) 
       (minimum 
-       (volt -0.762637 ) 
-       (time 2.67962e-08 ) ) ) ) 
+       (volt -0.569456 ) 
+       (time 2.43592e-08 ) ) ) ) 
     (Rise 
      (EarliestSwitch 
       (volt 0.8 ) 
-      (time 3.30308e-08 ) ) 
+      (time 3.19077e-08 ) ) 
      (FirstSwitch 
       (volt 2 ) 
-      (time 3.44745e-08 ) ) 
+      (time 3.22101e-08 ) ) 
      (MinMaxEvents 
       (maximum 
-       (volt 3.97392 ) 
-       (time 3.7119e-08 ) ) 
+       (volt 4.11267 ) 
+       (time 3.46665e-08 ) ) 
       (minimum 
-       (volt 3.33118 ) 
-       (time 3.58174e-08 ) ) ) 
-     (NonMonotonic 
-      (1 
-       (volt 1.19419 ) 
-       (time 3.38164e-08 ) ) 
-      (2 
-       (volt 1.18893 ) 
-       (time 3.39695e-08 ) ) ) ) ) ) ) ) 
+       (volt 4.09149 ) 
+       (time 3.79063e-08 ) ) ) ) ) ) ) ) 

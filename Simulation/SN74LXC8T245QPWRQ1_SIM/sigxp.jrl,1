@@ -1,0 +1,55 @@
+\t (00:00:02) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Dec 22 17:08:33 2023
+\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=25668 CPUs=20
+\t (00:00:02) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SN74LXC8T245QPWRQ1_SIM\SN74.top
+\t (00:00:02) 
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 803
+\i (00:00:03) trapsize 784
+\i (00:00:03) trapsize 780
+\i (00:00:03) trapsize 5878
+\i (00:00:03) trapsize 1176
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 5878
+\i (00:00:04) trapsize 5878
+\i (00:00:04) trapsize 5878
+   (00:00:04) Loading sigxp.cxt 
+   (00:00:04) Loading signal.cxt 
+   (00:00:04) Loading sxutil.cxt 
+   (00:00:04) Loading axlcore.cxt 
+   (00:00:04) Loading fputil.cxt 
+   (00:00:04) Already Placed Circuit
+\i (00:00:04) trapsize 15
+   (00:00:04) Loading skillExt.cxt 
+\i (00:00:05) sigxp background 
+\i (00:00:06) signal simulate 
+\i (00:00:09) sigxp background 
+\i (00:00:59) drag_start grid 5509.24 4252.62
+\i (00:00:59) drag_stop grid 5510.33 4252.59
+\i (00:01:00) roam start
+\i (00:01:00) roam x -32
+\i (00:01:00) roam x -48
+\i (00:01:01) roam x -32
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -32
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam y -16
+\i (00:01:01) roam y -16
+\i (00:01:01) roam end
+\i (00:03:55) drag_start grid 5518.40 4243.64
+\i (00:03:55) roam y 32
+\i (00:03:55) roam y 16
+\i (00:03:55) roam y 16
+\i (00:03:55) roam y 16
+\i (00:03:55) roam y 16
+\i (00:03:55) roam y 16
+\i (00:03:55) roam y 16
+\i (00:03:55) drag_stop grid 5511.65 4230.33
+\i (00:03:56) prepopup 5515.27 4240.92
+\i (00:03:56) pop dyn_option_select @:@Delete 
+\i (00:03:57) exit 
+\e (00:03:57) Would you like to save the changes made in  SN74.top
+\i (00:03:58) fillin yes 
+\t (00:03:58)     Journal end - Fri Dec 22 17:12:29 2023

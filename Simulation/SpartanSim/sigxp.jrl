@@ -1,48 +1,122 @@
-\t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Thu Dec 21 00:28:04 2023
-\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=8288 CPUs=20
-\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\200Ohm.top
-\t (00:00:04) 
+\t (00:00:02) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Dec 22 00:21:18 2023
+\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=21240 CPUs=20
+\t (00:00:02) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\200Ohm.top
+\t (00:00:02) 
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 803
+\i (00:00:03) trapsize 784
+\i (00:00:03) trapsize 780
+\i (00:00:04) trapsize 5878
+\i (00:00:04) trapsize 1176
 \t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 803
-\i (00:00:04) trapsize 784
-\i (00:00:04) trapsize 780
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 1176
-\t (00:00:05) Starting new design...
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 5878
-   (00:00:05) Loading sigxp.cxt 
-   (00:00:05) Loading signal.cxt 
-   (00:00:05) Loading sxutil.cxt 
-   (00:00:05) Loading axlcore.cxt 
-   (00:00:05) Loading fputil.cxt 
-   (00:00:05) Already Placed Circuit
-\i (00:00:05) trapsize 23
-   (00:00:05) Loading skillExt.cxt 
-\i (00:00:06) sigxp background 
-\i (00:00:07) prepopup 
-\i (00:00:07) prepopup 5508.53 4240.64
-\i (00:00:07) pop dyn_option_select '@:@Via Setup Preferences...' 
-\i (00:00:11) setwindow form.sigsqviamodelextrsetup
-\i (00:00:11) FORM sigsqviamodelextrsetup targetfreq 100MHz 
-\i (00:00:11) FORM sigsqviamodelextrsetup ok  
-\i (00:00:16) setwindow sigxp
-\i (00:00:16) pick grid 5481.56 4234.79
-\t (00:00:16) last pick:  5481.50 4235.00
-\i (00:00:16) pick grid 5481.79 4235.34
-\t (00:00:16) last pick:  5482.00 4235.50
-\i (00:00:16) pick grid dbl 5481.79 4235.34
-\t (00:00:16) last pick:  5482.00 4235.50
-\i (00:00:18) setwindow form.sxstimulus
-\i (00:00:18) FORM sxstimulus ok  
-\i (00:00:19) setwindow sigxp
-\i (00:00:19) signal simulate 
-\i (00:00:23) sigxp background 
-\i (00:00:47) pick grid 5508.25 4242.81
-\t (00:00:47) last pick:  5508.50 4243.00
-\i (00:08:45) exit 
-\e (00:08:45) Would you like to save the changes made in  200Ohm.top
-\i (00:08:46) fillin yes 
-\t (00:08:47)     Journal end - Thu Dec 21 00:36:47 2023
+\i (00:00:04) trapsize 5878
+\i (00:00:04) trapsize 5878
+\i (00:00:04) trapsize 5878
+   (00:00:04) Loading sigxp.cxt 
+   (00:00:04) Loading signal.cxt 
+   (00:00:04) Loading sxutil.cxt 
+   (00:00:04) Loading axlcore.cxt 
+   (00:00:04) Loading fputil.cxt 
+   (00:00:04) Already Placed Circuit
+\i (00:00:04) trapsize 19
+   (00:00:04) Loading skillExt.cxt 
+\i (00:00:05) sigxp background 
+\i (00:00:06) drag_start grid 5535.01 4222.68
+\i (00:00:07) roam y 16
+\i (00:00:07) roam y 16
+\i (00:00:07) roam y 16
+\i (00:00:07) drag_stop grid 5527.46 4209.72
+\i (00:00:08) prepopup 5530.09 4219.59
+\i (00:00:08) pop dyn_option_select @:@Delete 
+\i (00:00:10) signal simulate 
+\i (00:00:13) sigxp background 
+\i (00:00:56) drag_start grid 5518.82 4230.82
+\i (00:00:57) drag_stop grid 5519.42 4228.83
+\i (00:00:57) prepopup 5517.06 4230.75
+\i (00:00:57) pop dyn_option_select '@:@Manage LayerStacks...' 
+\i (00:00:58) setwindow form.sxxsectionmgr
+\i (00:00:58) FORM sxxsectionmgr close  
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormListSelect): Form handle access attempted after form closed!
+   (00:00:58) *WARNING* (axlFormSetInfo): Form handle access attempted after form closed!
+\i (00:00:59) setwindow sigxp
+\i (00:00:59) roam start
+\i (00:00:59) roam x 16
+\i (00:00:59) roam y 32
+\i (00:00:59) roam end
+\i (00:01:00) roam start
+\i (00:01:00) roam x 96
+\i (00:01:00) roam y 48
+\i (00:01:00) roam x 32
+\i (00:01:00) roam x -80
+\i (00:01:00) roam y -16
+\i (00:01:00) roam x -16
+\i (00:01:00) roam y -16
+\i (00:01:00) roam x -32
+\i (00:01:00) roam x -32
+\i (00:01:00) roam y -16
+\i (00:01:00) roam x -64
+\i (00:01:00) roam y -16
+\i (00:01:00) roam x -16
+\i (00:01:00) roam y -16
+\i (00:01:00) roam x -96
+\i (00:01:00) roam y -32
+\i (00:01:00) roam x -64
+\i (00:01:00) roam y 16
+\i (00:01:00) roam x -32
+\i (00:01:00) roam y 32
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam y 16
+\i (00:01:01) roam y -16
+\i (00:01:01) roam x 32
+\i (00:01:01) roam y -32
+\i (00:01:01) roam x 48
+\i (00:01:01) roam y -16
+\i (00:01:01) roam x 80
+\i (00:01:01) roam y -16
+\i (00:01:01) roam x 32
+\i (00:01:01) roam x 32
+\i (00:01:01) roam x 16
+\i (00:01:01) roam y -16
+\i (00:01:01) roam x 16
+\i (00:01:02) roam end
+\i (00:01:18) save 
+\i (00:01:19) fillin yes 
+\t (00:01:19) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/200Ohm.top"
+\i (00:01:20) sigxp background 
+\i (00:01:22) pick grid 5492.45 4235.97
+\t (00:01:22) last pick:  5492.50 4236.00
+\i (00:01:22) pick grid dbl 5492.45 4235.97
+\t (00:01:22) last pick:  5492.50 4236.00
+\i (00:01:23) pick grid 5492.49 4235.29
+\t (00:01:23) last pick:  5492.50 4235.50
+\i (00:01:23) pick grid dbl 5492.49 4235.29
+\t (00:01:23) last pick:  5492.50 4235.50
+\i (00:01:24) setwindow form.sxstimulus
+\i (00:01:24) FORM sxstimulus risestate YES 
+\i (00:01:25) FORM sxstimulus apply  
+\i (00:01:26) FORM sxstimulus ok  
+\i (00:01:27) setwindow sigxp
+\i (00:01:27) signal simulate 
+\i (00:01:27) sigxp background 
+\i (00:01:52) pick grid 5534.74 4226.84
+\t (00:01:52) last pick:  5534.50 4227.00
+\i (00:01:52) pick grid dbl 5534.74 4226.84
+\t (00:01:52) last pick:  5534.50 4227.00
+\i (00:01:53) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
+\i (00:01:55) spreadsheet Parameters CLICKEDBUTTON CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
+\i (00:02:01) setwindow form.sxbuffparam
+\i (00:02:01) FORM sxbuffparam cancel  
+\i (00:02:01) setwindow sigxp
+\i (00:02:01) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
+\i (00:29:28) exit 
+\e (00:29:28) Would you like to save the changes made in  200Ohm.top
+\i (00:29:29) fillin yes 
+\t (00:29:30)     Journal end - Fri Dec 22 00:50:45 2023

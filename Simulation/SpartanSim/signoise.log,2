@@ -10,3 +10,8 @@ INFO: Simulation (PMOD2BNCSIMPLE_V1_04 J1 11) PMOD2BNCSIMPLE_V1_04 J1 11 Pulse T
 INFO: Using waveform resolution 0.100000 ns.
 INFO: Simulation (PMOD2BNCSIMPLE_V1_04 J1 11) PMOD2BNCSIMPLE_V1_04 J1 11 Pulse Typ Reflection finished
 ANNOTATION: Tlsim Command used :  tlsim  -e 2.050000e+03 -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
+INFO: Clearing simulation data for case0
+INFO: Simulation (PMOD2BNCSIMPLE_V1_04 J1 11) PMOD2BNCSIMPLE_V1_04 J1 11 Pulse Typ Reflection
+INFO: Using waveform resolution 0.100000 ns.
+INFO: Simulation (PMOD2BNCSIMPLE_V1_04 J1 11) PMOD2BNCSIMPLE_V1_04 J1 11 Pulse Typ Reflection finished
+ANNOTATION: Tlsim Command used :  tlsim  -e 2.050000e+03 -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
