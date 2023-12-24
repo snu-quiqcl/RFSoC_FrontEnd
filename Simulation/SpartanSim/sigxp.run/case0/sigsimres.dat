@@ -1,7 +1,4 @@
 A!simid!rcvr!cycle!nmhigh!nmhighcycle!nmlow!nmlowcycle!prop!switchhigh!switchlow!settlehigh!settlelow!maxvoltage!maxvoltagecycle!minvoltage!minvoltagecycle!monotonichigh!monotoniclow!glitchrise!glitchfall!steadystate!crosstalk!ssn!ssntimestep!ssnframes!peakemission!peakfrequency!emistatus!setuphigh!setupdataslewhigh!setupclkslewhigh!setupdervalhigh!setuphighcycle!setuplow!setupdataslewlow!setupclkslewlow!setupdervallow!setuplowcycle!holdhigh!holddataslewhigh!holdclkslewhigh!holddervalhigh!holdhighcycle!holdlow!holddataslewlow!holdclkslewlow!holddervallow!holdlowcycle!SNR
-S!sim1!PMOD2BNCSIMPLE_V1_04 J1 11!1!1.63982!0!1.39038!0!0!!4.73748e-10!!6.18544e-10!!0!0.231484!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim1!PMOD2BNCSIMPLE_V1_04 U1 1!1!2.09236!0!1.28993!0!1.07e-08!!1.21484e-08!!1.25818e-08!!0!-0.569672!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim1!iPMOD2BNCSIMPLE_V1_04 U1 1!1!2.09236!0!1.28993!0!1.07e-08!!1.21484e-08!!1.25818e-08!!0!-0.569672!0!1!1!1!1!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim2!PMOD2BNCSIMPLE_V1_04 J1 11!1!0.26582!0!!0!1.51426e-10!8.6698e-10!!1.01841e-09!!4.69885!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim2!PMOD2BNCSIMPLE_V1_04 U1 1!1!1.79802!0!!0!1.12504e-08!1.17601e-08!!1.21174e-08!!4.14849!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
-S!sim2!iPMOD2BNCSIMPLE_V1_04 U1 1!1!1.79802!0!!0!1.12504e-08!1.17601e-08!!1.21174e-08!!4.14849!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
+S!sim1!PMOD2BNCSIMPLE_V1_04 IN3 1!1!0.17788!0!!0!5.31459e-09!2.59276e-09!!6.72485e-09!!2.28291!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
+S!sim1!PMOD2BNCSIMPLE_V1_04 U1 1!1!0.28642!0!!0!2.69964e-09!1.41026e-09!!4.1099e-09!!2.29146!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!
+S!sim1!iPMOD2BNCSIMPLE_V1_04 IN3 1!1!0.17788!0!!0!5.31459e-09!2.59276e-09!!6.72485e-09!!2.28291!0!!0!1!0!1!0!!!!!0!!!0!!!!!0!!!!!0!!!!!0!!!!!0!!

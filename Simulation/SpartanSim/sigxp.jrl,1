@@ -1,43 +1,620 @@
-\t (00:00:03) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Fri Dec 22 00:17:47 2023
-\t (00:00:03)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=13040 CPUs=20
-\t (00:00:03) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\200Ohm.top
-\t (00:00:03) 
-\t (00:00:03) Starting new design...
-\i (00:00:03) trapsize 803
-\i (00:00:03) trapsize 784
-\i (00:00:03) trapsize 780
+\t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Dec 24 14:58:49 2023
+\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=18444 CPUs=20
+\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\TDR2.top
+\t (00:00:04) 
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 803
+\i (00:00:04) trapsize 784
+\i (00:00:04) trapsize 780
 \i (00:00:04) trapsize 5878
 \i (00:00:04) trapsize 1176
-\t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 5878
-   (00:00:04) Loading sigxp.cxt 
-   (00:00:04) Loading signal.cxt 
-   (00:00:04) Loading sxutil.cxt 
-   (00:00:04) Loading axlcore.cxt 
-   (00:00:04) Loading fputil.cxt 
-   (00:00:04) Already Placed Circuit
-\i (00:00:04) trapsize 19
-   (00:00:04) Loading skillExt.cxt 
-\i (00:00:05) sigxp background 
-\i (00:00:06) signal simulate 
-\i (00:00:08) fillin confirm
-\i (00:00:08) sigxp background 
-\i (00:00:09) drag_start grid 5494.07 4226.06
-\i (00:00:09) drag_stop grid 5493.77 4223.66
-\i (00:00:09) pick grid 5490.92 4225.99
-\t (00:00:09) last pick:  5491.00 4226.00
-\i (00:00:10) pick grid 5491.82 4223.47
-\t (00:00:10) last pick:  5492.00 4223.50
-\i (00:00:11) pick grid 5498.31 4223.36
-\t (00:00:11) last pick:  5498.50 4223.50
-\i (00:00:11) pick grid 5498.92 4226.02
-\t (00:00:11) last pick:  5499.00 4226.00
-\i (00:00:12) signal simulate 
-\i (00:00:16) sigxp background 
-\i (00:03:23) exit 
-\e (00:03:23) Would you like to save the changes made in  200Ohm.top
-\i (00:03:24) fillin yes 
-\t (00:03:24)     Journal end - Fri Dec 22 00:21:09 2023
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 5878
+   (00:00:05) Loading sigxp.cxt 
+   (00:00:05) Loading signal.cxt 
+   (00:00:05) Loading sxutil.cxt 
+   (00:00:05) Loading axlcore.cxt 
+   (00:00:05) Loading fputil.cxt 
+   (00:00:05) Already Placed Circuit
+\i (00:00:05) trapsize 28
+   (00:00:05) Loading skillExt.cxt 
+\i (00:00:06) sigxp background 
+\i (00:00:15) prepopup 5535.69 4207.25
+\i (00:00:16) pop dyn_option_select @:@Delete 
+\i (00:00:17) pick grid 5535.07 4202.54
+\t (00:00:17) last pick:  5535.00 4202.50
+\i (00:00:17) pick grid 5535.18 4212.30
+\t (00:00:17) last pick:  5535.00 4212.50
+\i (00:00:19) signal simulate 
+\i (00:00:21) sigxp background 
+\i (00:01:52) pick grid 5533.44 4215.50
+\t (00:01:52) last pick:  5533.50 4215.50
+\i (00:01:55) pick grid 5530.19 4222.06
+\t (00:01:55) last pick:  5530.00 4222.00
+\i (00:01:56) drag_start grid 5522.44 4216.17
+\i (00:01:57) drag_stop grid 5537.88 4212.41
+\i (00:01:57) prepopup 5534.79 4214.71
+\i (00:01:59) pop dyn_option_select @:@Copy 
+\i (00:02:02) pick grid 5517.23 4214.54
+\t (00:02:02) last pick:  5517.00 4214.50
+\i (00:02:03) pick grid 5525.64 4214.83
+\t (00:02:03) last pick:  5525.50 4215.00
+\i (00:02:04) pick grid 5515.54 4215.22
+\t (00:02:04) last pick:  5515.50 4215.00
+\i (00:02:05) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.C3.capacitance VALUE
+\i (00:02:06) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.C3.capacitance VALUE "16"
+\i (00:02:07) pick grid 5545.40 4216.23
+\t (00:02:07) last pick:  5545.50 4216.00
+\i (00:02:13) drag_start grid 5521.83 4218.92
+\i (00:02:14) drag_stop grid 5506.51 4206.52
+\i (00:02:14) prepopup 5517.06 4214.71
+\i (00:02:15) pop dyn_option_select '@:@Rotate Left' 
+\i (00:02:17) drag_start grid 5517.11 4214.77
+\i (00:02:18) drag_stop grid 5512.01 4219.03
+\i (00:02:19) drag_start grid 5522.39 4218.98
+\i (00:02:19) drag_stop grid 5519.53 4217.01
+\i (00:02:20) drag_start grid 5511.84 4218.92
+\i (00:02:21) drag_stop grid 5512.17 4220.16
+\i (00:02:21) drag_start grid 5520.14 4220.61
+\i (00:02:22) drag_stop grid 5507.91 4209.66
+\i (00:02:23) drag_start grid 5512.01 4219.82
+\i (00:02:26) drag_stop grid 5515.04 4218.02
+\i (00:02:27) pick grid 5526.32 4213.03
+\t (00:02:27) last pick:  5526.50 4213.00
+\i (00:02:28) pick grid 5511.50 4225.88
+\t (00:02:28) last pick:  5511.50 4226.00
+\i (00:02:29) pick grid 5511.78 4218.19
+\t (00:02:29) last pick:  5512.00 4218.00
+\i (00:02:30) drag_start grid 5522.11 4218.92
+\i (00:02:30) drag_stop grid 5513.63 4208.76
+\i (00:02:31) drag_start grid 5515.15 4217.69
+\i (00:02:32) drag_stop grid 5514.42 4217.52
+\i (00:02:32) pick grid 5521.49 4218.98
+\t (00:02:32) last pick:  5521.50 4219.00
+\i (00:02:34) pick grid 5533.78 4226.50
+\t (00:02:34) last pick:  5534.00 4226.50
+\i (00:02:34) prepopup 5533.78 4226.50
+\i (00:02:35) pop dyn_option_select @:@Copy 
+\i (00:02:37) pick grid 5524.24 4218.53
+\t (00:02:37) last pick:  5524.00 4218.50
+\i (00:02:37) pick grid 5525.64 4221.33
+\t (00:02:37) last pick:  5525.50 4221.50
+\i (00:02:38) pick grid 5519.86 4217.80
+\t (00:02:38) last pick:  5520.00 4218.00
+\i (00:02:39) pick grid 5517.62 4217.97
+\t (00:02:39) last pick:  5517.50 4218.00
+\i (00:02:39) pick grid 5525.87 4217.97
+\t (00:02:39) last pick:  5526.00 4218.00
+\i (00:02:40) pick grid 5529.85 4218.25
+\t (00:02:40) last pick:  5530.00 4218.50
+\i (00:02:41) pick grid 5541.58 4210.34
+\t (00:02:41) last pick:  5541.50 4210.50
+\i (00:02:41) drag_start grid 5539.45 4205.51
+\i (00:02:41) roam y 112
+\i (00:02:41) roam y 32
+\i (00:02:41) roam y 16
+\i (00:02:41) roam y 16
+\i (00:02:41) drag_stop grid 5528.45 4189.55
+\i (00:02:42) prepopup 5535.07 4201.56
+\i (00:02:43) pop dyn_option_select @:@Delete 
+\i (00:02:43) pick grid 5535.07 4201.56
+\t (00:02:43) last pick:  5535.00 4201.50
+\i (00:02:46) quickaddpart 38924 
+\i (00:02:48) pick grid 5511.28 4206.50
+\t (00:02:48) last pick:  5511.50 4206.50
+\i (00:02:48) sigxp background 
+\i (00:02:48) pick grid 5510.60 4209.25
+\t (00:02:48) last pick:  5510.50 4209.50
+\i (00:02:48) pick grid 5511.11 4208.74
+\t (00:02:48) last pick:  5511.00 4208.50
+\i (00:02:49) pick grid dbl 5511.11 4208.74
+\t (00:02:49) last pick:  5511.00 4208.50
+\i (00:02:50) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.V5.voltage VALUE
+\i (00:02:50) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.V5.voltage VALUE "0"
+\i (00:02:51) pick grid 5535.01 4201.50
+\t (00:02:51) last pick:  5535.00 4201.50
+\i (00:02:51) pick grid 5511.39 4206.61
+\t (00:02:51) last pick:  5511.50 4206.50
+\i (00:02:52) pick grid 5511.45 4213.12
+\t (00:02:52) last pick:  5511.50 4213.00
+\i (00:02:53) prepopup 5511.61 4205.04
+\i (00:02:54) pop dyn_option_select @:@Copy 
+\i (00:02:58) pick grid 5534.79 4204.70
+\t (00:02:58) last pick:  5535.00 4204.50
+\i (00:02:58) pick grid 5535.24 4206.55
+\t (00:02:58) last pick:  5535.00 4206.50
+\i (00:02:59) pick grid 5535.18 4211.49
+\t (00:02:59) last pick:  5535.00 4211.50
+\i (00:02:59) pick grid 5539.22 4213.51
+\t (00:02:59) last pick:  5539.00 4213.50
+\i (00:03:01) signal simulate 
+\w (00:03:01) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN3 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\w (00:03:01) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:03:01) sigxp background 
+\i (00:03:03) setwindow text
+\i (00:03:03) close 
+\i (00:03:04) setwindow text
+\i (00:03:04) close 
+\i (00:03:07) setwindow text
+\i (00:03:07) close 
+\i (00:03:08) setwindow sigxp
+\i (00:03:08) roam start
+\i (00:03:08) roam y -16
+\i (00:03:08) roam end
+\i (00:03:09) pick grid 5512.74 4211.49
+\t (00:03:09) last pick:  5512.50 4211.50
+\i (00:03:10) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.R4.resistance VALUE
+\i (00:03:10) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.R4.resistance VALUE
+\i (00:03:10) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.R4.resistance VALUE
+\i (00:03:12) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.R4.resistance VALUE "9e+06 Ohm"
+\i (00:03:20) pick grid 5511.33 4209.47
+\t (00:03:20) last pick:  5511.50 4209.50
+\i (00:03:20) drag_start grid 5512.85 4208.97
+\i (00:03:20) drag_stop grid 5505.95 4197.69
+\i (00:03:21) prepopup 5511.95 4206.11
+\i (00:03:22) pop dyn_option_select @:@Delete 
+\i (00:03:23) signal simulate 
+\w (00:03:23) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:03:24) sigxp background 
+\i (00:03:36) setwindow text
+\i (00:03:36) close 
+\i (00:03:38) setwindow text
+\i (00:03:38) close 
+\i (00:03:38) setwindow sigxp
+\i (00:03:38) roam start
+\i (00:03:38) roam x -112
+\i (00:03:38) roam y -16
+\i (00:03:39) roam x -48
+\i (00:03:39) roam y -32
+\i (00:03:39) roam x -32
+\i (00:03:39) roam y -32
+\i (00:03:39) roam y -32
+\i (00:03:39) roam x 32
+\i (00:03:39) roam y -32
+\i (00:03:39) roam x 32
+\i (00:03:39) roam x 48
+\i (00:03:39) roam y -16
+\i (00:03:39) roam x 32
+\i (00:03:39) roam x 32
+\i (00:03:39) roam x 32
+\i (00:03:39) roam end
+\i (00:05:11) prepopup 5535.18 4215.09
+\i (00:05:12) pick grid 5545.79 4215.87
+\t (00:05:12) last pick:  5546.00 4216.00
+\i (00:05:12) drag_start grid 5538.60 4215.93
+\i (00:05:13) drag_stop grid 5533.33 4202.12
+\i (00:05:13) prepopup 5535.01 4214.36
+\i (00:05:14) pop dyn_option_select @:@Copy 
+\i (00:05:16) pick grid 5504.77 4214.30
+\t (00:05:16) last pick:  5505.00 4214.50
+\i (00:05:17) pick grid 5509.31 4214.92
+\t (00:05:17) last pick:  5509.50 4215.00
+\i (00:05:17) pick grid 5505.33 4209.25
+\t (00:05:17) last pick:  5505.50 4209.50
+\i (00:05:17) pick grid 5505.10 4209.25
+\t (00:05:17) last pick:  5505.00 4209.50
+\i (00:05:18) pick grid 5505.05 4217.95
+\t (00:05:18) last pick:  5505.00 4218.00
+\i (00:05:19) pick grid 5511.56 4218.00
+\t (00:05:19) last pick:  5511.50 4218.00
+\i (00:05:19) pick grid 5503.42 4215.31
+\t (00:05:19) last pick:  5503.50 4215.50
+\i (00:05:20) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.C4.capacitance VALUE
+\i (00:05:21) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.C4.capacitance VALUE "15"
+\i (00:05:24) quickaddpart 38923 
+\i (00:05:25) pick grid 5492.87 4209.59
+\t (00:05:25) last pick:  5493.00 4209.50
+\i (00:05:25) sigxp background 
+\i (00:05:28) pick grid 5493.21 4208.35
+\t (00:05:28) last pick:  5493.00 4208.50
+\i (00:05:28) pick grid dbl 5493.21 4208.35
+\t (00:05:28) last pick:  5493.00 4208.50
+\i (00:05:29) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.L4.inductance VALUE
+\i (00:05:32) pick grid 5533.61 4225.13
+\t (00:05:32) last pick:  5533.50 4225.00
+\i (00:05:32) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.L4.inductance VALUE "100"
+\i (00:05:32) prepopup 5492.70 4209.81
+\i (00:05:33) pop dyn_option_select '@:@Rotate Right' 
+\i (00:05:34) drag_start grid 5493.88 4208.91
+\i (00:05:34) drag_stop grid 5503.47 4208.69
+\i (00:05:35) pick grid 5504.99 4205.77
+\t (00:05:35) last pick:  5505.00 4206.00
+\i (00:05:35) pick grid 5502.58 4206.22
+\t (00:05:35) last pick:  5502.50 4206.00
+\i (00:05:36) pick grid 5502.58 4211.72
+\t (00:05:36) last pick:  5502.50 4211.50
+\i (00:05:36) pick grid 5505.21 4212.00
+\t (00:05:36) last pick:  5505.00 4212.00
+\i (00:05:37) drag_start grid 5503.08 4209.31
+\i (00:05:38) drag_stop grid 5505.33 4209.64
+\i (00:05:38) pick grid 5512.51 4209.87
+\t (00:05:38) last pick:  5512.50 4210.00
+\i (00:05:39) save 
+\i (00:05:39) fillin yes 
+\t (00:05:39) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:05:39) sigxp background 
+\i (00:05:41) signal simulate 
+\i (00:05:42) sigxp background 
+\i (00:05:55) pick grid 5522.78 4216.26
+\t (00:05:55) last pick:  5523.00 4216.50
+\i (00:05:58) pick grid 5523.06 4216.54
+\t (00:05:58) last pick:  5523.00 4216.50
+\i (00:05:58) pick grid dbl 5523.06 4216.54
+\t (00:05:58) last pick:  5523.00 4216.50
+\i (00:05:59) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:00) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "1"
+\i (00:06:01) signal simulate 
+\w (00:06:02) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:06:03) sigxp background 
+\i (00:06:05) pick grid 5489.45 4212.28
+\t (00:06:05) last pick:  5489.50 4212.50
+\i (00:06:05) save 
+\i (00:06:06) fillin yes 
+\t (00:06:06) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:06:06) sigxp background 
+\i (00:06:07) setwindow text
+\i (00:06:07) close 
+\i (00:06:07) setwindow sigxp
+\i (00:06:07) pick grid 5522.27 4216.54
+\t (00:06:07) last pick:  5522.50 4216.50
+\i (00:06:08) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:10) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.8"
+\i (00:06:11) sxrefreshcanvas 
+\i (00:06:11) sigxp background 
+\i (00:06:12) signal simulate 
+\w (00:06:12) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:06:13) sigxp background 
+\i (00:06:16) save 
+\i (00:06:16) fillin yes 
+\t (00:06:16) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:06:16) sigxp background 
+\i (00:06:18) setwindow text
+\i (00:06:18) close 
+\i (00:06:19) setwindow text
+\i (00:06:19) close 
+\i (00:06:19) setwindow sigxp
+\i (00:06:19) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:22) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.7"
+\i (00:06:23) pick grid 5531.76 4224.46
+\t (00:06:23) last pick:  5532.00 4224.50
+\i (00:06:24) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:24) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:25) pick grid 5532.71 4224.46
+\t (00:06:25) last pick:  5532.50 4224.50
+\i (00:06:25) pick grid dbl 5532.71 4224.46
+\t (00:06:25) last pick:  5532.50 4224.50
+\i (00:06:26) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.traceGeometry VALUE
+\i (00:06:27) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:06:28) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.7"
+\i (00:06:29) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.impedance VALUE
+\i (00:06:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:06:31) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "2n"
+\i (00:06:32) sxrefreshcanvas 
+\i (00:06:32) sigxp background 
+\i (00:06:32) save 
+\i (00:06:33) fillin yes 
+\t (00:06:33) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:06:33) sigxp background 
+\i (00:06:34) signal simulate 
+\w (00:06:34) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:06:37) sigxp background 
+\i (00:06:45) setwindow text
+\i (00:06:45) close 
+\i (00:06:46) setwindow text
+\i (00:06:46) close 
+\i (00:06:46) setwindow sigxp
+\i (00:06:46) pick grid 5537.43 4213.18
+\t (00:06:46) last pick:  5537.50 4213.00
+\i (00:06:58) pick grid 5504.88 4214.92
+\t (00:06:58) last pick:  5505.00 4215.00
+\i (00:07:20) prepopup 5505.83 4209.25
+\i (00:07:21) pop dyn_option_select @:@Delete 
+\i (00:07:22) pick grid 5504.99 4206.11
+\t (00:07:22) last pick:  5505.00 4206.00
+\i (00:07:22) pick grid 5504.88 4212.17
+\t (00:07:22) last pick:  5505.00 4212.00
+\i (00:07:23) signal simulate 
+\w (00:07:24) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:07:25) sigxp background 
+\i (00:07:32) setwindow text
+\i (00:07:32) close 
+\i (00:07:33) setwindow text
+\i (00:07:33) close 
+\i (00:07:34) setwindow sigxp
+\i (00:07:34) pick grid 5523.00 4216.66
+\t (00:07:34) last pick:  5523.00 4216.50
+\i (00:07:36) pick grid 5523.12 4216.26
+\t (00:07:36) last pick:  5523.00 4216.50
+\i (00:07:36) pick grid dbl 5523.12 4216.26
+\t (00:07:36) last pick:  5523.00 4216.50
+\i (00:07:37) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:07:37) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "1"
+\i (00:07:38) signal simulate 
+\w (00:07:39) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:07:40) sigxp background 
+\i (00:07:43) pick grid 5493.15 4216.32
+\t (00:07:43) last pick:  5493.00 4216.50
+\i (00:07:43) setwindow text
+\i (00:07:43) close 
+\i (00:07:44) setwindow sigxp
+\i (00:07:44) save 
+\i (00:07:44) fillin yes 
+\t (00:07:44) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:07:45) sigxp background 
+\i (00:07:46) pick grid 5532.82 4224.29
+\t (00:07:46) last pick:  5533.00 4224.50
+\i (00:07:47) pick grid 5523.12 4216.49
+\t (00:07:47) last pick:  5523.00 4216.50
+\i (00:07:48) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:07:48) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:07:50) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.2"
+\i (00:07:51) signal simulate 
+\w (00:07:52) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:07:53) sigxp background 
+\i (00:07:59) setwindow text
+\i (00:07:59) close 
+\i (00:07:59) setwindow text
+\i (00:07:59) close 
+\i (00:08:00) setwindow sigxp
+\i (00:08:00) pick grid 5532.54 4224.51
+\t (00:08:00) last pick:  5532.50 4224.50
+\i (00:08:01) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:08:03) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.2"
+\i (00:08:04) save 
+\i (00:08:04) fillin yes 
+\t (00:08:04) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:08:04) sigxp background 
+\i (00:08:05) signal simulate 
+\w (00:08:06) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:08:07) sigxp background 
+\i (00:08:10) setwindow text
+\i (00:08:10) close 
+\i (00:08:11) setwindow text
+\i (00:08:11) close 
+\i (00:08:12) setwindow sigxp
+\i (00:08:12) pick grid 5532.77 4224.68
+\t (00:08:12) last pick:  5533.00 4224.50
+\i (00:08:13) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:08:15) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.3"
+\i (00:08:15) signal simulate 
+\w (00:08:16) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:08:17) sigxp background 
+\i (00:08:27) setwindow text
+\i (00:08:27) close 
+\i (00:08:28) setwindow text
+\i (00:08:28) close 
+\i (00:08:29) setwindow sigxp
+\i (00:08:29) pick grid 5522.72 4216.60
+\t (00:08:29) last pick:  5522.50 4216.50
+\i (00:08:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:08:31) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "2"
+\i (00:08:32) signal simulate 
+\w (00:08:32) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:08:33) sigxp background 
+\i (00:08:45) pick grid 5532.26 4224.23
+\t (00:08:45) last pick:  5532.50 4224.00
+\i (00:08:46) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:08:48) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.7"
+\i (00:08:48) save 
+\i (00:08:49) fillin yes 
+\t (00:08:49) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:08:49) sigxp background 
+\i (00:08:49) signal simulate 
+\w (00:08:50) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:08:51) sigxp background 
+\i (00:08:55) setwindow text
+\i (00:08:55) close 
+\i (00:08:56) setwindow text
+\i (00:08:56) close 
+\i (00:08:56) setwindow text
+\i (00:08:56) close 
+\i (00:08:59) setwindow sigxp
+\i (00:08:59) drag_start grid 5498.31 4215.65
+\i (00:08:59) drag_stop grid 5509.20 4200.27
+\i (00:09:00) prepopup 5505.16 4214.75
+\i (00:09:00) pop dyn_option_select @:@Delete 
+\i (00:09:03) signal simulate 
+\w (00:09:04) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:09:05) sigxp background 
+\i (00:09:10) setwindow text
+\i (00:09:10) close 
+\i (00:09:11) setwindow text
+\i (00:09:11) close 
+\i (00:09:12) setwindow sigxp
+\i (00:09:12) pick grid 5523.45 4216.38
+\t (00:09:12) last pick:  5523.50 4216.50
+\i (00:09:13) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:09:14) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:09:14) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "1ns"
+\i (00:09:15) signal simulate 
+\w (00:09:16) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:09:17) sigxp background 
+\i (00:09:28) setwindow text
+\i (00:09:28) close 
+\i (00:09:29) setwindow text
+\i (00:09:29) close 
+\i (00:09:37) setwindow sigxp
+\i (00:09:37) quickaddpart 38923 
+\i (00:09:38) pick grid 5525.14 4208.52
+\t (00:09:38) last pick:  5525.00 4208.50
+\i (00:09:38) sigxp background 
+\i (00:09:39) prepopup 5524.35 4209.36
+\i (00:09:40) pop dyn_option_select '@:@Rotate Right' 
+\i (00:09:41) drag_start grid 5525.30 4208.01
+\i (00:09:42) drag_stop grid 5528.78 4208.41
+\i (00:09:42) pick grid 5528.39 4212.06
+\t (00:09:42) last pick:  5528.50 4212.00
+\i (00:09:43) pick grid 5530.02 4212.06
+\t (00:09:43) last pick:  5530.00 4212.00
+\i (00:09:44) pick grid 5535.07 4204.76
+\t (00:09:44) last pick:  5535.00 4205.00
+\i (00:09:44) prepopup 5535.07 4204.76
+\i (00:09:45) pop dyn_option_select @:@Copy 
+\i (00:09:48) pick grid 5527.21 4204.37
+\t (00:09:48) last pick:  5527.00 4204.50
+\i (00:09:48) pick grid 5530.69 4204.48
+\t (00:09:48) last pick:  5530.50 4204.50
+\i (00:09:49) pick grid 5527.16 4205.66
+\t (00:09:49) last pick:  5527.00 4205.50
+\i (00:09:49) pick grid 5528.28 4205.94
+\t (00:09:49) last pick:  5528.50 4206.00
+\i (00:09:51) signal simulate 
+\w (00:09:51) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:09:52) sigxp background 
+\i (00:09:55) setwindow text
+\i (00:09:55) close 
+\i (00:09:56) setwindow text
+\i (00:09:56) close 
+\i (00:09:57) setwindow sigxp
+\i (00:09:57) drag_start grid 5539.78 4208.69
+\i (00:09:58) drag_stop grid 5530.41 4202.23
+\i (00:09:58) drag_start grid 5537.31 4206.56
+\i (00:09:58) drag_stop grid 5533.50 4201.39
+\i (00:09:59) prepopup 5534.40 4205.88
+\i (00:10:00) pop dyn_option_select @:@Delete 
+\i (00:10:01) drag_start grid 5527.10 4204.37
+\i (00:10:02) drag_stop grid 5528.56 4204.48
+\i (00:10:02) drag_start grid 5528.56 4204.42
+\i (00:10:03) drag_stop grid 5528.56 4202.68
+\i (00:10:03) pick grid 5531.93 4206.56
+\t (00:10:03) last pick:  5532.00 4206.50
+\i (00:10:04) drag_start grid 5529.12 4208.97
+\i (00:10:06) drag_stop grid 5530.41 4208.07
+\i (00:10:07) drag_start grid 5528.33 4202.23
+\i (00:10:08) drag_stop grid 5530.02 4201.67
+\i (00:10:08) drag_start grid 5530.75 4208.41
+\i (00:10:10) drag_stop grid 5531.08 4208.24
+\i (00:10:10) pick grid 5536.53 4207.12
+\t (00:10:10) last pick:  5536.50 4207.00
+\i (00:10:10) pick grid 5529.12 4207.73
+\t (00:10:10) last pick:  5529.00 4207.50
+\i (00:10:12) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.L5.inductance VALUE
+\i (00:10:13) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.L5.inductance VALUE "100"
+\i (00:10:14) save 
+\i (00:10:14) fillin yes 
+\t (00:10:14) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:10:14) sigxp background 
+\i (00:10:15) signal simulate 
+\w (00:10:15) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:10:17) sigxp background 
+\i (00:10:57) setwindow text
+\i (00:10:57) close 
+\i (00:10:58) setwindow text
+\i (00:10:58) close 
+\i (00:10:58) setwindow sigxp
+\i (00:10:58) pick grid 5541.80 4211.89
+\t (00:10:58) last pick:  5542.00 4212.00
+\i (00:11:00) roam start
+\i (00:11:01) roam x -48
+\i (00:11:01) roam x -48
+\i (00:11:01) roam end
+\i (00:11:03) pick grid 5534.91 4214.75
+\t (00:11:03) last pick:  5535.00 4215.00
+\i (00:11:03) prepopup 5534.91 4214.75
+\i (00:11:04) pop dyn_option_select @:@Copy 
+\i (00:11:05) pick grid 5471.78 4223.22
+\t (00:11:05) last pick:  5472.00 4223.00
+\i (00:11:06) pick grid 5472.17 4225.86
+\t (00:11:06) last pick:  5472.00 4226.00
+\i (00:11:06) pick grid 5473.74 4226.03
+\t (00:11:06) last pick:  5473.50 4226.00
+\i (00:11:07) pick grid 5472.11 4225.86
+\t (00:11:07) last pick:  5472.00 4226.00
+\i (00:11:07) pick grid 5474.81 4226.03
+\t (00:11:07) last pick:  5475.00 4226.00
+\i (00:11:08) pick grid 5471.78 4219.86
+\t (00:11:08) last pick:  5472.00 4220.00
+\i (00:11:08) pick grid 5475.59 4220.14
+\t (00:11:08) last pick:  5475.50 4220.00
+\i (00:11:09) pick grid 5472.34 4219.74
+\t (00:11:09) last pick:  5472.50 4219.50
+\i (00:11:10) pick grid 5474.86 4220.08
+\t (00:11:10) last pick:  5475.00 4220.00
+\i (00:11:11) signal simulate 
+\w (00:11:11) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:11:12) sigxp background 
+\i (00:11:17) pick grid 5471.83 4223.17
+\t (00:11:17) last pick:  5472.00 4223.00
+\i (00:11:17) prepopup 5471.83 4223.17
+\i (00:11:18) pop dyn_option_select @:@Delete 
+\i (00:11:19) pick grid 5488.50 4220.92
+\t (00:11:19) last pick:  5488.50 4221.00
+\i (00:11:19) save 
+\i (00:11:20) fillin yes 
+\t (00:11:20) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:11:20) sigxp background 
+\i (00:11:21) setwindow text
+\i (00:11:21) close 
+\i (00:11:21) setwindow sigxp
+\i (00:11:21) pick grid 5528.79 4207.68
+\t (00:11:21) last pick:  5529.00 4207.50
+\i (00:11:22) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.L5.inductance VALUE
+\i (00:11:23) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.L5.inductance VALUE "200"
+\i (00:11:25) signal simulate 
+\w (00:11:25) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:11:27) sigxp background 
+\i (00:11:30) setwindow text
+\i (00:11:30) close 
+\i (00:11:31) setwindow text
+\i (00:11:31) close 
+\i (00:11:31) setwindow sigxp
+\i (00:11:31) pick grid 5523.01 4216.43
+\t (00:11:31) last pick:  5523.00 4216.50
+\i (00:11:33) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:11:34) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0"
+\i (00:11:35) signal simulate 
+\w (00:11:35) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:11:37) sigxp background 
+\i (00:11:44) setwindow text
+\i (00:11:44) close 
+\i (00:11:45) setwindow text
+\i (00:11:45) close 
+\i (00:11:45) setwindow sigxp
+\i (00:11:45) pick grid 5535.64 4215.03
+\t (00:11:45) last pick:  5535.50 4215.00
+\i (00:11:46) prepopup 5535.69 4215.03
+\i (00:11:46) pop dyn_option_select @:@Copy 
+\i (00:11:48) pick grid 5471.21 4223.00
+\t (00:11:48) last pick:  5471.00 4223.00
+\i (00:11:48) pick grid 5480.25 4221.82
+\t (00:11:48) last pick:  5480.50 4222.00
+\i (00:11:49) pick grid 5470.26 4220.02
+\t (00:11:49) last pick:  5470.50 4220.00
+\i (00:11:49) pick grid 5474.25 4220.02
+\t (00:11:49) last pick:  5474.50 4220.00
+\i (00:11:50) pick grid 5470.77 4225.86
+\t (00:11:50) last pick:  5471.00 4226.00
+\i (00:11:50) pick grid 5474.41 4226.31
+\t (00:11:50) last pick:  5474.50 4226.50
+\i (00:11:52) signal simulate 
+\w (00:11:52) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:11:53) sigxp background 
+\i (00:11:56) pick grid 5470.82 4222.94
+\t (00:11:56) last pick:  5471.00 4223.00
+\i (00:11:57) prepopup 5470.82 4222.94
+\i (00:11:57) pop dyn_option_select @:@Delete 
+\i (00:11:58) pick grid 5487.71 4218.40
+\t (00:11:58) last pick:  5487.50 4218.50
+\i (00:11:59) save 
+\i (00:11:59) fillin yes 
+\t (00:11:59) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:11:59) sigxp background 
+\i (00:12:03) setwindow text
+\i (00:12:03) close 
+\i (00:12:33) setwindow sigxp
+\i (00:12:33) signal simulate 
+\w (00:12:33) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:12:35) sigxp background 
+\i (00:12:37) setwindow text
+\i (00:12:37) close 
+\i (00:12:38) setwindow sigxp
+\i (00:12:38) pick grid 5522.95 4216.21
+\t (00:12:38) last pick:  5523.00 4216.00
+\i (00:12:39) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:12:45) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.7"
+\i (00:12:47) pick grid 5532.89 4224.51
+\t (00:12:47) last pick:  5533.00 4224.50
+\i (00:12:48) spreadsheet Parameters LBUTTONCLICKED CIRCUI

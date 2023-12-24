@@ -1,42 +1,12 @@
-\t (00:00:01) sigwave 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Dec 22 00:21:27 2023
-\t (00:00:01)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=2600 CPUs=20
-\t (00:00:01) CmdLine= sigwave _NODOC_ -pid Waveform21240
-\t (00:00:01) 
-   (00:00:01) Loading sigwave.cxt 
-\i (00:00:02) setwindow main
-\i (00:00:02) deselect all
-\i (00:00:02) zoom fit
-\i (00:00:03) graph mode eye
-\i (00:00:07) select waveform "PMOD2BNCSIMPLE_V1_04 J1 11"
-\i (00:00:07) hide
-\i (00:00:07) select "horizontal marker" Voh
-\i (00:00:07) hide
-\i (00:00:07) select "horizontal marker" Vol
-\i (00:00:07) hide
-\i (00:00:07) select "horizontal marker" Vmeas_fall
-\i (00:00:07) hide
-\i (00:00:07) select "horizontal marker" Vmeas_rise
-\i (00:00:07) hide
-\i (00:00:08) select waveform "PMOD2BNCSIMPLE_V1_04 U1 1"
-\i (00:00:23) eye diagram params -clockfreq " 0 s" -clockoffset " 0 s"
-\i (00:00:23) deselect all
-\i (00:00:23) zoom fit
-\i (00:00:25) select root
-\i (00:00:26) select waveform "PMOD2BNCSIMPLE_V1_04 U1 1"
-\i (00:00:26) color index 4
-\i (00:00:27) deselect all
-\i (00:01:16) zoom fit
-\i (00:01:20) select root
-\i (00:01:22) select waveform "PMOD2BNCSIMPLE_V1_04 J1 11"
-\i (00:01:30) hide
-\i (00:01:30) select "horizontal marker" Voh
-\i (00:01:30) hide
-\i (00:01:30) select "horizontal marker" Vol
-\i (00:01:30) hide
-\i (00:01:30) select "horizontal marker" Vmeas_fall
-\i (00:01:30) hide
-\i (00:01:30) select "horizontal marker" Vmeas_rise
-\i (00:01:30) hide
-\i (00:29:18) deselect all
-\t (00:29:18)     Journal end - Fri Dec 22 00:50:45 2023
+\t (00:00:00) sigwave 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 24 15:15:22 2023
+\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=25232 CPUs=20
+\t (00:00:00) CmdLine= sigwave _NODOC_ -pid Waveform27556
+\t (00:00:00) 
+   (00:00:00) Loading sigwave.cxt 
+\i (00:00:00) setwindow main
+\i (00:00:00) deselect all
+\i (00:00:00) zoom fit
+\i (00:00:02) graph mode bus
+\i (00:00:04) exit
+\t (00:00:04)     Journal end - Sun Dec 24 15:15:26 2023

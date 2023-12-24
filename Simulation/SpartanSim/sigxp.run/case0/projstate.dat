@@ -2,4 +2,6 @@
  ("C:\\Jeonghyun\\GIT\\RFSoC_FrontEnd\\Simulation\\SpartanSim\\devices.dml" 
   (ChangeNumber 1703067489 ) ) 
  ("c:\\cadence\\orcadx_23.1\\share\\pcb\\signal\\cds_models.ndx" 
-  (ChangeNumber 1462058696 ) ) ) 
+  (ChangeNumber 1462058696 ) ) 
+ ("C:\\Jeonghyun\\GIT\\RFSoC_FrontEnd\\Simulation\\SN74LXC8T245QPWRQ1_SIM\\devices.dml" 
+  (ChangeNumber 1703229303 ) ) ) 

@@ -1,122 +1,138 @@
-\t (00:00:02) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Fri Dec 22 00:21:18 2023
-\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=21240 CPUs=20
-\t (00:00:02) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\200Ohm.top
-\t (00:00:02) 
-\t (00:00:02) Starting new design...
-\i (00:00:03) trapsize 803
-\i (00:00:03) trapsize 784
-\i (00:00:03) trapsize 780
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 1176
+\t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Dec 24 15:13:09 2023
+\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=27556 CPUs=20
+\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\TDR2.top
+\t (00:00:04) 
 \t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 5878
-   (00:00:04) Loading sigxp.cxt 
-   (00:00:04) Loading signal.cxt 
-   (00:00:04) Loading sxutil.cxt 
-   (00:00:04) Loading axlcore.cxt 
-   (00:00:04) Loading fputil.cxt 
-   (00:00:04) Already Placed Circuit
-\i (00:00:04) trapsize 19
-   (00:00:04) Loading skillExt.cxt 
-\i (00:00:05) sigxp background 
-\i (00:00:06) drag_start grid 5535.01 4222.68
-\i (00:00:07) roam y 16
-\i (00:00:07) roam y 16
-\i (00:00:07) roam y 16
-\i (00:00:07) drag_stop grid 5527.46 4209.72
-\i (00:00:08) prepopup 5530.09 4219.59
-\i (00:00:08) pop dyn_option_select @:@Delete 
-\i (00:00:10) signal simulate 
-\i (00:00:13) sigxp background 
-\i (00:00:56) drag_start grid 5518.82 4230.82
-\i (00:00:57) drag_stop grid 5519.42 4228.83
-\i (00:00:57) prepopup 5517.06 4230.75
-\i (00:00:57) pop dyn_option_select '@:@Manage LayerStacks...' 
-\i (00:00:58) setwindow form.sxxsectionmgr
-\i (00:00:58) FORM sxxsectionmgr close  
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormListSelect): Form handle access attempted after form closed!
-   (00:00:58) *WARNING* (axlFormSetInfo): Form handle access attempted after form closed!
-\i (00:00:59) setwindow sigxp
-\i (00:00:59) roam start
-\i (00:00:59) roam x 16
-\i (00:00:59) roam y 32
-\i (00:00:59) roam end
-\i (00:01:00) roam start
-\i (00:01:00) roam x 96
-\i (00:01:00) roam y 48
-\i (00:01:00) roam x 32
-\i (00:01:00) roam x -80
-\i (00:01:00) roam y -16
-\i (00:01:00) roam x -16
-\i (00:01:00) roam y -16
-\i (00:01:00) roam x -32
-\i (00:01:00) roam x -32
-\i (00:01:00) roam y -16
-\i (00:01:00) roam x -64
-\i (00:01:00) roam y -16
-\i (00:01:00) roam x -16
-\i (00:01:00) roam y -16
-\i (00:01:00) roam x -96
-\i (00:01:00) roam y -32
-\i (00:01:00) roam x -64
-\i (00:01:00) roam y 16
-\i (00:01:00) roam x -32
-\i (00:01:00) roam y 32
-\i (00:01:01) roam y 16
-\i (00:01:01) roam x -16
-\i (00:01:01) roam y 16
-\i (00:01:01) roam y -16
-\i (00:01:01) roam x 32
-\i (00:01:01) roam y -32
-\i (00:01:01) roam x 48
-\i (00:01:01) roam y -16
-\i (00:01:01) roam x 80
-\i (00:01:01) roam y -16
-\i (00:01:01) roam x 32
-\i (00:01:01) roam x 32
-\i (00:01:01) roam x 16
-\i (00:01:01) roam y -16
-\i (00:01:01) roam x 16
-\i (00:01:02) roam end
-\i (00:01:18) save 
-\i (00:01:19) fillin yes 
-\t (00:01:19) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/200Ohm.top"
-\i (00:01:20) sigxp background 
-\i (00:01:22) pick grid 5492.45 4235.97
-\t (00:01:22) last pick:  5492.50 4236.00
-\i (00:01:22) pick grid dbl 5492.45 4235.97
-\t (00:01:22) last pick:  5492.50 4236.00
-\i (00:01:23) pick grid 5492.49 4235.29
-\t (00:01:23) last pick:  5492.50 4235.50
-\i (00:01:23) pick grid dbl 5492.49 4235.29
-\t (00:01:23) last pick:  5492.50 4235.50
-\i (00:01:24) setwindow form.sxstimulus
-\i (00:01:24) FORM sxstimulus risestate YES 
-\i (00:01:25) FORM sxstimulus apply  
-\i (00:01:26) FORM sxstimulus ok  
-\i (00:01:27) setwindow sigxp
-\i (00:01:27) signal simulate 
-\i (00:01:27) sigxp background 
-\i (00:01:52) pick grid 5534.74 4226.84
-\t (00:01:52) last pick:  5534.50 4227.00
-\i (00:01:52) pick grid dbl 5534.74 4226.84
-\t (00:01:52) last pick:  5534.50 4227.00
-\i (00:01:53) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
-\i (00:01:55) spreadsheet Parameters CLICKEDBUTTON CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
-\i (00:02:01) setwindow form.sxbuffparam
-\i (00:02:01) FORM sxbuffparam cancel  
-\i (00:02:01) setwindow sigxp
-\i (00:02:01) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.U1.bufferModel VALUE
-\i (00:29:28) exit 
-\e (00:29:28) Would you like to save the changes made in  200Ohm.top
-\i (00:29:29) fillin yes 
-\t (00:29:30)     Journal end - Fri Dec 22 00:50:45 2023
+\i (00:00:04) trapsize 5556
+\i (00:00:04) trapsize 4775
+\i (00:00:04) trapsize 4607
+\i (00:00:04) trapsize 4250000
+\i (00:00:04) trapsize 850000
+\t (00:00:04) Starting new design...
+\i (00:00:05) trapsize 4250000
+\i (00:00:05) trapsize 4250000
+\i (00:00:05) trapsize 4250000
+   (00:00:05) Loading sigxp.cxt 
+   (00:00:05) Loading signal.cxt 
+   (00:00:05) Loading sxutil.cxt 
+   (00:00:05) Loading axlcore.cxt 
+   (00:00:05) Loading fputil.cxt 
+   (00:00:05) Already Placed Circuit
+\i (00:00:05) trapsize 18750
+   (00:00:05) Loading skillExt.cxt 
+\i (00:00:06) sigxp background 
+\i (00:00:07) trapsize 3174
+\i (00:00:09) zoom fit 
+\i (00:00:09) trapsize 28
+\i (00:00:18) save 
+\i (00:00:19) fillin yes 
+\t (00:00:19) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:00:19) sigxp background 
+\i (00:00:29) pick grid 5522.85 4216.75
+\t (00:00:29) last pick:  5523.00 4217.00
+\i (00:00:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:00:36) prepopup 
+\i (00:00:36) prepopup 5510.27 4218.73
+\i (00:00:36) pop dyn_option_select '@:@Via Setup Preferences...' 
+\i (00:00:39) setwindow form.sigsqviamodelextrsetup
+\i (00:00:39) FORM sigsqviamodelextrsetup cancel  
+\i (00:00:41) setwindow sigxp
+\i (00:00:41) signoise options 
+\i (00:00:41) sigxp background 
+\i (00:00:44) setwindow form.sigxpopts
+\i (00:00:44) FORM sigxpopts simulparamtab  
+\i (00:00:45) FORM sigxpopts ok  
+\i (00:00:47) setwindow sigxp
+\i (00:00:47) pick grid 5488.99 4226.52
+\t (00:00:47) last pick:  5489.00 4226.50
+\i (00:00:47) pick grid 5488.76 4225.95
+\t (00:00:47) last pick:  5489.00 4226.00
+\i (00:00:50) quickaddpart 38918 
+\i (00:00:51) pick grid 5487.24 4225.78
+\t (00:00:51) last pick:  5487.00 4226.00
+\i (00:00:51) sigxp background 
+\i (00:00:52) pick grid 5483.63 4226.01
+\t (00:00:52) last pick:  5483.50 4226.00
+\i (00:00:52) pick grid 5482.38 4226.12
+\t (00:00:52) last pick:  5482.50 4226.00
+\i (00:00:53) drag_start grid 5487.58 4225.78
+\i (00:00:54) drag_stop grid 5487.01 4222.06
+\i (00:00:54) pick grid 5489.16 4222.11
+\t (00:00:54) last pick:  5489.00 4222.00
+\i (00:00:55) pick grid 5491.53 4226.46
+\t (00:00:55) last pick:  5491.50 4226.50
+\i (00:00:55) pick grid 5483.46 4222.06
+\t (00:00:55) last pick:  5483.50 4222.00
+\i (00:00:56) pick grid 5482.67 4226.23
+\t (00:00:56) last pick:  5482.50 4226.00
+\i (00:00:57) pick grid 5485.43 4220.65
+\t (00:00:57) last pick:  5485.50 4220.50
+\i (00:00:58) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE
+\i (00:00:59) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE "3"
+\i (00:01:00) save 
+\i (00:01:01) fillin yes 
+\t (00:01:01) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:01:01) sigxp background 
+\i (00:01:01) signal simulate 
+\w (00:01:02) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:01:03) sigxp background 
+\i (00:01:13) drag_start grid 5486.39 4221.60
+\i (00:01:14) drag_stop grid 5487.07 4225.73
+\i (00:01:15) pick grid 5491.58 4232.78
+\t (00:01:15) last pick:  5491.50 4233.00
+\i (00:01:16) drag_start grid 5487.63 4225.95
+\i (00:01:17) drag_stop grid 5487.58 4225.95
+\i (00:01:18) pick grid 5490.51 4234.64
+\t (00:01:18) last pick:  5490.50 4234.50
+\i (00:01:19) pick grid 5487.01 4224.54
+\t (00:01:19) last pick:  5487.00 4224.50
+\i (00:01:20) setwindow text
+\i (00:01:20) close 
+\i (00:01:21) setwindow sigxp
+\i (00:01:21) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE "5"
+\i (00:01:21) save 
+\i (00:01:22) fillin yes 
+\t (00:01:22) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:01:23) sigxp background 
+\i (00:01:24) signal simulate 
+\w (00:01:24) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:01:26) sigxp background 
+\i (00:01:41) pick grid 5493.05 4217.65
+\t (00:01:41) last pick:  5493.00 4217.50
+\i (00:01:42) pick grid 5487.18 4226.68
+\t (00:01:42) last pick:  5487.00 4226.50
+\i (00:01:42) prepopup 5487.35 4226.01
+\i (00:01:43) pop dyn_option_select @:@Delete 
+\i (00:01:44) pick grid 5482.61 4226.12
+\t (00:01:44) last pick:  5482.50 4226.00
+\i (00:01:45) pick grid 5491.30 4226.01
+\t (00:01:45) last pick:  5491.50 4226.00
+\i (00:01:46) signal simulate 
+\w (00:01:46) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:01:47) signal simulate 
+\i (00:01:47) sigxp background 
+\i (00:02:08) setwindow text
+\i (00:02:08) close 
+\i (00:02:09) setwindow text
+\i (00:02:09) close 
+\i (00:02:10) setwindow sigxp
+\i (00:02:10) pick grid 5542.55 4217.94
+\t (00:02:10) last pick:  5542.50 4218.00
+\i (00:02:11) save 
+\i (00:02:11) fillin yes 
+\t (00:02:11) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
+\i (00:02:11) sigxp background 
+\i (00:02:12) drag_start grid 5543.96 4220.14
+\i (00:02:12) roam y 16
+\i (00:02:12) roam y 16
+\i (00:02:13) roam y 16
+\i (00:02:13) drag_stop grid 5507.28 4196.72
+\i (00:02:14) prepopup 5534.71 4218.05
+\i (00:02:15) pop dyn_option_select @:@Delete 
+\i (00:02:16) signal simulate 
+\i (00:02:18) sigxp background 
+\i (00:02:21) exit 
+\e (00:02:21) Would you like to save the changes made in  TDR2.top
+\i (00:02:22) fillin no 
+\t (00:02:23)     Journal end - Sun Dec 24 15:15:28 2023

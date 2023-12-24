@@ -1,2 +1,2 @@
 SimID	Driver	Receiver	Cycle	GlitchTol [ns]	FTSMode	Glitch	Monotonic	NoiseMargin [mV]	OvershootHigh [mV]	OvershootLow [mV]	PropDelay [ns]	SwitchDelay [ns]	SettleDelay [ns]
-1	PMOD2BNCSIMPLE_V1_04.J1.11	PMOD2BNCSIMPLE_V1_04.U1.1	1	0.06	Typ	PASS	PASS	1289.93	NA	-569.672	10.7	12.1484	NA
+1	PMOD2BNCSIMPLE_V1_04.U1.1	PMOD2BNCSIMPLE_V1_04.IN3.1	1	0.08394	Typ	FAIL	FAIL	NA	NA	NA	NA	NA	NA
