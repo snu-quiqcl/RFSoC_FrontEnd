@@ -1,138 +1,181 @@
 \t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Sun Dec 24 15:13:09 2023
-\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=27556 CPUs=20
-\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\TDR2.top
+\t (00:00:04)     Journal start - Wed Dec 27 19:54:08 2023
+\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=27184 CPUs=20
+\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\TDR_REAL2.top
 \t (00:00:04) 
 \t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 5556
-\i (00:00:04) trapsize 4775
-\i (00:00:04) trapsize 4607
-\i (00:00:04) trapsize 4250000
-\i (00:00:04) trapsize 850000
-\t (00:00:04) Starting new design...
-\i (00:00:05) trapsize 4250000
-\i (00:00:05) trapsize 4250000
-\i (00:00:05) trapsize 4250000
+\i (00:00:04) trapsize 1469
+\i (00:00:04) trapsize 1408
+\i (00:00:04) trapsize 1885
+\i (00:00:05) trapsize 9874
+\i (00:00:05) trapsize 1885
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 9874
+\i (00:00:05) trapsize 9874
+\i (00:00:05) trapsize 9874
    (00:00:05) Loading sigxp.cxt 
    (00:00:05) Loading signal.cxt 
    (00:00:05) Loading sxutil.cxt 
    (00:00:05) Loading axlcore.cxt 
    (00:00:05) Loading fputil.cxt 
    (00:00:05) Already Placed Circuit
-\i (00:00:05) trapsize 18750
+\i (00:00:05) trapsize 68
    (00:00:05) Loading skillExt.cxt 
 \i (00:00:06) sigxp background 
-\i (00:00:07) trapsize 3174
-\i (00:00:09) zoom fit 
-\i (00:00:09) trapsize 28
-\i (00:00:18) save 
-\i (00:00:19) fillin yes 
-\t (00:00:19) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
-\i (00:00:19) sigxp background 
-\i (00:00:29) pick grid 5522.85 4216.75
-\t (00:00:29) last pick:  5523.00 4217.00
-\i (00:00:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:00:36) prepopup 
-\i (00:00:36) prepopup 5510.27 4218.73
-\i (00:00:36) pop dyn_option_select '@:@Via Setup Preferences...' 
-\i (00:00:39) setwindow form.sigsqviamodelextrsetup
-\i (00:00:39) FORM sigsqviamodelextrsetup cancel  
-\i (00:00:41) setwindow sigxp
-\i (00:00:41) signoise options 
-\i (00:00:41) sigxp background 
-\i (00:00:44) setwindow form.sigxpopts
-\i (00:00:44) FORM sigxpopts simulparamtab  
-\i (00:00:45) FORM sigxpopts ok  
-\i (00:00:47) setwindow sigxp
-\i (00:00:47) pick grid 5488.99 4226.52
-\t (00:00:47) last pick:  5489.00 4226.50
-\i (00:00:47) pick grid 5488.76 4225.95
-\t (00:00:47) last pick:  5489.00 4226.00
-\i (00:00:50) quickaddpart 38918 
-\i (00:00:51) pick grid 5487.24 4225.78
-\t (00:00:51) last pick:  5487.00 4226.00
-\i (00:00:51) sigxp background 
-\i (00:00:52) pick grid 5483.63 4226.01
-\t (00:00:52) last pick:  5483.50 4226.00
-\i (00:00:52) pick grid 5482.38 4226.12
-\t (00:00:52) last pick:  5482.50 4226.00
-\i (00:00:53) drag_start grid 5487.58 4225.78
-\i (00:00:54) drag_stop grid 5487.01 4222.06
-\i (00:00:54) pick grid 5489.16 4222.11
-\t (00:00:54) last pick:  5489.00 4222.00
-\i (00:00:55) pick grid 5491.53 4226.46
-\t (00:00:55) last pick:  5491.50 4226.50
-\i (00:00:55) pick grid 5483.46 4222.06
-\t (00:00:55) last pick:  5483.50 4222.00
-\i (00:00:56) pick grid 5482.67 4226.23
-\t (00:00:56) last pick:  5482.50 4226.00
-\i (00:00:57) pick grid 5485.43 4220.65
-\t (00:00:57) last pick:  5485.50 4220.50
-\i (00:00:58) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE
-\i (00:00:59) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE "3"
-\i (00:01:00) save 
-\i (00:01:01) fillin yes 
-\t (00:01:01) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
-\i (00:01:01) sigxp background 
-\i (00:01:01) signal simulate 
-\w (00:01:02) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
-\i (00:01:03) sigxp background 
-\i (00:01:13) drag_start grid 5486.39 4221.60
-\i (00:01:14) drag_stop grid 5487.07 4225.73
-\i (00:01:15) pick grid 5491.58 4232.78
-\t (00:01:15) last pick:  5491.50 4233.00
-\i (00:01:16) drag_start grid 5487.63 4225.95
-\i (00:01:17) drag_stop grid 5487.58 4225.95
-\i (00:01:18) pick grid 5490.51 4234.64
-\t (00:01:18) last pick:  5490.50 4234.50
-\i (00:01:19) pick grid 5487.01 4224.54
-\t (00:01:19) last pick:  5487.00 4224.50
-\i (00:01:20) setwindow text
-\i (00:01:20) close 
-\i (00:01:21) setwindow sigxp
-\i (00:01:21) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.R5.resistance VALUE "5"
-\i (00:01:21) save 
-\i (00:01:22) fillin yes 
-\t (00:01:22) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
-\i (00:01:23) sigxp background 
-\i (00:01:24) signal simulate 
-\w (00:01:24) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
+\i (00:00:12) trapsize 33
+\i (00:00:15) signal simulate 
+\i (00:00:17) sigxp background 
+\i (00:00:21) pick grid 5532.58 4224.57
+\t (00:00:21) last pick:  5532.50 4224.50
+\i (00:00:22) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:00:23) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0"
+\i (00:00:24) signal simulate 
+\i (00:00:25) sigxp background 
+\i (00:00:35) pick grid 5533.04 4214.45
+\t (00:00:35) last pick:  5533.00 4214.50
+\i (00:00:36) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
+\i (00:00:37) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.1"
+\i (00:00:38) pick grid 5533.04 4223.98
+\t (00:00:38) last pick:  5533.00 4224.00
+\i (00:00:39) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:00:41) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.4"
+\i (00:00:46) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
+\i (00:00:47) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.2"
+\i (00:00:50) signal simulate 
+\i (00:00:52) sigxp background 
+\i (00:01:16) roam start
+\i (00:01:16) roam x -32
+\i (00:01:16) roam y 16
+\i (00:01:16) roam x -16
+\i (00:01:16) roam y 16
+\i (00:01:16) roam x -48
+\i (00:01:16) roam y 32
+\i (00:01:17) roam x 96
+\i (00:01:17) roam x 16
+\i (00:01:17) roam x 16
+\i (00:01:17) roam x -16
+\i (00:01:17) roam x -16
+\i (00:01:18) roam end
+\i (00:01:20) saveas 
+\i (00:01:26) fillin "TDR_REAL3.top"
+\t (00:01:26) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR_REAL3.top"
 \i (00:01:26) sigxp background 
-\i (00:01:41) pick grid 5493.05 4217.65
-\t (00:01:41) last pick:  5493.00 4217.50
-\i (00:01:42) pick grid 5487.18 4226.68
-\t (00:01:42) last pick:  5487.00 4226.50
-\i (00:01:42) prepopup 5487.35 4226.01
-\i (00:01:43) pop dyn_option_select @:@Delete 
-\i (00:01:44) pick grid 5482.61 4226.12
-\t (00:01:44) last pick:  5482.50 4226.00
-\i (00:01:45) pick grid 5491.30 4226.01
-\t (00:01:45) last pick:  5491.50 4226.00
-\i (00:01:46) signal simulate 
-\w (00:01:46) WARNING(SPSIMS-72): Voltage threshold on receiver 'PMOD2BNCSIMPLE_V1_04 IN2 1' never crossed for driver 'PMOD2BNCSIMPLE_V1_04 U1 1'.
-\i (00:01:47) signal simulate 
-\i (00:01:47) sigxp background 
-\i (00:02:08) setwindow text
-\i (00:02:08) close 
-\i (00:02:09) setwindow text
-\i (00:02:09) close 
-\i (00:02:10) setwindow sigxp
-\i (00:02:10) pick grid 5542.55 4217.94
-\t (00:02:10) last pick:  5542.50 4218.00
-\i (00:02:11) save 
-\i (00:02:11) fillin yes 
-\t (00:02:11) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR2.top"
-\i (00:02:11) sigxp background 
-\i (00:02:12) drag_start grid 5543.96 4220.14
-\i (00:02:12) roam y 16
-\i (00:02:12) roam y 16
-\i (00:02:13) roam y 16
-\i (00:02:13) drag_stop grid 5507.28 4196.72
-\i (00:02:14) prepopup 5534.71 4218.05
-\i (00:02:15) pop dyn_option_select @:@Delete 
-\i (00:02:16) signal simulate 
-\i (00:02:18) sigxp background 
-\i (00:02:21) exit 
-\e (00:02:21) Would you like to save the changes made in  TDR2.top
-\i (00:02:22) fillin no 
-\t (00:02:23)     Journal end - Sun Dec 24 15:15:28 2023
+\i (00:01:32) pick grid 5540.74 4234.10
+\t (00:01:32) last pick:  5540.50 4234.00
+\i (00:01:32) pick grid dbl 5540.74 4234.10
+\t (00:01:32) last pick:  5540.50 4234.00
+\i (00:01:33) pick grid 5540.55 4234.69
+\t (00:01:33) last pick:  5540.50 4234.50
+\i (00:01:33) pick grid 5540.28 4235.35
+\t (00:01:33) last pick:  5540.50 4235.50
+\i (00:01:36) setwindow form.sxstimulus
+\i (00:01:36) FORM sxstimulus ok  
+\i (00:01:36) setwindow sigxp
+\i (00:01:36) pick grid 5541.40 4229.23
+\t (00:01:36) last pick:  5541.50 4229.00
+\i (00:01:39) prepopup 5540.15 4229.76
+\i (00:01:41) pop dyn_option_select @:@Copy 
+\i (00:01:43) pick grid 5476.20 4232.39
+\t (00:01:43) last pick:  5476.00 4232.50
+\i (00:01:43) pick grid 5497.03 4233.11
+\t (00:01:43) last pick:  5497.00 4233.00
+\i (00:01:46) pick grid 5529.90 4222.53
+\t (00:01:46) last pick:  5530.00 4222.50
+\i (00:01:56) pick grid 5480.01 4225.81
+\t (00:01:56) last pick:  5480.00 4226.00
+\i (00:01:56) prepopup 5480.01 4225.81
+\i (00:01:57) pop dyn_option_select @:@Delete 
+\i (00:01:59) pick grid 5474.95 4223.84
+\t (00:01:59) last pick:  5475.00 4224.00
+\i (00:01:59) prepopup 5474.95 4223.84
+\i (00:02:00) pop dyn_option_select @:@Delete 
+\i (00:02:01) pick grid 5474.55 4217.66
+\t (00:02:01) last pick:  5474.50 4217.50
+\i (00:02:02) prepopup 5474.62 4217.14
+\i (00:02:03) pop dyn_option_select @:@Delete 
+\i (00:02:04) drag_start grid 5476.59 4232.45
+\i (00:02:06) drag_stop grid 5491.25 4229.89
+\i (00:02:06) pick grid 5490.85 4222.66
+\t (00:02:06) last pick:  5491.00 4222.50
+\i (00:02:06) pick grid 5489.01 4225.68
+\t (00:02:06) last pick:  5489.00 4225.50
+\i (00:02:08) pick grid 5495.52 4225.95
+\t (00:02:08) last pick:  5495.50 4226.00
+\i (00:02:09) pick grid 5540.22 4234.88
+\t (00:02:09) last pick:  5540.00 4235.00
+\i (00:02:10) setwindow form.sxstimulus
+\i (00:02:10) FORM sxstimulus tristate YES 
+\i (00:02:12) FORM sxstimulus apply  
+\i (00:02:12) FORM sxstimulus ok  
+\i (00:02:12) setwindow sigxp
+\i (00:02:12) pick grid 5520.96 4232.58
+\t (00:02:12) last pick:  5521.00 4232.50
+\i (00:02:13) save 
+\i (00:02:14) fillin yes 
+\t (00:02:14) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR_REAL3.top"
+\i (00:02:14) sigxp background 
+\i (00:02:30) drag_start grid 5526.09 4218.98
+\i (00:02:31) drag_stop grid 5544.62 4208.92
+\i (00:02:31) drag_start grid 5540.88 4215.76
+\i (00:02:33) drag_stop grid 5513.20 4220.62
+\i (00:02:33) pick grid 5513.01 4215.95
+\t (00:02:33) last pick:  5513.00 4216.00
+\i (00:02:36) drag_start grid 5499.66 4222.53
+\i (00:02:36) drag_stop grid 5524.71 4210.96
+\i (00:02:37) drag_start grid 5512.68 4220.23
+\i (00:02:38) drag_stop grid 5506.56 4220.49
+\i (00:02:38) pick grid 5497.10 4217.33
+\t (00:02:38) last pick:  5497.00 4217.50
+\i (00:02:39) pick grid 5496.24 4220.95
+\t (00:02:39) last pick:  5496.00 4221.00
+\i (00:02:39) pick grid 5495.72 4225.75
+\t (00:02:39) last pick:  5495.50 4226.00
+\i (00:02:40) drag_start grid 5511.69 4221.74
+\i (00:02:40) drag_stop grid 5497.62 4216.87
+\i (00:02:41) drag_start grid 5506.76 4220.69
+\i (00:02:43) drag_stop grid 5506.89 4220.56
+\i (00:02:43) pick grid 5519.12 4217.53
+\t (00:02:43) last pick:  5519.00 4217.50
+\i (00:02:44) drag_start grid 5513.20 4222.66
+\i (00:02:44) drag_stop grid 5495.32 4215.10
+\i (00:02:45) drag_start grid 5506.89 4220.49
+\i (00:02:46) drag_stop grid 5506.56 4220.29
+\i (00:02:46) pick grid 5516.49 4217.40
+\t (00:02:46) last pick:  5516.50 4217.50
+\i (00:02:47) save 
+\i (00:02:49) fillin yes 
+\t (00:02:49) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR_REAL3.top"
+\i (00:02:49) sigxp background 
+\i (00:02:50) signal simulate 
+\i (00:02:51) sigxp background 
+\i (00:02:59) pick grid 5498.48 4227.13
+\t (00:02:59) last pick:  5498.50 4227.00
+\i (00:02:59) pick grid dbl 5498.48 4227.13
+\t (00:02:59) last pick:  5498.50 4227.00
+\i (00:03:00) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE
+\i (00:03:01) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE "35"
+\i (00:03:02) signal simulate 
+\i (00:03:04) sigxp background 
+\i (00:03:06) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE
+\i (00:03:12) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE "45"
+\i (00:03:13) pick grid 5498.28 4226.54
+\t (00:03:13) last pick:  5498.50 4226.50
+\i (00:03:14) pick grid 5498.68 4227.26
+\t (00:03:14) last pick:  5498.50 4227.50
+\i (00:03:14) pick grid dbl 5498.68 4227.26
+\t (00:03:14) last pick:  5498.50 4227.50
+\i (00:03:15) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL9.impedance VALUE
+\i (00:03:17) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL9.impedance VALUE "30"
+\i (00:03:17) save 
+\i (00:03:19) fillin yes 
+\t (00:03:19) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/TDR_REAL3.top"
+\i (00:03:19) sigxp background 
+\i (00:03:19) signal simulate 
+\i (00:03:21) sigxp background 
+\i (00:03:24) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL9.impedance VALUE "45"
+\i (00:03:25) signal simulate 
+\i (00:03:27) sigxp background 
+\i (00:42:13) exit 
+\e (00:42:13) Would you like to save the changes made in  TDR_REAL3.top
+\i (00:42:14) fillin yes 
+\t (00:42:14)     Journal end - Wed Dec 27 20:36:19 2023

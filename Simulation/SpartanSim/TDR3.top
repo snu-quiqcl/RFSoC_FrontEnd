@@ -1,0 +1,516 @@
+(SKIDL
+  (Circuits
+    ("MAIN"
+      (Parts
+        ("idlPart_50" IbisInput
+          (xy (5496.5 4231.5))
+          (refDes "IN3")
+          (model "Unknown")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (bufferModel "DummyProbe")
+            (cycle "1")
+            (mappingTag "")
+            (temperature "27")
+          )
+          (Terms ("idlNode_52" "1") )
+        )
+        ("PMOD2BNCSIMPLE_V1_04.@@U1.1" IbisIOPkg
+          (xy (5540.5 4231.0))
+          (refDes "U1")
+          (model "Unknown")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (brdx "0.2 IN")
+            (brdy "0.7 IN")
+            (bufferModel "SPARTAN7_LVCMOS33_S_12_HR")
+            (cycle "1")
+            (hold "1.0e-09")
+            (mappingTag "")
+            (offsets
+              ("4" "0")
+              ("5" "0")
+            )
+            (setup "2.0e-09")
+            (state "rise")
+            (stimuli
+              ("5" "local51")
+              ("4" "local50")
+            )
+            (temperature "27")
+            (termMap
+              ("4" "Data")
+              ("5" "Enable")
+            )
+          )
+          (Terms ("idlNode_22" "1") )
+        )
+        ("idlPart_35" IbisInput
+          (xy (5534.5 4220.0))
+          (refDes "IN2")
+          (model "Unknown")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (bufferModel "DummyProbe")
+            (cycle "1")
+            (mappingTag "")
+            (temperature "27")
+          )
+          (Terms ("idlNode_158" "1") )
+        )
+        ("PMOD2BNCSIMPLE_V1_04.XSTLX2000Y7000L1X5500Y3535L1" Trace
+          (xy (5509.5 4223.0))
+          (mirror x)
+          (refDes "TL_6")
+          (model "STL_1S_1R_18")
+          (Props
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (d1Constant "4.5")
+            (d1LossTangent "0.035")
+            (d1Thickness "0.0039 IN")
+            (d2Constant "4.5")
+            (d2LossTangent "0")
+            (d2Thickness "0.0000 IN")
+            (length "20.0000 IN")
+            (traceConductivity "595900 mho/cm")
+            (traceCount "1")
+            (traceEtchFactor "90")
+            (traceGeometry "microstrip")
+            (traceLayerName "TOP")
+            (traceThickness "0.0014 IN")
+            (traceType "single")
+            (traceWidth "0.0020 IN")
+          )
+          (Layer "PMOD2BNCSIMPLE_V1_04" "TOP")
+          (Terms ("idlNode_160" "1") ("idlNode_16" "2") )
+        )
+        ("idlPart_154" TLine
+          (xy (5517.5 4223.0))
+          (refDes "TL9")
+          (orientation "270")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (impedance "50 ohm")
+            (length "2800 mil")
+            (propDelay "0.1 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_160" "1") ("idlNode_158" "2") )
+        )
+        ("idlPart_11" TLine
+          (xy (5499.5 4226.0))
+          (refDes "TL4")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+            (impedance "50 ohm")
+            (length "2800 mil")
+            (propDelay "0.5 ns")
+            (traceCount "1")
+            (traceGeometry "Microstrip")
+            (velocity "5600 mil/ns")
+          )
+          (Terms ("idlNode_52" "1") ("idlNode_16" "2") )
+        )
+        ("idlPart_17" Capacitor
+          (xy (5524.5 4217.0))
+          (refDes "C1")
+          (orientation "270")
+          (value "12 pF")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_158" "1") ("idlNode_42" "2") )
+        )
+        ("idlPart_13" Resistor
+          (xy (5494.5 4223.0))
+          (refDes "R1")
+          (orientation "270")
+          (value "50 Ohm")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_52" "1") ("idlNode_246" "2") )
+        )
+        ("idlPart_9" Resistor
+          (xy (5528.5 4217.0))
+          (refDes "R6")
+          (orientation "270")
+          (value "1e+06 Ohm")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_158" "1") ("idlNode_42" "2") )
+        )
+        ("idlPart_16" Resistor
+          (xy (5528.5 4226.0))
+          (refDes "R5")
+          (value "20 Ohm")
+          (Props
+            (XnetName "PMOD2BNCSIMPLE_V1_04 U1 1")
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_160" "1") ("idlNode_22" "2") )
+        )
+        ("idlPart_24" Source
+          (xy (5494.5 4218.0))
+          (refDes "V1")
+          (value "0 V")
+          (Props
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_246" "1") )
+        )
+        ("idlPart_36" Source
+          (xy (5528.5 4211.5))
+          (refDes "V2")
+          (value "0 V")
+          (Props
+            (_SXDesignName "PMOD2BNCSIMPLE_V1_04")
+          )
+          (Terms ("idlNode_42" "1") )
+        )
+      )
+      (Nodes
+        ("idlNode_16"
+          (terms "idlPart_11.2" "PMOD2BNCSIMPLE_V1_04.XSTLX2000Y7000L1X5500Y3535L1.2" )
+        )
+        ("idlNode_158"
+          (terms "idlPart_35.1" "idlPart_17.1" "idlPart_9.1" "idlPart_154.2" )
+        )
+        ("idlNode_160"
+          (terms "idlPart_16.1" "idlPart_154.1" "PMOD2BNCSIMPLE_V1_04.XSTLX2000Y7000L1X5500Y3535L1.1" )
+        )
+        ("idlNode_42"
+          (terms "idlPart_36.1" "idlPart_9.2" "idlPart_17.2" )
+        )
+        ("idlNode_52"
+          (terms "idlPart_50.1" "idlPart_11.1" "idlPart_13.1" )
+        )
+        ("idlNode_22"
+          (terms "idlPart_16.2" "PMOD2BNCSIMPLE_V1_04.@@U1.1.1" )
+        )
+        ("idlNode_246"
+          (terms "idlPart_24.1" "idlPart_13.2" )
+        )
+      )
+      (Ports
+      )
+      (Stimuli
+        ("local50"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "1e+08")
+            (periodicJitter "1e-11")
+            (periodicPattern "10100101000101101010101010101010001001001010101110101001010101010101010001000101010101001010101010110101011110100010010010101010100010001000100010010111101101110111011101110110101001010100100010111010110110101111010010100001001010101010111111")
+          )
+        )
+        ("local51"
+          (scope local)
+          (stimType periodic)
+          (Props
+            (periodicFreq "5e+07")
+            (periodicJitter "0")
+            (periodicPattern "1")
+          )
+        )
+      )
+      (Notes
+      )
+      (Constraints
+        ("RATSNEST_SCHEDULE" "TEMPLATE")
+        ("TOTAL_ETCH_LENGTH_MAX" "0.060452")
+        ("TOTAL_ETCH_LENGTH_MIN" "0.059944")
+      )
+      (MeasurementSets
+        ("EMI"
+            ("EMIStatus"
+              (status "on")
+            )
+            ("PeakEmission"
+              (status "on")
+            )
+            ("PeakFrequency"
+              (status "on")
+            )
+            ("PulseFreq"
+              (status "on")
+            )
+            ("RiseTime"
+              (status "on")
+            )
+            ("VoltageSwing"
+              (status "on")
+            )
+        )
+        ("Reflection"
+            ("BufferDelayFall"
+              (status "off")
+            )
+            ("BufferDelayRise"
+              (status "off")
+            )
+            ("EyeHeight"
+              (status "off")
+            )
+            ("EyeJitter"
+              (status "off")
+            )
+            ("EyeWidth"
+              (status "off")
+            )
+            ("FirstIncidentFall"
+              (status "off")
+            )
+            ("FirstIncidentRise"
+              (status "off")
+            )
+            ("Glitch"
+              (status "on")
+            )
+            ("GlitchFall"
+              (status "off")
+            )
+            ("GlitchRise"
+              (status "off")
+            )
+            ("Monotonic"
+              (status "on")
+            )
+            ("MonotonicFall"
+              (status "off")
+            )
+            ("MonotonicRise"
+              (status "off")
+            )
+            ("NoiseMargin"
+              (status "on")
+            )
+            ("NoiseMarginHigh"
+              (status "off")
+            )
+            ("NoiseMarginLow"
+              (status "off")
+            )
+            ("OvershootHigh"
+              (status "on")
+            )
+            ("OvershootLow"
+              (status "on")
+            )
+            ("PropDelay"
+              (status "on")
+            )
+            ("SettleDelay"
+              (status "on")
+            )
+            ("SettleDelayFall"
+              (status "off")
+            )
+            ("SettleDelayRise"
+              (status "off")
+            )
+            ("SwitchDelay"
+              (status "on")
+            )
+            ("SwitchDelayFall"
+              (status "off")
+            )
+            ("SwitchDelayRise"
+              (status "off")
+            )
+        )
+        ("Crosstalk"
+            ("Crosstalk"
+              (status "on")
+            )
+        )
+        ("Custom"
+        )
+      )
+      (VectorSets
+      )
+      (Props
+        (XnetName "N17882")
+        (activeMeasSet "Reflection")
+        (allDrivers "active")
+        (autoSolve "On")
+        (customSimType "Reflection")
+        (ftsMode ("Typ"))
+        (rcvrSelect "all")
+        (tlineDelayMode "time")
+        (userRevision "1.0")
+      )
+    )
+  )
+  (Subckts
+  )
+  (CrossSections
+      ("PMOD2BNCSIMPLE_V1_04"
+         (Props
+           (SXDesignName "UNNAMED")
+         )
+         (Layers
+           (""
+             (layerType "SURFACE")
+             (material "AIR")
+             (thickness "0 mil")
+             (dielectricConstant "1.000000")
+             (lossTangent "0")
+             (etchFactor "0.000000")
+             (elecCondVal "0 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           ("TOP"
+             (layerType "CONDUCTOR")
+             (material "COPPER")
+             (thickness "1.377900 mil")
+             (width "0.0050 IN")
+             (dielectricConstant "4.500000")
+             (lossTangent "0")
+             (etchFactor "90.000000")
+             (elecCondVal "595900 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+             (signalDieConstant "1.000000")
+             (signalLossTangent "0")
+           )
+           (""
+             (layerType "DIELECTRIC")
+             (material "FR-4")
+             (thickness "3.937000 mil")
+             (dielectricConstant "4.500000")
+             (lossTangent "0.035")
+             (etchFactor "0.000000")
+             (elecCondVal "0 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           ("GND1"
+             (layerType "PLANE")
+             (material "COPPER")
+             (isShield t)
+             (thickness "1.259800 mil")
+             (dielectricConstant "4.500000")
+             (lossTangent "0.035")
+             (etchFactor "90.000000")
+             (elecCondVal "595900 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           (""
+             (layerType "DIELECTRIC")
+             (material "FR-4")
+             (thickness "47.244000 mil")
+             (dielectricConstant "4.500000")
+             (lossTangent "0.035")
+             (etchFactor "0.000000")
+             (elecCondVal "0 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           ("GND2"
+             (layerType "PLANE")
+             (material "COPPER")
+             (isShield t)
+             (thickness "1.259800 mil")
+             (dielectricConstant "4.500000")
+             (lossTangent "0.035")
+             (etchFactor "90.000000")
+             (elecCondVal "595900 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           (""
+             (layerType "DIELECTRIC")
+             (material "FR-4")
+             (thickness "3.937000 mil")
+             (dielectricConstant "4.500000")
+             (lossTangent "0.035")
+             (etchFactor "0.000000")
+             (elecCondVal "0 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+           ("BOTTOM"
+             (layerType "CONDUCTOR")
+             (material "COPPER")
+             (thickness "1.377900 mil")
+             (width "0.0050 IN")
+             (dielectricConstant "4.500000")
+             (lossTangent "0")
+             (etchFactor "90.000000")
+             (elecCondVal "595900 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+             (signalDieConstant "1.000000")
+             (signalLossTangent "0")
+           )
+           (""
+             (layerType "SURFACE")
+             (material "AIR")
+             (thickness "0 mil")
+             (dielectricConstant "1.000000")
+             (lossTangent "0")
+             (etchFactor "0.000000")
+             (elecCondVal "0 mho/cm")
+             (thermCondVal "0 w/cm-degC")
+           )
+         )
+      )
+  )
+  (Props
+    (DesUnits "inches 4")
+    (LayerStack ("DIELECTRIC" "BOTTOM" "DIELECTRIC" "GND2" "DIELECTRIC" "GND1" "DIELECTRIC" "TOP" "DIELECTRIC"))
+    (Revision "16.600")
+  )
+  (Params
+    (ShuntTerm ((resistance "50 ohm") (voltage "5 V") (maxDelay "0.1 ns")))
+    (CurrentProbe nil)
+    (DiffInput ((temperature "27") (bufferModelNonInverting "CDSDefaultInput_2p5v") (bufferModelInverting "CDSDefaultInput_2p5v") (threshInputHighMin "1.7 V") (threshInputHighTyp "1.7  V") (threshInputHighMax "1.7  V") (threshInputLowMin "0.7  V") (threshInputLowTyp "0.7  V") (threshInputLowMax "0.7  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (cycle "1")))
+    (RCTerm ((resistance "50 ohm") (capacitance "20 pF") (voltage "5 V") (maxDelay "0.1 ns")))
+    (async ((asyncTimePoints "") (asyncInitState "1")))
+    (IbisOutput ((temperature "27") (bufferModel "CDSDefaultOutput_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (clocked ((clockRise "1e-09") (clockFall "1e-09") (clockFreq "100e6") (clockInitState "0") (clockDutyCycle "0.5") (clockJitter "0")))
+    (IbisOutput_OpenPullUp ((temperature "27") (bufferModel "CDSDefaultOutput_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (idlCircuit ((allDrivers "active") (ftsMode '("Typ")) (rcvrSelect "all") (simMode "Reflection") (tlineDelayMode "time") (userRevision "1.0") (autoSolve "On")))
+    (IbisIOMacro ((temperature "27") (bufferModel "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (TheveninTerm ((resistanceUp "180 ohm") (resistanceDown "270 ohm") (voltageUp "5 V") (voltageDown "0 V") (maxDelay "0.1 ns")))
+    (periodic ((periodicFreq "100e6") (periodicPattern "10") (periodicJitter "0")))
+    (DiffOutput ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput_2p5v") (bufferModelInverting "CDSDefaultOutput_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "0.9e-09") (hold "0.4e-09") (rise nil) (fall nil) (threshOutputHighMin "2.375  V") (threshOutputHighTyp "2.5  V") (threshOutputHighMax "2.625  V") (threshOutputLowMin "1.275  V") (threshOutputLowTyp "1.7  V") (threshOutputLowMax "1.985  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (spice nil)))
+    (LowClampTerm ((cutoffVoltage "0.7 V") (voltage "0 V") (maxDelay "0.1 ns")))
+    (CPW ((d1Thickness "10 mil") (d1Constant "4.5") (d1LossTangent "0.035") (d2Thickness "0.72 mil") (d2Constant "1") (d2LossTangent "0") (d3Thickness "0.0") (d3Constant "1") (d3LossTangent "0") length("1000 mil") (spacing "5 mil") (spacing2 "5 mil") (spacing3 "5 mil") (spacing4 "5 mil") (spacing5 "5 mil") (traceConductivity "595900 mho/cm") (traceGeometry "cpwms") (traceLayerName "") (traceThickness "0.72 mil") (traceType "single") (traceWidth "5.0 mil") (traceWidth2 "5.0 mil") (traceWidth3 "5.0 mil") (traceWidth4 "5.0 mil") (traceWidth5 "5.0 mil") (traceWidth6 "5.0 mil") (offset "0 mil") (traceCount "1") (impedance nil)))
+    (sync ((syncFreq "100e6") (syncInitState "1") (syncPattern "10") (syncEdgeSwitch "rise")))
+    (DualClampTerm ((cutoffVoltageUp "0.7 V") (cutoffVoltageDown "0.7 V") (voltageUp "5 V") (voltageDown "0 V") (maxDelay "0.1 ns")))
+    (IbisIO ((temperature "27") (bufferModel "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (CPWMS ((d1Thickness "10 mil") (d1Constant "4.5") (d1LossTangent "0.035") (d2Thickness "0.72 mil") (d2Constant "4.5") (d2LossTangent "0.035") (d3Thickness "0.0") (d3Constant "1") (d3LossTangent "0") length("1000 mil") (spacing "5 mil") (spacing2 "5 mil") (spacing3 "5 mil") (spacing4 "5 mil") (spacing5 "5 mil") (traceConductivity "595900 mho/cm") (traceGeometry "cpwms") (traceLayerName "") (traceThickness "0.72 mil") (traceType "single") (traceWidth "5.0 mil") (traceWidth2 "5.0 mil") (traceWidth3 "5.0 mil") (traceWidth4 "5.0 mil") (traceWidth5 "5.0 mil") (traceWidth6 "5.0 mil") (offset "0 mil") (traceCount "1") (impedance nil)))
+    (RLGC (length("1000 mil")))
+    (IbisIO_OpenPullUp ((temperature "27") (bufferModel "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (CPWSL ((d1Thickness "10 mil") (d1Constant "4.5") (d1LossTangent "0.035") (d2Thickness "0.72 mil") (d2Constant "4.5") (d2LossTangent "0.035") (d3Thickness "10 mil") (d3Constant "4.5") (d3LossTangent "0.035") length("1000 mil") (spacing "5 mil") (spacing2 "5 mil") (spacing3 "5 mil") (spacing4 "5 mil") (spacing5 "5 mil") (traceConductivity "595900 mho/cm") (traceGeometry "cpwms") (traceLayerName "") (traceThickness "0.72 mil") (traceType "single") (traceWidth "5.0 mil") (traceWidth2 "5.0 mil") (traceWidth3 "5.0 mil") (traceWidth4 "5.0 mil") (traceWidth5 "5.0 mil") (traceWidth6 "5.0 mil") (offset "0 mil") (traceCount "1") (impedance nil)))
+    (Connector nil)
+    (Source ((voltage "5 V")))
+    (IbisIO_OpenPullDown ((temperature "27") (bufferModel "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (HiClampTerm ((cutoffVoltage "0.7 V") (voltage "5 V") (maxDelay "0.1 ns")))
+    (SeriesTerm ((resistance "22 ohm") (maxDelay "0.1 ns")))
+    (DiffIO ((temperature "27") (bufferModelNonInverting "CDSDefaultIO_2p5v") (bufferModelInverting "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "0.9e-09") (hold "0.4e-09") (rise nil) (fall nil) (threshInputHighMin "1.7 V") (threshInputHighTyp "1.7  V") (threshInputHighMax "1.7  V") (threshInputLowMin "0.7  V") (threshInputLowTyp "0.7  V") (threshInputLowMax "0.7 ") (threshOutputHighMin "2.365  V") (threshOutputHighTyp "2.5  V") (threshOutputHighMax "2.625  V") (threshOutputLowMin "1.275  V") (threshOutputLowTyp "1.7  V") (threshOutputLowMax "1.985  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (spice nil)))
+    (Resistor ((resistance "50 ohm") (orientation "0")))
+    (DiffIOPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultIO_2p5v") (bufferModelInverting "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "0.9e-09") (hold "0.4e-09") (rise nil) (fall nil) (threshInputHighMin "1.7 V") (threshInputHighTyp "1.7  V") (threshInputHighMax "1.7  V") (threshInputLowMin "0.7  V") (threshInputLowTyp "0.7  V") (threshInputLowMax "0.7 ") (threshOutputHighMin "2.365  V") (threshOutputHighTyp "2.5  V") (threshOutputHighMax "2.625  V") (threshOutputLowMin "1.275  V") (threshOutputLowTyp "1.7  V") (threshOutputLowMax "1.985  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (spice nil)))
+    (TLine ((diffImpedance "100ohm") (diffVelocity "1.4142e+08M/s") (impedance "60ohm") length("2800 mil") (propDelay "0.5 ns") (velocity "5600 mil/ns") (traceCount "1") (traceGeometry "Microstrip") (impedanceMin nil) (impedanceMax nil) (lengthMin nil) (lengthMax nil) (propDelayMin nil) (propDelayMax nil) (impedanceSweepCount nil) (propDelaySweepCount nil) (velocitySweepCount nil) (lengthSweepCount nil) (matchSetName nil)))
+    (Capacitor ((capacitance "10 pF") (orientation "0")))
+    (IbisIOPkg ((temperature "27") (bufferModel "CDSDefaultIO_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (Inductor ((inductance "5 nH") (orientation "0")))
+    (DiffOutputPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultOutput_2p5v") (bufferModelInverting "CDSDefaultOutput_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "0.9e-09") (hold "0.4e-09") (rise nil) (fall nil) (threshOutputHighMin "2.375  V") (threshOutputHighTyp "2.5  V") (threshOutputHighMax "2.625  V") (threshOutputLowMin "1.275  V") (threshOutputLowTyp "1.7  V") (threshOutputLowMax "1.985  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (spice nil)))
+    (IbisOutputPkg ((temperature "27") (bufferModel "CDSDefaultOutput_2p5v") (stimuli nil) (offsets nil) (state "tristate") (cycle "1") (termMap nil) (setup "2.0e-09") (hold "1.0e-09") (rise nil) (fall nil) (macroType nil) (voltage nil) (spice nil) (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (Diode ((cutoffVoltage "0.7 V")))
+    (ESpiceDevice nil)
+    (DiffInputPkg ((temperature "27") (bufferModelNonInverting "CDSDefaultInput_2p5v") (bufferModelInverting "CDSDefaultInput_2p5v") (threshInputHighMin "1.7 V") (threshInputHighTyp "1.7  V") (threshInputHighMax "1.7  V") (threshInputLowMin "0.7  V") (threshInputLowTyp "0.7  V") (threshInputLowMax "0.7  V") (mappingTagNonInverting nil) (mappingTagInverting nil) (cycle "1")))
+    (Via ((model "Unknown") (viaOutputFormat "Unknown") (viaPadstack nil) (viaTopLayer nil) (viaBottomLayer nil) (viaIsPower nil) (viaIsGround nil)))
+    (Cable (length("1 m")))
+    (IbisInputPkg ((temperature "27") (bufferModel "CDSDefaultInput_2p5v") (cycle "1") (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+    (Trace ((d1Thickness "10 mil") (d1Constant "4.5") (d1LossTangent "0.035") (d2Thickness "10 mil") (d2Constant "4.5") (d2LossTangent "0.035") (d3Thickness "0.0") (d3Constant "1.0") (d3LossTangent "0") length("1000 mil") (spacing "5 mil") (spacing2 "5 mil") (spacing3 "5 mil") (spacing4 "5 mil") (spacing5 "5 mil") (traceConductivity "595900 mho/cm") (traceGeometry "microstrip") (traceLayerName "") (traceThickness "0.72 mil") (traceType "single") (traceWidth "5.0 mil") (traceWidth2 "5.0 mil") (traceWidth3 "5.0 mil") (traceWidth4 "5.0 mil") (traceWidth5 "5.0 mil") (traceWidth6 "5.0 mil") (offset "0 mil") (traceCount "1") (impedance nil)))
+    (IbisInput ((temperature "27") (bufferModel "CDSDefaultInput_2p5v") (cycle "1") (LEFDEFPinName nil) (LEFDEFPinType nil) (mappingTag nil)))
+  )
+)

@@ -3,23 +3,23 @@
   (BasicData 
    (vlohi 0.8 ) 
    (vhilo 2 ) 
-   (tldelay 0 ) 
-   (vinit 7.98978e-06 ) ) 
+   (tldelay 4e-10 ) 
+   (vinit 2.11973e-05 ) ) 
   (Cycles 
    (1 ) ) ) 
  ("PMOD2BNCSIMPLE_V1_04.IN2.1" 
   (BasicData 
    (vlohi 0.8 ) 
    (vhilo 2.1 ) 
-   (tldelay 1e-09 ) 
-   (vinit 0.330209 ) ) 
+   (tldelay 1e-10 ) 
+   (vinit 2.11972e-05 ) ) 
   (Cycles 
    (1 ) ) ) 
- ("PMOD2BNCSIMPLE_V1_04.IN3.1" 
+ ("PMOD2BNCSIMPLE_V1_04.IOP2.1" 
   (BasicData 
    (vlohi 0.8 ) 
-   (vhilo 2.1 ) 
-   (tldelay 1.18119e-09 ) 
-   (vinit 8.05294e-06 ) ) 
+   (vhilo 2 ) 
+   (tldelay 0 ) 
+   (vinit 2.11972e-05 ) ) 
   (Cycles 
    (1 ) ) ) ) 

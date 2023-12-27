@@ -154,26 +154,32 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\rfmc_frontend_v1_00.dsn")
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn")
       (Path "Design Resources"
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\rfmc_frontend_v1_00.dsn"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "DAC_ADC_CHANNEL")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
          "IO_CHANNEL")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\rfmc_frontend_v1_00.dsn"
-         "IO_CHANNEL" "TTL_IO"))
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP" "LPAF"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 505 0 755"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 742"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1369 24 773")
-        (Scroll "0 52")
-        (Zoom "70")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "654 1874")
+        (Zoom "140")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -182,8 +188,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1369 24 773")
-        (Scroll "-171 7")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "-217 7")
         (Zoom "102")
         (Occurrence "/"))
       (Path
@@ -193,9 +199,14 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1369 24 773")
-        (Scroll "-88 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "-134 0")
         (Zoom "76"))
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "-142 0")
+        (Zoom "75")
+        (Occurrence "/CH0"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "DAC_ADC_CHANNEL")
@@ -203,9 +214,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1369 24 773")
-        (Scroll "-111 -4")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "-142 0")
+        (Zoom "75")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -214,9 +225,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1369 24 773")
-        (Scroll "-111 -4")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "492 109")
+        (Zoom "152")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -225,8 +236,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1369 24 773")
-        (Scroll "276 306")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 760")
+        (Scroll "86 192")
         (Zoom "200"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
