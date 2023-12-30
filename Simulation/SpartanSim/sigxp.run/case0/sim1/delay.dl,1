@@ -1,4 +1,9 @@
 A!Node!tldelay!ToLo!ToHi!ToHalf!ToRef!ToSettle!Vlomax!Vhimin!Vhalf!Vref!Vsettle!TNonMonotonic!VNonMonotonic!NodeName1!NodeName2!..!
-S!1!0!1.5579e-09!2.5999e-09!1.38504e-09!1.38504e-09!2.5999e-09!0.8!2!0.5!0.5!2!!!PMOD2BNCSIMPLE_V1_04.IOP2.1!
-S!2!1e-10!1.55763e-09!2.64714e-09!1.38624e-09!1.38624e-09!2.64714e-09!0.8!2.1!0.5!0.5!2.1!1.8e-09!1.05635!PMOD2BNCSIMPLE_V1_04.IN2.1!
-S!3!4e-10!1.86001e-09!2.28085e-09!1.74729e-09!1.74729e-09!2.28085e-09!0.8!2!0.5!0.5!2!!!PMOD2BNCSIMPLE_V1_04.U1.1!
+S!1!0!!!!!!!!!!!!!DESIGN.DOUT1.1!
+S!1-2!0!!!!!!!!!!!!!DESIGN.DOUT1.1_DESIGN.DOUT1.2_diff!
+S!2!0!!!!!!!!!!!!!DESIGN.DOUT1.2!
+S!3!1e-09!!!!!!!!!!!!!DESIGN.DIN1.1!
+S!3-4!1e-09!!!!!!!!!!!!!DESIGN.DIN1.1_DESIGN.DIN1.2_diff!
+S!4!1e-09!!!!!!!!!!!!!DESIGN.DIN1.2!
+S!5!1e+32!!!!!!!!!!!!!DESIGN.DOUT1.1_DESIGN.DOUT1.2_comm!
+S!20!1e+32!!!!!!!!!!!!!DESIGN.DIN1.1_DESIGN.DIN1.2_comm!

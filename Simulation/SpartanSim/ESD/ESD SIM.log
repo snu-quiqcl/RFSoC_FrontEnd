@@ -1,0 +1,22 @@
+Circuit: * C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\ESD\ESD SIM.asc
+
+.OP point found by inspection.
+
+Date: Sat Dec 30 14:32:17 2023
+Total elapsed time: 0.042 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2941
+traniter = 2941
+tranpoints = 1470
+accept = 1307
+rejected = 163
+matrix size = 12
+fillins = 3
+solver = Normal
+Avg thread counts: 1.6/2.2/2.2/1.6
+Matrix Compiler1: 540 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 852 bytes object code size  0.1/0.2/[0.1]
+

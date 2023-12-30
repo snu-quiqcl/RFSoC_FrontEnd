@@ -1,14 +1,14 @@
 \t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Wed Dec 27 19:46:10 2023
-\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=26852 CPUs=20
-\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\TDR_REAL2.top
+\t (00:00:04)     Journal start - Sat Dec 30 14:41:18 2023
+\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=31972 CPUs=20
+\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\DIFF1.top
 \t (00:00:04) 
 \t (00:00:04) Starting new design...
 \i (00:00:04) trapsize 803
 \i (00:00:04) trapsize 784
 \i (00:00:04) trapsize 913
-\i (00:00:04) trapsize 5878
-\i (00:00:04) trapsize 1176
+\i (00:00:05) trapsize 5878
+\i (00:00:05) trapsize 1176
 \t (00:00:05) Starting new design...
 \i (00:00:05) trapsize 5878
 \i (00:00:05) trapsize 5878
@@ -19,100 +19,128 @@
    (00:00:05) Loading axlcore.cxt 
    (00:00:05) Loading fputil.cxt 
    (00:00:05) Already Placed Circuit
-\i (00:00:05) trapsize 33
-   (00:00:05) Loading skillExt.cxt 
+\i (00:00:06) trapsize 23
+   (00:00:06) Loading skillExt.cxt 
 \i (00:00:06) sigxp background 
 \i (00:00:07) signal simulate 
-\i (00:00:08) sigxp background 
-\i (00:00:56) signal simulate 
-\i (00:00:57) sigxp background 
-\i (00:02:10) pick grid 5532.77 4224.37
-\t (00:02:10) last pick:  5533.00 4224.50
-\i (00:02:10) pick grid dbl 5532.77 4224.37
-\t (00:02:10) last pick:  5533.00 4224.50
-\i (00:02:11) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
-\i (00:02:13) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.4"
-\i (00:02:15) pick grid 5533.23 4227.33
-\t (00:02:15) last pick:  5533.00 4227.50
-\i (00:02:16) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE
-\i (00:02:16) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.impedance VALUE "45"
-\i (00:02:16) pick grid 5518.18 4238.11
-\t (00:02:16) last pick:  5518.00 4238.00
-\i (00:02:17) pick grid 5498.07 4226.93
-\t (00:02:17) last pick:  5498.00 4227.00
-\i (00:02:18) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL9.impedance VALUE
-\i (00:02:19) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL9.impedance VALUE "45"
-\i (00:02:19) pick grid 5532.18 4242.45
-\t (00:02:19) last pick:  5532.00 4242.50
-\i (00:02:22) pick grid 5532.51 4214.51
-\t (00:02:22) last pick:  5532.50 4214.50
-\i (00:02:23) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:02:24) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.2"
-\i (00:02:26) signal simulate 
-\i (00:02:27) sigxp background 
-\i (00:02:29) pick grid 5533.23 4214.51
-\t (00:02:29) last pick:  5533.00 4214.50
-\i (00:02:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:02:31) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0"
-\i (00:02:32) signal simulate 
-\i (00:02:32) sigxp background 
-\i (00:02:34) pick grid 5532.31 4214.38
-\t (00:02:34) last pick:  5532.50 4214.50
-\i (00:02:35) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:02:36) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.1"
-\i (00:02:38) signal simulate 
-\i (00:02:39) sigxp background 
-\i (00:02:49) pick grid 5532.58 4224.17
-\t (00:02:49) last pick:  5532.50 4224.00
-\i (00:02:49) pick grid dbl 5532.58 4224.17
-\t (00:02:49) last pick:  5532.50 4224.00
-\i (00:02:50) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
-\i (00:02:51) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0"
-\i (00:02:53) signal simulate 
-\i (00:02:53) sigxp background 
-\i (00:03:07) pick grid 5533.04 4214.64
-\t (00:03:07) last pick:  5533.00 4214.50
-\i (00:03:08) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:03:09) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.2"
-\i (00:03:12) pick grid 5533.17 4214.18
-\t (00:03:12) last pick:  5533.00 4214.00
-\i (00:03:13) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:03:15) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.4"
-\i (00:03:17) signal simulate 
-\i (00:03:17) sigxp background 
-\i (00:03:19) pick grid 5532.77 4224.63
-\t (00:03:19) last pick:  5533.00 4224.50
-\i (00:03:19) pick grid dbl 5532.77 4224.63
-\t (00:03:19) last pick:  5533.00 4224.50
-\i (00:03:20) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
-\i (00:03:23) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.4"
-\i (00:03:25) signal simulate 
-\i (00:03:25) sigxp background 
-\i (00:03:32) pick grid 5533.30 4224.37
-\t (00:03:32) last pick:  5533.50 4224.50
-\i (00:03:32) pick grid dbl 5533.30 4224.37
-\t (00:03:32) last pick:  5533.50 4224.50
-\i (00:03:33) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
-\i (00:03:34) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0"
-\i (00:03:35) signal simulate 
-\i (00:03:35) sigxp background 
-\i (00:03:37) pick grid 5532.38 4224.50
-\t (00:03:37) last pick:  5532.50 4224.50
-\i (00:03:37) pick grid dbl 5532.38 4224.50
-\t (00:03:37) last pick:  5532.50 4224.50
-\i (00:03:38) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE
-\i (00:03:40) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL7.propDelay VALUE "0.4"
-\i (00:03:41) signal simulate 
-\i (00:03:42) sigxp background 
-\i (00:06:54) pick grid 5532.91 4214.12
-\t (00:06:54) last pick:  5533.00 4214.00
-\i (00:06:57) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE
-\i (00:06:58) spreadsheet Parameters STORE CIRCUIT.PMOD2BNCSIMPLE_V1_04.TL8.propDelay VALUE "0.2"
-\i (00:07:00) signal simulate 
-\i (00:07:00) sigxp background 
-\i (00:07:01) pick grid 5517.00 4250.01
-\t (00:07:01) last pick:  5517.00 4250.00
-\i (00:07:01) exit 
-\e (00:07:01) Would you like to save the changes made in  TDR_REAL2.top
-\i (00:07:02) fillin yes 
-\t (00:07:02)     Journal end - Wed Dec 27 19:53:09 2023
+\i (00:00:09) sigxp background 
+\i (00:00:20) prepopup 5505.13 4228.80
+\i (00:00:21) pick grid 5503.76 4228.94
+\t (00:00:21) last pick:  5504.00 4229.00
+\i (00:00:22) prepopup 5505.17 4228.99
+\i (00:00:23) pop dyn_option_select @:@Parameters 
+\i (00:00:25) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5.resistance VALUE
+\i (00:00:25) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5 VALUE
+\i (00:00:30) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5.resistance VALUE
+\i (00:00:31) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R6 VALUE
+\i (00:00:32) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5 NAME "112 187"
+\i (00:00:32) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5 NAME "112 187"
+\i (00:00:33) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5 NAME "105 181"
+\i (00:00:33) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5 NAME "105 181"
+\i (00:00:33) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5.resistance NAME "113 206"
+\i (00:00:34) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5.resistance NAME "113 206"
+\i (00:00:34) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5.resistance VALUE "209 206"
+\i (00:00:34) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.R5 VALUE "214 189"
+\i (00:00:35) prepopup 5504.47 4229.27
+\i (00:00:36) prepopup 5504.19 4228.99
+\i (00:00:40) pop dyn_option_select @:@Parameters 
+\i (00:00:44) spreadsheet Parameters STORE CIRCUIT.DESIGN.R5 NAME "x"
+\i (00:00:44) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R7 NAME
+\i (00:00:45) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R6 NAME
+\i (00:00:48) spreadsheet Parameters STORE CIRCUIT.DESIGN.R6 NAME "x"
+\i (00:00:49) fillin confirm
+\i (00:00:50) fillin "menu_cancel"
+\i (00:00:51) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R6 NAME
+\i (00:00:52) spreadsheet Parameters STORE CIRCUIT.DESIGN.R6 NAME "X"
+\i (00:00:53) fillin confirm
+\i (00:00:54) fillin "menu_cancel"
+\i (00:00:54) prepopup 5504.61 4222.98
+\i (00:00:55) pop dyn_option_select @:@Parameters 
+\i (00:00:58) spreadsheet Parameters STORE CIRCUIT.DESIGN.R6 NAME "x"
+\i (00:01:00) fillin confirm
+\i (00:01:01) fillin "menu_cancel"
+\i (00:01:04) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R6 NAME
+\i (00:01:23) spreadsheet Parameters STORE CIRCUIT.DESIGN.R6 NAME "Y"
+\i (00:01:23) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R7 NAME
+\i (00:01:25) spreadsheet Parameters STORE CIRCUIT.DESIGN.R7 NAME "Z"
+\i (00:01:25) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R8 NAME
+\i (00:01:25) spreadsheet Parameters STORE CIRCUIT.DESIGN.R8 NAME "W"
+\i (00:01:26) pick grid 5521.09 4218.56
+\t (00:01:26) last pick:  5521.00 4218.50
+\i (00:01:27) signal simulate 
+\i (00:01:27) sigxp background 
+\i (00:01:41) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.X NAME "123 180"
+\i (00:01:41) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.X NAME "92 183"
+\i (00:01:41) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.X NAME "92 183"
+\i (00:01:42) pick grid 5519.96 4237.63
+\t (00:01:42) last pick:  5520.00 4237.50
+\i (00:01:44) prepopup 
+\i (00:01:44) prepopup 5514.00 4226.45
+\i (00:01:44) pop dyn_option_select '@:@Via Setup Preferences...' 
+\i (00:01:48) setwindow form.sigsqviamodelextrsetup
+\i (00:01:48) FORM sigsqviamodelextrsetup cancel  
+\i (00:01:52) setwindow sigxp
+\i (00:01:52) signal simulate 
+\i (00:01:53) sigxp background 
+\i (00:01:58) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.X.resistance VALUE
+\i (00:01:59) spreadsheet Parameters STORE CIRCUIT.DESIGN.X.resistance VALUE "10"
+\i (00:01:59) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Y.resistance VALUE
+\i (00:02:00) spreadsheet Parameters STORE CIRCUIT.DESIGN.Y.resistance VALUE "10"
+\i (00:02:00) spreadsheet Parameters CLICKEDBUTTON CIRCUIT.DESIGN.Z NAME
+\i (00:02:00) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Z NAME
+\i (00:02:01) spreadsheet Parameters CLICKEDBUTTON CIRCUIT.DESIGN.W NAME
+\i (00:02:01) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.W NAME
+\i (00:02:01) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Z VALUE
+\i (00:02:02) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Z.resistance VALUE
+\i (00:02:02) spreadsheet Parameters STORE CIRCUIT.DESIGN.Z.resistance VALUE "10"
+\i (00:02:02) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.W.resistance VALUE
+\i (00:02:02) spreadsheet Parameters STORE CIRCUIT.DESIGN.W.resistance VALUE "10"
+\i (00:02:03) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.W NAME "60 287"
+\i (00:02:04) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.W.resistance NAME "68 300"
+\i (00:02:04) spreadsheet Parameters RBUTTONHIT CIRCUIT.DESIGN.W.resistance NAME "68 304"
+\i (00:02:05) signal simulate 
+\i (00:02:06) sigxp background 
+\i (00:02:08) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.X.resistance VALUE
+\i (00:02:09) spreadsheet Parameters STORE CIRCUIT.DESIGN.X.resistance VALUE "15"
+\i (00:02:09) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Y.resistance VALUE
+\i (00:02:09) spreadsheet Parameters STORE CIRCUIT.DESIGN.Y.resistance VALUE "15"
+\i (00:02:09) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.Z.resistance VALUE
+\i (00:02:10) spreadsheet Parameters STORE CIRCUIT.DESIGN.Z.resistance VALUE "15"
+\i (00:02:10) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.W.resistance VALUE
+\i (00:02:10) spreadsheet Parameters STORE CIRCUIT.DESIGN.W.resistance VALUE "15"
+\i (00:02:11) signal simulate 
+\i (00:02:12) sigxp background 
+\i (00:02:19) prepopup 5504.94 4230.40
+\i (00:02:20) pop dyn_option_select @:@Delete 
+\i (00:02:21) prepopup 5503.86 4224.20
+\i (00:02:22) pop dyn_option_select @:@Delete 
+\i (00:02:22) prepopup 5525.08 4224.81
+\i (00:02:23) pop dyn_option_select @:@Delete 
+\i (00:02:23) prepopup 5525.60 4230.40
+\i (00:02:24) pop dyn_option_select @:@Delete 
+\i (00:02:25) pick grid 5500.66 4224.53
+\t (00:02:25) last pick:  5500.50 4224.50
+\i (00:02:26) pick grid 5509.54 4224.29
+\t (00:02:26) last pick:  5509.50 4224.50
+\i (00:02:27) pick grid 5501.23 4230.35
+\t (00:02:27) last pick:  5501.00 4230.50
+\i (00:02:27) pick grid 5508.98 4230.44
+\t (00:02:27) last pick:  5509.00 4230.50
+\i (00:02:28) pick grid 5520.76 4230.68
+\t (00:02:28) last pick:  5521.00 4230.50
+\i (00:02:28) pick grid 5529.59 4230.63
+\t (00:02:28) last pick:  5529.50 4230.50
+\i (00:02:29) pick grid 5520.76 4224.90
+\t (00:02:29) last pick:  5521.00 4225.00
+\i (00:02:29) pick grid 5529.78 4224.67
+\t (00:02:29) last pick:  5530.00 4224.50
+\i (00:02:31) signal simulate 
+\i (00:02:31) sigxp background 
+\i (00:02:39) prepopup 5491.60 4214.95
+\i (00:02:40) pop dyn_option_select @:@Delete 
+\i (00:02:41) signal simulate 
+\i (00:02:42) sigxp background 
+\i (00:02:49) exit 
+\e (00:02:49) Would you like to save the changes made in  DIFF1.top
+\i (00:02:50) fillin yes 
+\t (00:02:50)     Journal end - Sat Dec 30 14:44:05 2023

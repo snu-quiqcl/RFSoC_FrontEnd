@@ -1,25 +1,82 @@
 (CycleMeasurements 
- ("PMOD2BNCSIMPLE_V1_04.U1.1" 
+ ("DESIGN.DIN1.2" 
   (BasicData 
-   (vlohi 0.8 ) 
-   (vhilo 2 ) 
-   (tldelay 4e-10 ) 
-   (vinit 2.11973e-05 ) ) 
+   (vlohi 1.15 ) 
+   (vhilo 1.25 ) 
+   (tldelay 1e-09 ) 
+   (vinit 1.13049 ) ) 
+  (Cycles 
+   (1 
+    (Rise 
+     (EarliestSwitch 
+      (volt 1.15 ) 
+      (time 5.47728e-09 ) ) 
+     (FirstSwitch 
+      (volt 1.25 ) 
+      (time 5.61129e-09 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 1.61722 ) 
+       (time 7.68471e-09 ) ) 
+      (minimum 
+       (volt 1.55042 ) 
+       (time 8.30838e-09 ) ) ) ) 
+    (Fall 
+     (EarliestSwitch 
+      (volt 1.25 ) 
+      (time 9.88303e-09 ) ) 
+     (FirstSwitch 
+      (volt 1.15 ) 
+      (time 1.05844e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 1.14241 ) 
+       (time 1.22303e-08 ) ) 
+      (minimum 
+       (volt 1.07587 ) 
+       (time 1.17025e-08 ) ) ) ) ) ) ) 
+ ("DESIGN.DIN1.1_DESIGN.DIN1.2_diff" 
+  (BasicData 
+   (vlohi 0.7 ) 
+   (vhilo 1.7 ) 
+   (tldelay 1e-09 ) 
+   (vinit 1.56253 ) 
+   (negnode "DESIGN.DIN1.2" ) ) 
   (Cycles 
    (1 ) ) ) 
- ("PMOD2BNCSIMPLE_V1_04.IN2.1" 
+ ("DESIGN.DIN1.1" 
   (BasicData 
-   (vlohi 0.8 ) 
-   (vhilo 2.1 ) 
-   (tldelay 1e-10 ) 
-   (vinit 2.11972e-05 ) ) 
+   (vlohi 1.15 ) 
+   (vhilo 1.25 ) 
+   (tldelay 1e-09 ) 
+   (vinit 1.56253 ) ) 
   (Cycles 
-   (1 ) ) ) 
- ("PMOD2BNCSIMPLE_V1_04.IOP2.1" 
-  (BasicData 
-   (vlohi 0.8 ) 
-   (vhilo 2 ) 
-   (tldelay 0 ) 
-   (vinit 2.11972e-05 ) ) 
-  (Cycles 
-   (1 ) ) ) ) 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 1.25 ) 
+      (time 5.91257e-09 ) ) 
+     (FirstSwitch 
+      (volt 1.15 ) 
+      (time 6.49752e-09 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 1.13904 ) 
+       (time 8.31737e-09 ) ) 
+      (minimum 
+       (volt 1.08015 ) 
+       (time 7.67667e-09 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 1.15 ) 
+      (time 9.48606e-09 ) ) 
+     (FirstSwitch 
+      (volt 1.25 ) 
+      (time 9.61942e-09 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 1.62511 ) 
+       (time 1.17152e-08 ) ) 
+      (minimum 
+       (volt 1.54733 ) 
+       (time 1.22132e-08 ) ) ) ) ) ) ) ) 

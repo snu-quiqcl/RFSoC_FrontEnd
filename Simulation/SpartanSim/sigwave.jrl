@@ -1,11 +1,17 @@
 \t (00:00:00) sigwave 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Wed Dec 27 19:57:31 2023
-\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=25012 CPUs=20
-\t (00:00:00) CmdLine= sigwave _NODOC_ -pid Waveform27184
+\t (00:00:00)     Journal start - Sat Dec 30 14:44:18 2023
+\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=22288 CPUs=20
+\t (00:00:00) CmdLine= sigwave _NODOC_ -pid Waveform32324
 \t (00:00:00) 
    (00:00:00) Loading sigwave.cxt 
-\i (00:00:01) setwindow main
-\i (00:00:01) deselect all
+\i (00:00:00) setwindow main
+\i (00:00:00) deselect all
 \i (00:00:01) zoom fit
-\i (00:00:03) exit
-\t (00:00:03)     Journal end - Wed Dec 27 19:57:34 2023
+\i (00:00:14) select root
+\i (00:00:14) deselect all
+\i (00:00:14) zoom fit
+\i (00:00:32) zoom fit
+\i (00:00:52) zoom fit
+\i (00:01:00) zoom fit
+\i (00:45:06) exit
+\t (00:45:06)     Journal end - Sat Dec 30 15:29:23 2023

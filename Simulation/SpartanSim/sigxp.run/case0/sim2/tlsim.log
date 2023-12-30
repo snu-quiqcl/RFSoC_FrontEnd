@@ -1,28 +1,32 @@
 **** Tlsim Version 16.2 ****
 
 **** Tlsim command line ****
- tlsim -Dr -e 100ns -r 0.100000 -o waveforms.sim -dl delay.dl -dst distortion.dst -log tlsim.log -ocycle cycle.msm main.spc
+ tlsim -e 100ns -r 0.100000 -o waveforms.sim -dl delay.dl -dst distortion.dst -log tlsim.log -ocycle cycle.msm main.spc
 
 
-Number of Nodes in this circuit = 26
+Number of Nodes in this circuit = 50
 
 
 Statistics on N-line elements:
- Number of 'n' type multi-conductor elements = 3
+ Number of 'n' type multi-conductor elements = 2
  Type-of-N-element  #elms Max_Length TotalLength
 
- 1-line-N-elm     3   1e-06    3e-06
- Total Interconnect Length = 3e-06
+ 1-line-N-elm     2   1e-06    2e-06
+ Total Interconnect Length = 2e-06
  Total Coupled Length = 0
 
  Following is some statistics on Model usage
    Model-Type      Model-Name     Number-of-Models-in-this-circuit
 
-   bdrvr         SPARTAN7_LVCMOS33_S_12_HR_Typ_27degC               2 
-   bdrvr         DummyProbe_Typ               1 
-  No of 'Bdrvr' type model instance = 3
+   bdrvr         SPARTAN7_LVDS_25_HR_O_Typ_27degC               4 
+   bdrvr         SPARTAN7_LVDS_25_HR_I_Typ_27degC               2 
+  No of 'Bdrvr' type model instance = 6
 
- Time Step at Start = 1e-10
+ Time Step at Start = 3.3e-11
+
+
+
+ Simulation will start at t=0 and end at t=1.00033e-07. 
 
 
 
@@ -31,12 +35,12 @@ Statistics on N-line elements:
 
 **** Transient Simulation Statistics ****
 
-    Number Of time step solutions = 1001
+    Number Of time step solutions = 3032
 
 **** Tlsim Run Times ****
 
-    Start time = Wed Dec 27 19:56:54 2023
+    Start time = Sat Dec 30 13:15:56 2023
 
-    Finish time = Wed Dec 27 19:56:55 2023
+    Finish time = Sat Dec 30 13:15:56 2023
 
-    Elapsed time = 0 hours, 0 minutes, and 1 seconds
+    Elapsed time = 0 hours, 0 minutes, and 0 seconds
