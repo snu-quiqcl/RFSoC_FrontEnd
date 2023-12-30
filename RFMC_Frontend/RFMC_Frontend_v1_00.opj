@@ -33,6 +33,26 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (ERJ2RKF3402X
+      (FullPartName "ERJ2RKF3402X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703929073\ERJ2RKF3402X\CAPTURE\ERJ2RKF3402X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF3301X
+      (FullPartName "ERJ2RKF3301X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703927680\ERJ2RKF3301X\CAPTURE\ERJ2RKF3301X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF2001X
+      (FullPartName "ERJ2RKF2001X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703927549\ERJ2RKF2001X\CAPTURE\ERJ2RKF2001X.OLB")
+      (DeviceIndex "0"))
+    (ERJ2RKF6802X
+      (FullPartName "ERJ2RKF6802X.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703927435\ERJ2RKF6802X\CAPTURE\ERJ2RKF6802X.OLB")
+      (DeviceIndex "0"))
     (LT3045EDD#PBF
       (FullPartName "LT3045EDD#PBF.Normal")
       (LibraryName
@@ -133,41 +153,14 @@
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (ERJ2RKF7502X
-      (FullPartName "ERJ2RKF7502X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703224219\ERJ2RKF7502X\CAPTURE\ERJ2RKF7502X.OLB")
-      (DeviceIndex "0"))
-    (ERJ2RKF4701X
-      (FullPartName "ERJ2RKF4701X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703223890\ERJ2RKF4701X\CAPTURE\ERJ2RKF4701X.OLB")
-      (DeviceIndex "0"))
-    (ERJ-2RKF7501X
-      (FullPartName "ERJ-2RKF7501X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703223800\ERJ-2RKF7501X\CAPTURE\ERJ-2RKF7501X.OLB")
-      (DeviceIndex "0"))
-    (ERJ2RKF7500X
-      (FullPartName "ERJ2RKF7500X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703223630\ERJ2RKF7500X\CAPTURE\ERJ2RKF7500X.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn")
-      (Path "Design Resources"
-         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
-         "TOP")
-      (Path "Design Resources"
-         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
-         "DAC_ADC_CHANNEL")
-      (Path "Design Resources"
-         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
-         "IO_CHANNEL")
+      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn")
+      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "TOP")
+      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "DAC_ADC_CHANNEL")
+      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "IO_CHANNEL")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
@@ -190,7 +183,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "-324 0")
+        (Scroll "-324 7")
         (Zoom "102")
         (Occurrence "/"))
       (Path
@@ -212,8 +205,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "0 634")
-        (Zoom "100")
+        (Scroll "0 515")
+        (Zoom "94")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -223,8 +216,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "1360 284")
-        (Zoom "200")
+        (Scroll "674 200")
+        (Zoom "152")
         (Occurrence "/CH6"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")

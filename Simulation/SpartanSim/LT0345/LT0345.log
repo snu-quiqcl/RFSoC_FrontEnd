@@ -1,0 +1,98 @@
+Circuit: * C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\LT0345\LT0345.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+Gmin = 0.000348449
+vernier = 0.125
+vernier = 0.166667
+Gmin = 0.000264322
+vernier = 0.222222
+vernier = 0.296296
+Gmin = 0.000157408
+vernier = 0.395061
+Gmin = 6.87592e-05
+vernier = 0.526748
+vernier = 0.702331
+Gmin = 1.83361e-05
+vernier = 0.936441
+vernier = 1
+Gmin = 2.55573e-06
+vernier = 0.5
+Gmin = 4.2878e-07
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 4.2878e-07
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 15.9209%
+vernier = 0.000976562
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 99.1894%
+vernier = 0.015625
+Source Step = 99.0237%
+Source Step = 99.0533%
+Source Step = 99.0829%
+Source Step = 99.1125%
+Source Step = 99.142%
+vernier = 0.00146484
+Source Step = 99.179%
+Source Step = 99.2234%
+Source Step = 99.2678%
+Source Step = 99.3122%
+Source Step = 99.3566%
+vernier = 0.00219727
+Source Step = 99.4099%
+Source Step = 99.4764%
+Source Step = 99.543%
+Source Step = 99.6096%
+Source Step = 99.6762%
+vernier = 0.0032959
+Source Step = 99.7528%
+Source Step = 99.8526%
+Source Step = 99.9525%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:2)
+
+Date: Sat Dec 30 19:06:08 2023
+Total elapsed time: 2.230 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 96253
+traniter = 87899
+tranpoints = 41117
+accept = 26881
+rejected = 14236
+matrix size = 56
+fillins = 93
+solver = Normal
+Avg thread counts: 2.0/1.0/1.0/1.0
+Matrix Compiler1: 7.55 KB object code size  1.8/0.8/[0.7]
+Matrix Compiler2: off  [0.4]/0.6/0.4
+
