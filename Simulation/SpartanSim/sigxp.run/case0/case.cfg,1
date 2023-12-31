@@ -1,5 +1,5 @@
 (SISGlobals 
- (PulseClockFrequency 100MHz ) 
  (FixedDuration t ) 
  (TargetFreq 800MHz ) 
- (FixedDurationTime 1000ns ) ) 
+ (FixedDurationTime 100ns ) 
+ (PulseClockFrequency 125MHz ) ) 

@@ -1,9 +1,9 @@
 *Main Circuit File
-* Interconnect subcircuit statements for Board DESIGN
-xDESIGN_icn_ckt 1 2 3 4 DESIGN_icn_ckt
+* Interconnect subcircuit statements for Board PMOD2BNCSIMPLE_V1_04
+xPMOD2BNCSIMPLE_V1_04_icn_ckt 1 2 PMOD2BNCSIMPLE_V1_04_icn_ckt
 * Component subcircuit statements
-xDESIGN.DOUT1 1 2 DESIGN.DOUT1
-xDESIGN.DIN1 3 4 DESIGN.DIN1
+xPMOD2BNCSIMPLE_V1_04.IN1 2 PMOD2BNCSIMPLE_V1_04.IN1
+xPMOD2BNCSIMPLE_V1_04.IO1 1 PMOD2BNCSIMPLE_V1_04.IO1
 .include ./interconn.spc
 .include ./comps.spc
 .include ./stimulus.spc

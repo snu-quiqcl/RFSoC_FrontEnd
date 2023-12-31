@@ -1,0 +1,45 @@
+(CycleMeasurements 
+ ("PMOD2BNCSIMPLE_V1_04.J1.11" 
+  (BasicData 
+   (vlohi 0 ) 
+   (vhilo 0 ) 
+   (tldelay 0 ) 
+   (vinit 3.29991 ) ) 
+  (Cycles 
+   (1 ) ) ) 
+ ("PMOD2BNCSIMPLE_V1_04.U1.1" 
+  (BasicData 
+   (vlohi 0.8 ) 
+   (vhilo 2 ) 
+   (tldelay 3e-09 ) 
+   (vinit 3.29991 ) ) 
+  (Cycles 
+   (1 
+    (Fall 
+     (EarliestSwitch 
+      (volt 2 ) 
+      (time 1.1575e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.8 ) 
+      (time 1.18058e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.0406902 ) 
+       (time 1.91436e-08 ) ) 
+      (minimum 
+       (volt -0.288943 ) 
+       (time 1.73396e-08 ) ) ) ) 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.8 ) 
+      (time 1.95066e-08 ) ) 
+     (FirstSwitch 
+      (volt 2 ) 
+      (time 1.97357e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 3.60521 ) 
+       (time 2.53849e-08 ) ) 
+      (minimum 
+       (volt 3.26572 ) 
+       (time 2.71271e-08 ) ) ) ) ) ) ) ) 

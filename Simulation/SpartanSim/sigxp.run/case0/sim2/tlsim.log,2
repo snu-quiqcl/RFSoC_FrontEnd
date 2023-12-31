@@ -1,42 +1,62 @@
 **** Tlsim Version 16.2 ****
 
 **** Tlsim command line ****
- tlsim -Dr -r 0.100000 -o waveforms.sim -dl delay.dl -dst distortion.dst -log tlsim.log -ocycle cycle.msm main.spc
+ tlsim -Dr -e 100ns -r 0.080000 -BhvrConvertVIToCondOn -BhvrModifyNewtonOn -BhvrSplineOn -o waveforms.sim -dl delay.dl -dst distortion.dst -log tlsim.log -ocycle cycle.msm main.spc
 
 
-Number of Nodes in this circuit = 20
+Number of Nodes in this circuit = 17
 
 
 Statistics on N-line elements:
- Number of 'n' type multi-conductor elements = 2
+ Number of 'n' type multi-conductor elements = 1
  Type-of-N-element  #elms Max_Length TotalLength
 
- 1-line-N-elm     2   1e-06    2e-06
- Total Interconnect Length = 2e-06
+ 1-line-N-elm     1   1e-06    1e-06
+ Total Interconnect Length = 1e-06
  Total Coupled Length = 0
 
  Following is some statistics on Model usage
    Model-Type      Model-Name     Number-of-Models-in-this-circuit
 
    bdrvr         SPARTAN7_LVCMOS33_S_12_HR_Typ_27degC               1 
-   bdrvr         CDSDefaultTristate_5v_Typ_27degC               1 
+   bdrvr         SN65MLVD040_A_B_IO_type1_Typ_27degC               1 
   No of 'Bdrvr' type model instance = 2
 
- Time Step at Start = 1e-10
+ Time Step at Start = 8e-11
 
 
+*********************************************
+*  WARNING: Convergence Problem detected    *
+*********************************************
+Solution did not converge during dc steady state analysis
+No of iterations = 41 
+ Time = 1.82288e-09 
+ Max Residue = 23228.7 
+		Matrix Size = 2
 
- Simulation Complete 
+*********************************************
+*  WARNING: Convergence Problem detected    *
+*********************************************
+Solution did not converge during dc initial analysis
+No of iterations = 41 
+ Time = 0 
+ Max Residue = 347432 
+		Matrix Size = 2
 
+*** ABORT: DcInit Convergence Problem Is Severe***
+Since there are bhvr models  try the following options
+Multiple Options are okay
+ -BhvrDcModifyNewtonOff
+ -BhvrConvertVIToCondOn
 
 **** Transient Simulation Statistics ****
 
-    Number Of time step solutions = 793
+    Number Of time step solutions = 0
 
 **** Tlsim Run Times ****
 
-    Start time = Fri Dec 22 00:22:42 2023
+    Start time = Sun Dec 31 09:18:28 2023
 
-    Finish time = Fri Dec 22 00:22:42 2023
+    Finish time = Sun Dec 31 09:18:28 2023
 
     Elapsed time = 0 hours, 0 minutes, and 0 seconds

@@ -7,27 +7,7 @@ INFO: Reading report definition file 'c:/cadence/orcadx_23.1/share/pcb/signal/re
 INFO: Finished reading report definition file successfully.
 INFO: Reading report definition file 'c:/cadence/orcadx_23.1/share/pcb/signal/custom_rep.dat'.
 INFO: Finished reading report definition file successfully.
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection
-INFO: Using waveform resolution 0.100000 ns.
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection finished
-ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
-INFO: Clearing simulation data for case0
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection
-INFO: Using waveform resolution 0.100000 ns.
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection finished
-ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
-INFO: Clearing simulation data for case0
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection
-INFO: Using waveform resolution 0.100000 ns.
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection finished
-ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
-INFO: Clearing simulation data for case0
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection
-INFO: Using waveform resolution 0.100000 ns.
-INFO: Simulation (DESIGN DOUT2 1) DESIGN DOUT2 1 Pulse Typ Reflection finished
-ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
-INFO: Clearing simulation data for case0
-INFO: Simulation (DESIGN DOUT1 1) DESIGN DOUT1 1 Pulse Typ Reflection
-INFO: Using waveform resolution 0.100000 ns.
-INFO: Simulation (DESIGN DOUT1 1) DESIGN DOUT1 1 Pulse Typ Reflection finished
-ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.100000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n
+INFO: Simulation (PMOD2BNCSIMPLE_V1_04 IO1 1) PMOD2BNCSIMPLE_V1_04 IO1 1 Pulse Typ Reflection
+INFO: Using waveform resolution 0.080000 ns.
+INFO: Simulation (PMOD2BNCSIMPLE_V1_04 IO1 1) PMOD2BNCSIMPLE_V1_04 IO1 1 Pulse Typ Reflection finished
+ANNOTATION: Tlsim Command used :  tlsim  -e 100ns -r 0.080000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n

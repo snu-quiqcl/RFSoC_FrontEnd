@@ -1,78 +1,230 @@
-\t (00:00:04) sigxp 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Sat Dec 30 14:44:10 2023
-\t (00:00:04)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=32324 CPUs=20
-\t (00:00:04) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\DIFF1.top
-\t (00:00:04) 
-\t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 803
-\i (00:00:04) trapsize 784
-\i (00:00:04) trapsize 913
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 1176
-\t (00:00:05) Starting new design...
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 5878
-\i (00:00:05) trapsize 5878
-   (00:00:05) Loading sigxp.cxt 
-   (00:00:05) Loading signal.cxt 
-   (00:00:05) Loading sxutil.cxt 
-   (00:00:05) Loading axlcore.cxt 
-   (00:00:05) Loading fputil.cxt 
-   (00:00:05) Already Placed Circuit
-\i (00:00:05) trapsize 22
-   (00:00:05) Loading skillExt.cxt 
-\i (00:00:06) sigxp background 
-\i (00:00:10) signal simulate 
-\i (00:00:11) sigxp background 
-\i (00:00:16) pick grid 5508.85 4227.87
-\t (00:00:16) last pick:  5509.00 4228.00
-\i (00:00:17) prepopup 5520.49 4227.52
-\i (00:00:18) pick grid 5508.58 4227.47
-\t (00:00:18) last pick:  5508.50 4227.50
-\i (00:00:19) prepopup 5509.47 4227.65
-\i (00:00:22) pop dyn_option_select @:@Delete 
-\i (00:00:24) signal simulate 
-\i (00:00:25) sigxp background 
-\i (00:00:41) prepopup 5520.71 4227.69
-\i (00:00:42) pop dyn_option_select @:@Delete 
-\i (00:00:43) signal simulate 
-\i (00:00:43) sigxp background 
-\i (00:00:47) prepopup 5518.30 4245.56
-\i (00:00:47) pick grid 5515.52 4248.29
-\t (00:00:47) last pick:  5515.50 4248.50
-\i (00:00:49) quickaddpart 38918 
-\i (00:00:49) prepopup 5521.16 4240.64
-\i (00:00:50) pick grid 5520.00 4241.40
-\t (00:00:50) last pick:  5520.00 4241.50
-\i (00:00:50) sigxp background 
-\i (00:00:50) prepopup 5520.04 4241.44
-\i (00:00:52) pop dyn_option_select '@:@Rotate Right' 
-\i (00:00:52) pick grid 5518.25 4242.16
-\t (00:00:52) last pick:  5518.50 4242.00
-\i (00:00:54) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5.resistance VALUE
-\i (00:00:55) spreadsheet Parameters STORE CIRCUIT.DESIGN.R5.resistance VALUE "50"
-\i (00:00:57) pick grid 5520.40 4245.12
-\t (00:00:57) last pick:  5520.50 4245.00
-\i (00:00:58) pick grid 5530.30 4230.74
-\t (00:00:58) last pick:  5530.50 4230.50
-\i (00:00:59) pick grid 5520.36 4238.26
-\t (00:00:59) last pick:  5520.50 4238.50
-\i (00:00:59) pick grid 5518.34 4224.52
-\t (00:00:59) last pick:  5518.50 4224.50
-\i (00:01:00) drag_start grid 5520.62 4242.16
-\i (00:01:01) drag_stop grid 5527.92 4227.78
-\i (00:01:01) pick grid 5528.24 4239.11
-\t (00:01:01) last pick:  5528.00 4239.00
-\i (00:01:03) signal simulate 
-\i (00:01:03) sigxp background 
-\i (00:01:05) pick grid 5525.77 4227.78
-\t (00:01:05) last pick:  5526.00 4228.00
-\i (00:01:06) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5.resistance VALUE
-\i (00:01:08) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.R5.resistance VALUE
-\i (00:01:09) spreadsheet Parameters STORE CIRCUIT.DESIGN.R5.resistance VALUE "100"
-\i (00:01:11) signal simulate 
-\i (00:01:11) sigxp background 
-\i (00:45:25) exit 
-\e (00:45:25) Would you like to save the changes made in  DIFF1.top
-\i (00:45:27) fillin yes 
-\t (00:45:27)     Journal end - Sat Dec 30 15:29:34 2023
+\t (00:00:00) sigxp 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 31 10:56:37 2023
+\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=3008 CPUs=20
+\t (00:00:00) CmdLine= c:\cadence\orcadx_23.1\tools\bin\sigxp.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Simulation\SpartanSim\ZCU111_DAUGHTER.top
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:01) trapsize 803
+\i (00:00:01) trapsize 784
+\i (00:00:01) trapsize 913
+\i (00:00:02) trapsize 5878
+\i (00:00:02) trapsize 1176
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 5878
+\i (00:00:02) trapsize 5878
+\i (00:00:02) trapsize 5878
+   (00:00:02) Loading sigxp.cxt 
+   (00:00:02) Loading signal.cxt 
+   (00:00:02) Loading sxutil.cxt 
+   (00:00:02) Loading axlcore.cxt 
+   (00:00:02) Loading fputil.cxt 
+   (00:00:04) Already Placed Circuit
+\i (00:00:04) trapsize 18
+   (00:00:04) Loading skillExt.cxt 
+\i (00:00:04) sigxp background 
+\i (00:00:05) prepopup 5523.40 4238.05
+\i (00:00:06) pick grid 5520.51 4239.23
+\t (00:00:06) last pick:  5520.50 4239.00
+\i (00:00:07) roam start
+\i (00:00:07) roam x 32
+\i (00:00:07) roam x 48
+\i (00:00:07) roam x 16
+\i (00:00:07) roam y 32
+\i (00:00:07) roam x -16
+\i (00:00:07) roam y 32
+\i (00:00:07) roam x -16
+\i (00:00:07) roam y 32
+\i (00:00:07) roam y 16
+\i (00:00:07) roam x -32
+\i (00:00:07) roam y 16
+\i (00:00:08) roam x -48
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -48
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -48
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -16
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y -16
+\i (00:00:08) roam x 16
+\i (00:00:08) roam y -16
+\i (00:00:08) roam y -16
+\i (00:00:09) roam x 16
+\i (00:00:09) roam y -16
+\i (00:00:09) roam y -16
+\i (00:00:09) roam y 16
+\i (00:00:10) roam x -16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y 16
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y 16
+\i (00:00:11) roam end
+\i (00:00:12) roam start
+\i (00:00:13) roam x 32
+\i (00:00:13) roam x 16
+\i (00:00:13) roam x 16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam end
+\i (00:00:16) prepopup 5493.11 4234.98
+\i (00:00:17) pick grid 5498.56 4236.05
+\t (00:00:17) last pick:  5498.50 4236.00
+\i (00:00:18) pick grid 5493.29 4226.97
+\t (00:00:18) last pick:  5493.50 4227.00
+\i (00:00:18) pick grid dbl 5493.29 4226.97
+\t (00:00:18) last pick:  5493.50 4227.00
+\i (00:00:18) prepopup 5493.29 4226.97
+\i (00:00:27) pop dyn_option_select '@:@Change Buffer Model' 
+\i (00:00:42) setwindow form.sxbuffparam
+\i (00:00:42) FORM sxbuffparam cancel  
+\i (00:00:46) setwindow sigxp
+\i (00:00:46) pick grid 5495.67 4227.01
+\t (00:00:46) last pick:  5495.50 4227.00
+\i (00:00:46) prepopup 5495.67 4227.01
+\i (00:00:47) prepopup 5498.01 4229.79
+\i (00:00:48) prepopup 5492.89 4235.20
+\i (00:00:49) pick grid 5492.27 4235.50
+\t (00:00:49) last pick:  5492.50 4235.50
+\i (00:00:49) pick grid dbl 5492.27 4235.50
+\t (00:00:49) last pick:  5492.50 4235.50
+\i (00:00:51) setwindow form.sxstimulus
+\i (00:00:51) FORM sxstimulus custom YES 
+\i (00:00:52) FORM sxstimulus apply  
+\i (00:00:52) FORM sxstimulus ok  
+\i (00:00:53) setwindow sigxp
+\i (00:00:53) prepopup 5522.90 4233.85
+\i (00:00:54) pick grid 5522.17 4233.85
+\t (00:00:54) last pick:  5522.00 4234.00
+\i (00:00:56) setwindow form.sxstimulus
+\i (00:00:56) FORM sxstimulus tristate YES 
+\i (00:00:57) FORM sxstimulus ok  
+\i (00:00:58) setwindow sigxp
+\i (00:00:58) pick grid 5505.77 4238.83
+\t (00:00:58) last pick:  5506.00 4239.00
+\i (00:01:01) saveas 
+\i (00:01:09) fillin "ZCU111_DAUGHTER_D.top"
+\t (00:01:09) Template saved as "C:/Jeonghyun/GIT/RFSoC_FrontEnd/Simulation/SpartanSim/ZCU111_DAUGHTER_D.top"
+\i (00:01:09) sigxp background 
+\i (00:01:11) pick grid 5493.14 4232.64
+\t (00:01:11) last pick:  5493.00 4232.50
+\i (00:01:14) prepopup 5493.14 4232.64
+\i (00:01:15) pop dyn_option_select @:@Delete 
+\i (00:01:18) quickaddpart 38927 
+\i (00:01:20) pick grid 5502.70 4226.02
+\t (00:01:20) last pick:  5502.50 4226.00
+\i (00:01:20) sigxp background 
+\i (00:01:20) prepopup 5502.40 4226.05
+\i (00:01:22) pop dyn_option_select '@:@Rotate Left' 
+\i (00:01:23) prepopup 5503.25 4226.46
+\i (00:01:26) pop dyn_option_select '@:@Rotate Right' 
+\i (00:01:27) prepopup 5501.96 4225.91
+\i (00:01:28) pop dyn_option_select @:@Mirror 
+\i (00:01:30) pick grid 5504.67 4225.76
+\t (00:01:30) last pick:  5504.50 4226.00
+\i (00:01:31) pick grid 5510.24 4226.05
+\t (00:01:31) last pick:  5510.00 4226.00
+\i (00:01:32) pick grid 5522.09 4233.48
+\t (00:01:32) last pick:  5522.00 4233.50
+\i (00:01:34) setwindow form.sxstimulus
+\i (00:01:34) FORM sxstimulus custom YES 
+\i (00:01:35) FORM sxstimulus apply  
+\i (00:01:35) FORM sxstimulus ok  
+\i (00:01:37) setwindow sigxp
+\i (00:01:37) pick grid 5502.59 4223.79
+\t (00:01:37) last pick:  5502.50 4224.00
+\i (00:01:37) spreadsheet Parameters CLICKEDBUTTON CIRCUIT.PMOD2BNCSIMPLE_V1_04.IN1.bufferModel VALUE
+\i (00:01:43) setwindow form.sxbuffparam
+\i (00:01:43) FORM sxbuffparam availmodels 'SN65MLVD040_D_DE                 IbisInput' 
+\i (00:01:43) FORM sxbuffparam availmodels 'SN65MLVD040_D_DE                 IbisInput' 
+\i (00:01:43) FORMDBLCLK sxbuffparam availmodels 'SN65MLVD040_D_DE                 IbisInput' 
+\i (00:01:45) FORM sxbuffparam done  
+\i (00:01:45) setwindow sigxp
+\i (00:01:45) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.PMOD2BNCSIMPLE_V1_04.IN1.bufferModel VALUE
+\i (00:01:45) pick grid 5503.14 4235.20
+\t (00:01:45) last pick:  5503.00 4235.00
+\i (00:01:47) signal simulate 
+\i (00:01:50) sigxp background 
+\i (00:02:17) drag_start grid 5502.04 4226.24
+\i (00:02:18) drag_stop grid 5493.11 4226.35
+\i (00:02:19) pick grid 5506.58 4230.85
+\t (00:02:19) last pick:  5506.50 4231.00
+\i (00:02:19) drag_start grid 5493.18 4226.75
+\i (00:02:21) drag_stop grid 5492.92 4226.49
+\i (00:02:21) pick grid 5499.51 4230.56
+\t (00:02:21) last pick:  5499.50 4230.50
+\i (00:02:30) signal simulate 
+\i (00:02:31) sigxp background 
+\i (00:04:36) pick grid 5522.13 4233.48
+\t (00:04:36) last pick:  5522.00 4233.50
+\i (00:04:38) setwindow form.sxstimulus
+\i (00:04:38) FORM sxstimulus ok  
+\i (00:04:39) setwindow sigxp
+\i (00:04:39) signoise options 
+\i (00:04:39) sigxp background 
+\i (00:04:41) setwindow form.sigxpopts
+\i (00:04:41) FORM sigxpopts cancel  
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+   (00:04:41) *WARNING* (axlFormSetEditable): Form handle access attempted after form closed!
+\i (00:04:50) setwindow sigxp
+\i (00:04:50) pick grid 5495.23 4228.43
+\t (00:04:50) last pick:  5495.00 4228.50
+\i (00:04:50) pick grid dbl 5495.23 4228.43
+\t (00:04:50) last pick:  5495.00 4228.50
+\i (00:04:50) pick grid 5495.05 4228.10
+\t (00:04:50) last pick:  5495.00 4228.00
+\i (00:04:50) pick grid dbl 5495.05 4228.10
+\t (00:04:50) last pick:  5495.00 4228.00
+\i (00:04:51) roam start
+\i (00:04:52) roam x 16
+\i (00:04:52) roam y -48
+\i (00:04:52) roam y -32
+\i (00:04:52) roam x 16
+\i (00:04:52) roam y -48
+\i (00:04:52) roam x -48
+\i (00:04:52) roam y 48
+\i (00:04:52) roam x -16
+\i (00:04:52) roam y 32
+\i (00:04:53) roam end
+\i (06:31:20) exit 
+\e (06:31:20) Would you like to save the changes made in  ZCU111_DAUGHTER_D.top
+\i (06:31:21) fillin yes 
+\t (06:31:22)     Journal end - Sun Dec 31 17:27:59 2023

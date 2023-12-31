@@ -1,6 +1,6 @@
 (ExpressProject "RFMC_Frontend_v1_00"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/30/23]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/31/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -33,6 +33,48 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (PCF8574AT_3,518
+      (FullPartName "PCF8574AT_3,518.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1704031827\PCF8574AT_3,518\CAPTURE\PCF8574AT_3,518.OLB")
+      (DeviceIndex "0"))
+    (TCA9548ARGERQ1
+      (FullPartName "TCA9548ARGERQ1.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1704029823\TCA9548ARGERQ1\CAPTURE\TCA9548ARGERQ1.OLB")
+      (DeviceIndex "0"))
+    (PCA9539PW,118
+      (FullPartName "PCA9539PW,118.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1704019706\PCA9539PW,118\CAPTURE\PCA9539PW,118.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (N2530-6002-RB
+      (FullPartName "N2530-6002-RB.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703991361\N2530-6002-RB\CAPTURE\N2530-6002-RB.OLB")
+      (DeviceIndex "0"))
+    (PRTR5V0U2X,215
+      (FullPartName "PRTR5V0U2X,215.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703990717\PRTR5V0U2X,215\CAPTURE\PRTR5V0U2X,215.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SN65MLVD040RGZT
+      (FullPartName "SN65MLVD040RGZT.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703980352\SN65MLVD040RGZT\CAPTURE\SN65MLVD040RGZT.OLB")
+      (DeviceIndex "0"))
     (ERJ2RKF3402X
       (FullPartName "ERJ2RKF3402X.Normal")
       (LibraryName
@@ -105,75 +147,34 @@
       (FullPartName "ERJ2RKF1002X.Normal")
       (LibraryName
          "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703921020\ERJ2RKF1002X\CAPTURE\ERJ2RKF1002X.OLB")
-      (DeviceIndex "0"))
-    (744043003
-      (FullPartName "744043003.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703920630\744043003\CAPTURE\744043003.OLB")
-      (DeviceIndex "0"))
-    (AP62201WU-7
-      (FullPartName "AP62201WU-7.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703920523\AP62201WU-7\CAPTURE\AP62201WU-7.OLB")
-      (DeviceIndex "0"))
-    (SN74LXC8T245QPWRQ1
-      (FullPartName "SN74LXC8T245QPWRQ1.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703228381\SN74LXC8T245QPWRQ1\CAPTURE\SN74LXC8T245QPWRQ1.OLB")
-      (DeviceIndex "0"))
-    (ERJPA2F1002X
-      (FullPartName "ERJPA2F1002X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703227683\ERJPA2F1002X\CAPTURE\ERJPA2F1002X.OLB")
-      (DeviceIndex "0"))
-    (UMK105BJ103KV-F
-      (FullPartName "UMK105BJ103KV-F.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703227498\UMK105BJ103KV-F\CAPTURE\UMK105BJ103KV-F.OLB")
-      (DeviceIndex "0"))
-    (ERJ2RKF6801X
-      (FullPartName "ERJ2RKF6801X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703227271\ERJ2RKF6801X\CAPTURE\ERJ2RKF6801X.OLB")
-      (DeviceIndex "0"))
-    (TR3B226K010C0400
-      (FullPartName "TR3B226K010C0400.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703226726\TR3B226K010C0400\CAPTURE\TR3B226K010C0400.OLB")
-      (DeviceIndex "0"))
-    (1274AS-H-100M=P3
-      (FullPartName "1274AS-H-100M=P3.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703225338\1274AS-H-100M=P3\CAPTURE\1274AS-H-100M=P3.OLB")
-      (DeviceIndex "0"))
-    (84103C
-      (FullPartName "84103C.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703224511\84103C\CAPTURE\84103C.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn")
-      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "TOP")
-      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "DAC_ADC_CHANNEL")
-      (Path "Design Resources" ".\rfmc_frontend_v1_00.dsn" "IO_CHANNEL")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "DAC_ADC_CHANNEL")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "IO_CHANNEL")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 338 0 755"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "42 20")
-        (Zoom "70")
+        (Placement "44 0 1 -1 -1 5 24 5 1255 24 773")
+        (Scroll "-46 -5")
+        (Zoom "35")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -182,45 +183,34 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "-324 7")
-        (Zoom "102")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "DAC_ADC_TOP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "-241 0")
-        (Zoom "76")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "CLK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "0 515")
+        (Placement "44 0 1 -1 -1 5 24 5 1255 24 773")
+        (Scroll "0 243")
         (Zoom "94")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "TOP")
-      (Page "POWER"))
+      (Page "EEM"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "674 200")
-        (Zoom "152")
-        (Occurrence "/CH6"))
+        (Placement "44 0 1 -1 -1 5 24 5 1255 24 773")
+        (Scroll "-54 -4")
+        (Zoom "73")
+        (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "DAC_ADC_CHANNEL")
-      (Page "DAC_ADC")))
+      (Schematic "TOP")
+      (Page "I2C"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 773")
+        (Scroll "-54 -4")
+        (Zoom "73")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "CLK")))
   (MPSSessionName "alexi"))
