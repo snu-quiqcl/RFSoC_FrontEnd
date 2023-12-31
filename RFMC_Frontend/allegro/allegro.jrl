@@ -1,0 +1,75 @@
+\t (00:00:02) allegro 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jan  1 00:53:18 2024
+\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=33584 CPUs=20
+\t (00:00:02) CmdLine= C:\Cadence\OrCADX_23.1\tools\bin\allegro.exe -mpssession alexi -proj c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.opj c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "rfmc_frontend_v1_00"
+\d (00:00:03) Design opened: c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd
+\i (00:00:03) trapsize 7023
+\i (00:00:04) trapsize 7192
+\i (00:00:04) trapsize 7023
+\i (00:00:04) trapsize 5906
+\i (00:00:04) trapsize 6811
+\t (00:00:04) > Sending response DoneOpenBoard
+\i (00:00:04) generaledit 
+\i (00:00:07) save 
+\i (00:00:09) fillin yes 
+\t (00:00:09) > Sending response DoneOpenBoard
+\i (00:00:10) generaledit 
+\i (00:00:15) done 
+\i (00:00:15) place manual 
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:00:16) ERROR(SPMHDB-181): The current version of software is unable to open design s165_h110.
+The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
+\w (00:00:16) WARNING(SPMHUT-127): Could not find padstack S165_H110.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:00:16) ERROR(SPMHDB-181): The current version of software is unable to open design s165_h110.
+The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
+\w (00:00:16) WARNING(SPMHUT-127): Could not find padstack S165_H110.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:00:16) ERROR(SPMHDB-181): The current version of software is unable to open design s165_h110.
+The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
+\w (00:00:16) WARNING(SPMHUT-127): Could not find padstack S165_H110.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:16) setwindow form.plc_manual
+\i (00:00:16) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) FORM plc_manual placement_list 
+\i (00:00:16) FORM plc_manual categories Components by refdes 
+\i (00:00:16) trapsize 6811
+\i (00:00:26) setwindow form.plc_manual
+\i (00:00:26) FORM plc_manual cancel  
+\i (00:00:26) setwindow pcb
+\i (00:00:26) generaledit 
+\i (00:00:28) exit 
+\e (00:00:28) Do you want to save the changes you made to c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd?
+\i (00:00:29) fillin yes 
+\t (00:00:29)     Journal end - Mon Jan  1 00:53:45 2024

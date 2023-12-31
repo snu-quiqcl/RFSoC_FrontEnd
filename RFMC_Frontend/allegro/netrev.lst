@@ -1,0 +1,122 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : rfmc_frontend_v1_00.brd                       )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Jan  1 00:53:13 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro'
+Design Directory:            'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro'
+Old design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
+New design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
+
+CmdLine: netrev.exe -y 1 -n -i c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd
+
+------ Preparing to read pst files ------
+
+Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstchip.dat 
+   Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstchip.dat (00:00:00.02)
+Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxprt.dat 
+   Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxprt.dat (00:00:00.00)
+Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxnet.dat 
+   Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J10 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM0': WARNING(SPMHUT-127): Could not find padstack S165_H110.
+   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
+
+     Could not find padstack S165_H110.
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J13 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM1': WARNING(SPMHUT-127): Could not find padstack S165_H110.
+   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
+
+     Could not find padstack S165_H110.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J16 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM2': WARNING(SPMHUT-127): Could not find padstack S165_H110.
+   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
+
+     Could not find padstack S165_H110.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/OrCADX_23.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_23.1/share/local/pcb/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/allegrolib/symbols 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/LIB_538-71764-0112_PIN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/SMA_PERP_SMAFST_PCBN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/symbols 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/MECH250_WO_SM 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_23.1/share/local/pcb/padstacks 
+           c:/cadence/orcadx_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/allegrolib/symbols 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/LIB_538-71764-0112_PIN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/VIA 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/SMA_PERP_SMAFST_PCBN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/symbols 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/MECH250_WO_SM 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jan 1 0:53:13 2024
+   DESIGN NAME : 'RFMC_FRONTEND_V1_00'
+   PACKAGING ON Sep 29 2023 23:54:04
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  3 warnings detected
+
+cpu time      0:01:10
+elapsed time  0:00:01
+
