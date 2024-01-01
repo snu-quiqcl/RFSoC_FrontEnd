@@ -1,4 +1,4 @@
-Date and Time : 01/01/24 00:49:53
+Date and Time : 01/01/24 09:59:39
 
 --------------------------------------------------
 Checking Schematic:  TOP
@@ -302,6 +302,11 @@ Checking Normal Convert View Sync
 INFO(ORCAP-36105): Checking Missing Pin Numbers  
 
 Checking Device with Zero pins  
+#1 WARNING(ORCAP-36050): No pins are present in H9. Ignoring this component in netlist.
+#2 WARNING(ORCAP-36050): No pins are present in H8. Ignoring this component in netlist.
+#3 WARNING(ORCAP-36050): No pins are present in H10. Ignoring this component in netlist.
+#4 WARNING(ORCAP-36050): No pins are present in H11. Ignoring this component in netlist.
+#5 WARNING(ORCAP-36050): No pins are present in H7. Ignoring this component in netlist.
 INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
 
 Checking Name Property for Hierarchical Instances  
@@ -309,14 +314,14 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,OUTS  OUTS  7V0A
-                    TOP, POWER  (11.40, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,OUT  OUT  7V0A
+                    TOP, POWER  (3.50, 10.00) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,OUT  OUT  7V0A
                     TOP, POWER  (11.40, 10.00) 
 WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,OUTS  OUTS  7V0A
                     TOP, POWER  (3.50, 10.10) 
-WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,OUT  OUT  7V0A
-                    TOP, POWER  (3.50, 10.00) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,OUTS  OUTS  7V0A
+                    TOP, POWER  (11.40, 10.10) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference

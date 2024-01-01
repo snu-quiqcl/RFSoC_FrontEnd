@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : rfmc_frontend_v1_00.brd                       )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Mon Jan  1 00:53:13 2024                      )
+(    Date/Time        : Tue Jan  2 00:56:08 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,12 @@ Design Directory:            'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/alle
 Old design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
 New design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
 
-CmdLine: netrev.exe -y 1 -n -i c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd
+CmdLine: netrev -y 1 -i c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro -q netrev_constraint_report.xml c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/#Taaaaai32604.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstchip.dat 
-   Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstchip.dat (00:00:00.02)
+   Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstchip.dat (00:00:00.01)
 Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxprt.dat 
    Finished reading c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxprt.dat (00:00:00.00)
 Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxnet.dat 
@@ -35,27 +35,6 @@ Starting to read c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/pstxnet.d
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J10 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM0': WARNING(SPMHUT-127): Could not find padstack S165_H110.
-   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
-
-     Could not find padstack S165_H110.
-
-#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J13 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM1': WARNING(SPMHUT-127): Could not find padstack S165_H110.
-   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
-
-     Could not find padstack S165_H110.
-
-#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SHDR30W63P254_2X15_4542X859X991P' used by RefDes J16 for device 'N2530-6002-RB_SHDR30W63P254_2X15_4542X859X991P_EEM2': WARNING(SPMHUT-127): Could not find padstack S165_H110.
-   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to
-
-     Could not find padstack S165_H110.
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -92,7 +71,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 1 0:53:13 2024
+netrev run on Jan 2 0:56:08 2024
    DESIGN NAME : 'RFMC_FRONTEND_V1_00'
    PACKAGING ON Sep 29 2023 23:54:04
 
@@ -115,8 +94,8 @@ netrev run on Jan 1 0:53:13 2024
 
  No error detected
  No oversight detected
-  3 warnings detected
+ No warning detected
 
-cpu time      0:01:10
+cpu time      0:00:49
 elapsed time  0:00:01
 

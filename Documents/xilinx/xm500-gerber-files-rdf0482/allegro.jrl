@@ -1,17 +1,408 @@
-\t (00:00:02) allegro 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Wed Dec 20 18:54:31 2023
-\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=26900 CPUs=20
-\t (00:00:02) CmdLine= C:\Cadence\OrCADX_23.1\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:03) Starting new design...
-\i (00:00:03) trapsize 116667
-\i (00:00:03) generaledit 
-\i (00:00:11) trapsize 591
-\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
-\i (00:00:11) opencd C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/PMOD2BNCSIMPLE_v1_06_62mil_cheap.brd 
-\t (00:00:11) Opening existing design...
-\w (00:00:14) WARNING(SPMHDB-213): DRC set to "out of date". The current product selection supports a different DRC capability than what is saved in the design.
-\t (00:00:14) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
-\i (00:00:14) trapsize 186
-\t (00:00:14)     Journal end - Wed Dec 20 18:54:43 2023
+\t (00:39:49) allegro 23.1 P001 Windows SPB 64-bit Edition
+\t (00:39:49)     Journal start - Mon Jan  1 12:51:12 2024
+\t (00:39:49)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=30352 CPUs=20
+\t (00:39:49) CmdLine= c:\cadence\orcadx_23.1\tools\bin\allegro.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Documents\xilinx\xm500-gerber-files-rdf0482\1281021_HW-FMC-XM500_Rev1_0.brd
+\t (00:39:49) 
+\d (00:39:49) Design opened: C:/Jeonghyun/GIT/RFSoC_FrontEnd/Documents/xilinx/xm500-gerber-files-rdf0482/1281021_HW-FMC-XM500_Rev1_0.brd
+\i (00:39:49) generaledit 
+\i (00:39:50) zoom out 1 
+\i (00:39:50) setwindow pcb
+\i (00:39:50) zoom out -110.7634 483.4623
+\i (00:39:50) trapsize 19625
+\i (00:39:50) zoom out 1 
+\i (00:39:50) setwindow pcb
+\i (00:39:50) zoom out -110.7634 483.4623
+\i (00:39:50) trapsize 39251
+\i (00:39:50) zoom out 1 
+\i (00:39:50) setwindow pcb
+\i (00:39:50) zoom out -107.6232 492.0974
+\i (00:39:50) trapsize 78502
+\i (00:39:50) zoom in 1 
+\i (00:39:50) setwindow pcb
+\i (00:39:50) zoom in 2.2790 567.4590
+\i (00:39:50) trapsize 39251
+\i (00:39:50) zoom in 1 
+\i (00:39:50) setwindow pcb
+\i (00:39:50) zoom in 6.2041 567.4590
+\i (00:39:50) trapsize 19625
+\i (00:39:54) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:39:55) roam start
+\i (00:39:55) roam y 16
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y 16
+\i (00:39:55) roam y 32
+\i (00:39:55) roam x 16
+\i (00:39:55) roam x 16
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -16
+\i (00:39:55) roam x 32
+\i (00:39:55) roam y -16
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -32
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -16
+\i (00:39:55) roam x 32
+\i (00:39:55) roam y -64
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -32
+\i (00:39:55) roam y -32
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -48
+\i (00:39:55) roam y -48
+\i (00:39:55) roam y -32
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -48
+\i (00:39:55) roam x 16
+\i (00:39:55) roam y -80
+\i (00:39:55) roam y -128
+\i (00:39:55) roam y -32
+\i (00:39:55) roam y -48
+\i (00:39:55) roam y -16
+\i (00:39:55) roam y -32
+\i (00:39:55) roam y -32
+\i (00:39:55) roam y -64
+\i (00:39:55) roam x -64
+\i (00:39:55) roam y -336
+\i (00:39:55) roam y -32
+\i (00:39:55) roam x -16
+\i (00:39:55) roam y -96
+\i (00:39:55) roam y -48
+\i (00:39:55) roam y -32
+\i (00:39:56) roam y -16
+\i (00:39:56) roam y -16
+\i (00:39:56) roam y -16
+\i (00:39:56) roam y -16
+\i (00:39:56) roam y -16
+\i (00:39:56) roam x 16
+\i (00:39:56) roam y -48
+\i (00:39:56) roam y -16
+\i (00:39:56) roam y -16
+\i (00:39:56) roam end
+\i (00:39:56) zoom out 1 
+\i (00:39:56) setwindow pcb
+\i (00:39:56) zoom out 7.3231 1228.4158
+\i (00:39:56) trapsize 39251
+\i (00:39:56) zoom out 1 
+\i (00:39:56) setwindow pcb
+\i (00:39:56) zoom out 7.3232 1228.4160
+\i (00:39:56) trapsize 78502
+\i (00:39:56) zoom out 1 
+\i (00:39:56) setwindow pcb
+\i (00:39:56) zoom out 7.3232 1228.4159
+\i (00:39:56) trapsize 157003
+\i (00:39:56) roam start
+\i (00:39:56) roam y -16
+\i (00:39:57) roam y -16
+\i (00:39:57) roam y -16
+\i (00:39:57) roam y -32
+\i (00:39:57) roam end
+\i (00:39:57) zoom in 1 
+\i (00:39:57) setwindow pcb
+\i (00:39:57) zoom in 286.7888 1518.0882
+\i (00:39:57) trapsize 78502
+\i (00:39:57) zoom in 1 
+\i (00:39:57) setwindow pcb
+\i (00:39:57) zoom in 267.9484 1516.5182
+\i (00:39:57) trapsize 39251
+\i (00:39:59) roam start
+\i (00:39:59) roam x -16
+\i (00:39:59) roam x -32
+\i (00:39:59) roam y -16
+\i (00:39:59) roam end
+\i (00:39:59) zoom in 1 
+\i (00:39:59) setwindow pcb
+\i (00:39:59) zoom in 29.6974 1434.8764
+\i (00:39:59) trapsize 19625
+\i (00:40:00) zoom in 1 
+\i (00:40:00) setwindow pcb
+\i (00:40:00) zoom in 28.9124 1441.9415
+\i (00:40:00) trapsize 9813
+\i (00:40:03) zoom out 1 
+\i (00:40:03) setwindow pcb
+\i (00:40:03) zoom out 56.3879 1444.8853
+\i (00:40:03) trapsize 19625
+\i (00:40:04) roam start
+\i (00:40:04) roam x -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam y -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam y -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam y -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam y -16
+\i (00:40:04) roam x -16
+\i (00:40:04) roam y -16
+\i (00:40:04) roam end
+\i (00:40:15) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:40:18) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:40:18) zoom in 1 
+\i (00:40:18) setwindow pcb
+\i (00:40:18) zoom in -91.5889 1458.8181
+\i (00:40:18) trapsize 9813
+\i (00:40:22) roam start
+\i (00:40:22) roam x -16
+\i (00:40:22) roam x -48
+\i (00:40:22) roam y -16
+\i (00:40:22) roam x -32
+\i (00:40:22) roam y -16
+\i (00:40:22) roam x -32
+\i (00:40:22) roam y -32
+\i (00:40:22) roam x -32
+\i (00:40:22) roam y -16
+\i (00:40:22) roam x -16
+\i (00:40:22) roam y -16
+\i (00:40:22) roam x -16
+\i (00:40:22) roam y -16
+\i (00:40:22) roam x -16
+\i (00:40:22) roam end
+\i (00:40:35) zoom out 1 
+\i (00:40:35) setwindow pcb
+\i (00:40:35) zoom out -18.3861 1428.3986
+\i (00:40:35) trapsize 19625
+\i (00:40:36) zoom out 1 
+\i (00:40:36) setwindow pcb
+\i (00:40:36) zoom out -19.1711 1428.3987
+\i (00:40:36) trapsize 39251
+\i (00:40:37) roam start
+\i (00:40:37) roam x 16
+\i (00:40:37) roam x 64
+\i (00:40:37) roam y 16
+\i (00:40:37) roam x 48
+\i (00:40:37) roam y 16
+\i (00:40:37) roam x 48
+\i (00:40:37) roam x 32
+\i (00:40:37) roam y 16
+\i (00:40:37) roam x 32
+\i (00:40:37) roam end
+\i (00:40:39) zoom in 1 
+\i (00:40:39) setwindow pcb
+\i (00:40:39) zoom in 178.0655 1433.3065
+\i (00:40:39) trapsize 19625
+\i (00:40:40) zoom in 1 
+\i (00:40:40) setwindow pcb
+\i (00:40:40) zoom in 178.0655 1433.3065
+\i (00:40:40) trapsize 9813
+\i (00:40:41) zoom out 1 
+\i (00:40:41) setwindow pcb
+\i (00:40:41) zoom out 177.4768 1433.3065
+\i (00:40:41) trapsize 19625
+\i (00:40:41) zoom out 1 
+\i (00:40:41) setwindow pcb
+\i (00:40:41) zoom out 177.4768 1433.3065
+\i (00:40:41) trapsize 39251
+\i (00:40:42) zoom in 1 
+\i (00:40:42) setwindow pcb
+\i (00:40:42) zoom in 177.4768 1433.3066
+\i (00:40:42) trapsize 19625
+\i (00:40:43) zoom out 1 
+\i (00:40:43) setwindow pcb
+\i (00:40:43) zoom out 177.4768 1433.6991
+\i (00:40:43) trapsize 39251
+\i (00:40:44) zoom out 1 
+\i (00:40:44) setwindow pcb
+\i (00:40:44) zoom out 177.4768 1433.6992
+\i (00:40:44) trapsize 78502
+\i (00:40:46) roam start
+\i (00:40:46) roam x 16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam x 16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -32
+\i (00:40:46) roam x 16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -32
+\i (00:40:46) roam y -16
+\i (00:40:46) roam x 16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -16
+\i (00:40:46) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -32
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x -16
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -48
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 32
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 64
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x 48
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 80
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x 96
+\i (00:40:47) roam y -48
+\i (00:40:47) roam x 80
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x 48
+\i (00:40:47) roam y -32
+\i (00:40:47) roam x 64
+\i (00:40:47) roam y -16
+\i (00:40:47) roam x 16
+\i (00:40:47) roam y -16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 32
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 32
+\i (00:40:48) roam x 32
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 32
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 32
+\i (00:40:48) roam x 32
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x -32
+\i (00:40:48) roam x -64
+\i (00:40:48) roam x -32
+\i (00:40:48) roam y 16
+\i (00:40:48) roam x -96
+\i (00:40:48) roam x -112
+\i (00:40:48) roam x -64
+\i (00:40:48) roam y -16
+\i (00:40:48) roam x -96
+\i (00:40:48) roam y -16
+\i (00:40:48) roam x -96
+\i (00:40:48) roam x -64
+\i (00:40:48) roam y -16
+\i (00:40:48) roam x -80
+\i (00:40:48) roam x -64
+\i (00:40:48) roam y -16
+\i (00:40:49) roam x -48
+\i (00:40:49) roam x -96
+\i (00:40:49) roam y -16
+\i (00:40:49) roam x -16
+\i (00:40:49) roam x -48
+\i (00:40:49) roam x -32
+\i (00:40:49) roam x -16
+\i (00:40:49) roam x -16
+\i (00:40:49) roam x -32
+\i (00:40:49) roam x -16
+\i (00:40:49) roam end
+\i (00:40:49) roam start
+\i (00:40:49) roam y 16
+\i (00:40:49) roam x -16
+\i (00:40:49) roam y 48
+\i (00:40:50) roam x -16
+\i (00:40:50) roam y 16
+\i (00:40:50) roam y 16
+\i (00:40:50) roam y 16
+\i (00:40:50) roam end
+\i (00:40:50) zoom in 1 
+\i (00:40:50) setwindow pcb
+\i (00:40:50) zoom in 14.7821 2281.1237
+\i (00:40:50) trapsize 39251
+\i (00:40:51) zoom in 1 
+\i (00:40:51) setwindow pcb
+\i (00:40:51) zoom in -11.9084 2284.2638
+\i (00:40:51) trapsize 19625
+\i (00:40:51) roam start
+\i (00:40:51) roam x -16
+\i (00:40:51) roam x -16
+\i (00:40:51) roam x -16
+\i (00:40:51) roam x -16
+\i (00:40:51) roam x -16
+\i (00:40:52) roam x -32
+\i (00:40:52) roam x -32
+\i (00:40:52) roam x -16
+\i (00:40:52) roam x -16
+\i (00:40:52) roam end
+\i (00:40:58) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:40:59) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "1281021_HW-FMC-XM500_Rev1_0"
+\i (00:40:59) opencd C:/Jeonghyun/GIT/RFSoC_FrontEnd/RFMC_Frontend/allegro/rfmc_frontend_v1_00.brd 
+\t (00:40:59) Opening existing design...
+\i (00:40:59) trapsize 16
+\t (00:40:59) > Sending response DoneOpenBoard
+\t (00:40:59)     Journal end - Mon Jan  1 12:52:22 2024

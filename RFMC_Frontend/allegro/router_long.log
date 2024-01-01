@@ -1,0 +1,90 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Jeonghyun/GIT/RFSoC_FrontEnd/RFMC_Frontend/allegro/rfmc_frontend_v1_00.brd
+Started on   Mon Jan  1 14:19:49 2024
+**ERROR - there is no route keepin rectangle
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 31         478          509
+        Already Connected            0           0            0
+        Missing Connections         31         478          509
+        Connection Completion        0.00%       0.00%        0.00%
+        Etch Length (inches)        28.88        0.00        28.88
+        Number of vias		    76           0           76
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                        44
+
+
+
+    Total cpu time - 0:4:32 hours
+    Total elapsed time - -3861:-15:-28 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Mon Jan  1 14:19:50 2024
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Jeonghyun/GIT/RFSoC_FrontEnd/RFMC_Frontend/allegro/rfmc_frontend_v1_00.brd
+Started on   Mon Jan  1 14:19:50 2024
+**ERROR - there is no route keepin rectangle
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 31         478          509
+        Already Connected            0           0            0
+        Missing Connections         31         478          509
+        Connection Completion        0.00%       0.00%        0.00%
+        Etch Length (inches)        28.88        0.00        28.88
+        Number of vias		    76           0           76
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                        44
+
+
+
+    Total cpu time - 0:4:32 hours
+    Total elapsed time - -3861:-15:-28 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Mon Jan  1 14:19:50 2024
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Jeonghyun/GIT/RFSoC_FrontEnd/RFMC_Frontend/allegro/rfmc_frontend_v1_00.brd
+Started on   Mon Jan  1 14:19:51 2024
+**ERROR - there is no route keepin rectangle
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 31         478          509
+        Already Connected            0           0            0
+        Missing Connections         31         478          509
+        Connection Completion        0.00%       0.00%        0.00%
+        Etch Length (inches)        28.88        0.00        28.88
+        Number of vias		    76           0           76
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                        44
+
+
+
+    Total cpu time - 0:4:33 hours
+    Total elapsed time - -3861:-15:-27 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Mon Jan  1 14:19:51 2024

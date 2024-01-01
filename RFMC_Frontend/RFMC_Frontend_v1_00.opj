@@ -1,6 +1,6 @@
 (ExpressProject "RFMC_Frontend_v1_00"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[01/01/24]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[01/02/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -146,8 +146,17 @@
          "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro\netrev.lst"))
     (File ".\allegro\eco.txt"
       (Type "Log File")
-      (LogFile "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro\eco.txt")))
+      (LogFile "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro\genfeed.log")))
   (PartMRUSelector
+    (JSO-0415-01
+      (FullPartName "JSO-0415-01.Normal")
+      (LibraryName
+         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SNAPEDA_PART_1704070485\JSO-0415-01.OLB")
+      (DeviceIndex "0"))
     (LT3045EDDPBF
       (FullPartName "LT3045EDDPBF.Normal")
       (LibraryName
@@ -257,15 +266,21 @@
       (FullPartName "EXV106M025S9BAA.Normal")
       (LibraryName
          "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703922661\EXV106M025S9BAA\CAPTURE\EXV106M025S9BAA.OLB")
-      (DeviceIndex "0"))
-    (ERJ-2RKF3162X
-      (FullPartName "ERJ-2RKF3162X.Normal")
-      (LibraryName
-         "C:\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1703921161\ERJ-2RKF3162X\CAPTURE\ERJ-2RKF3162X.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "TOP")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "DAC_ADC_CHANNEL")
+      (Path "Design Resources"
+         "c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\rfmc_frontend_v1_00.dsn"
+         "IO_CHANNEL")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
@@ -275,111 +290,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 350 0 628"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 816"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1524 24 646")
-        (Scroll "-180 80")
-        (Zoom "35")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "LPAF"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1524 24 646")
-        (Scroll "340 300")
-        (Zoom "146")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "I2C"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
         (Scroll "0 0")
-        (Zoom "146")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "CLK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "294 260")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "CLK_SMA"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1524 24 646")
-        (Scroll "-238 170")
-        (Zoom "50")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "-287 -4")
-        (Zoom "60")
-        (Occurrence "/CH3"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/CH1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/CH7"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/CH2"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "0 230")
-        (Zoom "100")
-        (Occurrence "/CH0"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "DAC_ADC_CHANNEL")
-      (Page "DAC_ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "-258 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
-      (Schematic "TOP")
-      (Page "DAC_ADC_TOP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Zoom "102")
         (Occurrence "/"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
@@ -388,31 +306,168 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646")
-        (Scroll "-258 30")
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
+        (Scroll "0 0")
         (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "CLK"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "CLK_SMA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "DAC_ADC_TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
+        (Scroll "178 611")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "LPAF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "18 296")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/IO_CH4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/IO_CH3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/IO_CH2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/IO_CH5"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
         (Occurrence "/IO_CH0"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "-198 -7")
+        (Zoom "106")
+        (Occurrence "/IO_CH1"))
       (Path
          "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
       (Schematic "IO_CHANNEL")
       (Page "TTL_IO"))
     (Doc
-      (Type "TextFile")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646"))
-      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstchip.dat")
-      (Scroll "467"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "TOP")
+      (Page "I2C"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH7"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH0"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH5"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH1"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH6"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CH2"))
+      (Path
+         "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\RFMC_FRONTEND_V1_00.DSN")
+      (Schematic "DAC_ADC_CHANNEL")
+      (Page "DAC_ADC"))
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646"))
-      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxnet.dat")
+        (Placement "44 0 1 -1 -1 -8 -31 5 1461 24 834"))
+      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxprt.dat")
       (Scroll "0"))
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1524 24 646"))
-      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxprt.dat")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
+      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstchip.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
+      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxnet.dat")
       (Scroll "0")))
   (MPSSessionName "alexi")
   (ISPCBBASICLICENSE "false"))

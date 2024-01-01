@@ -1,0 +1,10 @@
+# ERROR (LMF-01001): License call failed. The license server search path is defined as C:\Cadence\SPB_22.1\License.dat. The FLEXnet error message is as follows,
+    FLEXnet ERROR(1, 212, 2): Cannot find license file.
+
+Run 'lic_error LMF-01001' for more information.# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.

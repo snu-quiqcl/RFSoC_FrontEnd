@@ -1,0 +1,230 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : 1281021_HW-FMC-XM500_Rev1_0.brd               )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Tue Dec 19 00:03:16 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  N21418110            TOP                   0.0010     *(1300.3100 6107.7500) to  (1300.3110 6107.7500)
+  RFMC_ADC_07_P        L02_GND/RF-SIG        1.3789     *(850.9750 3826.7750) to  (850.0000 3827.7500)
+  RFMC_ADC_07_N        L02_GND/RF-SIG        0.7707     *(1424.4550 3828.2950) to  (1425.0000 3827.7500)
+  ADCIO_16             L05_SIG               0.2400     *(-130.0000 5253.8850) to  (-130.0000 5254.1250)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  RFMC_I2C_SCL         V20H10               (-130.0000 5154.1250) TOP/BOTTOM 
+  RFMC_I2C_SDA         V20H10               (-30.0000 5154.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-180.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-180.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-130.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-130.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-80.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-80.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-30.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-30.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (20.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (20.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (70.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (70.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (120.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (120.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (170.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (170.0000 5104.1250) TOP/BOTTOM 
+  VCM01_224            V20H10               (170.0000 4404.1250) TOP/BOTTOM 
+  VCM01_225            V20H10               (70.0000 4404.1250) TOP/BOTTOM 
+  VCM01_226            V20H10               (-30.0000 4404.1250) TOP/BOTTOM 
+  VCM01_227            V20H10               (-130.0000 4404.1250) TOP/BOTTOM 
+  VCM23_224            V20H10               (120.0000 4404.1250) TOP/BOTTOM 
+  VCM23_225            V20H10               (20.0000 4404.1250) TOP/BOTTOM 
+  VCM23_226            V20H10               (-80.0000 4404.1250) TOP/BOTTOM 
+  VCM23_227            V20H10               (-180.0000 4404.1250) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  ADCIO_00             V20H10               (170.0000 5354.1250) TOP/BOTTOM 
+  ADCIO_00             V20H10               (2600.0000 5920.0000) TOP/BOTTOM 
+  ADCIO_01             V20H10               (170.0000 5254.1250) TOP/BOTTOM 
+  ADCIO_01             V20H10               (2700.0000 5830.0000) TOP/BOTTOM 
+  ADCIO_02             V20H10               (120.0000 5404.1250) TOP/BOTTOM 
+  ADCIO_02             V20H10               (2800.0000 5972.0000) TOP/BOTTOM 
+  ADCIO_03             V20H10               (120.0000 5304.1250) TOP/BOTTOM 
+  ADCIO_03             V20H10               (2900.0000 5950.0000) TOP/BOTTOM 
+  ADCIO_04             V20H10               (120.0000 5204.1250) TOP/BOTTOM 
+  ADCIO_04             V20H10               (3000.0000 5885.0000) TOP/BOTTOM 
+  ADCIO_05             V20H10               (70.0000 5354.1250) TOP/BOTTOM 
+  ADCIO_05             V20H10               (3100.0000 6035.0000) TOP/BOTTOM 
+  ADCIO_06             V20H10               (70.0000 5254.1250) TOP/BOTTOM 
+  ADCIO_06             V20H10               (3200.0000 6020.0000) TOP/BOTTOM 
+  ADCIO_07             V20H10               (20.0000 5404.1250) TOP/BOTTOM 
+  ADCIO_07             V20H10               (3300.0000 6095.0000) TOP/BOTTOM 
+  ADCIO_08             V20H10               (20.0000 5304.1250) TOP/BOTTOM 
+  ADCIO_09             V20H10               (20.0000 5204.1250) TOP/BOTTOM 
+  ADCIO_10             V20H10               (-30.0000 5354.1250) TOP/BOTTOM 
+  ADCIO_11             V20H10               (-30.0000 5254.1250) TOP/BOTTOM 
+  ADCIO_11             V20H10               (3450.0000 6155.0000) TOP/BOTTOM 
+  ADCIO_12             V20H10               (-80.0000 5404.1250) TOP/BOTTOM 
+  ADCIO_12             V20H10               (3350.0000 6155.0000) TOP/BOTTOM 
+  ADCIO_13             V20H10               (-80.0000 5304.1250) TOP/BOTTOM 
+  ADCIO_14             V20H10               (-80.0000 5204.1250) TOP/BOTTOM 
+  ADCIO_15             V20H10               (-130.0000 5354.1250) TOP/BOTTOM 
+  ADCIO_15             V20H10               (3050.0000 6160.0000) TOP/BOTTOM 
+  ADCIO_16             V20H10               (-130.0000 5254.1250) TOP/BOTTOM 
+  ADCIO_17             V20H10               (-180.0000 5404.1250) TOP/BOTTOM 
+  ADCIO_17             V20H10               (2850.0000 6160.0000) TOP/BOTTOM 
+  ADCIO_18             V20H10               (-180.0000 5304.1250) TOP/BOTTOM 
+  ADCIO_18             V20H10               (2750.0000 6205.0000) TOP/BOTTOM 
+  ADCIO_19             V20H10               (-180.0000 5204.1250) TOP/BOTTOM 
+  ADC_CLKIN_0_N        V20H10               (120.0000 3654.1250) TOP/BOTTOM 
+  ADC_CLKIN_0_P        V20H10               (70.0000 3654.1250) TOP/BOTTOM 
+  ADC_CLKIN_1_N        V20H10               (-80.0000 3704.1250) TOP/BOTTOM 
+  ADC_CLKIN_1_P        V20H10               (-130.0000 3704.1250) TOP/BOTTOM 
+  ADC_CLKIN_2_N        V20H10               (120.0000 3504.1250) TOP/BOTTOM 
+  ADC_CLKIN_2_P        V20H10               (70.0000 3504.1250) TOP/BOTTOM 
+  ADC_CLKIN_3_N        V20H10               (-80.0000 3554.1250) TOP/BOTTOM 
+  ADC_CLKIN_3_P        V20H10               (-130.0000 3554.1250) TOP/BOTTOM 
+  AGND                 V20H10               (-347.0000 2253.6528) TOP/BOTTOM 
+  AGND                 V20H10               (-347.0000 2371.5729) TOP/BOTTOM 
+  AGND                 V20H10               (-347.0000 2488.9420) TOP/BOTTOM 
+  AGND                 V20H10               (-297.0122 2141.1218) TOP/BOTTOM 
+  AGND                 V20H10               (-290.6995 2584.6909) TOP/BOTTOM 
+  AGND                 V20H10               (-277.0000 2371.5000) TOP/BOTTOM 
+  AGND                 V20H10               (-276.5000 2489.0000) TOP/BOTTOM 
+  AGND                 V20H10               (-269.4707 2255.6593) TOP/BOTTOM 
+  AGND                 V20H10               (-206.0000 2371.8484) TOP/BOTTOM 
+  AGND                 V20H10               (82.7868 2804.2132) TOP/BOTTOM 
+  AGND                 V20H10               (149.7868 2871.2132) TOP/BOTTOM 
+  DACIO_00             V20H10               (170.0000 651.3750) TOP/BOTTOM 
+  DACIO_00             V20H10               (2650.0000 140.0000) TOP/BOTTOM 
+  DACIO_01             V20H10               (170.0000 551.3750) TOP/BOTTOM 
+  DACIO_01             V20H10               (2550.0000 80.0000) TOP/BOTTOM 
+  DACIO_02             V20H10               (120.0000 701.3750) TOP/BOTTOM 
+  DACIO_02             V20H10               (2750.0000 181.8658) TOP/BOTTOM 
+  DACIO_03             V20H10               (120.0000 601.3750) TOP/BOTTOM 
+  DACIO_03             V20H10               (2850.0000 80.0000) TOP/BOTTOM 
+  DACIO_04             V20H10               (120.0000 501.3750) TOP/BOTTOM 
+  DACIO_04             V20H10               (2950.0000 55.0000) TOP/BOTTOM 
+  DACIO_05             V20H10               (70.0000 651.3750) TOP/BOTTOM 
+  DACIO_05             V20H10               (3050.0000 80.0000) TOP/BOTTOM 
+  DACIO_06             V20H10               (70.0000 551.3750) TOP/BOTTOM 
+  DACIO_06             V20H10               (3150.0000 -75.0000) TOP/BOTTOM 
+  DACIO_07             V20H10               (20.0000 701.3750) TOP/BOTTOM 
+  DACIO_08             V20H10               (20.0000 601.3750) TOP/BOTTOM 
+  DACIO_09             V20H10               (20.0000 501.3750) TOP/BOTTOM 
+  DACIO_10             V20H10               (-30.0000 651.3750) TOP/BOTTOM 
+  DACIO_11             V20H10               (-30.0000 551.3750) TOP/BOTTOM 
+  DACIO_12             V20H10               (-80.0000 701.3750) TOP/BOTTOM 
+  DACIO_13             V20H10               (-80.0000 601.3750) TOP/BOTTOM 
+  DACIO_14             V20H10               (-80.0000 501.3750) TOP/BOTTOM 
+  DACIO_14             V20H10               (3100.0000 -155.0000) TOP/BOTTOM 
+  DACIO_15             V20H10               (-130.0000 651.3750) TOP/BOTTOM 
+  DACIO_16             V20H10               (-130.0000 551.3750) TOP/BOTTOM 
+  DACIO_16             V20H10               (2900.0000 -155.0000) TOP/BOTTOM 
+  DACIO_17             V20H10               (-180.0000 701.3750) TOP/BOTTOM 
+  DACIO_18             V20H10               (-180.0000 601.3750) TOP/BOTTOM 
+  DACIO_18             V20H10               (2700.0000 -180.0000) TOP/BOTTOM 
+  DACIO_19             V20H10               (-180.0000 501.3750) TOP/BOTTOM 
+  DACIO_19             V20H10               (2600.0000 -125.0000) TOP/BOTTOM 
+  DAC_AVTT_BUS         V20H10               (-180.0000 2401.3750) TOP/BOTTOM 
+  DAC_AVTT_BUS         V20H10               (-180.0000 2451.3750) TOP/BOTTOM 
+  DAC_AVTT_BUS         V20H10               (-130.0000 2401.3750) TOP/BOTTOM 
+  DAC_AVTT_BUS         V20H10               (-130.0000 2451.3750) TOP/BOTTOM 
+  DAC_CLKIN_0_N        V20H10               (120.0000 2301.3750) TOP/BOTTOM 
+  DAC_CLKIN_0_P        V20H10               (70.0000 2301.3750) TOP/BOTTOM 
+  DAC_CLKIN_1_N        V20H10               (-80.0000 2251.3750) TOP/BOTTOM 
+  DAC_CLKIN_1_P        V20H10               (-130.0000 2251.3750) TOP/BOTTOM 
+  DAC_CLKIN_2_N        V20H10               (120.0000 2151.3750) TOP/BOTTOM 
+  DAC_CLKIN_2_P        V20H10               (70.0000 2151.3750) TOP/BOTTOM 
+  DAC_CLKIN_3_N        V20H10               (-80.0000 2101.3750) TOP/BOTTOM 
+  DAC_CLKIN_3_P        V20H10               (-130.0000 2101.3750) TOP/BOTTOM 
+  RFMC_ADC_00_N        V20H10               (-80.0000 5004.1250) TOP/BOTTOM 
+  RFMC_ADC_00_P        V20H10               (-130.0000 5004.1250) TOP/BOTTOM 
+  RFMC_ADC_01_N        V20H10               (120.0000 4954.1250) TOP/BOTTOM 
+  RFMC_ADC_01_P        V20H10               (70.0000 4954.1250) TOP/BOTTOM 
+  RFMC_ADC_02_N        V20H10               (-80.0000 4854.1250) TOP/BOTTOM 
+  RFMC_ADC_02_P        V20H10               (-130.0000 4854.1250) TOP/BOTTOM 
+  RFMC_ADC_03_N        V20H10               (120.0000 4804.1250) TOP/BOTTOM 
+  RFMC_ADC_03_P        V20H10               (70.0000 4804.1250) TOP/BOTTOM 
+  RFMC_ADC_04_N        V20H10               (-80.0000 4704.1250) TOP/BOTTOM 
+  RFMC_ADC_04_P        V20H10               (-130.0000 4704.1250) TOP/BOTTOM 
+  RFMC_ADC_05_N        V20H10               (120.0000 4654.1250) TOP/BOTTOM 
+  RFMC_ADC_05_P        V20H10               (70.0000 4654.1250) TOP/BOTTOM 
+  RFMC_ADC_06_N        V20H10               (-80.0000 4554.1250) TOP/BOTTOM 
+  RFMC_ADC_06_P        V20H10               (-130.0000 4554.1250) TOP/BOTTOM 
+  RFMC_ADC_07_N        V20H10               (120.0000 4504.1250) TOP/BOTTOM 
+  RFMC_ADC_07_P        V20H10               (70.0000 4504.1250) TOP/BOTTOM 
+  RFMC_DAC_00_N        V20H10               (120.0000 2001.3750) TOP/BOTTOM 
+  RFMC_DAC_00_P        V20H10               (70.0000 2001.3750) TOP/BOTTOM 
+  RFMC_DAC_01_N        V20H10               (-80.0000 1951.3750) TOP/BOTTOM 
+  RFMC_DAC_01_P        V20H10               (-130.0000 1951.3750) TOP/BOTTOM 
+  RFMC_DAC_02_N        V20H10               (120.0000 1851.3750) TOP/BOTTOM 
+  RFMC_DAC_02_P        V20H10               (70.0000 1851.3750) TOP/BOTTOM 
+  RFMC_DAC_03_N        V20H10               (-80.0000 1801.3750) TOP/BOTTOM 
+  RFMC_DAC_03_P        V20H10               (-130.0000 1801.3750) TOP/BOTTOM 
+  RFMC_DAC_04_N        V20H10               (120.0000 1701.3750) TOP/BOTTOM 
+  RFMC_DAC_04_P        V20H10               (70.0000 1701.3750) TOP/BOTTOM 
+  RFMC_DAC_05_N        V20H10               (-80.0000 1651.3750) TOP/BOTTOM 
+  RFMC_DAC_05_P        V20H10               (-130.0000 1651.3750) TOP/BOTTOM 
+  RFMC_DAC_06_N        V20H10               (120.0000 1551.3750) TOP/BOTTOM 
+  RFMC_DAC_06_P        V20H10               (70.0000 1551.3750) TOP/BOTTOM 
+  RFMC_DAC_07_N        V20H10               (-80.0000 1501.3750) TOP/BOTTOM 
+  RFMC_DAC_07_P        V20H10               (-130.0000 1501.3750) TOP/BOTTOM 
+  RFMC_I2C_SCL         V20H10               (-130.0000 5154.1250) TOP/BOTTOM 
+  RFMC_I2C_SDA         V20H10               (-30.0000 5154.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-180.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-180.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-130.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-130.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-80.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-80.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-30.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (-30.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (20.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (20.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (70.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (70.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (120.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (120.0000 5104.1250) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (170.0000 801.3750) TOP/BOTTOM 
+  UTIL_3V3             V20H10               (170.0000 5104.1250) TOP/BOTTOM 
+  VCC12_SW             V20H10               (-30.0000 2451.3750) TOP/BOTTOM 
+  VCC12_SW             V20H10               (20.0000 2451.3750) TOP/BOTTOM 
+  VCC12_SW             V20H10               (70.0000 2451.3750) TOP/BOTTOM 
+  VCC12_SW             V20H10               (120.0000 2451.3750) TOP/BOTTOM 
+  VCC12_SW             V20H10               (170.0000 2451.3750) TOP/BOTTOM 
+  VCM01_224            V20H10               (170.0000 4404.1250) TOP/BOTTOM 
+  VCM01_225            V20H10               (70.0000 4404.1250) TOP/BOTTOM 
+  VCM01_226            V20H10               (-30.0000 4404.1250) TOP/BOTTOM 
+  VCM01_227            V20H10               (-130.0000 4404.1250) TOP/BOTTOM 
+  VCM23_224            V20H10               (120.0000 4404.1250) TOP/BOTTOM 
+  VCM23_225            V20H10               (20.0000 4404.1250) TOP/BOTTOM 
+  VCM23_226            V20H10               (-80.0000 4404.1250) TOP/BOTTOM 
+  VCM23_227            V20H10               (-180.0000 4404.1250) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       4
+  Total dangling vias:       26
+  Total antenna vias:       158

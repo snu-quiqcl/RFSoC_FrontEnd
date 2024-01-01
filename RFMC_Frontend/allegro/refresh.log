@@ -1,0 +1,90 @@
+Mon Jan  1 16:08:38 2024				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Mon Jan  1 16:08:38 2024
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : rfmc_frontend_v1_00.brd                       )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Jan  1 16:08:38 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Jan  1 16:08:38 2024				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/JEONGHYUN/GIT/RFSOC_FRONTEND/RFMC_FRONTEND/allegro/rfmc_frontend_v1_00.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/alexi/AppData/Local/Temp/#Taaaaai31280.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_23.1/share/local/pcb/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/allegrolib/symbols 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/LIB_538-71764-0112_PIN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/SMA_PERP_SMAFST_PCBN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/symbols 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/MECH250_WO_SM 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_23.1/share/local/pcb/padstacks 
+           c:/cadence/orcadx_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_23.1/share/pcb/allegrolib/symbols 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/LIB_538-71764-0112_PIN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/VIA 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/SMA_PERP_SMAFST_PCBN 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/symbols 
+           C:/SPB_DATA/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb 
+           C:/Jeonghyun/GIT/PMOD2BNC/23_1/PMOD2BNC_SIMPLE_v1_0/Library/MECH250_WO_SM 
+
+
+------ Symbol Refresh Messages ------
+
+'QFN50P700X700X100-49N-D'  symbol refreshed successfully.
+
+
+------ Updating padstacks referring to the refreshed shapes and flash symbols.  ------
+
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

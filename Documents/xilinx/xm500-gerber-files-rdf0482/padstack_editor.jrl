@@ -1,0 +1,21 @@
+\t (00:00:00) padstack_editor 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan  1 12:17:26 2024
+\t (00:00:00)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=27560 CPUs=20
+\t (00:00:00) CmdLine= padstack_editor -mpssession alexi -file C:/Users/alexi/AppData/Local/Temp/#Taaaaaq30352.tmp -pname MICRO_1-2 -data C:/Users/alexi/AppData/Local/Temp/#Taaaaat30352.tmp
+\t (00:00:00) 
+\d (00:00:05) QtSignal MainWindow SaveAs triggered
+\d (00:00:07) QtSignal pseCheckBrowser Close clicked
+\d (00:00:08) QtFillin Yes
+\d (00:00:29) QtSignal MainWindow AQFileDialog finished 1
+\d (00:00:29) QtFillin "C:/SPB_Data/cdssetup/OrCAD_Capture/23.1.0/downloaded_parts/allegropcb/MICRO_1-2.pad"
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 0 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 1 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 2 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 3 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 4 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 5 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 6 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 7 "Regular Pad" None
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemChanged 8 "Regular Pad" "Circle 30.0000"
+\d (00:00:44) QtSignal MainWindow Exit triggered
+\t (00:00:44)     Journal end - Mon Jan  1 12:18:11 2024

@@ -1,5 +1,10 @@
-{ Using PSTWRITER 23.1.0 d001Jan-01-2024 at 00:53:12 }
+{ Using PSTWRITER 23.1.0 d001Jan-02-2024 at 00:56:07 }
 
+#1 WARNING(ORCAP-36050): No pins are present in H9. Ignoring this component in netlist.
+#2 WARNING(ORCAP-36050): No pins are present in H8. Ignoring this component in netlist.
+#3 WARNING(ORCAP-36050): No pins are present in H10. Ignoring this component in netlist.
+#4 WARNING(ORCAP-36050): No pins are present in H11. Ignoring this component in netlist.
+#5 WARNING(ORCAP-36050): No pins are present in H7. Ignoring this component in netlist.
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro\pstchip.dat

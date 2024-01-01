@@ -1,0 +1,3873 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : rfmc_frontend_v1_00.brd                       )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Jan  1 14:37:50 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Pad and T Fillet glossing in progress.
+Started on Mon Jan  1 14:37:50 2024
+
+ Round pads:          YES   max size: 100.0
+ Square pads:         YES   max size: 100.0
+ Rectangular pads:    YES   max size: 100.0
+ Oblong pads:         YES   max size: 100.0
+ Octagon pads:        YES   max size: 100.0
+ Pads as shapes:      NO 
+ Pins:                YES
+ Vias:                YES
+ Bond Fingers:        NO 
+ Ts:                  YES
+ Unused nets:         YES
+ Pads Without Drills: YES
+ Desired Pin Angle:       90
+ Desired Via Angle:       90
+ Desired T Angle:         90
+ Maximum Pin Angle:       90
+ Maximum Via Angle:       90
+ Maximum T Angle:         90
+ Pin Maximum offset:      25.0
+ Via Maximum offset:      25.0
+ T Maximum offset:        25.0
+ Pin minimum line width:  3.0
+ Via minimum line width:  3.0
+ T minimum line width:    3.0
+ Pin maximum line width:  25.0
+ Via maximum line width:  25.0
+ T maximum line width:    25.0
+ Tapers:                  YES
+ Desired Taper Angle:     60
+ Taper Maximum offset:    25.0
+ Allow drc:           NO 
+ Dynamic:             NO 
+ Curved lines:        NO 
+
+*WARNING: Can't create fillet at pad (290.0 4840.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4830.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4830.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5515.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4880.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4880.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 4991.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4980.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4980.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5460.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 5030.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 5030.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 4565.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4530.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4530.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5734.0) on subclass LAYER_1.
+          Unable to create fillet, parameters result in fillet entirely within pad.
+
+*WARNING: Can't create fillet at pad (290.0 5734.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4580.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4580.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 4715.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4680.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4680.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5615.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4730.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4730.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 4865.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4830.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4830.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5540.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4880.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 4880.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5015.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4980.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 4980.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5485.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 5030.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 5030.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 2816.1) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1675.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 2840.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1675.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 1765.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 1725.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 2735.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1825.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 2765.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1825.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 1890.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 1875.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 1915.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 1875.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2655.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1975.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (285.0 2035.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 2025.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (285.0 2060.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 2025.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 1740.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 1725.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 3580.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 3580.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 3530.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 3530.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 3680.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 3680.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 3730.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 3730.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2340.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 2325.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2365.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 2325.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (82.9 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2545.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 2275.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2570.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 2275.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-117.1 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 2625.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1975.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (295.0 4541.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4530.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4530.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5710.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4580.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4580.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 5590.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4730.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-92.7 4730.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (290.0 4690.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4680.0) on subclass LAYER_1.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (107.3 4680.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-105.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3454.1) on subclass BOTTOM.
+          Computed fillet point lies inside pad boundary; required to be outside.
+
+*WARNING: Can't create fillet at pad (170.1 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (193.7 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (93.7 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (143.7 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-56.3 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-106.3 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-129.9 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (95.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (70.1 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (45.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (43.7 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (20.1 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-156.3 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (145.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (120.1 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-155.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-179.9 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4179.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4154.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4129.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4104.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 3879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 3854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-55.0 5279.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-79.9 5254.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4479.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4454.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4379.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4354.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4529.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4504.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4579.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4554.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4629.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4604.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4729.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4704.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4679.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4654.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-5.0 4329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 4304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1475.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1451.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1825.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1801.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1775.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1751.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1725.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1701.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1625.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1601.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1675.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1651.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1575.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1551.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2025.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2001.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1975.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1951.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1925.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1901.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1875.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1851.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2325.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2301.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2225.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2201.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2275.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2251.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2175.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2151.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2425.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2401.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2375.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2351.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2125.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2101.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 2075.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 2051.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-6.3 1525.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (-29.9 1501.4) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4829.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4804.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4979.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4954.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5329.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5304.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5029.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5004.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5229.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5204.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5079.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5054.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 5429.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 5404.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4929.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4904.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4879.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4854.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (195.0 4779.0) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+*WARNING: Can't create fillet at pad (170.1 4754.1) on subclass BOTTOM.
+          Line width smaller than minimum specified in glossing parameters.
+
+
+
+
+Total number of fillets added: 0
+
+Number of fillets rejected due to DRC errors: 0
+
+Total number of tapers added: 1
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Mon Jan  1 14:37:50 2024
+
+
+There were 1268 errors or warnings reported in logfile.
+
+
+Glossing complete.

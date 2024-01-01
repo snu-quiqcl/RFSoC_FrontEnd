@@ -1,42 +1,306 @@
-\t (00:00:08) allegro 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:08)     Journal start - Wed Nov 29 13:45:58 2023
-\t (00:00:08)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=6412 CPUs=20
-\t (00:00:08) CmdLine= C:\Cadence\OrCADX_23.1\tools\bin\allegro.exe
-\t (00:00:08) 
-   (00:00:08) Loading axlcore.cxt 
-\t (00:00:09) Opening existing design...
-\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged xm500
-\d (00:00:09) Design opened: C:/Jeonghyun/GIT/RFSoC_FrontEnd/Documents/xilinx/xm500.brd
-\i (00:00:10) trapsize 1489
-\i (00:00:10) trapsize 1525
-\i (00:00:10) trapsize 1489
-\i (00:00:10) trapsize 1252
-\i (00:00:10) trapsize 1252
-\i (00:00:10) generaledit 
+\t (00:00:02) allegro 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jan  1 10:50:07 2024
+\t (00:00:02)         Host=LAPTOP-ETOV1IS0 User=alexi Pid=26564 CPUs=20
+\t (00:00:02) CmdLine= c:\cadence\orcadx_23.1\tools\bin\allegro.exe C:\Jeonghyun\GIT\RFSoC_FrontEnd\Documents\xilinx\xm500.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged xm500
+\d (00:00:05) Design opened: C:/Jeonghyun/GIT/RFSoC_FrontEnd/Documents/xilinx/xm500.brd
+\i (00:00:05) trapsize 2086
+\i (00:00:05) trapsize 2157
+\i (00:00:05) trapsize 2086
+\i (00:00:05) trapsize 1517
+\i (00:00:05) trapsize 2040
+\i (00:00:05) generaledit 
+\i (00:00:08) roam start
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -32
+\i (00:00:08) roam y 80
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y 32
+\i (00:00:08) roam x -32
+\i (00:00:08) roam y 32
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 32
+\i (00:00:08) roam x -16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam y 16
+\i (00:00:08) roam end
+\i (00:00:09) setwindow form.find
+\i (00:00:09) FORM find all_on  
+\i (00:00:10) setwindow pcb
+\i (00:00:10) pick grid 0.2358 0.1542
+\t (00:00:10) last pick:  0.0000 0.0000
+\i (00:00:11) drag_start grid 5.0090 4.0706
+\i (00:00:11) drag_stop -4.3741 -0.8657
+\i (00:00:11) drag_start grid 7.0487 3.0507
+\i (00:00:12) drag_stop -4.4965 -3.8030
+\i (00:00:12) roam start
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam y -16
+\i (00:00:13) roam y -16
+\i (00:00:13) roam y -16
+\i (00:00:13) roam end
+\i (00:00:14) drag_start grid 3.2139 11.3323
+\i (00:00:15) drag_stop -1.1513 9.2517
+\i (00:00:15) prepopup -0.0090 10.6796
+\i (00:00:23) pop dyn_option_select '@:@Show element' 
+\i (00:00:23) show element 
+\i (00:00:23) generaledit 
+\i (00:00:31) setwindow text
+\i (00:00:31) close
+\i (00:00:32) setwindow pcb
+\i (00:00:32) roam start
+\i (00:00:32) roam y -16
+\i (00:00:32) roam y -16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam y -32
+\i (00:00:32) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -32
+\i (00:00:33) roam x 16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam x 16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam x -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -32
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -32
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam x -16
+\i (00:00:33) roam y -16
+\i (00:00:33) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:34) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:36) roam y -16
+\i (00:00:36) roam y -16
+\i (00:00:36) roam y -16
+\i (00:00:36) roam end
+\i (00:00:36) drag_start grid 7.0487 79.7064
+\i (00:00:36) drag_stop 2.9283 76.0347
+\i (00:00:37) drag_start grid -3.8438 78.6049
+\i (00:00:37) drag_stop 1.7861 72.5671
+\i (00:00:38) pick grid -3.2318 79.1352
+\t (00:00:38) last pick:  -3.0000 79.0000
+\i (00:00:38) drag_start grid -4.8637 79.1352
+\i (00:00:39) drag_stop 2.6428 72.1999
+\i (00:00:40) prepopup 0.1542 74.3621
+\i (00:00:55) pop dyn_option_select '@:@Show element' 
+\i (00:00:55) show element 
+\i (00:00:55) generaledit 
+\i (00:01:02) setwindow text
+\i (00:01:02) close
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick grid 17.0438 79.5432
+\t (00:01:03) last pick:  17.0000 80.0000
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 15.2487 77.9929
+\i (00:01:03) trapsize 1020
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 15.2487 77.9929
+\i (00:01:03) trapsize 510
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 15.2488 77.9930
+\i (00:01:03) trapsize 255
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 15.2487 77.9930
+\i (00:01:03) trapsize 127
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 15.2488 77.9930
+\i (00:01:03) trapsize 255
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 15.2488 77.9931
+\i (00:01:03) trapsize 510
 \i (00:01:04) zoom out 1 
 \i (00:01:04) setwindow pcb
-\i (00:01:04) zoom out 8.4037 6.6508
-\i (00:01:04) trapsize 2504
+\i (00:01:04) zoom out 15.2488 77.9931
+\i (00:01:04) trapsize 1020
 \i (00:01:04) zoom out 1 
 \i (00:01:04) setwindow pcb
-\i (00:01:04) zoom out 8.4037 6.5006
-\i (00:01:04) trapsize 5008
-\i (00:01:05) zoom out 1 
-\i (00:01:05) setwindow pcb
-\i (00:01:05) zoom out 19.0205 8.7041
-\i (00:01:05) trapsize 10016
-\i (00:01:06) zoom in 1 
-\i (00:01:06) setwindow pcb
-\i (00:01:06) zoom in 34.8457 15.3146
-\i (00:01:06) trapsize 5008
-\i (00:01:12) open 
-\i (00:01:19) fillin "menu_cancel"
-\i (00:01:19) generaledit 
-\i (00:01:20) pick grid -70.3216 119.0796
-\t (00:01:20) last pick:  -70.0000 119.0000
-\i (00:01:20) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
-\i (00:01:26) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged xm500
-\i (00:01:26) opencd 'C:/Users/alexi/Downloads/Eagle Environment/projects/AD9910/AD9910_Finished_3rd_allegro.brd' 
-\t (00:01:26) Opening existing design...
-\i (00:01:27) trapsize 5968
-\t (00:01:27)     Journal end - Wed Nov 29 13:47:17 2023
+\i (00:01:04) zoom out 15.2488 77.9931
+\i (00:01:04) trapsize 2040
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 15.2488 77.9932
+\i (00:01:04) trapsize 4080
+\i (00:01:05) roam start
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -48
+\i (00:01:05) roam x 16
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -48
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -32
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam y -16
+\i (00:01:05) roam end
+\i (00:01:06) drag_start grid -4.6473 152.5824
+\i (00:01:06) drag_stop 4.2464 145.8102
+\i (00:01:07) prepopup 0.4115 149.7267
+\i (00:01:11) pop dyn_option_select '@:@Show element' 
+\i (00:01:11) show element 
+\i (00:01:11) generaledit 
+\i (00:01:17) setwindow text
+\i (00:01:17) close
+\i (00:01:17) setwindow pcb
+\i (00:01:17) roam start
+\i (00:01:17) roam y 16
+\i (00:01:17) roam x -16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 48
+\i (00:01:17) roam y 32
+\i (00:01:17) roam y 32
+\i (00:01:17) roam x -16
+\i (00:01:17) roam y 48
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 16
+\i (00:01:17) roam y 48
+\i (00:01:17) roam y 32
+\i (00:01:17) roam y 32
+\i (00:01:17) roam y 32
+\i (00:01:18) roam y 32
+\i (00:01:18) roam x 16
+\i (00:01:18) roam y 32
+\i (00:01:18) roam y 32
+\i (00:01:18) roam y 32
+\i (00:01:18) roam x 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam y 16
+\i (00:01:18) roam end
+\i (00:01:19) pick grid -0.0781 85.2682
+\t (00:01:19) last pick:  0.0000 85.0000
+\i (00:01:20) drag_start grid -1.2204 86.3289
+\i (00:01:20) drag_stop 1.3906 84.3707
+\i (00:01:20) prepopup 0.3299 85.9210
+\i (00:01:21) pop dyn_option_select '@:@Show element' 
+\i (00:01:21) show element 
+\i (00:01:21) generaledit 
+\i (00:01:25) setwindow text
+\i (00:01:25) close
+\i (00:01:26) setwindow pcb
+\i (00:01:26) exit 
+\t (00:01:26)     Journal end - Mon Jan  1 10:51:31 2024
