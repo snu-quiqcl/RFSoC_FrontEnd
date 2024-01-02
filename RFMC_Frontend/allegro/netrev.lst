@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : rfmc_frontend_v1_00.brd                       )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Tue Jan  2 00:56:08 2024                      )
+(    Date/Time        : Tue Jan  2 21:32:39 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/alle
 Old design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
 New design name:             'c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd'
 
-CmdLine: netrev -y 1 -i c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro -q netrev_constraint_report.xml c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/#Taaaaai32604.tmp
+CmdLine: netrev -y 1 -i c:\jeonghyun\git\rfsoc_frontend\rfmc_frontend\allegro -q netrev_constraint_report.xml c:/jeonghyun/git/rfsoc_frontend/rfmc_frontend/allegro/#Taaaaai19912.tmp
 
 ------ Preparing to read pst files ------
 
@@ -71,7 +71,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 2 0:56:08 2024
+netrev run on Jan 2 21:32:39 2024
    DESIGN NAME : 'RFMC_FRONTEND_V1_00'
    PACKAGING ON Sep 29 2023 23:54:04
 
@@ -96,6 +96,6 @@ netrev run on Jan 2 0:56:08 2024
  No oversight detected
  No warning detected
 
-cpu time      0:00:49
-elapsed time  0:00:01
+cpu time      0:00:46
+elapsed time  0:00:00
 

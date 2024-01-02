@@ -293,10 +293,22 @@
         (Placement "44 0 1 -1 -1 -1 -1 0 200 0 816"))
       (Tab 0))
     (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
+      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
+      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstchip.dat")
+      (Scroll "0"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
-        (Scroll "0 0")
+        (Scroll "165 125")
         (Zoom "102")
         (Occurrence "/"))
       (Path
@@ -340,7 +352,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1461 24 834")
-        (Scroll "178 611")
+        (Scroll "868 261")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -351,7 +363,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834")
-        (Scroll "18 296")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -456,18 +468,6 @@
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 5 1461 24 834"))
       (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxprt.dat")
-      (Scroll "0"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
-      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstchip.dat")
-      (Scroll "0"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 834"))
-      (Path "C:\JEONGHYUN\GIT\RFSOC_FRONTEND\RFMC_FRONTEND\allegro\pstxnet.dat")
       (Scroll "0")))
   (MPSSessionName "alexi")
   (ISPCBBASICLICENSE "false"))

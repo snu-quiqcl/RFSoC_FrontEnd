@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 23.1.0 d001Jan-02-2024 at 00:56:08 }
+{ Using PSTWRITER 23.1.0 d001Jan-02-2024 at 21:32:38 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='RFMC_FRONTEND_V1_00';
@@ -2255,17 +2255,6 @@ PART_NAME
  H13 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH0@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page8_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H14 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH0@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
  C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
  P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page8_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
@@ -2274,7 +2263,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H15 'SMS-409F_SMS409F_SHIELD':;
+ H14 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH1@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
@@ -2285,18 +2274,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H16 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH1@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch1@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch1@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page9_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H17 'SMS-409F_SMS409F_SHIELD':;
+ H15 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH1@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
@@ -2307,7 +2285,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H18 'SMS-409F_SMS409F_SHIELD':;
+ H16 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH2@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
@@ -2318,14 +2296,36 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ H17 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH2@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page10_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,720)',
+ SECTION='';
+
+PART_NAME
+ H18 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH3@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page11_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,70)',
+ SECTION='';
+
+PART_NAME
  H19 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH2@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page10_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH3@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page11_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
+ XY='(390,720)',
  SECTION='';
 
 PART_NAME
@@ -2343,50 +2343,6 @@ PART_NAME
  H20 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH2@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page10_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(390,720)',
- SECTION='';
-
-PART_NAME
- H21 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH3@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page11_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(380,70)',
- SECTION='';
-
-PART_NAME
- H22 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH3@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page11_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H23 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH3@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page11_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(390,720)',
- SECTION='';
-
-PART_NAME
- H24 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH4@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
  C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
  P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page12_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
@@ -2395,18 +2351,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H25 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH4@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page12_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H26 'SMS-409F_SMS409F_SHIELD':;
+ H21 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH4@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
@@ -2417,7 +2362,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H27 'SMS-409F_SMS409F_SHIELD':;
+ H22 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH5@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
@@ -2428,23 +2373,56 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- H28 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH5@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page13_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H29 'SMS-409F_SMS409F_SHIELD':;
+ H23 'SMS-409F_SMS409F_SHIELD':;
 
 SECTION_NUMBER 1
  '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH5@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
  C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
  P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page13_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,720)',
+ SECTION='';
+
+PART_NAME
+ H24 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH6@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page14_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,70)',
+ SECTION='';
+
+PART_NAME
+ H25 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH6@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page14_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(390,720)',
+ SECTION='';
+
+PART_NAME
+ H26 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH7@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page15_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,70)',
+ SECTION='';
+
+PART_NAME
+ H27 'SMS-409F_SMS409F_SHIELD':;
+
+SECTION_NUMBER 1
+ '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH7@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
+ C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
+ P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page15_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(390,720)',
  SECTION='';
@@ -2458,72 +2436,6 @@ SECTION_NUMBER 1
  P_PATH='@rfmc_frontend_v1_00.top(sch_1):page1_ins10025@\sms-409f\.\sms-409f.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(1380,260)',
- SECTION='';
-
-PART_NAME
- H30 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH6@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page14_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(380,70)',
- SECTION='';
-
-PART_NAME
- H31 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH6@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page14_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H32 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH6@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page14_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(390,720)',
- SECTION='';
-
-PART_NAME
- H33 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH7@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7956@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page15_ins7956@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(380,70)',
- SECTION='';
-
-PART_NAME
- H34 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH7@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS165416@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page15_ins165416@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(500,70)',
- SECTION='';
-
-PART_NAME
- H35 'SMS-409F_SMS409F_SHIELD':;
-
-SECTION_NUMBER 1
- '@RFMC_FRONTEND_V1_00.TOP(SCH_1):CH7@RFMC_FRONTEND_V1_00.DAC_ADC_CHANNEL(SCH_1):INS7668@SMS-409F.SMS-409F.NORMAL(CHIPS)':
- C_PATH='@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- P_PATH='@rfmc_frontend_v1_00.top(sch_1):page3_ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):page15_ins7668@\sms-409f\.\sms-409f.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- XY='(390,720)',
  SECTION='';
 
 PART_NAME

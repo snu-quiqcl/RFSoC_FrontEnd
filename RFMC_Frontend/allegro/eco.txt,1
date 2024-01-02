@@ -3,113 +3,58 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  c:.../git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd      |
-|                                                    Tue Jan  2 00:05:21 2024  |
+|                                                    Tue Jan  2 16:42:50 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ADCIO_00     pins MOVED FROM this net (to net name listed on right)
-                                 IC15.35          3578.6  7384.2
-                                                                       ADCIO_03
-                                 IC15.36          3598.3  7384.2
-                                                                       ADCIO_03
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_01     pins MOVED FROM this net (to net name listed on right)
-                                 IC15.32          3519.5  7384.2
-                                                                       ADCIO_00
-                                 IC15.33          3539.2  7384.2
-                                                                       ADCIO_00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_03     pins MOVED FROM this net (to net name listed on right)
-                                 IC15.25          3381.7  7384.2
-                                                                       ADCIO_05
-                                 IC15.26          3401.4  7384.2
-                                                                       ADCIO_05
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_05     pins MOVED FROM this net (to net name listed on right)
-                                 IC16.32          4189.5  7384.2
-                                                                       ADCIO_09
-                                 IC16.33          4209.2  7384.2
-                                                                       ADCIO_09
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_06     pins MOVED FROM this net (to net name listed on right)
-                                 IC16.28          4110.8  7384.2
-                                                                       ADCIO_01
-                                 IC16.29          4130.5  7384.2
-                                                                       ADCIO_01
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_07     pins MOVED FROM this net (to net name listed on right)
-                                 IC16.25          4051.7  7384.2
-                                                                       ADCIO_06
-                                 IC16.26          4071.4  7384.2
-                                                                       ADCIO_06
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_08     pins MOVED FROM this net (to net name listed on right)
-                                 IC17.35          1258.6  7384.2
-                                                                       ADCIO_13
-                                 IC17.36          1278.3  7384.2
-                                                                       ADCIO_13
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_09     pins MOVED FROM this net (to net name listed on right)
-                                 IC17.32          1199.5  7384.2
-                                                                       ADCIO_08
+  3V3          pins MOVED FROM this net (to net name listed on right)
+                                 J20.A34           170.1   801.4
+                                                                        3V3_EXT
+                                 J20.B34           120.1   801.4
+                                                                        3V3_EXT
+                                 J20.C34            70.1   801.4
+                                                                        3V3_EXT
+                                 J20.D34            20.1   801.4
+                                                                        3V3_EXT
+                                 J20.E34           -29.9   801.4
+                                                                        3V3_EXT
+                                 J20.F34           -79.9   801.4
+                                                                        3V3_EXT
+                                 J20.G34          -129.9   801.4
+                                                                        3V3_EXT
+                                 J20.H34          -179.9   801.4
+                                                                        3V3_EXT
+                                 J21.A7            170.1  5104.1
+                                                                        3V3_EXT
+                                 J21.B7            120.1  5104.1
+                                                                        3V3_EXT
+                                 J21.C7             70.1  5104.1
+                                                                        3V3_EXT
+                                 J21.D7             20.1  5104.1
+                                                                        3V3_EXT
+                                 J21.E7            -29.9  5104.1
+                                                                        3V3_EXT
+                                 J21.F7            -79.9  5104.1
+                                                                        3V3_EXT
+                                 J21.G7           -129.9  5104.1
+                                                                        3V3_EXT
+                                 J21.H7           -179.9  5104.1
+                                                                        3V3_EXT
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  c:.../git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd      |
-|                                                    Tue Jan  2 00:05:21 2024  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 IC17.33          1219.2  7384.2
-                                                                       ADCIO_08
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_10     pins MOVED FROM this net (to net name listed on right)
-                                 IC17.28          1120.8  7384.2
-                                                                       ADCIO_11
-                                 IC17.29          1140.5  7384.2
-                                                                       ADCIO_11
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_11     pins MOVED FROM this net (to net name listed on right)
-                                 IC17.25          1061.7  7384.2
-                                                                       ADCIO_14
-                                 IC17.26          1081.4  7384.2
-                                                                       ADCIO_14
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_12     pins MOVED FROM this net (to net name listed on right)
-                                 IC18.35          2158.6  7384.2
-                                                                       ADCIO_07
-                                 IC18.36          2178.3  7384.2
-                                                                       ADCIO_07
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_13     pins MOVED FROM this net (to net name listed on right)
-                                 IC18.32          2099.5  7384.2
-                                                                       ADCIO_10
-                                 IC18.33          2119.2  7384.2
-                                                                       ADCIO_10
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADCIO_14     pins MOVED FROM this net (to net name listed on right)
-                                 IC18.28          2020.8  7384.2
-                                                                       ADCIO_12
-                                 IC18.29          2040.5  7384.2
-                                                                       ADCIO_12
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  c:.../git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd      |
-|                                                    Tue Jan  2 00:05:21 2024  |
+|                                                    Tue Jan  2 16:42:50 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      26                                        |
+|       Nets changed          :      16                                        |
 |                                                                              |
-|   Total ECO changes reported:      26                                        |
+|   Total ECO changes reported:      16                                        |
 |------------------------------------------------------------------------------|

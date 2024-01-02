@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : rfmc_frontend_v1_00.brd                       )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Mon Jan  1 14:21:02 2024                      )
+(    Date/Time        : Tue Jan  2 22:30:36 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  6
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

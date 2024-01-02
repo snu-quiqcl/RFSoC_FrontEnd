@@ -1,32 +1,98 @@
 {
 	"Gate Swap" : [],
-	"Ref Des" : [],
-	"Pin Swap" : [
+	"Ref Des" : [
 		{
-			"Name" : "IC13.29",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3r\\",
-			"Logical" : "IC13.29",
-			"Physical" : "IC13.33"
+			"Name" : "H22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H22",
+			"Physical" : "H27"
 		},
 		{
-			"Name" : "IC13.28",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3d\\",
-			"Logical" : "IC13.28",
-			"Physical" : "IC13.32"
+			"Name" : "H23",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H23",
+			"Physical" : "H29"
 		},
 		{
-			"Name" : "IC14.36",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1r\\",
-			"Logical" : "IC14.36",
-			"Physical" : "IC14.33"
+			"Name" : "H24",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H24",
+			"Physical" : "H30"
 		},
 		{
-			"Name" : "IC14.35",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1d\\",
-			"Logical" : "IC14.35",
-			"Physical" : "IC14.32"
+			"Name" : "H25",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H25",
+			"Physical" : "H32"
+		},
+		{
+			"Name" : "H26",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H26",
+			"Physical" : "H33"
+		},
+		{
+			"Name" : "H27",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H27",
+			"Physical" : "H35"
+		},
+		{
+			"Name" : "H13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H13",
+			"Physical" : "H14"
+		},
+		{
+			"Name" : "H14",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch1@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H14",
+			"Physical" : "H15"
+		},
+		{
+			"Name" : "H15",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch1@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H15",
+			"Physical" : "H17"
+		},
+		{
+			"Name" : "H16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H16",
+			"Physical" : "H18"
+		},
+		{
+			"Name" : "H17",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H17",
+			"Physical" : "H20"
+		},
+		{
+			"Name" : "H18",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H18",
+			"Physical" : "H21"
+		},
+		{
+			"Name" : "H19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H19",
+			"Physical" : "H23"
+		},
+		{
+			"Name" : "H20",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7956@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H20",
+			"Physical" : "H24"
+		},
+		{
+			"Name" : "H21",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins7668@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : "H21",
+			"Physical" : "H26"
 		}
 	],
+	"Pin Swap" : [],
 	"Component Property" : [],
 	"Net Property" : [
 		{
@@ -58,11 +124,39 @@
 			"Physical" : "DIFFPAIR5"
 		},
 		{
+			"Name" : "ADC_05_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_05_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_05_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_05_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_04_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_04_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR4"
+		},
+		{
+			"Name" : "ADC_04_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_04_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_04_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_04_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_06_N",
@@ -72,11 +166,53 @@
 			"Physical" : "DIFFPAIR6"
 		},
 		{
+			"Name" : "ADC_06_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_06_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_06_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_06_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_07_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR7"
+		},
+		{
+			"Name" : "ADC_07_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_07_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch6",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR53"
+		},
+		{
+			"Name" : "N00697_CH6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch6",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR53"
 		},
 		{
 			"Name" : "LVDS_IO_P_16",
@@ -86,11 +222,46 @@
 			"Physical" : "DIFFPAIR31"
 		},
 		{
+			"Name" : "LVDS_IO_P_16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_16",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_16",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch1",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR48"
+		},
+		{
 			"Name" : "LVDS_IO_P_17",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_17",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR32"
+		},
+		{
+			"Name" : "LVDS_IO_P_17",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_17",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_17",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_17",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_18",
@@ -100,11 +271,46 @@
 			"Physical" : "DIFFPAIR33"
 		},
 		{
+			"Name" : "LVDS_IO_P_18",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_18",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_18",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_18",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_19",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_19",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR34"
+		},
+		{
+			"Name" : "LVDS_IO_P_19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_19",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_19",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00697_CH1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch1",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR48"
 		},
 		{
 			"Name" : "LVDS_IO_N_20",
@@ -114,11 +320,39 @@
 			"Physical" : "DIFFPAIR36"
 		},
 		{
+			"Name" : "LVDS_IO_N_20",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_20",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_20",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_20",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_21",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_21",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR37"
+		},
+		{
+			"Name" : "LVDS_IO_N_21",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_21",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_21",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_21",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_22",
@@ -128,11 +362,46 @@
 			"Physical" : "DIFFPAIR38"
 		},
 		{
+			"Name" : "LVDS_IO_N_22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_22",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_22",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_23",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_23",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR39"
+		},
+		{
+			"Name" : "LVDS_IO_N_23",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_23",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_23",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_23",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch5",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR52"
 		},
 		{
 			"Name" : "LVDS_IO_N_16",
@@ -142,11 +411,39 @@
 			"Physical" : "DIFFPAIR31"
 		},
 		{
+			"Name" : "LVDS_IO_N_16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_16",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_16",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_01_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_01_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR13"
+		},
+		{
+			"Name" : "DAC_01_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_01_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_01_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_01_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_17",
@@ -156,11 +453,46 @@
 			"Physical" : "DIFFPAIR32"
 		},
 		{
+			"Name" : "LVDS_IO_N_17",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_17",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_17",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_17",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_18",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_18",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR33"
+		},
+		{
+			"Name" : "LVDS_IO_N_18",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_18",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_18",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_18",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00697_CH5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch5",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR52"
 		},
 		{
 			"Name" : "LVDS_IO_N_19",
@@ -170,11 +502,39 @@
 			"Physical" : "DIFFPAIR34"
 		},
 		{
+			"Name" : "LVDS_IO_N_19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_19",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_19",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_20",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_20",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR36"
+		},
+		{
+			"Name" : "LVDS_IO_P_20",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_20",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_20",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_20",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_21",
@@ -184,11 +544,39 @@
 			"Physical" : "DIFFPAIR37"
 		},
 		{
+			"Name" : "LVDS_IO_P_21",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_21",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_21",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_21",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_22",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_22",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR38"
+		},
+		{
+			"Name" : "LVDS_IO_P_22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_22",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_22",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_23",
@@ -198,11 +586,39 @@
 			"Physical" : "DIFFPAIR39"
 		},
 		{
+			"Name" : "LVDS_IO_P_23",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_23",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_23",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_23",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_CLK_P_1",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_1",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR21"
+		},
+		{
+			"Name" : "DAC_CLK_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_CLK_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_CLK_N_1",
@@ -212,11 +628,39 @@
 			"Physical" : "DIFFPAIR21"
 		},
 		{
+			"Name" : "DAC_CLK_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_n_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_CLK_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_n_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_CLK_P_0",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_0",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR20"
+		},
+		{
+			"Name" : "DAC_CLK_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_CLK_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_p_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_CLK_N_0",
@@ -226,11 +670,39 @@
 			"Physical" : "DIFFPAIR20"
 		},
 		{
+			"Name" : "DAC_CLK_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_n_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_CLK_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_clk_n_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_CLK_N_1",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_1",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR9"
+		},
+		{
+			"Name" : "ADC_CLK_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_CLK_P_1",
@@ -240,11 +712,39 @@
 			"Physical" : "DIFFPAIR9"
 		},
 		{
+			"Name" : "ADC_CLK_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_CLK_P_0",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_0",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR8"
+		},
+		{
+			"Name" : "ADC_CLK_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_CLK_N_0",
@@ -254,11 +754,39 @@
 			"Physical" : "DIFFPAIR8"
 		},
 		{
+			"Name" : "ADC_CLK_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_CLK_P_2",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_2",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR10"
+		},
+		{
+			"Name" : "ADC_CLK_P_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_2",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_P_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_2",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_CLK_N_2",
@@ -268,11 +796,39 @@
 			"Physical" : "DIFFPAIR10"
 		},
 		{
+			"Name" : "ADC_CLK_N_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_2",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_N_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_2",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_CLK_P_3",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_3",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR11"
+		},
+		{
+			"Name" : "ADC_CLK_P_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_3",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_P_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_p_3",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_CLK_N_3",
@@ -282,11 +838,53 @@
 			"Physical" : "DIFFPAIR11"
 		},
 		{
+			"Name" : "ADC_CLK_N_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_3",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_CLK_N_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_clk_n_3",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch0",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR47"
+		},
+		{
+			"Name" : "N00697_CH0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch0",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR47"
+		},
+		{
 			"Name" : "LVDS_IO_P_0",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_0",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR23"
+		},
+		{
+			"Name" : "LVDS_IO_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_1",
@@ -296,11 +894,39 @@
 			"Physical" : "DIFFPAIR24"
 		},
 		{
+			"Name" : "LVDS_IO_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_2",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_2",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR35"
+		},
+		{
+			"Name" : "LVDS_IO_P_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_2",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_2",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_3",
@@ -310,11 +936,39 @@
 			"Physical" : "DIFFPAIR40"
 		},
 		{
+			"Name" : "LVDS_IO_P_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_3",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_3",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_4",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_4",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR41"
+		},
+		{
+			"Name" : "LVDS_IO_P_4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_4",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_4",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_5",
@@ -324,11 +978,39 @@
 			"Physical" : "DIFFPAIR42"
 		},
 		{
+			"Name" : "LVDS_IO_P_5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_5",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_5",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_6",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_6",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR43"
+		},
+		{
+			"Name" : "LVDS_IO_P_6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_6",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_6",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_7",
@@ -338,11 +1020,39 @@
 			"Physical" : "DIFFPAIR44"
 		},
 		{
+			"Name" : "LVDS_IO_P_7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_7",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_7",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_0",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_0",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR23"
+		},
+		{
+			"Name" : "LVDS_IO_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_0",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_0",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_0",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_1",
@@ -352,11 +1062,39 @@
 			"Physical" : "DIFFPAIR24"
 		},
 		{
+			"Name" : "LVDS_IO_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_1",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_1",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_04_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR16"
+		},
+		{
+			"Name" : "DAC_04_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_04_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_2",
@@ -366,11 +1104,39 @@
 			"Physical" : "DIFFPAIR35"
 		},
 		{
+			"Name" : "LVDS_IO_N_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_2",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_2",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_3",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_3",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR40"
+		},
+		{
+			"Name" : "LVDS_IO_N_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_3",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_3",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_4",
@@ -380,11 +1146,39 @@
 			"Physical" : "DIFFPAIR41"
 		},
 		{
+			"Name" : "LVDS_IO_N_4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_4",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_4",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_5",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_5",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR42"
+		},
+		{
+			"Name" : "LVDS_IO_N_5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_5",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_5",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_5",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_6",
@@ -394,11 +1188,53 @@
 			"Physical" : "DIFFPAIR43"
 		},
 		{
+			"Name" : "LVDS_IO_N_6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_6",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_6",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_6",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch4",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR51"
+		},
+		{
 			"Name" : "LVDS_IO_N_7",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_7",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR44"
+		},
+		{
+			"Name" : "LVDS_IO_N_7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_7",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_7",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00697_CH4",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch4",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR51"
 		},
 		{
 			"Name" : "LVDS_IO_P_8",
@@ -408,11 +1244,39 @@
 			"Physical" : "DIFFPAIR45"
 		},
 		{
+			"Name" : "LVDS_IO_P_8",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_8",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_8",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_8",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_9",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_9",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR46"
+		},
+		{
+			"Name" : "LVDS_IO_P_9",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_9",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_9",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_9",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_10",
@@ -422,11 +1286,39 @@
 			"Physical" : "DIFFPAIR25"
 		},
 		{
+			"Name" : "LVDS_IO_P_10",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_10",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_10",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_10",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_11",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_11",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR26"
+		},
+		{
+			"Name" : "LVDS_IO_P_11",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_11",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_11",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_11",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_8",
@@ -436,11 +1328,46 @@
 			"Physical" : "DIFFPAIR45"
 		},
 		{
+			"Name" : "LVDS_IO_N_8",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_8",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_8",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_8",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_9",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_9",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR46"
+		},
+		{
+			"Name" : "LVDS_IO_N_9",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_9",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_9",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_9",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch3",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR50"
 		},
 		{
 			"Name" : "LVDS_IO_N_10",
@@ -450,11 +1377,39 @@
 			"Physical" : "DIFFPAIR25"
 		},
 		{
+			"Name" : "LVDS_IO_N_10",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_10",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_10",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_10",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_11",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_11",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR26"
+		},
+		{
+			"Name" : "LVDS_IO_N_11",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_11",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_11",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_11",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_P_12",
@@ -464,11 +1419,46 @@
 			"Physical" : "DIFFPAIR27"
 		},
 		{
+			"Name" : "LVDS_IO_P_12",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_12",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_12",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_12",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_13",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_13",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR28"
+		},
+		{
+			"Name" : "LVDS_IO_P_13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_13",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_13",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00697_CH3",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch3",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR50"
 		},
 		{
 			"Name" : "LVDS_IO_P_14",
@@ -478,11 +1468,39 @@
 			"Physical" : "DIFFPAIR29"
 		},
 		{
+			"Name" : "LVDS_IO_P_14",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_14",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_14",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_14",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_P_15",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_15",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR30"
+		},
+		{
+			"Name" : "LVDS_IO_P_15",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_15",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_P_15",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_p_15",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_12",
@@ -492,11 +1510,39 @@
 			"Physical" : "DIFFPAIR27"
 		},
 		{
+			"Name" : "LVDS_IO_N_12",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_12",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_12",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_12",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_13",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_13",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR28"
+		},
+		{
+			"Name" : "LVDS_IO_N_13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_13",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_13",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "LVDS_IO_N_14",
@@ -506,11 +1552,53 @@
 			"Physical" : "DIFFPAIR29"
 		},
 		{
+			"Name" : "LVDS_IO_N_14",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_14",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_14",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_14",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "LVDS_IO_N_15",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_15",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR30"
+		},
+		{
+			"Name" : "LVDS_IO_N_15",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_15",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "LVDS_IO_N_15",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):lvds_io_n_15",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch7",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR54"
+		},
+		{
+			"Name" : "N00697_CH7",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch7",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR54"
 		},
 		{
 			"Name" : "EXT_CLK_P",
@@ -520,11 +1608,39 @@
 			"Physical" : "DIFFPAIR22"
 		},
 		{
+			"Name" : "EXT_CLK_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ext_clk_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "EXT_CLK_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ext_clk_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_00_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR12"
+		},
+		{
+			"Name" : "DAC_00_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_00_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "EXT_CLK_N",
@@ -534,11 +1650,39 @@
 			"Physical" : "DIFFPAIR22"
 		},
 		{
+			"Name" : "EXT_CLK_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ext_clk_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "EXT_CLK_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ext_clk_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_00_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR12"
+		},
+		{
+			"Name" : "DAC_00_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_00_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_00_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_01_P",
@@ -548,11 +1692,39 @@
 			"Physical" : "DIFFPAIR13"
 		},
 		{
+			"Name" : "DAC_01_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_01_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_01_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_01_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_02_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_02_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR14"
+		},
+		{
+			"Name" : "DAC_02_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_02_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_02_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_02_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_02_N",
@@ -562,11 +1734,39 @@
 			"Physical" : "DIFFPAIR14"
 		},
 		{
+			"Name" : "DAC_02_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_02_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_02_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_02_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_03_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_03_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR15"
+		},
+		{
+			"Name" : "DAC_03_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_03_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_03_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_03_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_03_N",
@@ -576,11 +1776,39 @@
 			"Physical" : "DIFFPAIR15"
 		},
 		{
+			"Name" : "DAC_03_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_03_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_03_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_03_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_04_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR16"
+		},
+		{
+			"Name" : "DAC_04_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_04_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_04_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_05_P",
@@ -590,11 +1818,39 @@
 			"Physical" : "DIFFPAIR17"
 		},
 		{
+			"Name" : "DAC_05_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_05_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_05_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_05_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_05_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_05_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR17"
+		},
+		{
+			"Name" : "DAC_05_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_05_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_05_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_05_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_06_P",
@@ -604,11 +1860,39 @@
 			"Physical" : "DIFFPAIR18"
 		},
 		{
+			"Name" : "DAC_06_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_06_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_06_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_06_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_06_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_06_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR18"
+		},
+		{
+			"Name" : "DAC_06_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_06_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_06_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_06_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "DAC_07_P",
@@ -618,11 +1902,39 @@
 			"Physical" : "DIFFPAIR19"
 		},
 		{
+			"Name" : "DAC_07_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_07_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_07_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_07_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "DAC_07_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_07_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR19"
+		},
+		{
+			"Name" : "DAC_07_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_07_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "DAC_07_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):dac_07_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_00_P",
@@ -632,11 +1944,46 @@
 			"Physical" : "DIFFPAIR0"
 		},
 		{
+			"Name" : "ADC_00_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_00_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_00_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_00_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_01_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR1"
+		},
+		{
+			"Name" : "ADC_01_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_01_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00708_CH2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00708_ch2",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR49"
 		},
 		{
 			"Name" : "ADC_02_P",
@@ -646,11 +1993,39 @@
 			"Physical" : "DIFFPAIR2"
 		},
 		{
+			"Name" : "ADC_02_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_02_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_02_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_02_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_03_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR3"
+		},
+		{
+			"Name" : "ADC_03_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_03_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_04_P",
@@ -660,11 +2035,46 @@
 			"Physical" : "DIFFPAIR4"
 		},
 		{
+			"Name" : "ADC_04_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_04_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_04_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_04_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_05_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_05_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR5"
+		},
+		{
+			"Name" : "ADC_05_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_05_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_05_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_05_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "N00697_CH2",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):n00697_ch2",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : null,
+			"Physical" : "DIFFPAIR49"
 		},
 		{
 			"Name" : "ADC_06_P",
@@ -674,11 +2084,39 @@
 			"Physical" : "DIFFPAIR6"
 		},
 		{
+			"Name" : "ADC_06_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_06_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_06_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_06_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_07_P",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_p",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR7"
+		},
+		{
+			"Name" : "ADC_07_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_p",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_07_P",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_07_p",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_00_N",
@@ -688,11 +2126,39 @@
 			"Physical" : "DIFFPAIR0"
 		},
 		{
+			"Name" : "ADC_00_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_00_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_00_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_00_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_01_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR1"
+		},
+		{
+			"Name" : "ADC_01_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_01_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_01_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		},
 		{
 			"Name" : "ADC_02_N",
@@ -702,88 +2168,92 @@
 			"Physical" : "DIFFPAIR2"
 		},
 		{
+			"Name" : "ADC_02_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_02_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_02_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_02_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
 			"Name" : "ADC_03_N",
 			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_n",
 			"PropName" : "DIFFERENTIAL_PAIR",
 			"Logical" : null,
 			"Physical" : "DIFFPAIR3"
+		},
+		{
+			"Name" : "ADC_03_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_n",
+			"PropName" : "MIN_NECK_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
+		},
+		{
+			"Name" : "ADC_03_N",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):adc_03_n",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "4.9 MIL"
 		}
 	],
 	"Pin Property" : [],
-	"Component" : [],
-	"Net" : [],
-	"Connection" : [
+	"Component" : [
 		{
-			"Name" : "IC13.36",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1r\\",
-			"Logical" : "DACIO_04",
-			"Physical" : "DACIO_00"
+			"Name" : "H16",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch1@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H16"
 		},
 		{
-			"Name" : "IC13.35",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1d\\",
-			"Logical" : "DACIO_04",
-			"Physical" : "DACIO_00"
+			"Name" : "H19",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch2@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H19"
 		},
 		{
-			"Name" : "IC13.33",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\2r\\",
-			"Logical" : "DACIO_06",
-			"Physical" : "DACIO_01"
+			"Name" : "H22",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch3@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H22"
 		},
 		{
-			"Name" : "IC13.32",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\2d\\",
-			"Logical" : "DACIO_06",
-			"Physical" : "DACIO_01"
+			"Name" : "H25",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch4@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H25"
 		},
 		{
-			"Name" : "IC13.29",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3r\\",
-			"Logical" : "DACIO_01",
-			"Physical" : "DACIO_02"
+			"Name" : "H28",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch5@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H28"
 		},
 		{
-			"Name" : "IC13.28",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3d\\",
-			"Logical" : "DACIO_01",
-			"Physical" : "DACIO_02"
+			"Name" : "H31",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch6@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H31"
 		},
 		{
-			"Name" : "IC14.29",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3r\\",
-			"Logical" : "DACIO_02",
-			"Physical" : "DACIO_06"
+			"Name" : "H34",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch7@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H34"
 		},
 		{
-			"Name" : "IC14.28",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\3d\\",
-			"Logical" : "DACIO_02",
-			"Physical" : "DACIO_06"
-		},
-		{
-			"Name" : "IC14.36",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1r\\",
-			"Logical" : "DACIO_05",
-			"Physical" : "DACIO_04"
-		},
-		{
-			"Name" : "IC14.35",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\1d\\",
-			"Logical" : "DACIO_05",
-			"Physical" : "DACIO_04"
-		},
-		{
-			"Name" : "IC14.33",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\2r\\",
-			"Logical" : "DACIO_00",
-			"Physical" : "DACIO_05"
-		},
-		{
-			"Name" : "IC14.32",
-			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):io_ch1@rfmc_frontend_v1_00.io_channel(sch_1):ins327@sn65mlvd040rgzt.\\sn65mlvd040rgzt.normal\\(chips):\\2d\\",
-			"Logical" : "DACIO_00",
-			"Physical" : "DACIO_05"
+			"Name" : "H13",
+			"C_PATH" : "@rfmc_frontend_v1_00.top(sch_1):ch0@rfmc_frontend_v1_00.dac_adc_channel(sch_1):ins165416@\\sms-409f\\.\\sms-409f.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "H13"
 		}
-	]
+	],
+	"Net" : [],
+	"Connection" : []
 }

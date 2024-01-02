@@ -3,60 +3,22 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  c:.../git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd      |
-|                                                    Tue Jan  2 00:56:08 2024  |
+|                                                    Tue Jan  2 21:32:39 2024  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DACIO_00     pins MOVED FROM this net (to net name listed on right)
-                                 IC13.35          1111.4 -1364.2
-                                                                       DACIO_04
-                                 IC13.36          1091.7 -1364.2
-                                                                       DACIO_04
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DACIO_01     pins MOVED FROM this net (to net name listed on right)
-                                 IC13.32          1170.5 -1364.2
-                                                                       DACIO_06
-                                 IC13.33          1150.8 -1364.2
-                                                                       DACIO_06
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DACIO_02     pins MOVED FROM this net (to net name listed on right)
-                                 IC13.28          1249.2 -1364.2
-                                                                       DACIO_01
-                                 IC13.29          1229.5 -1364.2
-                                                                       DACIO_01
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DACIO_04     pins MOVED FROM this net (to net name listed on right)
-                                 IC14.35          1711.4 -1364.2
-                                                                       DACIO_05
-                                 IC14.36          1691.7 -1364.2
-                                                                       DACIO_05
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DACIO_05     pins MOVED FROM this net (to net name listed on right)
-                                 IC14.32          1770.5 -1364.2
-                                                                       DACIO_00
-                                 IC14.33          1750.8 -1364.2
-                                                                       DACIO_00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DACIO_06     pins MOVED FROM this net (to net name listed on right)
-                                 IC14.28          1849.2 -1364.2
-                                                                       DACIO_02
-                                 IC14.29          1829.5 -1364.2
-                                                                       DACIO_02
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ H13                 SMS-409F_SMS409F_SHIELD                
+ H16                 SMS-409F_SMS409F_SHIELD                
+ H19                 SMS-409F_SMS409F_SHIELD                
+ H22                 SMS-409F_SMS409F_SHIELD  1500.0  3600.0
+ H25                 SMS-409F_SMS409F_SHIELD                
+ H28                 SMS-409F_SMS409F_SHIELD  4400.0  3600.0
+ H31                 SMS-409F_SMS409F_SHIELD                
+ H34                 SMS-409F_SMS409F_SHIELD                
 |------------------------------------------------------------------------------|
-|  c:.../git/rfsoc_frontend/rfmc_frontend/allegro/rfmc_frontend_v1_00.brd      |
-|                                                    Tue Jan  2 00:56:08 2024  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Nets changed          :      12                                        |
+|       Components deleted    :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:      12                                        |
+|   Total ECO changes reported:       8                                        |
 |------------------------------------------------------------------------------|
